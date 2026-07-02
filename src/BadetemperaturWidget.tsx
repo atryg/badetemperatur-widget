@@ -42,6 +42,8 @@ type Props = {
 };
 
 const YR_KREDITERING = "Badetemperaturer levert av Yr";
+const STANDARD_DATA_ENDEPUNKT =
+  "https://raw.githubusercontent.com/atryg/badetemperatur-widget/main/public/data/trondheim-top5.json";
 const apiCache = new Map<
   string,
   { hentet: number; data: NormalisertApiData }
@@ -49,44 +51,34 @@ const apiCache = new Map<
 
 const standardSteder: Badested[] = [
   {
-    navn: "Munkholmen",
-    omrade: "Trondheimsfjorden",
-    temperatur: 17.8,
-    endring: "opp",
-    maltKlokken: "08:10",
-    notat: "Lett bris",
+    navn: "Theisendammen",
+    omrade: "Trondheim",
+    temperatur: 18,
+    maltKlokken: "18:00",
   },
   {
-    navn: "Korsvika",
-    omrade: "Lade",
-    temperatur: 16.9,
-    endring: "stabil",
-    maltKlokken: "08:20",
-    notat: "Klart vann",
+    navn: "Storsteinan",
+    omrade: "Trondheim",
+    temperatur: 16,
+    maltKlokken: "11:10",
   },
   {
-    navn: "Sponhuset",
-    omrade: "Bymarka",
-    temperatur: 18.4,
-    endring: "opp",
-    maltKlokken: "07:55",
-    notat: "Rolig vann",
+    navn: "Devlebukta",
+    omrade: "Trondheim",
+    temperatur: 15.5,
+    maltKlokken: "16:40",
   },
   {
-    navn: "Hansbakkfjæra",
-    omrade: "Ranheim",
-    temperatur: 15.7,
-    endring: "ned",
-    maltKlokken: "08:05",
-    notat: "Friskt",
+    navn: "Ilsvika",
+    omrade: "Trondheim",
+    temperatur: 15.3,
+    maltKlokken: "13:10",
   },
   {
-    navn: "Haukvatnet",
-    omrade: "Bymarka",
-    temperatur: 15.2,
-    endring: "stabil",
-    maltKlokken: "07:45",
-    notat: "Skjermet vann",
+    navn: "Grilstad Marina",
+    omrade: "Trondheim",
+    temperatur: 14.1,
+    maltKlokken: "13:25",
   },
 ];
 
@@ -272,8 +264,8 @@ const BadetemperaturWidget = ({
   ingress = "Se hvor badevannet holder høyest temperatur i Trondheim.",
   oppdatertTekst = "Oppdatert i dag kl. 08:30",
   kilde = YR_KREDITERING,
-  apiEndepunkt = "",
-  hentApiIEditor = false,
+  apiEndepunkt = STANDARD_DATA_ENDEPUNKT,
+  hentApiIEditor = true,
   cacheMinutter = 10,
   maksAntall = 5,
   hovedbadested = 0,
@@ -289,9 +281,13 @@ const BadetemperaturWidget = ({
   const [apiStatus, setApiStatus] = React.useState<ApiStatus>("idle");
   const [apiData, setApiData] = React.useState<NormalisertApiData | null>(null);
 
-  const trimmedApiEndepunkt = apiEndepunkt.trim();
+  const innstiltApiEndepunkt = apiEndepunkt.trim();
+  const trimmedApiEndepunkt = innstiltApiEndepunkt || STANDARD_DATA_ENDEPUNKT;
   const kanHenteApi =
-    Boolean(trimmedApiEndepunkt) && (!disabled || hentApiIEditor);
+    Boolean(trimmedApiEndepunkt) &&
+    (!disabled ||
+      hentApiIEditor ||
+      trimmedApiEndepunkt === STANDARD_DATA_ENDEPUNKT);
 
   React.useEffect(() => {
     if (!kanHenteApi) {
@@ -534,8 +530,12 @@ registerVevComponent(BadetemperaturWidget, {
       title: "Data",
       options: { collapsed: true },
       fields: [
-        { name: "apiEndepunkt", type: "string", initialValue: "" },
-        { name: "hentApiIEditor", type: "boolean", initialValue: false },
+        {
+          name: "apiEndepunkt",
+          type: "string",
+          initialValue: STANDARD_DATA_ENDEPUNKT,
+        },
+        { name: "hentApiIEditor", type: "boolean", initialValue: true },
         {
           name: "cacheMinutter",
           type: "number",

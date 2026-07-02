@@ -15,7 +15,7 @@ Komponenten registreres i VEV som `Badetemperatur-widget`.
 
 ## Data
 
-Widgeten kan brukes med manuelle verdier i VEV, eller med live-data via et proxy-endepunkt satt i feltet `apiEndepunkt`.
+Widgeten henter automatisk topp 5-data fra GitHub-filen. Du trenger normalt ikke fylle inn `apiEndepunkt` i VEV.
 
 For lokal testing med topp 5 badetemperaturer i Trondheim:
 
@@ -55,7 +55,7 @@ Hvis repoet er public, kan VEV-endepunktet være:
 https://raw.githubusercontent.com/atryg/badetemperatur-widget/main/public/data/trondheim-top5.json
 ```
 
-Sett denne URL-en i VEV-feltet `apiEndepunkt`. Widgeten viser de fem høyeste badetemperaturene i Trondheim.
+Widgeten bruker denne URL-en automatisk. Feltet `apiEndepunkt` i VEV kan stå tomt, og brukes bare hvis du vil overstyre datakilden senere.
 
 Hvis repoet er private, kan ikke leserne hente `raw.githubusercontent.com` uten innlogging. Da må enten repoet gjøres public, eller bare JSON-filen publiseres i et separat public repo.
 
