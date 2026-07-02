@@ -123,6 +123,7 @@ const formatOppdatert = (value?: string) => {
     month: "long",
     hour: "2-digit",
     minute: "2-digit",
+    timeZone: "Europe/Oslo",
   }).format(date)}`;
 };
 
@@ -193,7 +194,9 @@ const normaliserApiData = (payload: unknown): NormalisertApiData => {
 
   if (isRecord(payload)) {
     kilde = getString(payload.kilde ?? payload.source);
-    oppdatert = getString(payload.oppdatert ?? payload.updatedAt);
+    oppdatert = getString(
+      payload.generatedAt ?? payload.oppdatert ?? payload.updatedAt
+    );
   }
 
   const sisteTid = liste
@@ -359,10 +362,24 @@ const BadetemperaturWidget = ({
 
               <div className={styles.cardText}>
                 <h3>{sted.navn}</h3>
-                <p>
-                  {sted.maltKlokken
-                    ? `Siste måling klokken ${sted.maltKlokken}`
-                    : sted.omrade}
+                <p
+                  aria-label={
+                    sted.maltKlokken
+                      ? `Siste måling klokken ${sted.maltKlokken}`
+                      : undefined
+                  }
+                >
+                  {sted.maltKlokken ? (
+                    <>
+                      <span className={styles.measureText}>Siste måling</span>
+                      <span className={styles.measurePrefix}> klokken </span>
+                      <span className={styles.measureTime}>
+                        {sted.maltKlokken}
+                      </span>
+                    </>
+                  ) : (
+                    sted.omrade
+                  )}
                 </p>
               </div>
             </article>

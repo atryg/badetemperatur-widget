@@ -246,6 +246,12 @@
   overflow-wrap: anywhere;
 }
 
+.measureText,
+.measurePrefix,
+.measureTime {
+  display: inline;
+}
+
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -267,35 +273,192 @@
 
 @media (max-width: 900px) {
   .cardGrid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .badeKort {
+    padding: 9px;
+  }
+
+  .rank {
+    width: 21px;
+    height: 21px;
+    flex-basis: 21px;
+    font-size: 0.64rem;
+  }
+
+  .status {
+    max-width: 76px;
+    min-height: 20px;
+    padding: 3px 6px;
+    font-size: 0.58rem;
+  }
+
+  .cardTemperature {
+    margin: 6px 0 5px;
+  }
+
+  .cardTemperature strong {
+    font-size: 1.62rem;
+  }
+
+  .cardText h3 {
+    font-size: 0.74rem;
+    line-height: 1.08;
+  }
+
+  .cardText p {
+    font-size: 0.56rem;
   }
 }
 
 @media (max-width: 620px) {
   .wrapper {
-    padding: 14px;
+    padding: 10px;
   }
 
   .header {
     grid-template-columns: 1fr;
-    gap: 6px;
+    gap: 5px;
+    margin-bottom: 9px;
+  }
+
+  .kicker {
+    margin-bottom: 3px;
+    font-size: 0.6rem;
   }
 
   .title {
-    font-size: 1.12rem;
+    font-size: 1rem;
+    line-height: 1.12;
   }
 
   .updated {
+    font-size: 0.64rem;
     text-align: left;
   }
 
+  .intro {
+    margin: -2px 0 9px;
+    font-size: 0.72rem;
+    line-height: 1.25;
+  }
+
   .cardGrid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .badeKort {
+    aspect-ratio: 0.78 / 1;
+    padding: 5px 4px;
+    border-radius: 6px;
+    box-shadow: inset 0 -10px 0 rgba(255, 255, 255, 0.24);
+  }
+
+  .badeKort::after {
+    right: -10px;
+    bottom: 4px;
+    left: -10px;
+    height: 12px;
+    opacity: 0.42;
+  }
+
+  .varmest {
+    box-shadow: inset 0 -10px 0 rgba(255, 255, 255, 0.24);
+  }
+
+  .cardTop {
+    justify-content: flex-start;
+  }
+
+  .rank {
+    width: 15px;
+    height: 15px;
+    flex-basis: 15px;
+    font-size: 0.48rem;
+  }
+
+  .status {
+    display: none;
+  }
+
+  .cardTemperature {
+    margin: 2px 0 3px;
+  }
+
+  .cardTemperature strong {
+    font-size: 1.05rem;
+    line-height: 0.92;
+  }
+
+  .cardTemperature span {
+    margin-top: 0.02rem;
+  }
+
+  .cardText h3 {
+    min-height: 2.1em;
+    margin-bottom: 2px;
+    font-size: 0.5rem;
+    line-height: 1.05;
+  }
+
+  .cardText p {
+    font-size: 0.46rem;
+    font-weight: 760;
+    line-height: 1.05;
+  }
+
+  .measureText,
+  .measureTime {
+    display: block;
+  }
+
+  .measurePrefix {
+    display: none;
+  }
+
+  .measureTime::before {
+    content: "kl. ";
+  }
+
+  .footer {
+    gap: 3px 8px;
+    margin-top: 7px;
+    font-size: 0.56rem;
   }
 }
 
 @media (max-width: 380px) {
+  .wrapper {
+    padding: 8px;
+  }
+
   .cardGrid {
-    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+
+  .badeKort {
+    aspect-ratio: 0.72 / 1;
+    padding: 4px 3px;
+  }
+
+  .rank {
+    width: 14px;
+    height: 14px;
+    flex-basis: 14px;
+  }
+
+  .cardTemperature strong {
+    font-size: 0.92rem;
+  }
+
+  .cardText h3 {
+    font-size: 0.46rem;
+  }
+
+  .cardText p {
+    font-size: 0.42rem;
   }
 }
