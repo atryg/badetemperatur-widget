@@ -32,7 +32,7 @@ Se [proxy/README.md](proxy/README.md) for Cloudflare Worker-mal.
 Den anbefalte produksjonsflyten er:
 
 ```text
-GitHub Actions -> Yr med secret -> GitHub Pages JSON -> VEV-widget
+GitHub Actions -> Yr med secret -> commit av JSON-fil -> VEV-widget
 ```
 
 Legg API-nøkkelen inn som repository secret:
@@ -43,13 +43,21 @@ YR_BADETEMPERATURER_API_KEY
 
 Workflowen i `.github/workflows/update-badetemperaturer.yml` kan kjøres manuelt, og kjører automatisk med API-kall annenhver time mellom 06:00 og 22:00 Europe/Oslo. Det dekker tidsrommet 06:00-23:00 uten å treffe Yr etter kl. 23.
 
-Når GitHub Pages er aktivert med GitHub Actions som kilde, blir VEV-endepunktet:
+Workflowen oppdaterer denne filen:
 
 ```text
-https://DIN-BRUKER.github.io/DITT-REPO/data/trondheim-top5.json
+public/data/trondheim-top5.json
+```
+
+Hvis repoet er public, kan VEV-endepunktet være:
+
+```text
+https://raw.githubusercontent.com/atryg/badetemperatur-widget/main/public/data/trondheim-top5.json
 ```
 
 Sett denne URL-en i VEV-feltet `apiEndepunkt`. Widgeten viser de fem høyeste badetemperaturene i Trondheim.
+
+Hvis repoet er private, kan ikke leserne hente `raw.githubusercontent.com` uten innlogging. Da må enten repoet gjøres public, eller bare JSON-filen publiseres i et separat public repo.
 
 ## Kreditering
 

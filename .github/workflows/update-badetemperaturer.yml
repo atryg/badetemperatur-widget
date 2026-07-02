@@ -8,20 +8,15 @@ on:
     - cron: "0 * * * *"
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
+  group: update-badetemperaturer
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Check out repository
@@ -43,17 +38,16 @@ jobs:
             node scripts/update-badetemperaturer.mjs
           fi
 
-      - name: Configure GitHub Pages
+      - name: Commit updated JSON
         if: steps.update.outputs.updated == 'true'
-        uses: actions/configure-pages@v5
+        run: |
+          if git diff --quiet -- public/data/trondheim-top5.json; then
+            echo "No data changes to commit."
+            exit 0
+          fi
 
-      - name: Upload Pages artifact
-        if: steps.update.outputs.updated == 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
-
-      - name: Deploy to GitHub Pages
-        if: steps.update.outputs.updated == 'true'
-        id: deployment
-        uses: actions/deploy-pages@v4
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/trondheim-top5.json
+          git commit -m "Update Trondheim badetemperaturer"
+          git push
