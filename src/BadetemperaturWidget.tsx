@@ -360,8 +360,9 @@ const BadetemperaturWidget = ({
               <div className={styles.cardText}>
                 <h3>{sted.navn}</h3>
                 <p>
-                  {sted.omrade}
-                  {sted.maltKlokken ? ` · ${sted.maltKlokken}` : ""}
+                  {sted.maltKlokken
+                    ? `Siste måling klokken ${sted.maltKlokken}`
+                    : sted.omrade}
                 </p>
               </div>
             </article>
