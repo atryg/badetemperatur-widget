@@ -44,6 +44,7 @@ type Props = {
 const YR_KREDITERING = "Badetemperaturer levert av Yr";
 const STANDARD_DATA_ENDEPUNKT =
   "https://raw.githubusercontent.com/atryg/badetemperatur-widget/main/public/data/trondheim-top5.json";
+const STANDARD_CACHE_MINUTTER = 1;
 const apiCache = new Map<
   string,
   { hentet: number; data: NormalisertApiData }
@@ -142,6 +143,41 @@ const formatTemperatur = (temperatur = 0) =>
     maximumFractionDigits: 1,
   }).format(temperatur);
 
+const erStandardDataEndepunkt = (apiEndepunkt: string) => {
+  try {
+    const url = new URL(apiEndepunkt);
+    return (
+      url.hostname === "raw.githubusercontent.com" &&
+      url.pathname ===
+        "/atryg/badetemperatur-widget/main/public/data/trondheim-top5.json"
+    );
+  } catch {
+    return false;
+  }
+};
+
+const getEffektivCacheMinutter = (
+  apiEndepunkt: string,
+  cacheMinutter: number
+) => {
+  const tryggCache = Number.isFinite(cacheMinutter) ? cacheMinutter : 10;
+  const begrensetCache = Math.max(1, Math.min(Math.floor(tryggCache), 60));
+
+  if (erStandardDataEndepunkt(apiEndepunkt)) {
+    return Math.min(begrensetCache, STANDARD_CACHE_MINUTTER);
+  }
+
+  return begrensetCache;
+};
+
+const getFetchUrl = (apiEndepunkt: string, cacheWindow: number) => {
+  if (!erStandardDataEndepunkt(apiEndepunkt)) return apiEndepunkt;
+
+  const url = new URL(apiEndepunkt);
+  url.searchParams.set("badisCache", String(cacheWindow));
+  return url.toString();
+};
+
 const hentListeFraApiSvar = (payload: unknown) => {
   if (Array.isArray(payload)) return payload;
   if (!isRecord(payload)) return [];
@@ -217,15 +253,22 @@ const fetchApiData = async (
   cacheMinutter: number,
   signal: AbortSignal
 ) => {
-  const cacheKey = apiEndepunkt.trim();
-  const cacheTtlMs = Math.max(cacheMinutter, 1) * 60 * 1000;
+  const endpoint = apiEndepunkt.trim();
+  const effektivCacheMinutter = getEffektivCacheMinutter(
+    endpoint,
+    cacheMinutter
+  );
+  const cacheTtlMs = effektivCacheMinutter * 60 * 1000;
+  const cacheWindow = Math.floor(Date.now() / cacheTtlMs);
+  const cacheKey = `${endpoint}::${cacheWindow}`;
   const cached = apiCache.get(cacheKey);
 
   if (cached && Date.now() - cached.hentet < cacheTtlMs) {
     return cached.data;
   }
 
-  const response = await fetch(cacheKey, {
+  const response = await fetch(getFetchUrl(endpoint, cacheWindow), {
+    cache: "no-store",
     signal,
     headers: { Accept: "application/json" },
   });
@@ -252,7 +295,7 @@ const BadetemperaturWidget = ({
   kilde = YR_KREDITERING,
   apiEndepunkt = STANDARD_DATA_ENDEPUNKT,
   hentApiIEditor = true,
-  cacheMinutter = 10,
+  cacheMinutter = STANDARD_CACHE_MINUTTER,
   maksAntall = 5,
   steder = standardSteder,
   visKilde = true,
@@ -269,6 +312,10 @@ const BadetemperaturWidget = ({
 
   const innstiltApiEndepunkt = apiEndepunkt.trim();
   const trimmedApiEndepunkt = innstiltApiEndepunkt || STANDARD_DATA_ENDEPUNKT;
+  const effektivCacheMinutter = getEffektivCacheMinutter(
+    trimmedApiEndepunkt,
+    cacheMinutter
+  );
   const kanHenteApi =
     Boolean(trimmedApiEndepunkt) &&
     (!disabled ||
@@ -282,22 +329,41 @@ const BadetemperaturWidget = ({
       return;
     }
 
-    const controller = new AbortController();
-    setApiStatus("loading");
+    let controller: AbortController | undefined;
 
-    fetchApiData(trimmedApiEndepunkt, cacheMinutter, controller.signal)
-      .then((data) => {
-        setApiData(data);
-        setApiStatus("success");
-      })
-      .catch((error: unknown) => {
-        if (isRecord(error) && error.name === "AbortError") return;
-        setApiData(null);
-        setApiStatus("error");
-      });
+    const hentData = () => {
+      controller?.abort();
+      controller = new AbortController();
+      setApiStatus("loading");
 
-    return () => controller.abort();
-  }, [cacheMinutter, kanHenteApi, trimmedApiEndepunkt]);
+      fetchApiData(
+        trimmedApiEndepunkt,
+        effektivCacheMinutter,
+        controller.signal
+      )
+        .then((data) => {
+          setApiData(data);
+          setApiStatus("success");
+        })
+        .catch((error: unknown) => {
+          if (isRecord(error) && error.name === "AbortError") return;
+          setApiData(null);
+          setApiStatus("error");
+        });
+    };
+
+    hentData();
+
+    const interval = window.setInterval(
+      hentData,
+      effektivCacheMinutter * 60 * 1000
+    );
+
+    return () => {
+      controller?.abort();
+      window.clearInterval(interval);
+    };
+  }, [effektivCacheMinutter, kanHenteApi, trimmedApiEndepunkt]);
 
   const apiSteder = apiData?.steder.length ? apiData.steder : undefined;
   const synligeSteder = apiSteder ?? (steder?.length ? steder : standardSteder);
@@ -505,7 +571,7 @@ registerVevComponent(BadetemperaturWidget, {
         {
           name: "cacheMinutter",
           type: "number",
-          initialValue: 10,
+          initialValue: STANDARD_CACHE_MINUTTER,
           options: { min: 1, max: 60, display: "slider" },
         },
         {
