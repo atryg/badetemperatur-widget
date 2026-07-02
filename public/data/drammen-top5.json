@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T18:36:27.278Z",
+  "generatedAt": "2026-07-02T20:33:12.878Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-02T20:07:07+02:00",
+  "updatedAt": "2026-07-02T22:07:09+02:00",
   "items": [
-    {
-      "navn": "Eidsfoss",
-      "omrade": "Holmestrand",
-      "temperatur": 24,
-      "maltKlokken": "22:16",
-      "locationId": "1-511691",
-      "latitude": 59.59615,
-      "longitude": 10.03595,
-      "time": "2026-06-27T22:16:18+02:00"
-    },
     {
       "navn": "Bergsvannet",
       "omrade": "Holmestrand",
@@ -62,6 +52,16 @@
       "latitude": 59.85855,
       "longitude": 10.42182,
       "time": "2026-07-01T17:49:20+02:00"
+    },
+    {
+      "navn": "Tangen fjordpark",
+      "omrade": "Drammen",
+      "temperatur": 22.4,
+      "maltKlokken": "23:45",
+      "locationId": "11-18853",
+      "latitude": 59.68456,
+      "longitude": 10.35687,
+      "time": "2026-06-27T23:45:06+02:00"
     }
   ]
 }
