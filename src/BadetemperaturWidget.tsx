@@ -511,11 +511,23 @@ registerVevComponent(BadetemperaturWidget, {
   editableCSS: [
     {
       selector: styles.wrapper,
-      properties: ["background", "padding", "border-radius"],
+      properties: ["background", "padding", "border-radius", "font-family"],
     },
     {
       selector: styles.title,
-      properties: ["font-size", "color"],
+      properties: ["font-size", "color", "font-family"],
+    },
+    {
+      selector: styles.cardTemperature,
+      properties: ["color", "font-family"],
+    },
+    {
+      selector: styles.cardText,
+      properties: ["color", "font-family"],
+    },
+    {
+      selector: styles.kicker,
+      properties: ["color", "font-family"],
     },
   ],
 });
