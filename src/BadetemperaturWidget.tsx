@@ -366,7 +366,7 @@ const BadetemperaturWidget = ({
                   aria-label={
                     sted.maltKlokken
                       ? `Siste måling klokken ${sted.maltKlokken}`
-                      : undefined
+                      : "Siste måling ikke oppgitt"
                   }
                 >
                   {sted.maltKlokken ? (
@@ -378,7 +378,9 @@ const BadetemperaturWidget = ({
                       </span>
                     </>
                   ) : (
-                    sted.omrade
+                    <span className={styles.measureText}>
+                      Siste måling ikke oppgitt
+                    </span>
                   )}
                 </p>
               </div>

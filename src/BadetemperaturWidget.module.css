@@ -82,7 +82,6 @@
   --card-sky: #e9fbff;
   --card-water: #7fe4ee;
   --card-deep: #13a8bc;
-  --card-sun: #ffd663;
   --card-line: rgba(0, 143, 163, 0.2);
 
   position: relative;
@@ -94,13 +93,11 @@
   flex-direction: column;
   padding: 12px;
   overflow: hidden;
-  background: radial-gradient(
-      circle at 82% 16%,
-      var(--card-sun) 0 11px,
-      rgba(255, 255, 255, 0.75) 12px 15px,
-      transparent 16px
-    ),
-    linear-gradient(180deg, var(--card-sky) 0 56%, var(--card-water) 100%);
+  background: linear-gradient(
+    180deg,
+    var(--card-sky) 0 56%,
+    var(--card-water) 100%
+  );
   border: 1px solid var(--card-line);
   border-radius: 8px;
   box-shadow: inset 0 -22px 0 rgba(255, 255, 255, 0.2),
@@ -158,7 +155,6 @@
   --card-sky: #fff5b8;
   --card-water: #8ce8e2;
   --card-deep: #20b7c4;
-  --card-sun: #ffbf2f;
   --card-line: rgba(242, 169, 36, 0.34);
 }
 
@@ -166,7 +162,6 @@
   --card-sky: #dffaff;
   --card-water: #74dcf0;
   --card-deep: #1599bf;
-  --card-sun: #ffe27a;
   --card-line: rgba(0, 143, 163, 0.22);
 }
 
@@ -174,7 +169,6 @@
   --card-sky: #ecffd6;
   --card-water: #8fe8d1;
   --card-deep: #37a989;
-  --card-sun: #ffe06d;
   --card-line: rgba(72, 154, 87, 0.25);
 }
 
@@ -182,7 +176,6 @@
   --card-sky: #ffe0d4;
   --card-water: #91e3ef;
   --card-deep: #16a3bb;
-  --card-sun: #ff9f55;
   --card-line: rgba(255, 107, 74, 0.25);
 }
 
@@ -190,7 +183,6 @@
   --card-sky: #e7efff;
   --card-water: #8ed7ff;
   --card-deep: #3682d8;
-  --card-sun: #ffd96d;
   --card-line: rgba(61, 99, 168, 0.22);
 }
 
