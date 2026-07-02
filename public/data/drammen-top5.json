@@ -1,11 +1,17 @@
 {
-  "generatedAt": "2026-07-02T13:36:34.136Z",
+  "generatedAt": "2026-07-02T13:46:52.144Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
-  "municipalities": ["Drammen", "Lier", "Øvre Eiker", "Asker", "Holmestrand"],
+  "municipalities": [
+    "Drammen",
+    "Lier",
+    "Øvre Eiker",
+    "Asker",
+    "Holmestrand"
+  ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-02T15:06:52+02:00",
+  "updatedAt": "2026-07-02T15:26:52+02:00",
   "items": [
     {
       "navn": "Eidsfoss",
