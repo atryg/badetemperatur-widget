@@ -31,7 +31,6 @@ type Props = {
   hentApiIEditor?: boolean;
   cacheMinutter?: number;
   maksAntall?: number;
-  hovedbadested?: number;
   steder?: Badested[];
   visKilde?: boolean;
   visApiHint?: boolean;
@@ -140,23 +139,6 @@ const formatTemperatur = (temperatur = 0) =>
     minimumFractionDigits: 1,
     maximumFractionDigits: 1,
   }).format(temperatur);
-
-const getEndringLabel = (endring?: Badested["endring"]) => {
-  if (endring === "opp") return "Stiger";
-  if (endring === "ned") return "Synker";
-  return "Stabil";
-};
-
-const getEndringSymbol = (endring?: Badested["endring"]) => {
-  if (endring === "opp") return "↑";
-  if (endring === "ned") return "↓";
-  return "→";
-};
-
-const clampIndex = (index: number, length: number) => {
-  if (length <= 0) return 0;
-  return Math.min(Math.max(index, 0), length - 1);
-};
 
 const hentListeFraApiSvar = (payload: unknown) => {
   if (Array.isArray(payload)) return payload;
@@ -268,7 +250,6 @@ const BadetemperaturWidget = ({
   hentApiIEditor = true,
   cacheMinutter = 10,
   maksAntall = 5,
-  hovedbadested = 0,
   steder = standardSteder,
   visKilde = true,
   visApiHint = true,
@@ -321,9 +302,6 @@ const BadetemperaturWidget = ({
   const trygtMaksAntall = Number.isFinite(maksAntall) ? maksAntall : 5;
   const antallSteder = Math.max(1, Math.min(Math.floor(trygtMaksAntall), 20));
   const toppSteder = sortedSteder.slice(0, antallSteder);
-  const hovedIndex = clampIndex(hovedbadested, toppSteder.length);
-  const hoved = toppSteder[hovedIndex] ?? standardSteder[0];
-  const hovedStatus = getBadestatus(hoved.temperatur);
   const brukerApiEndepunkt = Boolean(trimmedApiEndepunkt);
   const faktiskKilde = brukerApiEndepunkt
     ? apiData?.kilde ?? YR_KREDITERING
@@ -351,72 +329,44 @@ const BadetemperaturWidget = ({
 
       {ingress && <p className={styles.intro}>{ingress}</p>}
 
-      <div className={styles.content}>
-        <article
-          className={styles.feature}
-          aria-label={`Hovedbadested: ${hoved.navn}`}
-        >
-          <div className={styles.featureText}>
-            <p className={styles.placeMeta}>{hoved.omrade}</p>
-            <h3 className={styles.placeName}>{hoved.navn}</h3>
-            {hoved.notat && <p className={styles.note}>{hoved.notat}</p>}
-          </div>
+      <div
+        className={styles.cardGrid}
+        aria-label="Fem varmeste badesteder rangert etter temperatur"
+      >
+        {toppSteder.map((sted, index) => {
+          const status = getBadestatus(sted.temperatur);
 
-          <div className={styles.temperatureBlock}>
-            <span className={styles.temperature}>
-              {formatTemperatur(hoved.temperatur)}
-              <span className={styles.degree}>°</span>
-            </span>
-            <span className={`${styles.status} ${hovedStatus.className}`}>
-              {hovedStatus.label}
-            </span>
-          </div>
+          return (
+            <article
+              className={`${styles.badeKort} ${
+                index === 0 ? styles.varmest : ""
+              }`}
+              key={`${sted.navn}-${sted.omrade}-${index}`}
+            >
+              <div className={styles.cardTop}>
+                <span className={styles.rank}>{index + 1}</span>
+                <span className={`${styles.status} ${status.className}`}>
+                  {status.label}
+                </span>
+              </div>
 
-          <div className={styles.featureFooter}>
-            <span>
-              {hoved.maltKlokken
-                ? `Målt kl. ${hoved.maltKlokken}`
-                : "Måletid ukjent"}
-            </span>
-            {hoved.endring && (
-              <span>
-                {getEndringSymbol(hoved.endring)}{" "}
-                {getEndringLabel(hoved.endring)}
-              </span>
-            )}
-          </div>
-        </article>
+              <div className={styles.cardTemperature}>
+                <strong>
+                  {formatTemperatur(sted.temperatur)}
+                  <span>°</span>
+                </strong>
+              </div>
 
-        <div
-          className={styles.list}
-          aria-label="Badesteder rangert etter temperatur"
-        >
-          {toppSteder.map((sted, index) => {
-            const status = getBadestatus(sted.temperatur);
-
-            return (
-              <article
-                className={styles.row}
-                key={`${sted.navn}-${sted.omrade}-${index}`}
-              >
-                <div className={styles.rank}>{index + 1}</div>
-                <div className={styles.rowText}>
-                  <h3>{sted.navn}</h3>
-                  <p>
-                    {sted.omrade}
-                    {sted.maltKlokken ? ` · ${sted.maltKlokken}` : ""}
-                  </p>
-                </div>
-                <div className={styles.rowTemperature}>
-                  <strong>{formatTemperatur(sted.temperatur)}°</strong>
-                  <span className={`${styles.status} ${status.className}`}>
-                    {status.label}
-                  </span>
-                </div>
-              </article>
-            );
-          })}
-        </div>
+              <div className={styles.cardText}>
+                <h3>{sted.navn}</h3>
+                <p>
+                  {sted.omrade}
+                  {sted.maltKlokken ? ` · ${sted.maltKlokken}` : ""}
+                </p>
+              </div>
+            </article>
+          );
+        })}
       </div>
 
       {(skalViseKilde || visApiHint) && (
@@ -482,12 +432,6 @@ registerVevComponent(BadetemperaturWidget, {
       type: "group",
       title: "Badesteder",
       fields: [
-        {
-          name: "hovedbadested",
-          type: "number",
-          initialValue: 0,
-          options: { min: 0, max: 4, display: "slider" },
-        },
         {
           name: "steder",
           type: "array",
