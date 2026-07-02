@@ -1,0 +1,59 @@
+name: Update badetemperaturer
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub cron runs in UTC. The script gates actual Yr calls to
+    # 06:00, 08:00, ..., 22:00 Europe/Oslo so DST stays correct.
+    - cron: "0 * * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch Trondheim top 5
+        id: update
+        env:
+          YR_BADETEMPERATURER_API_KEY: ${{ secrets.YR_BADETEMPERATURER_API_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            node scripts/update-badetemperaturer.mjs --respect-schedule
+          else
+            node scripts/update-badetemperaturer.mjs
+          fi
+
+      - name: Configure GitHub Pages
+        if: steps.update.outputs.updated == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: steps.update.outputs.updated == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        if: steps.update.outputs.updated == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4

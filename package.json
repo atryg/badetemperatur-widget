@@ -1,0 +1,23 @@
+{
+  "name": "badetemperatur-widget",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "login": "vev login",
+    "init": "vev init",
+    "start": "vev start",
+    "proxy:dev": "node proxy/local-server.mjs",
+    "data:update": "node scripts/update-badetemperaturer.mjs",
+    "data:update:scheduled": "node scripts/update-badetemperaturer.mjs --respect-schedule"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "latest",
+    "prettier": "2.7.0",
+    "typescript-plugin-css-modules": "^5.0.1"
+  },
+  "dependencies": {
+    "@vev/react": "latest",
+    "react": "^18.2.0"
+  }
+}
