@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T16:40:27.509Z",
+  "generatedAt": "2026-07-02T18:36:27.278Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-02T18:27:04+02:00",
+  "updatedAt": "2026-07-02T20:07:07+02:00",
   "items": [
     {
       "navn": "Eidsfoss",
