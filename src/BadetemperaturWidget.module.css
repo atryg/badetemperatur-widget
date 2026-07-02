@@ -70,6 +70,76 @@
   line-height: 1.4;
 }
 
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  margin: -4px 0 10px;
+}
+
+.cityPicker {
+  display: inline-flex;
+  max-width: 100%;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px 5px 10px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(0, 143, 163, 0.22);
+  border-radius: 999px;
+  box-shadow: 0 5px 14px rgba(0, 83, 98, 0.08);
+}
+
+.cityPickerLabel {
+  color: var(--badis-muted);
+  font-size: 0.68rem;
+  font-weight: 850;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.selectWrap {
+  position: relative;
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+}
+
+.selectWrap::after {
+  position: absolute;
+  top: 45%;
+  right: 6px;
+  width: 7px;
+  height: 7px;
+  content: "";
+  border-right: 2px solid var(--badis-accent);
+  border-bottom: 2px solid var(--badis-accent);
+  pointer-events: none;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.citySelect {
+  max-width: 180px;
+  padding: 4px 24px 4px 2px;
+  overflow: hidden;
+  color: var(--badis-text);
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  appearance: none;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.citySelect:focus-visible {
+  outline: 2px solid var(--badis-accent);
+  outline-offset: 2px;
+}
+
 .cardGrid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -404,6 +474,32 @@
     margin: -2px 0 9px;
     font-size: 0.72rem;
     line-height: 1.25;
+  }
+
+  .controls {
+    justify-content: flex-start;
+    margin: -2px 0 8px;
+  }
+
+  .cityPicker {
+    gap: 6px;
+    padding: 4px 6px 4px 8px;
+  }
+
+  .cityPickerLabel {
+    font-size: 0.58rem;
+  }
+
+  .citySelect {
+    max-width: 150px;
+    padding: 3px 21px 3px 1px;
+    font-size: 0.68rem;
+  }
+
+  .selectWrap::after {
+    right: 5px;
+    width: 6px;
+    height: 6px;
   }
 
   .cardGrid {

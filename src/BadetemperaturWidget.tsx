@@ -34,6 +34,7 @@ type Props = {
   cacheMinutter?: number;
   maksAntall?: number;
   steder?: Badested[];
+  visByvelger?: boolean;
   visKilde?: boolean;
   visApiHint?: boolean;
   bakgrunn?: string;
@@ -73,6 +74,9 @@ const getStandardDataEndepunkt = (by?: string) => {
   const byConfig = getByConfig(by);
   return `${DATA_BASE_URL}/${byConfig.file}`;
 };
+
+const settInnValgtBy = (tekst: string, byLabel: string) =>
+  tekst.replace(/\bTrondheim\b/g, byLabel);
 
 const STANDARD_DATA_ENDEPUNKT = getStandardDataEndepunkt(STANDARD_BY);
 
@@ -331,6 +335,7 @@ const BadetemperaturWidget = ({
   cacheMinutter = STANDARD_CACHE_MINUTTER,
   maksAntall = 5,
   steder = standardSteder,
+  visByvelger = true,
   visKilde = true,
   visApiHint = true,
   bakgrunn = "#f7fbf8",
@@ -342,8 +347,11 @@ const BadetemperaturWidget = ({
   const { disabled } = useEditorState();
   const [apiStatus, setApiStatus] = React.useState<ApiStatus>("idle");
   const [apiData, setApiData] = React.useState<NormalisertApiData | null>(null);
+  const bySelectId = React.useId();
 
-  const valgtBy = getByConfig(by);
+  const startBy = getByConfig(by);
+  const [valgtByKey, setValgtByKey] = React.useState<ByKey>(startBy.key);
+  const valgtBy = getByConfig(valgtByKey);
   const innstiltApiEndepunkt = apiEndepunkt.trim();
   const brukerStandardDataEndepunkt =
     !innstiltApiEndepunkt || erStandardDataEndepunkt(innstiltApiEndepunkt);
@@ -357,6 +365,11 @@ const BadetemperaturWidget = ({
   const kanHenteApi =
     Boolean(trimmedApiEndepunkt) &&
     (!disabled || hentApiIEditor || brukerStandardDataEndepunkt);
+  const skalViseByvelger = visByvelger && brukerStandardDataEndepunkt;
+
+  React.useEffect(() => {
+    setValgtByKey(startBy.key);
+  }, [startBy.key]);
 
   React.useEffect(() => {
     if (!kanHenteApi) {
@@ -416,6 +429,12 @@ const BadetemperaturWidget = ({
   const skalViseKilde = visKilde || brukerApiEndepunkt;
   const apiOppdatertTekst = formatOppdatert(apiData?.oppdatert);
   const faktiskOppdatertTekst = apiOppdatertTekst ?? oppdatertTekst;
+  const faktiskTittel = brukerStandardDataEndepunkt
+    ? settInnValgtBy(tittel, valgtBy.label)
+    : tittel;
+  const faktiskIngress = brukerStandardDataEndepunkt
+    ? settInnValgtBy(ingress, valgtBy.label)
+    : ingress;
 
   const cssVars = {
     "--badis-background": transparentBakgrunn ? "transparent" : bakgrunn,
@@ -429,16 +448,43 @@ const BadetemperaturWidget = ({
       <div className={styles.header}>
         <div>
           <p className={styles.kicker}>{merkelapp}</p>
-          <h2 className={styles.title}>{tittel}</h2>
+          <h2 className={styles.title}>{faktiskTittel}</h2>
         </div>
         <p className={styles.updated}>{faktiskOppdatertTekst}</p>
       </div>
 
-      {ingress && <p className={styles.intro}>{ingress}</p>}
+      {faktiskIngress && <p className={styles.intro}>{faktiskIngress}</p>}
+
+      {skalViseByvelger && (
+        <div className={styles.controls}>
+          <div className={styles.cityPicker}>
+            <label className={styles.cityPickerLabel} htmlFor={bySelectId}>
+              By
+            </label>
+            <div className={styles.selectWrap}>
+              <select
+                id={bySelectId}
+                className={styles.citySelect}
+                value={valgtBy.key}
+                onChange={(event) => {
+                  const nesteBy = getByConfig(event.currentTarget.value);
+                  setValgtByKey(nesteBy.key);
+                }}
+              >
+                {BYER.map((byValg) => (
+                  <option key={byValg.key} value={byValg.key}>
+                    {byValg.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div
         className={styles.cardGrid}
-        aria-label="Fem varmeste badesteder rangert etter temperatur"
+        aria-label={`Fem varmeste badesteder i ${valgtBy.label} rangert etter temperatur`}
       >
         {toppSteder.map((sted, index) => {
           const status = getBadestatus(sted.temperatur);
@@ -628,6 +674,7 @@ registerVevComponent(BadetemperaturWidget, {
           initialValue: 5,
           options: { min: 1, max: 10, display: "slider" },
         },
+        { name: "visByvelger", type: "boolean", initialValue: true },
         { name: "visKilde", type: "boolean", initialValue: true },
         { name: "visApiHint", type: "boolean", initialValue: true },
       ],
