@@ -79,6 +79,12 @@
 }
 
 .badeKort {
+  --card-sky: #e9fbff;
+  --card-water: #7fe4ee;
+  --card-deep: #13a8bc;
+  --card-sun: #ffd663;
+  --card-line: rgba(0, 143, 163, 0.2);
+
   position: relative;
   display: flex;
   aspect-ratio: 1 / 1;
@@ -88,54 +94,109 @@
   flex-direction: column;
   padding: 12px;
   overflow: hidden;
-  background: #ddf9ff;
-  border: 1px solid rgba(0, 143, 163, 0.16);
+  background: radial-gradient(
+      circle at 82% 16%,
+      var(--card-sun) 0 11px,
+      rgba(255, 255, 255, 0.75) 12px 15px,
+      transparent 16px
+    ),
+    linear-gradient(180deg, var(--card-sky) 0 56%, var(--card-water) 100%);
+  border: 1px solid var(--card-line);
   border-radius: 8px;
-  box-shadow: inset 0 -18px 0 rgba(255, 255, 255, 0.26);
+  box-shadow: inset 0 -22px 0 rgba(255, 255, 255, 0.2),
+    0 9px 22px rgba(0, 89, 104, 0.08);
+}
+
+.badeKort::before {
+  position: absolute;
+  right: -18px;
+  bottom: -18px;
+  left: -18px;
+  height: 46%;
+  content: "";
+  background: radial-gradient(
+      ellipse at 16% 0,
+      rgba(255, 255, 255, 0.72) 0 16px,
+      transparent 17px
+    ),
+    radial-gradient(
+      ellipse at 54% 4px,
+      rgba(255, 255, 255, 0.54) 0 14px,
+      transparent 15px
+    ),
+    radial-gradient(
+      ellipse at 88% 0,
+      rgba(255, 255, 255, 0.48) 0 13px,
+      transparent 14px
+    ),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.14), var(--card-deep));
+  opacity: 0.9;
 }
 
 .badeKort::after {
   position: absolute;
   right: -16px;
-  bottom: 11px;
+  bottom: 13px;
   left: -16px;
-  height: 24px;
+  height: 20px;
   content: "";
-  background: repeating-linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.46) 0 10px,
-    rgba(255, 255, 255, 0) 10px 20px
-  );
-  opacity: 0.65;
+  background: radial-gradient(
+      ellipse at 16px 50%,
+      rgba(255, 255, 255, 0.72) 0 9px,
+      transparent 10px
+    ),
+    radial-gradient(
+      ellipse at 48px 50%,
+      rgba(255, 255, 255, 0.6) 0 8px,
+      transparent 9px
+    );
+  background-size: 64px 20px;
+  opacity: 0.78;
 }
 
 .badeKort:nth-child(1) {
-  background: #fff0a8;
-  border-color: rgba(245, 166, 35, 0.36);
+  --card-sky: #fff5b8;
+  --card-water: #8ce8e2;
+  --card-deep: #20b7c4;
+  --card-sun: #ffbf2f;
+  --card-line: rgba(242, 169, 36, 0.34);
 }
 
 .badeKort:nth-child(2) {
-  background: #c9f6ff;
+  --card-sky: #dffaff;
+  --card-water: #74dcf0;
+  --card-deep: #1599bf;
+  --card-sun: #ffe27a;
+  --card-line: rgba(0, 143, 163, 0.22);
 }
 
 .badeKort:nth-child(3) {
-  background: #dff8c8;
-  border-color: rgba(72, 154, 87, 0.24);
+  --card-sky: #ecffd6;
+  --card-water: #8fe8d1;
+  --card-deep: #37a989;
+  --card-sun: #ffe06d;
+  --card-line: rgba(72, 154, 87, 0.25);
 }
 
 .badeKort:nth-child(4) {
-  background: #ffd8ca;
-  border-color: rgba(255, 107, 74, 0.24);
+  --card-sky: #ffe0d4;
+  --card-water: #91e3ef;
+  --card-deep: #16a3bb;
+  --card-sun: #ff9f55;
+  --card-line: rgba(255, 107, 74, 0.25);
 }
 
 .badeKort:nth-child(5) {
-  background: #e4edff;
-  border-color: rgba(61, 99, 168, 0.2);
+  --card-sky: #e7efff;
+  --card-water: #8ed7ff;
+  --card-deep: #3682d8;
+  --card-sun: #ffd96d;
+  --card-line: rgba(61, 99, 168, 0.22);
 }
 
 .varmest {
-  box-shadow: inset 0 -18px 0 rgba(255, 255, 255, 0.26),
-    0 10px 24px rgba(245, 166, 35, 0.18);
+  box-shadow: inset 0 -22px 0 rgba(255, 255, 255, 0.2),
+    0 12px 26px rgba(245, 166, 35, 0.2);
 }
 
 .cardTop,
@@ -159,8 +220,10 @@
   flex: 0 0 24px;
   place-items: center;
   color: #ffffff;
-  background: var(--badis-text);
+  background: linear-gradient(135deg, #005f72, #00a2b7);
+  border: 1px solid rgba(255, 255, 255, 0.82);
   border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 82, 97, 0.16);
   font-size: 0.72rem;
   font-weight: 850;
   line-height: 1;
@@ -173,8 +236,9 @@
   align-items: center;
   padding: 4px 7px;
   color: var(--badis-text);
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.82);
   border-radius: 999px;
+  box-shadow: 0 3px 10px rgba(0, 72, 86, 0.08);
   font-size: 0.64rem;
   font-weight: 850;
   line-height: 1;
@@ -183,17 +247,17 @@
 
 .hot {
   color: #ffffff;
-  background: var(--badis-warm);
+  background: linear-gradient(135deg, #ff6b4a, #ff9f43);
 }
 
 .comfortable {
   color: #073a40;
-  background: #8de9dc;
+  background: #a1f1dd;
 }
 
 .fresh {
   color: #12344f;
-  background: #b9defb;
+  background: #c5e9ff;
 }
 
 .cold {
@@ -206,9 +270,15 @@
 }
 
 .cardTemperature strong {
-  display: flex;
+  display: inline-flex;
   align-items: flex-start;
+  width: fit-content;
+  padding: 4px 8px 5px;
   color: var(--badis-text);
+  background: rgba(255, 255, 255, 0.66);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  border-radius: 999px;
+  box-shadow: 0 5px 14px rgba(0, 83, 98, 0.1);
   font-size: 2.15rem;
   font-weight: 950;
   letter-spacing: 0;
@@ -239,7 +309,7 @@
 .cardText p {
   margin: 0;
   overflow: hidden;
-  color: var(--badis-muted);
+  color: rgba(20, 50, 55, 0.72);
   font-size: 0.68rem;
   font-weight: 720;
   line-height: 1.18;
@@ -357,6 +427,13 @@
     box-shadow: inset 0 -10px 0 rgba(255, 255, 255, 0.24);
   }
 
+  .badeKort::before {
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    height: 42%;
+  }
+
   .badeKort::after {
     right: -10px;
     bottom: 4px;
@@ -389,6 +466,7 @@
   }
 
   .cardTemperature strong {
+    padding: 3px 5px 4px;
     font-size: 1.05rem;
     line-height: 0.92;
   }
@@ -451,6 +529,7 @@
   }
 
   .cardTemperature strong {
+    padding: 2px 4px 3px;
     font-size: 0.92rem;
   }
 
