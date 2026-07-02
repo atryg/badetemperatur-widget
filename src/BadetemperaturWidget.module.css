@@ -12,8 +12,7 @@
   padding: 16px;
   overflow: hidden;
   color: var(--badis-text);
-  background: linear-gradient(135deg, rgba(255, 205, 75, 0.3), transparent 34%),
-    linear-gradient(175deg, var(--badis-background), #e5fbff 100%);
+  background: var(--badis-background);
   border: 1px solid var(--badis-soft-line);
   border-radius: 8px;
   box-shadow: 0 12px 30px rgba(10, 53, 62, 0.1);

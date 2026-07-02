@@ -35,6 +35,7 @@ type Props = {
   visKilde?: boolean;
   visApiHint?: boolean;
   bakgrunn?: string;
+  transparentBakgrunn?: boolean;
   aksent?: string;
   varmAksent?: string;
   tekstfarge?: string;
@@ -257,6 +258,7 @@ const BadetemperaturWidget = ({
   visKilde = true,
   visApiHint = true,
   bakgrunn = "#f7fbf8",
+  transparentBakgrunn = false,
   aksent = "#007c89",
   varmAksent = "#d9462f",
   tekstfarge = "#171f22",
@@ -314,7 +316,7 @@ const BadetemperaturWidget = ({
   const faktiskOppdatertTekst = apiOppdatertTekst ?? oppdatertTekst;
 
   const cssVars = {
-    "--badis-background": bakgrunn,
+    "--badis-background": transparentBakgrunn ? "transparent" : bakgrunn,
     "--badis-accent": aksent,
     "--badis-warm": varmAksent,
     "--badis-text": tekstfarge,
@@ -522,6 +524,11 @@ registerVevComponent(BadetemperaturWidget, {
       options: { collapsed: true },
       fields: [
         { name: "bakgrunn", type: "color", initialValue: "#f7fbf8" },
+        {
+          name: "transparentBakgrunn",
+          type: "boolean",
+          initialValue: false,
+        },
         { name: "aksent", type: "color", initialValue: "#007c89" },
         { name: "varmAksent", type: "color", initialValue: "#d9462f" },
         { name: "tekstfarge", type: "color", initialValue: "#171f22" },
