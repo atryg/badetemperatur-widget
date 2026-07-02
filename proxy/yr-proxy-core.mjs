@@ -69,20 +69,32 @@ const normalizeItem = (item, fallback = {}) => ({
   time: item.time,
 });
 
+const cleanFilterValues = (values) =>
+  values
+    .flatMap((value) => String(value ?? "").split(","))
+    .map((value) => value.trim().toLowerCase())
+    .filter(Boolean);
+
 const areaFilterFromUrl = (url) => ({
-  municipality: url.searchParams.get("municipality")?.toLowerCase(),
-  county: url.searchParams.get("county")?.toLowerCase(),
+  municipalities: cleanFilterValues([
+    ...url.searchParams.getAll("municipality"),
+    ...url.searchParams.getAll("municipalities"),
+  ]),
+  counties: cleanFilterValues([
+    ...url.searchParams.getAll("county"),
+    ...url.searchParams.getAll("counties"),
+  ]),
 });
 
 const matchesAreaFilter = (item, filter) => {
   if (!item || typeof item !== "object") return false;
 
-  if (filter.municipality) {
-    return item.municipality?.toLowerCase() === filter.municipality;
+  if (filter.municipalities.length) {
+    return filter.municipalities.includes(item.municipality?.toLowerCase());
   }
 
-  if (filter.county) {
-    return item.county?.toLowerCase() === filter.county;
+  if (filter.counties.length) {
+    return filter.counties.includes(item.county?.toLowerCase());
   }
 
   return true;

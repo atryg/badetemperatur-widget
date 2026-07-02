@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-07-02T13:36:34.136Z",
+  "cityKey": "bergen",
+  "cityName": "Bergen",
+  "municipalities": ["Bergen"],
+  "limit": 5,
+  "source": "Badetemperaturer levert av Yr",
+  "updatedAt": "2026-07-02T14:31:00+02:00",
+  "items": [
+    {
+      "navn": "Nordnes Sjøbad barnebasseng",
+      "omrade": "Bergen",
+      "temperatur": 30.389999389648438,
+      "maltKlokken": "14:31",
+      "locationId": "0-10121",
+      "latitude": 60.39868,
+      "longitude": 5.30321,
+      "time": "2026-07-02T14:31:00+02:00"
+    },
+    {
+      "navn": "Nordnes Sjøbad hovedbasseng",
+      "omrade": "Bergen",
+      "temperatur": 30.229999542236328,
+      "maltKlokken": "14:31",
+      "locationId": "0-10120",
+      "latitude": 60.39896,
+      "longitude": 5.30244,
+      "time": "2026-07-02T14:31:00+02:00"
+    },
+    {
+      "navn": "Klokkarvatnet",
+      "omrade": "Bergen",
+      "temperatur": 18.7,
+      "maltKlokken": "15:56",
+      "locationId": "1-93031",
+      "latitude": 60.26685,
+      "longitude": 5.36471,
+      "time": "2026-06-28T15:56:07+02:00"
+    },
+    {
+      "navn": "Store Lungegårdsvannet",
+      "omrade": "Bergen",
+      "temperatur": 18.3,
+      "maltKlokken": "20:15",
+      "locationId": "1-92541",
+      "latitude": 60.38207,
+      "longitude": 5.34355,
+      "time": "2026-07-01T20:15:00+02:00"
+    },
+    {
+      "navn": "Tellevik",
+      "omrade": "Bergen",
+      "temperatur": 18.1,
+      "maltKlokken": "22:00",
+      "locationId": "1-2606741",
+      "latitude": 60.5164,
+      "longitude": 5.28359,
+      "time": "2026-07-01T22:00:00+02:00"
+    }
+  ]
+}

@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Fetch Trondheim top 5
+      - name: Fetch city top 5 data
         id: update
         env:
           YR_BADETEMPERATURER_API_KEY: ${{ secrets.YR_BADETEMPERATURER_API_KEY }}
@@ -43,15 +43,15 @@ jobs:
       - name: Commit updated JSON
         if: steps.update.outputs.updated == 'true'
         run: |
-          if git diff --quiet -- public/data/trondheim-top5.json; then
+          if [ -z "$(git status --porcelain -- public/data)" ]; then
             echo "No data changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/trondheim-top5.json
-          git commit -m "Update Trondheim badetemperaturer"
+          git add public/data
+          git commit -m "Update city badetemperaturer"
 
           for attempt in 1 2 3; do
             git pull --rebase origin main

@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-07-02T13:36:34.136Z",
+  "cityKey": "oslo",
+  "cityName": "Oslo",
+  "municipalities": [
+    "Oslo",
+    "Bærum",
+    "Asker",
+    "Lillestrøm",
+    "Lørenskog",
+    "Nordre Follo",
+    "Rælingen",
+    "Nittedal",
+    "Lier"
+  ],
+  "limit": 5,
+  "source": "Badetemperaturer levert av Yr",
+  "updatedAt": "2026-07-02T15:01:43+02:00",
+  "items": [
+    {
+      "navn": "Kadettangen;Kadda",
+      "omrade": "Bærum",
+      "temperatur": 24,
+      "maltKlokken": "22:30",
+      "locationId": "1-2235353",
+      "latitude": 59.88786,
+      "longitude": 10.53181,
+      "time": "2026-06-27T22:30:00+02:00"
+    },
+    {
+      "navn": "Ulsrudvannet",
+      "omrade": "Oslo",
+      "temperatur": 24,
+      "maltKlokken": "15:14",
+      "locationId": "1-73996",
+      "latitude": 59.88817,
+      "longitude": 10.86506,
+      "time": "2026-06-29T15:14:00+02:00"
+    },
+    {
+      "navn": "Bygdøy sjøbad",
+      "omrade": "Oslo",
+      "temperatur": 23,
+      "maltKlokken": "15:13",
+      "locationId": "1-72925",
+      "latitude": 59.91114,
+      "longitude": 10.66628,
+      "time": "2026-06-28T15:13:00+02:00"
+    },
+    {
+      "navn": "Sarbuvollen",
+      "omrade": "Bærum",
+      "temperatur": 23,
+      "maltKlokken": "16:03",
+      "locationId": "1-72999",
+      "latitude": 59.89406,
+      "longitude": 10.58446,
+      "time": "2026-06-28T16:03:00+02:00"
+    },
+    {
+      "navn": "Semsvannet",
+      "omrade": "Asker",
+      "temperatur": 23,
+      "maltKlokken": "17:49",
+      "locationId": "1-73119",
+      "latitude": 59.85855,
+      "longitude": 10.42182,
+      "time": "2026-07-01T17:49:20+02:00"
+    }
+  ]
+}

@@ -20,6 +20,7 @@ type NormalisertApiData = {
 };
 
 type ApiStatus = "idle" | "loading" | "success" | "error";
+type ByKey = "oslo" | "bergen" | "stavanger-sandnes" | "trondheim" | "drammen";
 
 type Props = {
   merkelapp?: string;
@@ -27,6 +28,7 @@ type Props = {
   ingress?: string;
   oppdatertTekst?: string;
   kilde?: string;
+  by?: ByKey;
   apiEndepunkt?: string;
   hentApiIEditor?: boolean;
   cacheMinutter?: number;
@@ -42,13 +44,37 @@ type Props = {
 };
 
 const YR_KREDITERING = "Badetemperaturer levert av Yr";
-const STANDARD_DATA_ENDEPUNKT =
-  "https://raw.githubusercontent.com/atryg/badetemperatur-widget/main/public/data/trondheim-top5.json";
+const DATA_BASE_URL =
+  "https://raw.githubusercontent.com/atryg/badetemperatur-widget/main/public/data";
+const BYER: Array<{ key: ByKey; label: string; file: string }> = [
+  { key: "oslo", label: "Oslo", file: "oslo-top5.json" },
+  { key: "bergen", label: "Bergen", file: "bergen-top5.json" },
+  {
+    key: "stavanger-sandnes",
+    label: "Stavanger/Sandnes",
+    file: "stavanger-sandnes-top5.json",
+  },
+  { key: "trondheim", label: "Trondheim", file: "trondheim-top5.json" },
+  { key: "drammen", label: "Drammen", file: "drammen-top5.json" },
+];
+const STANDARD_BY: ByKey = "trondheim";
 const STANDARD_CACHE_MINUTTER = 1;
 const apiCache = new Map<
   string,
   { hentet: number; data: NormalisertApiData }
 >();
+
+const getByConfig = (by?: string) =>
+  BYER.find((valg) => valg.key === by) ??
+  BYER.find((valg) => valg.key === STANDARD_BY) ??
+  BYER[0];
+
+const getStandardDataEndepunkt = (by?: string) => {
+  const byConfig = getByConfig(by);
+  return `${DATA_BASE_URL}/${byConfig.file}`;
+};
+
+const STANDARD_DATA_ENDEPUNKT = getStandardDataEndepunkt(STANDARD_BY);
 
 const standardSteder: Badested[] = [
   {
@@ -146,10 +172,16 @@ const formatTemperatur = (temperatur = 0) =>
 const erStandardDataEndepunkt = (apiEndepunkt: string) => {
   try {
     const url = new URL(apiEndepunkt);
+    const standardFiles = new Set(BYER.map((by) => by.file));
+    const pathParts = url.pathname.split("/");
+    const filnavn = pathParts[pathParts.length - 1];
+
     return (
       url.hostname === "raw.githubusercontent.com" &&
-      url.pathname ===
-        "/atryg/badetemperatur-widget/main/public/data/trondheim-top5.json"
+      url.pathname.startsWith(
+        "/atryg/badetemperatur-widget/main/public/data/"
+      ) &&
+      Boolean(filnavn && standardFiles.has(filnavn))
     );
   } catch {
     return false;
@@ -293,6 +325,7 @@ const BadetemperaturWidget = ({
   ingress = "Se hvor badevannet holder høyest temperatur i Trondheim.",
   oppdatertTekst = "Oppdatert i dag kl. 08:30",
   kilde = YR_KREDITERING,
+  by = STANDARD_BY,
   apiEndepunkt = STANDARD_DATA_ENDEPUNKT,
   hentApiIEditor = true,
   cacheMinutter = STANDARD_CACHE_MINUTTER,
@@ -310,17 +343,20 @@ const BadetemperaturWidget = ({
   const [apiStatus, setApiStatus] = React.useState<ApiStatus>("idle");
   const [apiData, setApiData] = React.useState<NormalisertApiData | null>(null);
 
+  const valgtBy = getByConfig(by);
   const innstiltApiEndepunkt = apiEndepunkt.trim();
-  const trimmedApiEndepunkt = innstiltApiEndepunkt || STANDARD_DATA_ENDEPUNKT;
+  const brukerStandardDataEndepunkt =
+    !innstiltApiEndepunkt || erStandardDataEndepunkt(innstiltApiEndepunkt);
+  const trimmedApiEndepunkt = brukerStandardDataEndepunkt
+    ? getStandardDataEndepunkt(valgtBy.key)
+    : innstiltApiEndepunkt;
   const effektivCacheMinutter = getEffektivCacheMinutter(
     trimmedApiEndepunkt,
     cacheMinutter
   );
   const kanHenteApi =
     Boolean(trimmedApiEndepunkt) &&
-    (!disabled ||
-      hentApiIEditor ||
-      trimmedApiEndepunkt === STANDARD_DATA_ENDEPUNKT);
+    (!disabled || hentApiIEditor || brukerStandardDataEndepunkt);
 
   React.useEffect(() => {
     if (!kanHenteApi) {
@@ -562,6 +598,18 @@ registerVevComponent(BadetemperaturWidget, {
       title: "Data",
       options: { collapsed: true },
       fields: [
+        {
+          name: "by",
+          type: "select",
+          initialValue: STANDARD_BY,
+          options: {
+            display: "dropdown",
+            items: BYER.map((byValg) => ({
+              label: byValg.label,
+              value: byValg.key,
+            })),
+          },
+        },
         {
           name: "apiEndepunkt",
           type: "string",

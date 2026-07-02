@@ -1,17 +1,50 @@
 import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
-import {
-  DEFAULT_LIMIT,
-  DEFAULT_MUNICIPALITY,
-  DEFAULT_REGION_ID,
-  fetchYrPayload,
-} from "../proxy/yr-proxy-core.mjs";
+import { DEFAULT_LIMIT, fetchYrPayload } from "../proxy/yr-proxy-core.mjs";
 
-const OUTPUT_PATH = resolve("public/data/trondheim-top5.json");
-const REQUEST_URL = `https://adresseavisen.local/badetemperaturer?mode=all&municipality=${encodeURIComponent(
-  DEFAULT_MUNICIPALITY
-)}&limit=${DEFAULT_LIMIT}`;
 const OSLO_TIME_ZONE = "Europe/Oslo";
+const CITY_CONFIGS = [
+  {
+    key: "oslo",
+    label: "Oslo",
+    file: "oslo-top5.json",
+    municipalities: [
+      "Oslo",
+      "Bærum",
+      "Asker",
+      "Lillestrøm",
+      "Lørenskog",
+      "Nordre Follo",
+      "Rælingen",
+      "Nittedal",
+      "Lier",
+    ],
+  },
+  {
+    key: "bergen",
+    label: "Bergen",
+    file: "bergen-top5.json",
+    municipalities: ["Bergen"],
+  },
+  {
+    key: "stavanger-sandnes",
+    label: "Stavanger/Sandnes",
+    file: "stavanger-sandnes-top5.json",
+    municipalities: ["Stavanger", "Sandnes", "Sola", "Randaberg"],
+  },
+  {
+    key: "trondheim",
+    label: "Trondheim",
+    file: "trondheim-top5.json",
+    municipalities: ["Trondheim"],
+  },
+  {
+    key: "drammen",
+    label: "Drammen",
+    file: "drammen-top5.json",
+    municipalities: ["Drammen", "Lier", "Øvre Eiker", "Asker", "Holmestrand"],
+  },
+];
 
 const parseEnvLine = (line, values) => {
   const trimmed = line.trim();
@@ -75,6 +108,40 @@ const setGithubOutput = async (name, value) => {
   });
 };
 
+const createRequestUrl = (city) => {
+  const url = new URL("https://adresseavisen.local/badetemperaturer");
+  url.searchParams.set("mode", "all");
+  url.searchParams.set("municipalities", city.municipalities.join(","));
+  url.searchParams.set("limit", String(DEFAULT_LIMIT));
+  return url.toString();
+};
+
+const writeCityFile = async ({ city, apiKey, generatedAt }) => {
+  const outputPath = resolve("public/data", city.file);
+  const payload = await fetchYrPayload({
+    requestUrl: createRequestUrl(city),
+    apiKey,
+  });
+  const body = {
+    generatedAt,
+    cityKey: city.key,
+    cityName: city.label,
+    municipalities: city.municipalities,
+    limit: DEFAULT_LIMIT,
+    ...payload,
+  };
+
+  await mkdir(dirname(outputPath), { recursive: true });
+  await writeFile(`${outputPath}.tmp`, `${JSON.stringify(body, null, 2)}\n`);
+  await rename(`${outputPath}.tmp`, outputPath);
+
+  console.log(
+    `Skrev ${body.items.length} badetemperaturer til ${outputPath}. Varmest: ${
+      body.items[0]?.navn ?? "ukjent"
+    } ${body.items[0]?.temperatur ?? "?"}°`
+  );
+};
+
 const main = async () => {
   const respectSchedule = process.argv.includes("--respect-schedule");
 
@@ -93,28 +160,10 @@ const main = async () => {
     throw new Error("Mangler YR_BADETEMPERATURER_API_KEY.");
   }
 
-  const payload = await fetchYrPayload({
-    requestUrl: REQUEST_URL,
-    apiKey,
-  });
-  const body = {
-    generatedAt: new Date().toISOString(),
-    regionId: DEFAULT_REGION_ID,
-    regionName: DEFAULT_MUNICIPALITY,
-    municipality: DEFAULT_MUNICIPALITY,
-    limit: DEFAULT_LIMIT,
-    ...payload,
-  };
-
-  await mkdir(dirname(OUTPUT_PATH), { recursive: true });
-  await writeFile(`${OUTPUT_PATH}.tmp`, `${JSON.stringify(body, null, 2)}\n`);
-  await rename(`${OUTPUT_PATH}.tmp`, OUTPUT_PATH);
-
-  console.log(
-    `Skrev ${body.items.length} badetemperaturer til ${OUTPUT_PATH}. Varmest: ${
-      body.items[0]?.navn ?? "ukjent"
-    } ${body.items[0]?.temperatur ?? "?"}°`
-  );
+  const generatedAt = new Date().toISOString();
+  for (const city of CITY_CONFIGS) {
+    await writeCityFile({ city, apiKey, generatedAt });
+  }
   await setGithubOutput("updated", "true");
 };
 
