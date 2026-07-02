@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T13:46:52.144Z",
+  "generatedAt": "2026-07-02T14:51:20.249Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -21,16 +21,6 @@
       "latitude": 58.9147,
       "longitude": 5.86065,
       "time": "2026-07-02T14:11:20+02:00"
-    },
-    {
-      "navn": "Dalevika",
-      "omrade": "Sandnes",
-      "temperatur": 20,
-      "maltKlokken": "16:39",
-      "locationId": "1-2777434",
-      "latitude": 58.89845,
-      "longitude": 5.77472,
-      "time": "2026-06-27T16:39:51+02:00"
     },
     {
       "navn": "Liapynten",
@@ -61,6 +51,16 @@
       "latitude": 58.96368,
       "longitude": 5.89375,
       "time": "2026-07-01T11:41:00+02:00"
+    },
+    {
+      "navn": "Bersagel",
+      "omrade": "Sandnes",
+      "temperatur": 18.1,
+      "maltKlokken": "16:55",
+      "locationId": "1-15930",
+      "latitude": 58.93139,
+      "longitude": 5.96807,
+      "time": "2026-06-27T16:55:00+02:00"
     }
   ]
 }
