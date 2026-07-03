@@ -584,10 +584,6 @@
     display: none;
   }
 
-  .measureTime::before {
-    content: "kl. ";
-  }
-
   .footer {
     gap: 3px 8px;
     margin-top: 7px;

@@ -10,6 +10,7 @@ type Badested = {
   temperatur?: number;
   endring?: Endring;
   maltKlokken?: string;
+  maltTidspunkt?: string;
   notat?: string;
 };
 
@@ -141,8 +142,49 @@ const formatKlokke = (value: unknown) => {
   return new Intl.DateTimeFormat("nb-NO", {
     hour: "2-digit",
     minute: "2-digit",
+    timeZone: "Europe/Oslo",
   }).format(date);
 };
+
+const getTidspunktPart = (
+  parts: Intl.DateTimeFormatPart[],
+  type: Intl.DateTimeFormatPartTypes
+) => parts.find((part) => part.type === type)?.value;
+
+const formatMaltTidspunkt = (value?: string) => {
+  if (!value) return undefined;
+
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return undefined;
+
+  const parts = new Intl.DateTimeFormat("nb-NO", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZone: "Europe/Oslo",
+  }).formatToParts(date);
+  const currentYear = new Intl.DateTimeFormat("nb-NO", {
+    year: "numeric",
+    timeZone: "Europe/Oslo",
+  }).format(new Date());
+  const day = getTidspunktPart(parts, "day");
+  const month = getTidspunktPart(parts, "month");
+  const year = getTidspunktPart(parts, "year");
+  const hour = getTidspunktPart(parts, "hour");
+  const minute = getTidspunktPart(parts, "minute");
+
+  if (!day || !month || !year || !hour || !minute) return undefined;
+
+  const dateText =
+    year === currentYear ? `${day}.${month}` : `${day}.${month}.${year}`;
+  return `${dateText} kl. ${hour}:${minute}`;
+};
+
+const getSisteMalingTekst = (sted: Badested) =>
+  formatMaltTidspunkt(sted.maltTidspunkt) ??
+  (sted.maltKlokken ? `kl. ${sted.maltKlokken}` : undefined);
 
 const formatOppdatert = (value?: string) => {
   if (!value) return undefined;
@@ -245,13 +287,15 @@ const normaliserBadested = (item: unknown): Badested | null => {
   const endring = isEndring(item.endring) ? item.endring : undefined;
   const notat =
     getString(item.notat) ?? (heatedWater ? "Oppvarmet vann" : undefined);
+  const maltTidspunkt = getString(item.maltTidspunkt ?? item.time);
 
   return {
     navn,
     omrade,
     temperatur,
     endring,
-    maltKlokken: getString(item.maltKlokken) ?? formatKlokke(item.time),
+    maltKlokken: getString(item.maltKlokken) ?? formatKlokke(maltTidspunkt),
+    maltTidspunkt,
     notat,
   };
 };
@@ -488,6 +532,7 @@ const BadetemperaturWidget = ({
       >
         {toppSteder.map((sted, index) => {
           const status = getBadestatus(sted.temperatur);
+          const sisteMalingTekst = getSisteMalingTekst(sted);
 
           return (
             <article
@@ -514,17 +559,17 @@ const BadetemperaturWidget = ({
                 <h3>{sted.navn}</h3>
                 <p
                   aria-label={
-                    sted.maltKlokken
-                      ? `Siste måling klokken ${sted.maltKlokken}`
+                    sisteMalingTekst
+                      ? `Siste måling ${sisteMalingTekst}`
                       : "Siste måling ikke oppgitt"
                   }
                 >
-                  {sted.maltKlokken ? (
+                  {sisteMalingTekst ? (
                     <>
                       <span className={styles.measureText}>Siste måling</span>
-                      <span className={styles.measurePrefix}> klokken </span>
+                      <span className={styles.measurePrefix}> </span>
                       <span className={styles.measureTime}>
-                        {sted.maltKlokken}
+                        {sisteMalingTekst}
                       </span>
                     </>
                   ) : (
@@ -633,6 +678,11 @@ registerVevComponent(BadetemperaturWidget, {
               },
             },
             { name: "maltKlokken", type: "string", initialValue: "08:10" },
+            {
+              name: "maltTidspunkt",
+              type: "string",
+              initialValue: "2026-07-02T08:10:00+02:00",
+            },
             { name: "notat", type: "string", initialValue: "Lett bris" },
           ],
           initialValue: standardSteder,
