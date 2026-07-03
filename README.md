@@ -41,12 +41,12 @@ Legg API-nøkkelen inn som repository secret:
 YR_BADETEMPERATURER_API_KEY
 ```
 
-Workflowen i `.github/workflows/update-badetemperaturer.yml` kan kjøres manuelt, og kjører automatisk med API-kall annenhver time mellom 06:00 og 22:00 Europe/Oslo. Det dekker tidsrommet 06:00-23:00 uten å treffe Yr etter kl. 23.
+Workflowen i `.github/workflows/update-badetemperaturer.yml` kan kjøres manuelt. Planlagte runs starter automatisk i et bredt UTC-vindu, men scriptet gjør bare API-kall når lokal tid er mellom 06:00 og 00:59 Europe/Oslo og forrige dataskriving er minst to timer gammel. Det gjør at widgeten sjekker Yr omtrent annenhver time i perioden, også når GitHub starter en planlagt run forsinket.
 
-Workflowen oppdaterer denne filen:
+Workflowen oppdaterer datafilene i:
 
 ```text
-public/data/trondheim-top5.json
+public/data/
 ```
 
 Hvis repoet er public, kan VEV-endepunktet være:

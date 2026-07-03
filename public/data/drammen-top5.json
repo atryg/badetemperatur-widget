@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T20:33:12.878Z",
+  "generatedAt": "2026-07-03T07:13:31.744Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-02T22:07:09+02:00",
+  "updatedAt": "2026-07-03T09:07:26+02:00",
   "items": [
     {
       "navn": "Bergsvannet",
@@ -54,14 +54,14 @@
       "time": "2026-07-01T17:49:20+02:00"
     },
     {
-      "navn": "Tangen fjordpark",
-      "omrade": "Drammen",
-      "temperatur": 22.4,
-      "maltKlokken": "23:45",
-      "locationId": "11-18853",
-      "latitude": 59.68456,
-      "longitude": 10.35687,
-      "time": "2026-06-27T23:45:06+02:00"
+      "navn": "Feriehjemmet",
+      "omrade": "Holmestrand",
+      "temperatur": 22,
+      "maltKlokken": "10:00",
+      "locationId": "11-19435",
+      "latitude": 59.54002,
+      "longitude": 10.25309,
+      "time": "2026-06-28T10:00:00+02:00"
     }
   ]
 }

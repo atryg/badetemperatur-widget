@@ -3,9 +3,10 @@ name: Update badetemperaturer
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron runs in UTC. The script gates actual Yr calls to
-    # 06:00, 08:00, ..., 22:00 Europe/Oslo so DST stays correct.
-    - cron: "0 * * * *"
+    # GitHub cron runs in UTC and scheduled runs can start late. Trigger
+    # hourly in the broad UTC window, then let the script do Yr calls only
+    # when data is at least two hours old and local time is 06:00-00:59.
+    - cron: "17 4-23 * * *"
 
 permissions:
   contents: write
