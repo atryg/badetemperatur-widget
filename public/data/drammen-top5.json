@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T07:15:28.064Z",
+  "generatedAt": "2026-07-03T10:12:45.459Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-03T08:47:22+02:00",
+  "updatedAt": "2026-07-03T12:00:00+02:00",
   "items": [
     {
       "navn": "Bergsvannet",
@@ -54,14 +54,14 @@
       "time": "2026-07-01T17:49:20+02:00"
     },
     {
-      "navn": "Feriehjemmet",
-      "omrade": "Holmestrand",
+      "navn": "Middagsbukta",
+      "omrade": "Asker",
       "temperatur": 22,
-      "maltKlokken": "10:00",
-      "locationId": "11-19435",
-      "latitude": 59.54002,
-      "longitude": 10.25309,
-      "time": "2026-06-28T10:00:00+02:00"
+      "maltKlokken": "18:00",
+      "locationId": "1-2235321",
+      "latitude": 59.85427,
+      "longitude": 10.54506,
+      "time": "2026-06-28T18:00:00+02:00"
     }
   ]
 }
