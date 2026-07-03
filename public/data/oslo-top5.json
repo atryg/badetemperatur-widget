@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T12:55:30.596Z",
+  "generatedAt": "2026-07-03T14:59:05.761Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-03T14:00:00+02:00",
+  "updatedAt": "2026-07-03T16:00:00+02:00",
   "items": [
     {
       "navn": "Ulsrudvannet",
@@ -26,26 +26,6 @@
       "latitude": 59.88817,
       "longitude": 10.86506,
       "time": "2026-06-29T15:14:00+02:00"
-    },
-    {
-      "navn": "Bygdøy sjøbad",
-      "omrade": "Oslo",
-      "temperatur": 23,
-      "maltKlokken": "15:13",
-      "locationId": "1-72925",
-      "latitude": 59.91114,
-      "longitude": 10.66628,
-      "time": "2026-06-28T15:13:00+02:00"
-    },
-    {
-      "navn": "Sarbuvollen",
-      "omrade": "Bærum",
-      "temperatur": 23,
-      "maltKlokken": "16:03",
-      "locationId": "1-72999",
-      "latitude": 59.89406,
-      "longitude": 10.58446,
-      "time": "2026-06-28T16:03:00+02:00"
     },
     {
       "navn": "Semsvannet",
@@ -66,6 +46,26 @@
       "latitude": 59.97739,
       "longitude": 10.88257,
       "time": "2026-07-01T15:00:00+02:00"
+    },
+    {
+      "navn": "Middagsbukta",
+      "omrade": "Asker",
+      "temperatur": 22,
+      "maltKlokken": "18:00",
+      "locationId": "1-2235321",
+      "latitude": 59.85427,
+      "longitude": 10.54506,
+      "time": "2026-06-28T18:00:00+02:00"
+    },
+    {
+      "navn": "Gammelvikene",
+      "omrade": "Asker",
+      "temperatur": 22,
+      "maltKlokken": "15:30",
+      "locationId": "1-2872622",
+      "latitude": 59.56045,
+      "longitude": 10.60146,
+      "time": "2026-06-29T15:30:00+02:00"
     }
   ]
 }
