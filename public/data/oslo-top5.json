@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T14:59:05.761Z",
+  "generatedAt": "2026-07-03T17:47:37.245Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-03T16:00:00+02:00",
+  "updatedAt": "2026-07-03T19:00:00+02:00",
   "items": [
     {
       "navn": "Ulsrudvannet",
@@ -48,16 +48,6 @@
       "time": "2026-07-01T15:00:00+02:00"
     },
     {
-      "navn": "Middagsbukta",
-      "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "18:00",
-      "locationId": "1-2235321",
-      "latitude": 59.85427,
-      "longitude": 10.54506,
-      "time": "2026-06-28T18:00:00+02:00"
-    },
-    {
       "navn": "Gammelvikene",
       "omrade": "Asker",
       "temperatur": 22,
@@ -66,6 +56,16 @@
       "latitude": 59.56045,
       "longitude": 10.60146,
       "time": "2026-06-29T15:30:00+02:00"
+    },
+    {
+      "navn": "Kinnartangen",
+      "omrade": "Asker",
+      "temperatur": 22,
+      "maltKlokken": "12:56",
+      "locationId": "1-58840",
+      "latitude": 59.71159,
+      "longitude": 10.33643,
+      "time": "2026-07-01T12:56:00+02:00"
     }
   ]
 }
