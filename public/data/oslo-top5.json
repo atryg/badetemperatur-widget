@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T17:47:37.245Z",
+  "generatedAt": "2026-07-03T19:48:09.178Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-03T19:00:00+02:00",
+  "updatedAt": "2026-07-03T21:32:09+02:00",
   "items": [
+    {
+      "navn": "Kuskerudnebben",
+      "omrade": "Lillestrøm",
+      "temperatur": 25,
+      "maltKlokken": "21:32",
+      "locationId": "1-2857353",
+      "latitude": 59.98958,
+      "longitude": 11.24566,
+      "time": "2026-07-03T21:32:09+02:00"
+    },
     {
       "navn": "Ulsrudvannet",
       "omrade": "Oslo",
@@ -56,16 +66,6 @@
       "latitude": 59.56045,
       "longitude": 10.60146,
       "time": "2026-06-29T15:30:00+02:00"
-    },
-    {
-      "navn": "Kinnartangen",
-      "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "12:56",
-      "locationId": "1-58840",
-      "latitude": 59.71159,
-      "longitude": 10.33643,
-      "time": "2026-07-01T12:56:00+02:00"
     }
   ]
 }
