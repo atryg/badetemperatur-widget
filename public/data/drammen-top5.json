@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T11:46:36.328Z",
+  "generatedAt": "2026-07-04T13:52:55.517Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-04T13:18:02+02:00",
+  "updatedAt": "2026-07-04T15:28:09+02:00",
   "items": [
     {
       "navn": "Bergsvannet",
@@ -22,16 +22,6 @@
       "latitude": 59.57585,
       "longitude": 10.06545,
       "time": "2026-06-30T13:53:00+02:00"
-    },
-    {
-      "navn": "Smørstein",
-      "omrade": "Holmestrand",
-      "temperatur": 23,
-      "maltKlokken": "15:31",
-      "locationId": "1-2289882",
-      "latitude": 59.52881,
-      "longitude": 10.28133,
-      "time": "2026-06-29T15:31:59+02:00"
     },
     {
       "navn": "Gata",
@@ -54,14 +44,24 @@
       "time": "2026-07-01T17:49:20+02:00"
     },
     {
-      "navn": "Gammelvikene",
+      "navn": "Kinnartangen",
       "omrade": "Asker",
       "temperatur": 22,
-      "maltKlokken": "15:30",
-      "locationId": "1-2872622",
-      "latitude": 59.56045,
-      "longitude": 10.60146,
-      "time": "2026-06-29T15:30:00+02:00"
+      "maltKlokken": "12:56",
+      "locationId": "1-58840",
+      "latitude": 59.71159,
+      "longitude": 10.33643,
+      "time": "2026-07-01T12:56:00+02:00"
+    },
+    {
+      "navn": "Nerdammen",
+      "omrade": "Drammen",
+      "temperatur": 22,
+      "maltKlokken": "15:00",
+      "locationId": "1-58983",
+      "latitude": 59.68062,
+      "longitude": 10.31085,
+      "time": "2026-07-03T15:00:00+02:00"
     }
   ]
 }
