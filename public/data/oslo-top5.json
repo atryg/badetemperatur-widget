@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T16:36:28.545Z",
+  "generatedAt": "2026-07-04T19:42:14.084Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-04T18:01:51+02:00",
+  "updatedAt": "2026-07-04T21:00:00+02:00",
   "items": [
     {
       "navn": "Kuskerudnebben",
@@ -58,14 +58,14 @@
       "time": "2026-07-01T12:56:00+02:00"
     },
     {
-      "navn": "Østernvann",
-      "omrade": "Bærum",
+      "navn": "Romstjern",
+      "omrade": "Nittedal",
       "temperatur": 22,
-      "maltKlokken": "12:01",
-      "locationId": "1-72640",
-      "latitude": 59.96872,
-      "longitude": 10.58186,
-      "time": "2026-07-02T12:01:00+02:00"
+      "maltKlokken": "17:00",
+      "locationId": "1-73573",
+      "latitude": 59.98728,
+      "longitude": 10.89106,
+      "time": "2026-06-30T17:00:00+02:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T16:36:28.545Z",
+  "generatedAt": "2026-07-04T19:42:14.084Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-04T17:11:43+02:00",
+  "updatedAt": "2026-07-04T18:43:00+02:00",
   "items": [
     {
       "navn": "Liapynten",
