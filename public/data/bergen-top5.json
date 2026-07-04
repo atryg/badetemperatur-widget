@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T19:42:14.084Z",
+  "generatedAt": "2026-07-04T22:35:36.263Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-04T20:31:00+02:00",
+  "updatedAt": "2026-07-04T23:31:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 30.549999237060547,
-      "maltKlokken": "20:31",
+      "temperatur": 31.099998474121094,
+      "maltKlokken": "23:31",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-04T20:31:00+02:00"
+      "time": "2026-07-04T23:31:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 30.399999618530273,
-      "maltKlokken": "20:31",
+      "temperatur": 30.959999084472656,
+      "maltKlokken": "23:31",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-04T20:31:00+02:00"
+      "time": "2026-07-04T23:31:00+02:00"
     },
     {
       "navn": "Store Lungegårdsvannet",
@@ -40,16 +40,6 @@
       "time": "2026-07-01T20:15:00+02:00"
     },
     {
-      "navn": "Kyrkjetangen",
-      "omrade": "Bergen",
-      "temperatur": 16.1,
-      "maltKlokken": "23:02",
-      "locationId": "1-2606683",
-      "latitude": 60.3258,
-      "longitude": 5.29661,
-      "time": "2026-06-29T23:02:50+02:00"
-    },
-    {
       "navn": "Krokeide videregående skole",
       "omrade": "Bergen",
       "temperatur": 16,
@@ -58,6 +48,16 @@
       "latitude": 60.22356,
       "longitude": 5.28872,
       "time": "2026-07-04T14:15:00+02:00"
+    },
+    {
+      "navn": "Skuteviksbryggen",
+      "omrade": "Bergen",
+      "temperatur": 14.5,
+      "maltKlokken": "16:27",
+      "locationId": "10-991163",
+      "latitude": 60.40259,
+      "longitude": 5.32039,
+      "time": "2026-07-03T16:27:51+02:00"
     }
   ]
 }
