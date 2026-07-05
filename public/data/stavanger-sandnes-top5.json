@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T11:47:33.641Z",
+  "generatedAt": "2026-07-05T13:53:58.427Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-05T12:11:59+02:00",
+  "updatedAt": "2026-07-05T15:11:50+02:00",
   "items": [
     {
       "navn": "Liapynten",
@@ -25,22 +25,12 @@
     {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
-      "temperatur": 19.3125,
-      "maltKlokken": "12:11",
+      "temperatur": 19.1875,
+      "maltKlokken": "15:11",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-07-05T12:11:59+02:00"
-    },
-    {
-      "navn": "Myklebust Sjøbad",
-      "omrade": "Sola",
-      "temperatur": 19,
-      "maltKlokken": "13:39",
-      "locationId": "0-10021",
-      "latitude": 58.94723,
-      "longitude": 5.57019,
-      "time": "2026-06-30T13:39:00+02:00"
+      "time": "2026-07-05T15:11:50+02:00"
     },
     {
       "navn": "Vier",
@@ -61,6 +51,16 @@
       "latitude": 58.94084,
       "longitude": 5.8944,
       "time": "2026-07-04T08:34:00+02:00"
+    },
+    {
+      "navn": "Hellestøstranda",
+      "omrade": "Sola",
+      "temperatur": 17.4,
+      "maltKlokken": "12:15",
+      "locationId": "1-2776491",
+      "latitude": 58.84763,
+      "longitude": 5.55891,
+      "time": "2026-07-01T12:15:00+02:00"
     }
   ]
 }
