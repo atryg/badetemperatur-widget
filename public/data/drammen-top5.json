@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T16:37:32.118Z",
+  "generatedAt": "2026-07-05T18:38:55.145Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-05T18:12:25+02:00",
+  "updatedAt": "2026-07-05T20:22:29+02:00",
   "items": [
     {
       "navn": "Semsvannet",
@@ -44,16 +44,6 @@
       "time": "2026-07-03T15:00:00+02:00"
     },
     {
-      "navn": "Åletjern",
-      "omrade": "Øvre Eiker",
-      "temperatur": 21,
-      "maltKlokken": "19:00",
-      "locationId": "1-58046",
-      "latitude": 59.72541,
-      "longitude": 9.94571,
-      "time": "2026-06-30T19:00:00+02:00"
-    },
-    {
       "navn": "Sundhaugen",
       "omrade": "Øvre Eiker",
       "temperatur": 21,
@@ -62,6 +52,16 @@
       "latitude": 59.69816,
       "longitude": 9.84244,
       "time": "2026-07-04T15:02:28+02:00"
+    },
+    {
+      "navn": "Hogstadvannet",
+      "omrade": "Asker",
+      "temperatur": 21,
+      "maltKlokken": "21:00",
+      "locationId": "1-73212",
+      "latitude": 59.83352,
+      "longitude": 10.40126,
+      "time": "2026-07-04T21:00:00+02:00"
     }
   ]
 }
