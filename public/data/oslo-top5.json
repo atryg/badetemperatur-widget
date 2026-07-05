@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T09:20:55.190Z",
+  "generatedAt": "2026-07-05T11:47:33.641Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-05T11:00:00+02:00",
+  "updatedAt": "2026-07-05T13:00:00+02:00",
   "items": [
     {
       "navn": "Kuskerudnebben",

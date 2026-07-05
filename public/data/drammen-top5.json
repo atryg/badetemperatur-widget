@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T09:20:55.190Z",
+  "generatedAt": "2026-07-05T11:47:33.641Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-05T11:00:00+02:00",
+  "updatedAt": "2026-07-05T13:22:16+02:00",
   "items": [
     {
       "navn": "Bergsvannet",
@@ -54,14 +54,14 @@
       "time": "2026-07-03T15:00:00+02:00"
     },
     {
-      "navn": "Ramton Camping",
-      "omrade": "Asker",
+      "navn": "Åletjern",
+      "omrade": "Øvre Eiker",
       "temperatur": 21,
-      "maltKlokken": "11:52",
-      "locationId": "0-915",
-      "latitude": 59.74271,
-      "longitude": 10.50996,
-      "time": "2026-06-30T11:52:49+02:00"
+      "maltKlokken": "19:00",
+      "locationId": "1-58046",
+      "latitude": 59.72541,
+      "longitude": 9.94571,
+      "time": "2026-06-30T19:00:00+02:00"
     }
   ]
 }
