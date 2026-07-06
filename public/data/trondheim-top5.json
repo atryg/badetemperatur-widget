@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T11:45:02.118Z",
+  "generatedAt": "2026-07-06T15:26:09.347Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -28,16 +28,6 @@
       "latitude": 63.42466,
       "longitude": 10.28093,
       "time": "2026-07-05T14:00:00+02:00"
-    },
-    {
-      "navn": "Devlebukta",
-      "omrade": "Trondheim",
-      "temperatur": 15.5,
-      "maltKlokken": "16:40",
-      "locationId": "1-2819500",
-      "latitude": 63.44477,
-      "longitude": 10.46883,
-      "time": "2026-07-01T16:40:00+02:00"
     },
     {
       "navn": "Estenstaddammen",
