@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T07:52:11.432Z",
+  "generatedAt": "2026-07-06T11:45:02.118Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-06T09:22:44+02:00",
+  "updatedAt": "2026-07-06T13:22:49+02:00",
   "items": [
     {
       "navn": "Semsvannet",
@@ -22,16 +22,6 @@
       "latitude": 59.85855,
       "longitude": 10.42182,
       "time": "2026-07-01T17:49:20+02:00"
-    },
-    {
-      "navn": "Kinnartangen",
-      "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "12:56",
-      "locationId": "1-58840",
-      "latitude": 59.71159,
-      "longitude": 10.33643,
-      "time": "2026-07-01T12:56:00+02:00"
     },
     {
       "navn": "Nerdammen",
@@ -62,6 +52,16 @@
       "latitude": 59.83352,
       "longitude": 10.40126,
       "time": "2026-07-04T21:00:00+02:00"
+    },
+    {
+      "navn": "Torskeberget",
+      "omrade": "Asker",
+      "temperatur": 20.5,
+      "maltKlokken": "11:42",
+      "locationId": "11-14863",
+      "latitude": 59.75354,
+      "longitude": 10.51233,
+      "time": "2026-07-04T11:42:58+02:00"
     }
   ]
 }
