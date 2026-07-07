@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T09:26:51.806Z",
+  "generatedAt": "2026-07-07T13:58:02.275Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -9,16 +9,6 @@
   "source": "Badetemperaturer levert av Yr",
   "updatedAt": "2026-07-05T14:00:00+02:00",
   "items": [
-    {
-      "navn": "Ilsvika",
-      "omrade": "Trondheim",
-      "temperatur": 16,
-      "maltKlokken": "14:30",
-      "locationId": "1-211101",
-      "latitude": 63.43373,
-      "longitude": 10.35388,
-      "time": "2026-07-02T14:30:00+02:00"
-    },
     {
       "navn": "Kobberdammen",
       "omrade": "Trondheim",
