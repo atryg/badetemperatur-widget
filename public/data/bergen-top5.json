@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T13:58:02.275Z",
+  "generatedAt": "2026-07-07T17:01:24.467Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-07T15:01:00+02:00",
+  "updatedAt": "2026-07-07T18:01:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 30.60999870300293,
-      "maltKlokken": "15:01",
+      "temperatur": 30.719999313354492,
+      "maltKlokken": "18:01",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-07T15:01:00+02:00"
+      "time": "2026-07-07T18:01:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 30.459999084472656,
-      "maltKlokken": "15:01",
+      "temperatur": 30.56999969482422,
+      "maltKlokken": "18:01",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-07T15:01:00+02:00"
+      "time": "2026-07-07T18:01:00+02:00"
+    },
+    {
+      "navn": "Nordnes Park og Sjøbad",
+      "omrade": "Bergen",
+      "temperatur": 16.434999465942383,
+      "maltKlokken": "18:01",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-07-07T18:01:00+02:00"
     },
     {
       "navn": "Krokeide videregående skole",
@@ -48,16 +58,6 @@
       "latitude": 60.40259,
       "longitude": 5.32039,
       "time": "2026-07-03T16:27:51+02:00"
-    },
-    {
-      "navn": "Tellevik",
-      "omrade": "Bergen",
-      "temperatur": 14.5,
-      "maltKlokken": "12:00",
-      "locationId": "1-2606741",
-      "latitude": 60.5164,
-      "longitude": 5.28359,
-      "time": "2026-07-04T12:00:00+02:00"
     }
   ]
 }
