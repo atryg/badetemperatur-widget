@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T19:50:53.476Z",
+  "generatedAt": "2026-07-08T22:37:18.720Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-08T21:00:00+02:00",
+  "updatedAt": "2026-07-09T00:00:00+02:00",
   "items": [
     {
       "navn": "Tussetjernet",
@@ -58,14 +58,14 @@
       "time": "2026-07-05T15:40:00+02:00"
     },
     {
-      "navn": "Huk naturiststrand",
-      "omrade": "Oslo",
+      "navn": "Østernvann",
+      "omrade": "Bærum",
       "temperatur": 20.5,
-      "maltKlokken": "16:45",
-      "locationId": "0-10055",
-      "latitude": 59.89647,
-      "longitude": 10.67231,
-      "time": "2026-07-06T16:45:00+02:00"
+      "maltKlokken": "20:15",
+      "locationId": "1-72640",
+      "latitude": 59.96872,
+      "longitude": 10.58186,
+      "time": "2026-07-08T20:15:00+02:00"
     }
   ]
 }
