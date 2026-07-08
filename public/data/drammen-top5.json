@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T17:50:15.568Z",
+  "generatedAt": "2026-07-08T19:50:53.476Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-08T19:14:07+02:00",
+  "updatedAt": "2026-07-08T21:26:00+02:00",
   "items": [
     {
       "navn": "Nærsnes brygge",
@@ -54,14 +54,14 @@
       "time": "2026-07-04T09:30:00+02:00"
     },
     {
-      "navn": "Konglungøya",
-      "omrade": "Asker",
+      "navn": "Blekktjern",
+      "omrade": "Drammen",
       "temperatur": 20,
-      "maltKlokken": "19:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-07-08T19:00:00+02:00"
+      "maltKlokken": "12:40",
+      "locationId": "1-58790",
+      "latitude": 59.7236,
+      "longitude": 10.18796,
+      "time": "2026-07-05T12:40:00+02:00"
     }
   ]
 }
