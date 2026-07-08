@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T12:50:15.667Z",
+  "generatedAt": "2026-07-08T15:01:26.157Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,37 +7,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-08T14:01:00+02:00",
+  "updatedAt": "2026-07-08T16:01:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 30.469999313354492,
-      "maltKlokken": "14:01",
+      "temperatur": 30.17999839782715,
+      "maltKlokken": "16:01",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-08T14:01:00+02:00"
+      "time": "2026-07-08T16:01:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 30.31999969482422,
-      "maltKlokken": "14:01",
+      "temperatur": 29.939998626708984,
+      "maltKlokken": "16:01",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-08T14:01:00+02:00"
+      "time": "2026-07-08T16:01:00+02:00"
     },
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 16.270000457763672,
-      "maltKlokken": "14:01",
+      "temperatur": 16.404998779296875,
+      "maltKlokken": "16:01",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-07-08T14:01:00+02:00"
+      "time": "2026-07-08T16:01:00+02:00"
     },
     {
       "navn": "Krokeide videregående skole",
@@ -50,14 +50,14 @@
       "time": "2026-07-04T14:15:00+02:00"
     },
     {
-      "navn": "Skuteviksbryggen",
+      "navn": "Tellevik",
       "omrade": "Bergen",
       "temperatur": 14.5,
-      "maltKlokken": "16:27",
-      "locationId": "10-991163",
-      "latitude": 60.40259,
-      "longitude": 5.32039,
-      "time": "2026-07-03T16:27:51+02:00"
+      "maltKlokken": "12:00",
+      "locationId": "1-2606741",
+      "latitude": 60.5164,
+      "longitude": 5.28359,
+      "time": "2026-07-04T12:00:00+02:00"
     }
   ]
 }

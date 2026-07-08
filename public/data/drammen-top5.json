@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T12:50:15.667Z",
+  "generatedAt": "2026-07-08T15:01:26.157Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-08T14:43:50+02:00",
+  "updatedAt": "2026-07-08T16:03:50+02:00",
   "items": [
-    {
-      "navn": "Nerdammen",
-      "omrade": "Drammen",
-      "temperatur": 22,
-      "maltKlokken": "15:00",
-      "locationId": "1-58983",
-      "latitude": 59.68062,
-      "longitude": 10.31085,
-      "time": "2026-07-03T15:00:00+02:00"
-    },
     {
       "navn": "Nærsnes brygge",
       "omrade": "Asker",
@@ -54,14 +44,24 @@
       "time": "2026-07-08T13:37:10+02:00"
     },
     {
-      "navn": "Sundhaugen (Fiskumvannet)",
-      "omrade": "Øvre Eiker",
+      "navn": "Feriehjemmet",
+      "omrade": "Holmestrand",
       "temperatur": 20,
-      "maltKlokken": "15:20",
-      "locationId": "0-10081",
-      "latitude": 59.69698,
-      "longitude": 9.84092,
-      "time": "2026-07-04T15:20:31+02:00"
+      "maltKlokken": "09:30",
+      "locationId": "11-19435",
+      "latitude": 59.54002,
+      "longitude": 10.25309,
+      "time": "2026-07-04T09:30:00+02:00"
+    },
+    {
+      "navn": "Blekktjern",
+      "omrade": "Drammen",
+      "temperatur": 20,
+      "maltKlokken": "12:40",
+      "locationId": "1-58790",
+      "latitude": 59.7236,
+      "longitude": 10.18796,
+      "time": "2026-07-05T12:40:00+02:00"
     }
   ]
 }
