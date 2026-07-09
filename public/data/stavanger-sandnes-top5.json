@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T05:40:08.011Z",
+  "generatedAt": "2026-07-09T09:26:38.594Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,27 +10,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-09T05:12:18+02:00",
+  "updatedAt": "2026-07-09T09:11:59+02:00",
   "items": [
     {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
       "temperatur": 18.4375,
-      "maltKlokken": "05:12",
+      "maltKlokken": "09:11",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-07-09T05:12:18+02:00"
-    },
-    {
-      "navn": "Søravatnet",
-      "omrade": "Sandnes",
-      "temperatur": 18,
-      "maltKlokken": "08:34",
-      "locationId": "1-15894",
-      "latitude": 58.94084,
-      "longitude": 5.8944,
-      "time": "2026-07-04T08:34:00+02:00"
+      "time": "2026-07-09T09:11:59+02:00"
     },
     {
       "navn": "Grovik",
@@ -61,6 +51,16 @@
       "latitude": 58.98905,
       "longitude": 5.70076,
       "time": "2026-07-08T11:52:00+02:00"
+    },
+    {
+      "navn": "Regestranden",
+      "omrade": "Sola",
+      "temperatur": 15,
+      "maltKlokken": "07:15",
+      "locationId": "1-2259517",
+      "latitude": 58.87608,
+      "longitude": 5.59111,
+      "time": "2026-07-05T07:15:00+02:00"
     }
   ]
 }

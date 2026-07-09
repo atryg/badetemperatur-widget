@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T05:40:08.011Z",
+  "generatedAt": "2026-07-09T09:26:38.594Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-09T07:15:00+02:00",
+  "updatedAt": "2026-07-09T11:00:00+02:00",
   "items": [
     {
       "navn": "Tussetjernet",
