@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T09:26:38.594Z",
+  "generatedAt": "2026-07-09T13:22:03.496Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,8 +11,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-09T11:04:47+02:00",
+  "updatedAt": "2026-07-09T15:04:53+02:00",
   "items": [
+    {
+      "navn": "Ramton Camping",
+      "omrade": "Asker",
+      "temperatur": 21,
+      "maltKlokken": "14:47",
+      "locationId": "0-915",
+      "latitude": 59.74271,
+      "longitude": 10.50996,
+      "time": "2026-07-09T14:47:27+02:00"
+    },
     {
       "navn": "Nærsnes brygge",
       "omrade": "Asker",
@@ -24,14 +34,14 @@
       "time": "2026-07-08T09:38:00+02:00"
     },
     {
-      "navn": "Sundhaugen",
-      "omrade": "Øvre Eiker",
-      "temperatur": 21,
-      "maltKlokken": "15:02",
-      "locationId": "1-58120",
-      "latitude": 59.69816,
-      "longitude": 9.84244,
-      "time": "2026-07-04T15:02:28+02:00"
+      "navn": "Kastestranda",
+      "omrade": "Asker",
+      "temperatur": 20.5,
+      "maltKlokken": "12:24",
+      "locationId": "1-2776568",
+      "latitude": 59.70002,
+      "longitude": 10.51866,
+      "time": "2026-07-09T12:24:00+02:00"
     },
     {
       "navn": "Torskeberget",
@@ -44,24 +54,14 @@
       "time": "2026-07-08T13:37:10+02:00"
     },
     {
-      "navn": "Blekktjern",
-      "omrade": "Drammen",
-      "temperatur": 20,
-      "maltKlokken": "12:40",
-      "locationId": "1-58790",
-      "latitude": 59.7236,
-      "longitude": 10.18796,
-      "time": "2026-07-05T12:40:00+02:00"
-    },
-    {
-      "navn": "Killingholmen",
+      "navn": "Røedsodden",
       "omrade": "Asker",
       "temperatur": 20,
-      "maltKlokken": "17:24",
-      "locationId": "1-59734",
-      "latitude": 59.69508,
-      "longitude": 10.52286,
-      "time": "2026-07-06T17:24:25+02:00"
+      "maltKlokken": "13:57",
+      "locationId": "10-1034379",
+      "latitude": 59.55217,
+      "longitude": 10.58828,
+      "time": "2026-07-09T13:57:00+02:00"
     }
   ]
 }

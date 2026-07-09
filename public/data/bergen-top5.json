@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T09:26:38.594Z",
+  "generatedAt": "2026-07-09T13:22:03.496Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,57 +7,47 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-09T10:31:00+02:00",
+  "updatedAt": "2026-07-09T14:37:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 29.42999839782715,
-      "maltKlokken": "10:31",
+      "temperatur": 29.75,
+      "maltKlokken": "14:31",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-09T10:31:00+02:00"
+      "time": "2026-07-09T14:31:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 28.709999084472656,
-      "maltKlokken": "10:31",
+      "temperatur": 29.60999870300293,
+      "maltKlokken": "14:31",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-09T10:31:00+02:00"
+      "time": "2026-07-09T14:31:00+02:00"
     },
     {
-      "navn": "Krokeide videregående skole",
+      "navn": "Måseskjæret",
       "omrade": "Bergen",
-      "temperatur": 16,
-      "maltKlokken": "14:15",
-      "locationId": "11-31714",
-      "latitude": 60.22356,
-      "longitude": 5.28872,
-      "time": "2026-07-04T14:15:00+02:00"
+      "temperatur": 17,
+      "maltKlokken": "14:37",
+      "locationId": "10-1042751",
+      "latitude": 60.4129,
+      "longitude": 5.32012,
+      "time": "2026-07-09T14:37:00+02:00"
     },
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 15.464999198913574,
-      "maltKlokken": "10:31",
+      "temperatur": 16.404998779296875,
+      "maltKlokken": "14:31",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-07-09T10:31:00+02:00"
-    },
-    {
-      "navn": "Tellevik",
-      "omrade": "Bergen",
-      "temperatur": 14.5,
-      "maltKlokken": "12:00",
-      "locationId": "1-2606741",
-      "latitude": 60.5164,
-      "longitude": 5.28359,
-      "time": "2026-07-04T12:00:00+02:00"
+      "time": "2026-07-09T14:31:00+02:00"
     }
   ]
 }
