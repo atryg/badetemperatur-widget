@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T13:22:03.496Z",
+  "generatedAt": "2026-07-09T15:24:22.678Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-09T15:04:53+02:00",
+  "updatedAt": "2026-07-09T17:04:55+02:00",
   "items": [
     {
       "navn": "Ramton Camping",

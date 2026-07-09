@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T13:22:03.496Z",
+  "generatedAt": "2026-07-09T15:24:22.678Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-09T15:00:00+02:00",
+  "updatedAt": "2026-07-09T17:00:00+02:00",
   "items": [
     {
       "navn": "Tussetjernet",
@@ -26,6 +26,16 @@
       "latitude": 59.76284,
       "longitude": 10.8289,
       "time": "2026-07-05T18:24:41+02:00"
+    },
+    {
+      "navn": "Huk naturiststrand",
+      "omrade": "Oslo",
+      "temperatur": 21.5,
+      "maltKlokken": "16:45",
+      "locationId": "0-10055",
+      "latitude": 59.89647,
+      "longitude": 10.67231,
+      "time": "2026-07-09T16:45:00+02:00"
     },
     {
       "navn": "Ramton Camping",
@@ -56,16 +66,6 @@
       "latitude": 59.97469,
       "longitude": 10.51401,
       "time": "2026-07-06T21:29:21+02:00"
-    },
-    {
-      "navn": "Borøya",
-      "omrade": "Bærum",
-      "temperatur": 21,
-      "maltKlokken": "15:40",
-      "locationId": "1-73039",
-      "latitude": 59.87764,
-      "longitude": 10.55149,
-      "time": "2026-07-05T15:40:00+02:00"
     }
   ]
 }
