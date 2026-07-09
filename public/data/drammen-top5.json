@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T15:24:22.678Z",
+  "generatedAt": "2026-07-09T20:53:07.841Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,8 +11,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-09T17:04:55+02:00",
+  "updatedAt": "2026-07-09T22:45:02+02:00",
   "items": [
+    {
+      "navn": "Hvalstrand",
+      "omrade": "Asker",
+      "temperatur": 21.1,
+      "maltKlokken": "16:00",
+      "locationId": "2-3151302",
+      "latitude": 59.84215,
+      "longitude": 10.48857,
+      "time": "2026-07-09T16:00:49+02:00"
+    },
     {
       "navn": "Ramton Camping",
       "omrade": "Asker",
@@ -44,24 +54,14 @@
       "time": "2026-07-09T12:24:00+02:00"
     },
     {
-      "navn": "Torskeberget",
+      "navn": "Hyggen",
       "omrade": "Asker",
-      "temperatur": 20.2,
-      "maltKlokken": "13:37",
-      "locationId": "11-14863",
-      "latitude": 59.75354,
-      "longitude": 10.51233,
-      "time": "2026-07-08T13:37:10+02:00"
-    },
-    {
-      "navn": "Røedsodden",
-      "omrade": "Asker",
-      "temperatur": 20,
-      "maltKlokken": "13:57",
-      "locationId": "10-1034379",
-      "latitude": 59.55217,
-      "longitude": 10.58828,
-      "time": "2026-07-09T13:57:00+02:00"
+      "temperatur": 20.5,
+      "maltKlokken": "18:25",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-07-09T18:25:00+02:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T15:24:22.678Z",
+  "generatedAt": "2026-07-09T20:53:07.841Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-09T17:00:00+02:00",
+  "updatedAt": "2026-07-09T22:00:00+02:00",
   "items": [
+    {
+      "navn": "Østernvann",
+      "omrade": "Bærum",
+      "temperatur": 22,
+      "maltKlokken": "20:30",
+      "locationId": "1-72640",
+      "latitude": 59.96872,
+      "longitude": 10.58186,
+      "time": "2026-07-09T20:30:00+02:00"
+    },
     {
       "navn": "Tussetjernet",
       "omrade": "Nordre Follo",
@@ -26,6 +36,16 @@
       "latitude": 59.76284,
       "longitude": 10.8289,
       "time": "2026-07-05T18:24:41+02:00"
+    },
+    {
+      "navn": "Storøyodden",
+      "omrade": "Bærum",
+      "temperatur": 21.6,
+      "maltKlokken": "16:00",
+      "locationId": "0-10014",
+      "latitude": 59.88819,
+      "longitude": 10.59302,
+      "time": "2026-07-09T16:00:52+02:00"
     },
     {
       "navn": "Huk naturiststrand",
@@ -38,34 +58,14 @@
       "time": "2026-07-09T16:45:00+02:00"
     },
     {
-      "navn": "Ramton Camping",
+      "navn": "Hvalstrand",
       "omrade": "Asker",
-      "temperatur": 21,
-      "maltKlokken": "14:47",
-      "locationId": "0-915",
-      "latitude": 59.74271,
-      "longitude": 10.50996,
-      "time": "2026-07-09T14:47:27+02:00"
-    },
-    {
-      "navn": "Nærsnes brygge",
-      "omrade": "Asker",
-      "temperatur": 21,
-      "maltKlokken": "09:38",
-      "locationId": "1-2274951",
-      "latitude": 59.76306,
-      "longitude": 10.5093,
-      "time": "2026-07-08T09:38:00+02:00"
-    },
-    {
-      "navn": "Burudvann",
-      "omrade": "Bærum",
-      "temperatur": 21,
-      "maltKlokken": "21:29",
-      "locationId": "1-72630",
-      "latitude": 59.97469,
-      "longitude": 10.51401,
-      "time": "2026-07-06T21:29:21+02:00"
+      "temperatur": 21.1,
+      "maltKlokken": "16:00",
+      "locationId": "2-3151302",
+      "latitude": 59.84215,
+      "longitude": 10.48857,
+      "time": "2026-07-09T16:00:49+02:00"
     }
   ]
 }
