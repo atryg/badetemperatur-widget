@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T09:26:06.146Z",
+  "generatedAt": "2026-07-10T13:00:06.045Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T11:00:00+02:00",
+  "updatedAt": "2026-07-10T14:00:00+02:00",
   "items": [
     {
       "navn": "Østernvann",
@@ -28,6 +28,26 @@
       "time": "2026-07-09T20:30:00+02:00"
     },
     {
+      "navn": "Semsvannet",
+      "omrade": "Asker",
+      "temperatur": 22,
+      "maltKlokken": "13:39",
+      "locationId": "1-73119",
+      "latitude": 59.85855,
+      "longitude": 10.42182,
+      "time": "2026-07-10T13:39:04+02:00"
+    },
+    {
+      "navn": "Huk naturiststrand",
+      "omrade": "Oslo",
+      "temperatur": 21.9,
+      "maltKlokken": "12:46",
+      "locationId": "0-10055",
+      "latitude": 59.89647,
+      "longitude": 10.67231,
+      "time": "2026-07-10T12:46:00+02:00"
+    },
+    {
       "navn": "Tussetjernet",
       "omrade": "Nordre Follo",
       "temperatur": 21.8,
@@ -38,34 +58,14 @@
       "time": "2026-07-05T18:24:41+02:00"
     },
     {
-      "navn": "Huk naturiststrand",
-      "omrade": "Oslo",
-      "temperatur": 21.5,
-      "maltKlokken": "16:45",
-      "locationId": "0-10055",
-      "latitude": 59.89647,
-      "longitude": 10.67231,
-      "time": "2026-07-09T16:45:00+02:00"
-    },
-    {
-      "navn": "Nærsnes brygge",
-      "omrade": "Asker",
-      "temperatur": 21,
-      "maltKlokken": "09:38",
-      "locationId": "1-2274951",
-      "latitude": 59.76306,
-      "longitude": 10.5093,
-      "time": "2026-07-08T09:38:00+02:00"
-    },
-    {
-      "navn": "Sætre",
-      "omrade": "Asker",
-      "temperatur": 21,
-      "maltKlokken": "17:30",
-      "locationId": "1-59792",
-      "latitude": 59.6819,
-      "longitude": 10.52961,
-      "time": "2026-07-09T17:30:00+02:00"
+      "navn": "Storøyodden",
+      "omrade": "Bærum",
+      "temperatur": 21.4,
+      "maltKlokken": "10:00",
+      "locationId": "0-10014",
+      "latitude": 59.88819,
+      "longitude": 10.59302,
+      "time": "2026-07-10T10:00:49+02:00"
     }
   ]
 }
