@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T17:53:40.975Z",
+  "generatedAt": "2026-07-10T20:45:02.035Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,17 +15,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T19:00:00+02:00",
+  "updatedAt": "2026-07-10T22:00:00+02:00",
   "items": [
     {
       "navn": "Østernvann",
       "omrade": "Bærum",
-      "temperatur": 25,
-      "maltKlokken": "19:00",
+      "temperatur": 23.5,
+      "maltKlokken": "20:30",
       "locationId": "1-72640",
       "latitude": 59.96872,
       "longitude": 10.58186,
-      "time": "2026-07-10T19:00:00+02:00"
+      "time": "2026-07-10T20:30:00+02:00"
     },
     {
       "navn": "Sjøstrand",
@@ -36,6 +36,16 @@
       "latitude": 59.79751,
       "longitude": 10.49165,
       "time": "2026-07-10T18:02:04+02:00"
+    },
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 23.5,
+      "maltKlokken": "19:55",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-07-10T19:55:00+02:00"
     },
     {
       "navn": "Storøyodden",
@@ -56,16 +66,6 @@
       "latitude": 59.88786,
       "longitude": 10.53181,
       "time": "2026-07-10T15:02:00+02:00"
-    },
-    {
-      "navn": "Skredderudtjernet",
-      "omrade": "Nittedal",
-      "temperatur": 23,
-      "maltKlokken": "17:59",
-      "locationId": "1-87302",
-      "latitude": 60.0111,
-      "longitude": 10.88585,
-      "time": "2026-07-10T17:59:00+02:00"
     }
   ]
 }

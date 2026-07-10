@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T17:53:40.975Z",
+  "generatedAt": "2026-07-10T20:45:02.035Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T19:35:51+02:00",
+  "updatedAt": "2026-07-10T22:35:54+02:00",
   "items": [
     {
       "navn": "Sjøstrand",
@@ -22,6 +22,26 @@
       "latitude": 59.79751,
       "longitude": 10.49165,
       "time": "2026-07-10T18:02:04+02:00"
+    },
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 23.5,
+      "maltKlokken": "19:55",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-07-10T19:55:00+02:00"
+    },
+    {
+      "navn": "Ramton",
+      "omrade": "Asker",
+      "temperatur": 23,
+      "maltKlokken": "21:37",
+      "locationId": "1-59623",
+      "latitude": 59.74086,
+      "longitude": 10.51127,
+      "time": "2026-07-10T21:37:28+02:00"
     },
     {
       "navn": "Hvalstrand",
@@ -42,26 +62,6 @@
       "latitude": 59.7309,
       "longitude": 10.30326,
       "time": "2026-07-10T17:52:00+02:00"
-    },
-    {
-      "navn": "Semsvannet",
-      "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "13:39",
-      "locationId": "1-73119",
-      "latitude": 59.85855,
-      "longitude": 10.42182,
-      "time": "2026-07-10T13:39:04+02:00"
-    },
-    {
-      "navn": "Finnsrudvannet",
-      "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "16:30",
-      "locationId": "1-73208",
-      "latitude": 59.8309,
-      "longitude": 10.38541,
-      "time": "2026-07-10T16:30:00+02:00"
     }
   ]
 }
