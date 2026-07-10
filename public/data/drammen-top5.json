@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T15:10:47.197Z",
+  "generatedAt": "2026-07-10T17:53:40.975Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,8 +11,38 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T16:45:49+02:00",
+  "updatedAt": "2026-07-10T19:35:51+02:00",
   "items": [
+    {
+      "navn": "Sjøstrand",
+      "omrade": "Asker",
+      "temperatur": 23.5,
+      "maltKlokken": "18:02",
+      "locationId": "1-73316",
+      "latitude": 59.79751,
+      "longitude": 10.49165,
+      "time": "2026-07-10T18:02:04+02:00"
+    },
+    {
+      "navn": "Hvalstrand",
+      "omrade": "Asker",
+      "temperatur": 22.9,
+      "maltKlokken": "17:01",
+      "locationId": "2-3151302",
+      "latitude": 59.84215,
+      "longitude": 10.48857,
+      "time": "2026-07-10T17:01:05+02:00"
+    },
+    {
+      "navn": "Engersand havn",
+      "omrade": "Lier",
+      "temperatur": 22.1,
+      "maltKlokken": "17:52",
+      "locationId": "1-2828983",
+      "latitude": 59.7309,
+      "longitude": 10.30326,
+      "time": "2026-07-10T17:52:00+02:00"
+    },
     {
       "navn": "Semsvannet",
       "omrade": "Asker",
@@ -24,44 +54,14 @@
       "time": "2026-07-10T13:39:04+02:00"
     },
     {
-      "navn": "Holtnes brygge",
+      "navn": "Finnsrudvannet",
       "omrade": "Asker",
-      "temperatur": 21.5,
-      "maltKlokken": "15:52",
-      "locationId": "10-1034043",
-      "latitude": 59.54159,
-      "longitude": 10.41438,
-      "time": "2026-07-10T15:52:55+02:00"
-    },
-    {
-      "navn": "Rødtangen",
-      "omrade": "Asker",
-      "temperatur": 21.5,
-      "maltKlokken": "14:30",
-      "locationId": "1-60206",
-      "latitude": 59.53152,
-      "longitude": 10.41812,
-      "time": "2026-07-10T14:30:00+02:00"
-    },
-    {
-      "navn": "Torskeberget",
-      "omrade": "Asker",
-      "temperatur": 21,
-      "maltKlokken": "12:48",
-      "locationId": "11-14863",
-      "latitude": 59.75354,
-      "longitude": 10.51233,
-      "time": "2026-07-10T12:48:15+02:00"
-    },
-    {
-      "navn": "Åros fjordvei",
-      "omrade": "Asker",
-      "temperatur": 21,
-      "maltKlokken": "16:19",
-      "locationId": "1-2271846",
-      "latitude": 59.70908,
-      "longitude": 10.52157,
-      "time": "2026-07-10T16:19:00+02:00"
+      "temperatur": 22,
+      "maltKlokken": "16:30",
+      "locationId": "1-73208",
+      "latitude": 59.8309,
+      "longitude": 10.38541,
+      "time": "2026-07-10T16:30:00+02:00"
     }
   ]
 }

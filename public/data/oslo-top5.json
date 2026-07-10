@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T15:10:47.197Z",
+  "generatedAt": "2026-07-10T17:53:40.975Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,17 +15,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T16:30:00+02:00",
+  "updatedAt": "2026-07-10T19:00:00+02:00",
   "items": [
     {
       "navn": "Østernvann",
       "omrade": "Bærum",
-      "temperatur": 26,
-      "maltKlokken": "16:30",
+      "temperatur": 25,
+      "maltKlokken": "19:00",
       "locationId": "1-72640",
       "latitude": 59.96872,
       "longitude": 10.58186,
-      "time": "2026-07-10T16:30:00+02:00"
+      "time": "2026-07-10T19:00:00+02:00"
+    },
+    {
+      "navn": "Sjøstrand",
+      "omrade": "Asker",
+      "temperatur": 23.5,
+      "maltKlokken": "18:02",
+      "locationId": "1-73316",
+      "latitude": 59.79751,
+      "longitude": 10.49165,
+      "time": "2026-07-10T18:02:04+02:00"
+    },
+    {
+      "navn": "Storøyodden",
+      "omrade": "Bærum",
+      "temperatur": 23.2,
+      "maltKlokken": "16:00",
+      "locationId": "0-10014",
+      "latitude": 59.88819,
+      "longitude": 10.59302,
+      "time": "2026-07-10T16:00:51+02:00"
     },
     {
       "navn": "Kadettangen;Kadda",
@@ -38,34 +58,14 @@
       "time": "2026-07-10T15:02:00+02:00"
     },
     {
-      "navn": "Ingierstrand",
-      "omrade": "Nordre Follo",
-      "temperatur": 22.5,
-      "maltKlokken": "15:40",
-      "locationId": "1-74298",
-      "latitude": 59.81745,
-      "longitude": 10.7479,
-      "time": "2026-07-10T15:40:00+02:00"
-    },
-    {
-      "navn": "Huk",
-      "omrade": "Oslo",
-      "temperatur": 22,
-      "maltKlokken": "15:00",
-      "locationId": "10-990121",
-      "latitude": 59.89536,
-      "longitude": 10.67666,
-      "time": "2026-07-10T15:00:00+02:00"
-    },
-    {
-      "navn": "Semsvannet",
-      "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "13:39",
-      "locationId": "1-73119",
-      "latitude": 59.85855,
-      "longitude": 10.42182,
-      "time": "2026-07-10T13:39:04+02:00"
+      "navn": "Skredderudtjernet",
+      "omrade": "Nittedal",
+      "temperatur": 23,
+      "maltKlokken": "17:59",
+      "locationId": "1-87302",
+      "latitude": 60.0111,
+      "longitude": 10.88585,
+      "time": "2026-07-10T17:59:00+02:00"
     }
   ]
 }

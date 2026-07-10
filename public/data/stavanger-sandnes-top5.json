@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T15:10:47.197Z",
+  "generatedAt": "2026-07-10T17:53:40.975Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,17 +10,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T16:50:00+02:00",
+  "updatedAt": "2026-07-10T19:13:43+02:00",
   "items": [
     {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
-      "temperatur": 20.75,
-      "maltKlokken": "15:12",
+      "temperatur": 21.5625,
+      "maltKlokken": "19:13",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-07-10T15:12:21+02:00"
+      "time": "2026-07-10T19:13:43+02:00"
     },
     {
       "navn": "Dalevika",
@@ -33,6 +33,16 @@
       "time": "2026-07-10T16:30:19+02:00"
     },
     {
+      "navn": "Grovik",
+      "omrade": "Stavanger",
+      "temperatur": 19,
+      "maltKlokken": "17:59",
+      "locationId": "1-2887712",
+      "latitude": 59.25431,
+      "longitude": 5.83014,
+      "time": "2026-07-10T17:59:15+02:00"
+    },
+    {
       "navn": "Furre Beach",
       "omrade": "Stavanger",
       "temperatur": 19,
@@ -41,16 +51,6 @@
       "latitude": 59.2605,
       "longitude": 5.84717,
       "time": "2026-07-10T16:50:00+02:00"
-    },
-    {
-      "navn": "Grovik",
-      "omrade": "Stavanger",
-      "temperatur": 18,
-      "maltKlokken": "18:35",
-      "locationId": "1-2887712",
-      "latitude": 59.25431,
-      "longitude": 5.83014,
-      "time": "2026-07-09T18:35:00+02:00"
     },
     {
       "navn": "Solastranden",
