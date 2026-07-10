@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T20:53:07.841Z",
+  "generatedAt": "2026-07-10T05:39:28.547Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-09T22:00:00+02:00",
+  "updatedAt": "2026-07-10T07:13:00+02:00",
   "items": [
     {
       "navn": "Østernvann",
@@ -38,16 +38,6 @@
       "time": "2026-07-05T18:24:41+02:00"
     },
     {
-      "navn": "Storøyodden",
-      "omrade": "Bærum",
-      "temperatur": 21.6,
-      "maltKlokken": "16:00",
-      "locationId": "0-10014",
-      "latitude": 59.88819,
-      "longitude": 10.59302,
-      "time": "2026-07-09T16:00:52+02:00"
-    },
-    {
       "navn": "Huk naturiststrand",
       "omrade": "Oslo",
       "temperatur": 21.5,
@@ -58,14 +48,24 @@
       "time": "2026-07-09T16:45:00+02:00"
     },
     {
-      "navn": "Hvalstrand",
-      "omrade": "Asker",
-      "temperatur": 21.1,
-      "maltKlokken": "16:00",
-      "locationId": "2-3151302",
-      "latitude": 59.84215,
-      "longitude": 10.48857,
-      "time": "2026-07-09T16:00:49+02:00"
+      "navn": "Kalvøya",
+      "omrade": "Bærum",
+      "temperatur": 21.2,
+      "maltKlokken": "04:00",
+      "locationId": "1-73036",
+      "latitude": 59.88498,
+      "longitude": 10.53804,
+      "time": "2026-07-10T04:00:47+02:00"
+    },
+    {
+      "navn": "Storøyodden",
+      "omrade": "Bærum",
+      "temperatur": 21,
+      "maltKlokken": "04:01",
+      "locationId": "0-10014",
+      "latitude": 59.88819,
+      "longitude": 10.59302,
+      "time": "2026-07-10T04:01:08+02:00"
     }
   ]
 }

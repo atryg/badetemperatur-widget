@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T20:53:07.841Z",
+  "generatedAt": "2026-07-10T05:39:28.547Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-09T22:45:02+02:00",
+  "updatedAt": "2026-07-10T07:25:12+02:00",
   "items": [
-    {
-      "navn": "Hvalstrand",
-      "omrade": "Asker",
-      "temperatur": 21.1,
-      "maltKlokken": "16:00",
-      "locationId": "2-3151302",
-      "latitude": 59.84215,
-      "longitude": 10.48857,
-      "time": "2026-07-09T16:00:49+02:00"
-    },
     {
       "navn": "Ramton Camping",
       "omrade": "Asker",
@@ -44,6 +34,26 @@
       "time": "2026-07-08T09:38:00+02:00"
     },
     {
+      "navn": "Nerdammen",
+      "omrade": "Drammen",
+      "temperatur": 21,
+      "maltKlokken": "14:00",
+      "locationId": "1-58983",
+      "latitude": 59.68062,
+      "longitude": 10.31085,
+      "time": "2026-07-09T14:00:00+02:00"
+    },
+    {
+      "navn": "Sætre",
+      "omrade": "Asker",
+      "temperatur": 21,
+      "maltKlokken": "17:30",
+      "locationId": "1-59792",
+      "latitude": 59.6819,
+      "longitude": 10.52961,
+      "time": "2026-07-09T17:30:00+02:00"
+    },
+    {
       "navn": "Kastestranda",
       "omrade": "Asker",
       "temperatur": 20.5,
@@ -52,16 +62,6 @@
       "latitude": 59.70002,
       "longitude": 10.51866,
       "time": "2026-07-09T12:24:00+02:00"
-    },
-    {
-      "navn": "Hyggen",
-      "omrade": "Asker",
-      "temperatur": 20.5,
-      "maltKlokken": "18:25",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-07-09T18:25:00+02:00"
     }
   ]
 }
