@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T13:00:06.045Z",
+  "generatedAt": "2026-07-10T15:10:47.197Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,17 +15,47 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T14:00:00+02:00",
+  "updatedAt": "2026-07-10T16:30:00+02:00",
   "items": [
     {
       "navn": "Østernvann",
       "omrade": "Bærum",
-      "temperatur": 22,
-      "maltKlokken": "20:30",
+      "temperatur": 26,
+      "maltKlokken": "16:30",
       "locationId": "1-72640",
       "latitude": 59.96872,
       "longitude": 10.58186,
-      "time": "2026-07-09T20:30:00+02:00"
+      "time": "2026-07-10T16:30:00+02:00"
+    },
+    {
+      "navn": "Kadettangen;Kadda",
+      "omrade": "Bærum",
+      "temperatur": 23,
+      "maltKlokken": "15:02",
+      "locationId": "1-2235353",
+      "latitude": 59.88786,
+      "longitude": 10.53181,
+      "time": "2026-07-10T15:02:00+02:00"
+    },
+    {
+      "navn": "Ingierstrand",
+      "omrade": "Nordre Follo",
+      "temperatur": 22.5,
+      "maltKlokken": "15:40",
+      "locationId": "1-74298",
+      "latitude": 59.81745,
+      "longitude": 10.7479,
+      "time": "2026-07-10T15:40:00+02:00"
+    },
+    {
+      "navn": "Huk",
+      "omrade": "Oslo",
+      "temperatur": 22,
+      "maltKlokken": "15:00",
+      "locationId": "10-990121",
+      "latitude": 59.89536,
+      "longitude": 10.67666,
+      "time": "2026-07-10T15:00:00+02:00"
     },
     {
       "navn": "Semsvannet",
@@ -36,36 +66,6 @@
       "latitude": 59.85855,
       "longitude": 10.42182,
       "time": "2026-07-10T13:39:04+02:00"
-    },
-    {
-      "navn": "Huk naturiststrand",
-      "omrade": "Oslo",
-      "temperatur": 21.9,
-      "maltKlokken": "12:46",
-      "locationId": "0-10055",
-      "latitude": 59.89647,
-      "longitude": 10.67231,
-      "time": "2026-07-10T12:46:00+02:00"
-    },
-    {
-      "navn": "Tussetjernet",
-      "omrade": "Nordre Follo",
-      "temperatur": 21.8,
-      "maltKlokken": "18:24",
-      "locationId": "1-74568",
-      "latitude": 59.76284,
-      "longitude": 10.8289,
-      "time": "2026-07-05T18:24:41+02:00"
-    },
-    {
-      "navn": "Storøyodden",
-      "omrade": "Bærum",
-      "temperatur": 21.4,
-      "maltKlokken": "10:00",
-      "locationId": "0-10014",
-      "latitude": 59.88819,
-      "longitude": 10.59302,
-      "time": "2026-07-10T10:00:49+02:00"
     }
   ]
 }

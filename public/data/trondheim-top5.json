@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T13:00:06.045Z",
+  "generatedAt": "2026-07-10T15:10:47.197Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,5 +7,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "items": []
+  "updatedAt": "2026-07-10T16:46:53+02:00",
+  "items": [
+    {
+      "navn": "Baklidammen",
+      "omrade": "Trondheim",
+      "temperatur": 16,
+      "maltKlokken": "16:46",
+      "locationId": "1-211185",
+      "latitude": 63.41922,
+      "longitude": 10.32098,
+      "time": "2026-07-10T16:46:53+02:00"
+    }
+  ]
 }

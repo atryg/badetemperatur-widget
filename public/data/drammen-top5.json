@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T13:00:06.045Z",
+  "generatedAt": "2026-07-10T15:10:47.197Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T14:25:30+02:00",
+  "updatedAt": "2026-07-10T16:45:49+02:00",
   "items": [
     {
       "navn": "Semsvannet",
@@ -24,6 +24,26 @@
       "time": "2026-07-10T13:39:04+02:00"
     },
     {
+      "navn": "Holtnes brygge",
+      "omrade": "Asker",
+      "temperatur": 21.5,
+      "maltKlokken": "15:52",
+      "locationId": "10-1034043",
+      "latitude": 59.54159,
+      "longitude": 10.41438,
+      "time": "2026-07-10T15:52:55+02:00"
+    },
+    {
+      "navn": "Rødtangen",
+      "omrade": "Asker",
+      "temperatur": 21.5,
+      "maltKlokken": "14:30",
+      "locationId": "1-60206",
+      "latitude": 59.53152,
+      "longitude": 10.41812,
+      "time": "2026-07-10T14:30:00+02:00"
+    },
+    {
       "navn": "Torskeberget",
       "omrade": "Asker",
       "temperatur": 21,
@@ -34,34 +54,14 @@
       "time": "2026-07-10T12:48:15+02:00"
     },
     {
-      "navn": "Nærsnes brygge",
+      "navn": "Åros fjordvei",
       "omrade": "Asker",
       "temperatur": 21,
-      "maltKlokken": "09:38",
-      "locationId": "1-2274951",
-      "latitude": 59.76306,
-      "longitude": 10.5093,
-      "time": "2026-07-08T09:38:00+02:00"
-    },
-    {
-      "navn": "Nerdammen",
-      "omrade": "Drammen",
-      "temperatur": 21,
-      "maltKlokken": "14:00",
-      "locationId": "1-58983",
-      "latitude": 59.68062,
-      "longitude": 10.31085,
-      "time": "2026-07-09T14:00:00+02:00"
-    },
-    {
-      "navn": "Sætre",
-      "omrade": "Asker",
-      "temperatur": 21,
-      "maltKlokken": "17:30",
-      "locationId": "1-59792",
-      "latitude": 59.6819,
-      "longitude": 10.52961,
-      "time": "2026-07-09T17:30:00+02:00"
+      "maltKlokken": "16:19",
+      "locationId": "1-2271846",
+      "latitude": 59.70908,
+      "longitude": 10.52157,
+      "time": "2026-07-10T16:19:00+02:00"
     }
   ]
 }
