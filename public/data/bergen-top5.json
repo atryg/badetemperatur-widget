@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T05:39:28.547Z",
+  "generatedAt": "2026-07-10T09:26:06.146Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T06:31:00+02:00",
+  "updatedAt": "2026-07-10T10:31:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 30.559999465942383,
-      "maltKlokken": "06:31",
+      "temperatur": 29.76999855041504,
+      "maltKlokken": "10:31",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-10T06:31:00+02:00"
+      "time": "2026-07-10T10:31:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 30.42999839782715,
-      "maltKlokken": "06:31",
+      "temperatur": 29.619998931884766,
+      "maltKlokken": "10:31",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-10T06:31:00+02:00"
+      "time": "2026-07-10T10:31:00+02:00"
     },
     {
       "navn": "Store Lungegårdsvannet",
@@ -40,6 +40,16 @@
       "time": "2026-07-09T20:00:00+02:00"
     },
     {
+      "navn": "Nordnes Park og Sjøbad",
+      "omrade": "Bergen",
+      "temperatur": 17.03499984741211,
+      "maltKlokken": "10:31",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-07-10T10:31:00+02:00"
+    },
+    {
       "navn": "Måseskjæret",
       "omrade": "Bergen",
       "temperatur": 17,
@@ -48,16 +58,6 @@
       "latitude": 60.4129,
       "longitude": 5.32012,
       "time": "2026-07-09T14:37:00+02:00"
-    },
-    {
-      "navn": "Nordnes Park og Sjøbad",
-      "omrade": "Bergen",
-      "temperatur": 16.81999969482422,
-      "maltKlokken": "06:31",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-07-10T06:31:00+02:00"
     }
   ]
 }

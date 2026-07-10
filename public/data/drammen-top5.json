@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T05:39:28.547Z",
+  "generatedAt": "2026-07-10T09:26:06.146Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T07:25:12+02:00",
+  "updatedAt": "2026-07-10T11:25:28+02:00",
   "items": [
-    {
-      "navn": "Ramton Camping",
-      "omrade": "Asker",
-      "temperatur": 21,
-      "maltKlokken": "14:47",
-      "locationId": "0-915",
-      "latitude": 59.74271,
-      "longitude": 10.50996,
-      "time": "2026-07-09T14:47:27+02:00"
-    },
     {
       "navn": "Nærsnes brygge",
       "omrade": "Asker",
@@ -52,6 +42,16 @@
       "latitude": 59.6819,
       "longitude": 10.52961,
       "time": "2026-07-09T17:30:00+02:00"
+    },
+    {
+      "navn": "Ramton Camping",
+      "omrade": "Asker",
+      "temperatur": 20.5,
+      "maltKlokken": "10:14",
+      "locationId": "0-915",
+      "latitude": 59.74271,
+      "longitude": 10.50996,
+      "time": "2026-07-10T10:14:29+02:00"
     },
     {
       "navn": "Kastestranda",
