@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T14:37:09.492Z",
+  "generatedAt": "2026-07-11T17:36:16.396Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,28 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-11T16:00:00+02:00",
+  "updatedAt": "2026-07-11T19:00:00+02:00",
   "items": [
+    {
+      "navn": "Storøyodden",
+      "omrade": "Bærum",
+      "temperatur": 23.8,
+      "maltKlokken": "16:01",
+      "locationId": "0-10014",
+      "latitude": 59.88819,
+      "longitude": 10.59302,
+      "time": "2026-07-11T16:01:24+02:00"
+    },
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 23.7,
+      "maltKlokken": "16:15",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-07-11T16:15:00+02:00"
+    },
     {
       "navn": "Østernvann",
       "omrade": "Bærum",
@@ -28,6 +48,16 @@
       "time": "2026-07-11T14:30:00+02:00"
     },
     {
+      "navn": "Kalvøya",
+      "omrade": "Bærum",
+      "temperatur": 23.4,
+      "maltKlokken": "13:00",
+      "locationId": "1-73036",
+      "latitude": 59.88498,
+      "longitude": 10.53804,
+      "time": "2026-07-11T13:00:53+02:00"
+    },
+    {
       "navn": "Kadettangen;Kadda",
       "omrade": "Bærum",
       "temperatur": 23,
@@ -36,36 +66,6 @@
       "latitude": 59.88786,
       "longitude": 10.53181,
       "time": "2026-07-10T15:02:00+02:00"
-    },
-    {
-      "navn": "Engersand havn",
-      "omrade": "Lier",
-      "temperatur": 23,
-      "maltKlokken": "10:54",
-      "locationId": "1-2828983",
-      "latitude": 59.7309,
-      "longitude": 10.30326,
-      "time": "2026-07-11T10:54:29+02:00"
-    },
-    {
-      "navn": "Skredderudtjernet",
-      "omrade": "Nittedal",
-      "temperatur": 23,
-      "maltKlokken": "17:59",
-      "locationId": "1-87302",
-      "latitude": 60.0111,
-      "longitude": 10.88585,
-      "time": "2026-07-10T17:59:00+02:00"
-    },
-    {
-      "navn": "Hyggen",
-      "omrade": "Asker",
-      "temperatur": 23,
-      "maltKlokken": "09:55",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-07-11T09:55:00+02:00"
     }
   ]
 }
