@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T12:35:46.029Z",
+  "generatedAt": "2026-07-11T14:37:09.492Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-11T14:16:15+02:00",
+  "updatedAt": "2026-07-11T16:16:17+02:00",
   "items": [
     {
       "navn": "Engersand havn",

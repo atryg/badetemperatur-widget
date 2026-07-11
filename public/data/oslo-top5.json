@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T12:35:46.029Z",
+  "generatedAt": "2026-07-11T14:37:09.492Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,17 +15,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-11T14:00:00+02:00",
+  "updatedAt": "2026-07-11T16:00:00+02:00",
   "items": [
     {
       "navn": "Østernvann",
       "omrade": "Bærum",
       "temperatur": 23.5,
-      "maltKlokken": "20:30",
+      "maltKlokken": "14:30",
       "locationId": "1-72640",
       "latitude": 59.96872,
       "longitude": 10.58186,
-      "time": "2026-07-10T20:30:00+02:00"
+      "time": "2026-07-11T14:30:00+02:00"
     },
     {
       "navn": "Kadettangen;Kadda",
