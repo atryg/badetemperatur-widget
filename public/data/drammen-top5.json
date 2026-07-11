@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T09:47:58.619Z",
+  "generatedAt": "2026-07-11T12:35:46.029Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-11T11:36:12+02:00",
+  "updatedAt": "2026-07-11T14:16:15+02:00",
   "items": [
     {
       "navn": "Engersand havn",
@@ -44,16 +44,6 @@
       "time": "2026-07-11T10:56:00+02:00"
     },
     {
-      "navn": "Sætre",
-      "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "19:00",
-      "locationId": "1-59792",
-      "latitude": 59.6819,
-      "longitude": 10.52961,
-      "time": "2026-07-10T19:00:00+02:00"
-    },
-    {
       "navn": "Semsvannet",
       "omrade": "Asker",
       "temperatur": 22,
@@ -62,6 +52,16 @@
       "latitude": 59.85855,
       "longitude": 10.42182,
       "time": "2026-07-10T13:39:04+02:00"
+    },
+    {
+      "navn": "Finnsrudvannet",
+      "omrade": "Asker",
+      "temperatur": 22,
+      "maltKlokken": "16:30",
+      "locationId": "1-73208",
+      "latitude": 59.8309,
+      "longitude": 10.38541,
+      "time": "2026-07-10T16:30:00+02:00"
     }
   ]
 }
