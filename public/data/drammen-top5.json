@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T07:00:18.869Z",
+  "generatedAt": "2026-07-11T09:47:58.619Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,27 +11,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-11T08:36:33+02:00",
+  "updatedAt": "2026-07-11T11:36:12+02:00",
   "items": [
-    {
-      "navn": "Hyggen",
-      "omrade": "Asker",
-      "temperatur": 23.5,
-      "maltKlokken": "19:55",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-07-10T19:55:00+02:00"
-    },
     {
       "navn": "Engersand havn",
       "omrade": "Lier",
-      "temperatur": 22.1,
-      "maltKlokken": "17:52",
+      "temperatur": 23,
+      "maltKlokken": "10:54",
       "locationId": "1-2828983",
       "latitude": 59.7309,
       "longitude": 10.30326,
-      "time": "2026-07-10T17:52:00+02:00"
+      "time": "2026-07-11T10:54:29+02:00"
+    },
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 23,
+      "maltKlokken": "09:55",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-07-11T09:55:00+02:00"
+    },
+    {
+      "navn": "Hoensvannsløken",
+      "omrade": "Øvre Eiker",
+      "temperatur": 22,
+      "maltKlokken": "10:56",
+      "locationId": "1-2323843",
+      "latitude": 59.79662,
+      "longitude": 9.76459,
+      "time": "2026-07-11T10:56:00+02:00"
     },
     {
       "navn": "Sætre",
@@ -52,16 +62,6 @@
       "latitude": 59.85855,
       "longitude": 10.42182,
       "time": "2026-07-10T13:39:04+02:00"
-    },
-    {
-      "navn": "Finnsrudvannet",
-      "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "16:30",
-      "locationId": "1-73208",
-      "latitude": 59.8309,
-      "longitude": 10.38541,
-      "time": "2026-07-10T16:30:00+02:00"
     }
   ]
 }

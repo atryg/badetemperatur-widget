@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T07:00:18.869Z",
+  "generatedAt": "2026-07-11T09:47:58.619Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-11T08:36:33+02:00",
+  "updatedAt": "2026-07-11T11:03:35+02:00",
   "items": [
     {
       "navn": "Østernvann",
@@ -28,16 +28,6 @@
       "time": "2026-07-10T20:30:00+02:00"
     },
     {
-      "navn": "Hyggen",
-      "omrade": "Asker",
-      "temperatur": 23.5,
-      "maltKlokken": "19:55",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-07-10T19:55:00+02:00"
-    },
-    {
       "navn": "Kadettangen;Kadda",
       "omrade": "Bærum",
       "temperatur": 23,
@@ -46,6 +36,16 @@
       "latitude": 59.88786,
       "longitude": 10.53181,
       "time": "2026-07-10T15:02:00+02:00"
+    },
+    {
+      "navn": "Engersand havn",
+      "omrade": "Lier",
+      "temperatur": 23,
+      "maltKlokken": "10:54",
+      "locationId": "1-2828983",
+      "latitude": 59.7309,
+      "longitude": 10.30326,
+      "time": "2026-07-11T10:54:29+02:00"
     },
     {
       "navn": "Skredderudtjernet",
@@ -58,14 +58,14 @@
       "time": "2026-07-10T17:59:00+02:00"
     },
     {
-      "navn": "Huk naturiststrand",
-      "omrade": "Oslo",
-      "temperatur": 22.5,
-      "maltKlokken": "20:30",
-      "locationId": "0-10055",
-      "latitude": 59.89647,
-      "longitude": 10.67231,
-      "time": "2026-07-10T20:30:00+02:00"
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 23,
+      "maltKlokken": "09:55",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-07-11T09:55:00+02:00"
     }
   ]
 }
