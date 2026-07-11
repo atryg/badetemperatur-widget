@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T20:45:02.035Z",
+  "generatedAt": "2026-07-11T07:00:18.869Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T22:00:00+02:00",
+  "updatedAt": "2026-07-11T08:36:33+02:00",
   "items": [
     {
       "navn": "Østernvann",
@@ -28,16 +28,6 @@
       "time": "2026-07-10T20:30:00+02:00"
     },
     {
-      "navn": "Sjøstrand",
-      "omrade": "Asker",
-      "temperatur": 23.5,
-      "maltKlokken": "18:02",
-      "locationId": "1-73316",
-      "latitude": 59.79751,
-      "longitude": 10.49165,
-      "time": "2026-07-10T18:02:04+02:00"
-    },
-    {
       "navn": "Hyggen",
       "omrade": "Asker",
       "temperatur": 23.5,
@@ -48,16 +38,6 @@
       "time": "2026-07-10T19:55:00+02:00"
     },
     {
-      "navn": "Storøyodden",
-      "omrade": "Bærum",
-      "temperatur": 23.2,
-      "maltKlokken": "16:00",
-      "locationId": "0-10014",
-      "latitude": 59.88819,
-      "longitude": 10.59302,
-      "time": "2026-07-10T16:00:51+02:00"
-    },
-    {
       "navn": "Kadettangen;Kadda",
       "omrade": "Bærum",
       "temperatur": 23,
@@ -66,6 +46,26 @@
       "latitude": 59.88786,
       "longitude": 10.53181,
       "time": "2026-07-10T15:02:00+02:00"
+    },
+    {
+      "navn": "Skredderudtjernet",
+      "omrade": "Nittedal",
+      "temperatur": 23,
+      "maltKlokken": "17:59",
+      "locationId": "1-87302",
+      "latitude": 60.0111,
+      "longitude": 10.88585,
+      "time": "2026-07-10T17:59:00+02:00"
+    },
+    {
+      "navn": "Huk naturiststrand",
+      "omrade": "Oslo",
+      "temperatur": 22.5,
+      "maltKlokken": "20:30",
+      "locationId": "0-10055",
+      "latitude": 59.89647,
+      "longitude": 10.67231,
+      "time": "2026-07-10T20:30:00+02:00"
     }
   ]
 }

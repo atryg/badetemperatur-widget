@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T20:45:02.035Z",
+  "generatedAt": "2026-07-11T07:00:18.869Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-10T22:35:54+02:00",
+  "updatedAt": "2026-07-11T08:36:33+02:00",
   "items": [
-    {
-      "navn": "Sjøstrand",
-      "omrade": "Asker",
-      "temperatur": 23.5,
-      "maltKlokken": "18:02",
-      "locationId": "1-73316",
-      "latitude": 59.79751,
-      "longitude": 10.49165,
-      "time": "2026-07-10T18:02:04+02:00"
-    },
     {
       "navn": "Hyggen",
       "omrade": "Asker",
@@ -34,26 +24,6 @@
       "time": "2026-07-10T19:55:00+02:00"
     },
     {
-      "navn": "Ramton",
-      "omrade": "Asker",
-      "temperatur": 23,
-      "maltKlokken": "21:37",
-      "locationId": "1-59623",
-      "latitude": 59.74086,
-      "longitude": 10.51127,
-      "time": "2026-07-10T21:37:28+02:00"
-    },
-    {
-      "navn": "Hvalstrand",
-      "omrade": "Asker",
-      "temperatur": 22.9,
-      "maltKlokken": "17:01",
-      "locationId": "2-3151302",
-      "latitude": 59.84215,
-      "longitude": 10.48857,
-      "time": "2026-07-10T17:01:05+02:00"
-    },
-    {
       "navn": "Engersand havn",
       "omrade": "Lier",
       "temperatur": 22.1,
@@ -62,6 +32,36 @@
       "latitude": 59.7309,
       "longitude": 10.30326,
       "time": "2026-07-10T17:52:00+02:00"
+    },
+    {
+      "navn": "Sætre",
+      "omrade": "Asker",
+      "temperatur": 22,
+      "maltKlokken": "19:00",
+      "locationId": "1-59792",
+      "latitude": 59.6819,
+      "longitude": 10.52961,
+      "time": "2026-07-10T19:00:00+02:00"
+    },
+    {
+      "navn": "Semsvannet",
+      "omrade": "Asker",
+      "temperatur": 22,
+      "maltKlokken": "13:39",
+      "locationId": "1-73119",
+      "latitude": 59.85855,
+      "longitude": 10.42182,
+      "time": "2026-07-10T13:39:04+02:00"
+    },
+    {
+      "navn": "Finnsrudvannet",
+      "omrade": "Asker",
+      "temperatur": 22,
+      "maltKlokken": "16:30",
+      "locationId": "1-73208",
+      "latitude": 59.8309,
+      "longitude": 10.38541,
+      "time": "2026-07-10T16:30:00+02:00"
     }
   ]
 }
