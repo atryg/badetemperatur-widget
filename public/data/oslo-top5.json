@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T16:33:49.031Z",
+  "generatedAt": "2026-07-12T19:39:33.544Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,17 +15,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-12T18:00:00+02:00",
+  "updatedAt": "2026-07-12T21:03:59+02:00",
   "items": [
     {
-      "navn": "Østernvann",
-      "omrade": "Bærum",
-      "temperatur": 25,
-      "maltKlokken": "19:45",
-      "locationId": "1-72640",
-      "latitude": 59.96872,
-      "longitude": 10.58186,
-      "time": "2026-07-11T19:45:00+02:00"
+      "navn": "Gjetsjøvannet",
+      "omrade": "Nordre Follo",
+      "temperatur": 24,
+      "maltKlokken": "16:45",
+      "locationId": "1-60331",
+      "latitude": 59.73756,
+      "longitude": 10.96234,
+      "time": "2026-07-12T16:45:00+02:00"
     },
     {
       "navn": "Storøyodden",
