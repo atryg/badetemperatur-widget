@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T19:39:33.544Z",
+  "generatedAt": "2026-07-12T22:32:00.837Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-12T21:03:59+02:00",
+  "updatedAt": "2026-07-13T00:00:00+02:00",
   "items": [
     {
       "navn": "Gjetsjøvannet",
@@ -48,6 +48,16 @@
       "time": "2026-07-10T15:02:00+02:00"
     },
     {
+      "navn": "Sandodden",
+      "omrade": "Asker",
+      "temperatur": 23,
+      "maltKlokken": "20:00",
+      "locationId": "1-2313876",
+      "latitude": 59.63548,
+      "longitude": 10.43034,
+      "time": "2026-07-12T20:00:00+02:00"
+    },
+    {
       "navn": "Gjellumvannet",
       "omrade": "Asker",
       "temperatur": 23,
@@ -56,16 +66,6 @@
       "latitude": 59.78792,
       "longitude": 10.43429,
       "time": "2026-07-12T13:20:39+02:00"
-    },
-    {
-      "navn": "Engersand havn",
-      "omrade": "Lier",
-      "temperatur": 23,
-      "maltKlokken": "10:54",
-      "locationId": "1-2828983",
-      "latitude": 59.7309,
-      "longitude": 10.30326,
-      "time": "2026-07-11T10:54:29+02:00"
     }
   ]
 }

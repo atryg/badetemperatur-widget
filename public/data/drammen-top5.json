@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T19:39:33.544Z",
+  "generatedAt": "2026-07-12T22:32:00.837Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-12T21:26:56+02:00",
+  "updatedAt": "2026-07-13T00:00:00+02:00",
   "items": [
     {
       "navn": "Tangen fjordpark",
@@ -22,6 +22,16 @@
       "latitude": 59.68456,
       "longitude": 10.35687,
       "time": "2026-07-11T22:08:44+02:00"
+    },
+    {
+      "navn": "Sandodden",
+      "omrade": "Asker",
+      "temperatur": 23,
+      "maltKlokken": "20:00",
+      "locationId": "1-2313876",
+      "latitude": 59.63548,
+      "longitude": 10.43034,
+      "time": "2026-07-12T20:00:00+02:00"
     },
     {
       "navn": "Gjellumvannet",
@@ -44,24 +54,14 @@
       "time": "2026-07-11T10:54:29+02:00"
     },
     {
-      "navn": "Ramton Camping",
+      "navn": "Hogstadvannet",
       "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "12:30",
-      "locationId": "0-915",
-      "latitude": 59.74271,
-      "longitude": 10.50996,
-      "time": "2026-07-12T12:30:16+02:00"
-    },
-    {
-      "navn": "Torskeberget",
-      "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "15:30",
-      "locationId": "11-14863",
-      "latitude": 59.75354,
-      "longitude": 10.51233,
-      "time": "2026-07-12T15:30:28+02:00"
+      "temperatur": 22.7,
+      "maltKlokken": "21:30",
+      "locationId": "1-73212",
+      "latitude": 59.83352,
+      "longitude": 10.40126,
+      "time": "2026-07-12T21:30:00+02:00"
     }
   ]
 }
