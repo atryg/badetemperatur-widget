@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T07:57:05.835Z",
+  "generatedAt": "2026-07-12T10:45:28.936Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-12T09:36:40+02:00",
+  "updatedAt": "2026-07-12T12:36:43+02:00",
   "items": [
-    {
-      "navn": "Hyggen",
-      "omrade": "Asker",
-      "temperatur": 23.7,
-      "maltKlokken": "16:15",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-07-11T16:15:00+02:00"
-    },
     {
       "navn": "Tangen fjordpark",
       "omrade": "Drammen",
@@ -42,6 +32,16 @@
       "latitude": 59.7309,
       "longitude": 10.30326,
       "time": "2026-07-11T10:54:29+02:00"
+    },
+    {
+      "navn": "Ramton Camping",
+      "omrade": "Asker",
+      "temperatur": 22,
+      "maltKlokken": "12:30",
+      "locationId": "0-915",
+      "latitude": 59.74271,
+      "longitude": 10.50996,
+      "time": "2026-07-12T12:30:16+02:00"
     },
     {
       "navn": "Hoensvannsløken",
