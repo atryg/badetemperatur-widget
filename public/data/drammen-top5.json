@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T10:45:28.936Z",
+  "generatedAt": "2026-07-12T13:50:39.123Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-12T12:36:43+02:00",
+  "updatedAt": "2026-07-12T15:36:48+02:00",
   "items": [
     {
       "navn": "Tangen fjordpark",
@@ -22,6 +22,16 @@
       "latitude": 59.68456,
       "longitude": 10.35687,
       "time": "2026-07-11T22:08:44+02:00"
+    },
+    {
+      "navn": "Gjellumvannet",
+      "omrade": "Asker",
+      "temperatur": 23,
+      "maltKlokken": "13:20",
+      "locationId": "1-2600772",
+      "latitude": 59.78792,
+      "longitude": 10.43429,
+      "time": "2026-07-12T13:20:39+02:00"
     },
     {
       "navn": "Engersand havn",
@@ -44,24 +54,14 @@
       "time": "2026-07-12T12:30:16+02:00"
     },
     {
-      "navn": "Hoensvannsløken",
-      "omrade": "Øvre Eiker",
-      "temperatur": 22,
-      "maltKlokken": "10:56",
-      "locationId": "1-2323843",
-      "latitude": 59.79662,
-      "longitude": 9.76459,
-      "time": "2026-07-11T10:56:00+02:00"
-    },
-    {
-      "navn": "Kinnartangen",
+      "navn": "Torskeberget",
       "omrade": "Asker",
       "temperatur": 22,
-      "maltKlokken": "21:00",
-      "locationId": "1-58840",
-      "latitude": 59.71159,
-      "longitude": 10.33643,
-      "time": "2026-07-11T21:00:00+02:00"
+      "maltKlokken": "15:30",
+      "locationId": "11-14863",
+      "latitude": 59.75354,
+      "longitude": 10.51233,
+      "time": "2026-07-12T15:30:28+02:00"
     }
   ]
 }
