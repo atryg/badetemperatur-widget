@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T05:25:48.508Z",
+  "generatedAt": "2026-07-12T07:57:05.835Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-12T07:16:38+02:00",
+  "updatedAt": "2026-07-12T09:36:40+02:00",
   "items": [
     {
       "navn": "Hyggen",
