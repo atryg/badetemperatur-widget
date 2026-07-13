@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T13:03:28.624Z",
+  "generatedAt": "2026-07-13T16:10:03.483Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-13T14:30:00+02:00",
+  "updatedAt": "2026-07-13T17:43:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 32.529998779296875,
-      "maltKlokken": "14:01",
+      "temperatur": 32.56999969482422,
+      "maltKlokken": "17:01",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-13T14:01:00+02:00"
+      "time": "2026-07-13T17:01:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 32.38999938964844,
-      "maltKlokken": "14:01",
+      "temperatur": 32.41999816894531,
+      "maltKlokken": "17:01",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-13T14:01:00+02:00"
+      "time": "2026-07-13T17:01:00+02:00"
     },
     {
       "navn": "Store Lungegårdsvannet",
@@ -40,6 +40,16 @@
       "time": "2026-07-13T14:30:00+02:00"
     },
     {
+      "navn": "Nordnes Park og Sjøbad",
+      "omrade": "Bergen",
+      "temperatur": 19.295000076293945,
+      "maltKlokken": "17:01",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-07-13T17:01:00+02:00"
+    },
+    {
       "navn": "Nordåsvatnet",
       "omrade": "Bergen",
       "temperatur": 19,
@@ -48,16 +58,6 @@
       "latitude": 60.31977,
       "longitude": 5.31004,
       "time": "2026-07-12T19:21:00+02:00"
-    },
-    {
-      "navn": "Breistein",
-      "omrade": "Bergen",
-      "temperatur": 18,
-      "maltKlokken": "09:20",
-      "locationId": "1-92099",
-      "latitude": 60.48624,
-      "longitude": 5.4038,
-      "time": "2026-07-13T09:20:00+02:00"
     }
   ]
 }

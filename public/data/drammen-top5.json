@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T13:03:28.624Z",
+  "generatedAt": "2026-07-13T16:10:03.483Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,8 +11,48 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-13T14:47:28+02:00",
+  "updatedAt": "2026-07-13T17:47:41+02:00",
   "items": [
+    {
+      "navn": "Hagemannsparken",
+      "omrade": "Holmestrand",
+      "temperatur": 27,
+      "maltKlokken": "15:08",
+      "locationId": "2-11998874",
+      "latitude": 59.4796,
+      "longitude": 10.32954,
+      "time": "2026-07-13T15:08:00+02:00"
+    },
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 24.4,
+      "maltKlokken": "17:15",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-07-13T17:15:00+02:00"
+    },
+    {
+      "navn": "Havnevik",
+      "omrade": "Drammen",
+      "temperatur": 24,
+      "maltKlokken": "14:00",
+      "locationId": "2-11845443",
+      "latitude": 59.66902,
+      "longitude": 10.36647,
+      "time": "2026-07-13T14:00:00+02:00"
+    },
+    {
+      "navn": "Ramton",
+      "omrade": "Asker",
+      "temperatur": 23.5,
+      "maltKlokken": "15:53",
+      "locationId": "1-59623",
+      "latitude": 59.74086,
+      "longitude": 10.51127,
+      "time": "2026-07-13T15:53:07+02:00"
+    },
     {
       "navn": "Tangen fjordpark",
       "omrade": "Drammen",
@@ -22,46 +62,6 @@
       "latitude": 59.68456,
       "longitude": 10.35687,
       "time": "2026-07-11T22:08:44+02:00"
-    },
-    {
-      "navn": "Sandodden",
-      "omrade": "Asker",
-      "temperatur": 23,
-      "maltKlokken": "20:00",
-      "locationId": "1-2313876",
-      "latitude": 59.63548,
-      "longitude": 10.43034,
-      "time": "2026-07-12T20:00:00+02:00"
-    },
-    {
-      "navn": "Gjellumvannet",
-      "omrade": "Asker",
-      "temperatur": 23,
-      "maltKlokken": "13:20",
-      "locationId": "1-2600772",
-      "latitude": 59.78792,
-      "longitude": 10.43429,
-      "time": "2026-07-12T13:20:39+02:00"
-    },
-    {
-      "navn": "Hogstadvannet",
-      "omrade": "Asker",
-      "temperatur": 22.7,
-      "maltKlokken": "21:30",
-      "locationId": "1-73212",
-      "latitude": 59.83352,
-      "longitude": 10.40126,
-      "time": "2026-07-12T21:30:00+02:00"
-    },
-    {
-      "navn": "Ramton Camping",
-      "omrade": "Asker",
-      "temperatur": 22,
-      "maltKlokken": "12:30",
-      "locationId": "0-915",
-      "latitude": 59.74271,
-      "longitude": 10.50996,
-      "time": "2026-07-12T12:30:16+02:00"
     }
   ]
 }

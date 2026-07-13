@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T13:03:28.624Z",
+  "generatedAt": "2026-07-13T16:10:03.483Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-13T14:30:00+02:00",
+  "updatedAt": "2026-07-13T15:38:00+02:00",
   "items": [
     {
       "navn": "Vatland",
@@ -33,6 +33,16 @@
       "time": "2026-07-13T14:12:15+02:00"
     },
     {
+      "navn": "Midtholmen",
+      "omrade": "Stavanger",
+      "temperatur": 21,
+      "maltKlokken": "15:38",
+      "locationId": "1-15158",
+      "latitude": 58.98713,
+      "longitude": 5.76895,
+      "time": "2026-07-13T15:38:00+02:00"
+    },
+    {
       "navn": "Dalevika",
       "omrade": "Sandnes",
       "temperatur": 20,
@@ -51,16 +61,6 @@
       "latitude": 59.18968,
       "longitude": 5.97669,
       "time": "2026-07-12T16:00:00+02:00"
-    },
-    {
-      "navn": "Grovik",
-      "omrade": "Stavanger",
-      "temperatur": 19,
-      "maltKlokken": "19:55",
-      "locationId": "1-2887712",
-      "latitude": 59.25431,
-      "longitude": 5.83014,
-      "time": "2026-07-12T19:55:27+02:00"
     }
   ]
 }
