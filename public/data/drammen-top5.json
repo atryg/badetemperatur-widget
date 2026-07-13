@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T09:25:20.343Z",
+  "generatedAt": "2026-07-13T13:03:28.624Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-13T11:17:23+02:00",
+  "updatedAt": "2026-07-13T14:47:28+02:00",
   "items": [
     {
       "navn": "Tangen fjordpark",
@@ -44,16 +44,6 @@
       "time": "2026-07-12T13:20:39+02:00"
     },
     {
-      "navn": "Engersand havn",
-      "omrade": "Lier",
-      "temperatur": 23,
-      "maltKlokken": "10:54",
-      "locationId": "1-2828983",
-      "latitude": 59.7309,
-      "longitude": 10.30326,
-      "time": "2026-07-11T10:54:29+02:00"
-    },
-    {
       "navn": "Hogstadvannet",
       "omrade": "Asker",
       "temperatur": 22.7,
@@ -62,6 +52,16 @@
       "latitude": 59.83352,
       "longitude": 10.40126,
       "time": "2026-07-12T21:30:00+02:00"
+    },
+    {
+      "navn": "Ramton Camping",
+      "omrade": "Asker",
+      "temperatur": 22,
+      "maltKlokken": "12:30",
+      "locationId": "0-915",
+      "latitude": 59.74271,
+      "longitude": 10.50996,
+      "time": "2026-07-12T12:30:16+02:00"
     }
   ]
 }
