@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T16:10:03.483Z",
+  "generatedAt": "2026-07-13T18:49:18.869Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-13T17:47:41+02:00",
+  "updatedAt": "2026-07-13T20:27:43+02:00",
   "items": [
     {
       "navn": "Hagemannsparken",
@@ -34,6 +34,16 @@
       "time": "2026-07-13T17:15:00+02:00"
     },
     {
+      "navn": "Landfalltjern",
+      "omrade": "Drammen",
+      "temperatur": 24,
+      "maltKlokken": "19:26",
+      "locationId": "1-72417",
+      "latitude": 59.7697,
+      "longitude": 10.16385,
+      "time": "2026-07-13T19:26:00+02:00"
+    },
+    {
       "navn": "Havnevik",
       "omrade": "Drammen",
       "temperatur": 24,
@@ -44,24 +54,14 @@
       "time": "2026-07-13T14:00:00+02:00"
     },
     {
-      "navn": "Ramton",
+      "navn": "Kinnartangen",
       "omrade": "Asker",
       "temperatur": 23.5,
-      "maltKlokken": "15:53",
-      "locationId": "1-59623",
-      "latitude": 59.74086,
-      "longitude": 10.51127,
-      "time": "2026-07-13T15:53:07+02:00"
-    },
-    {
-      "navn": "Tangen fjordpark",
-      "omrade": "Drammen",
-      "temperatur": 23,
-      "maltKlokken": "22:08",
-      "locationId": "11-18853",
-      "latitude": 59.68456,
-      "longitude": 10.35687,
-      "time": "2026-07-11T22:08:44+02:00"
+      "maltKlokken": "20:03",
+      "locationId": "1-58840",
+      "latitude": 59.71159,
+      "longitude": 10.33643,
+      "time": "2026-07-13T20:03:00+02:00"
     }
   ]
 }

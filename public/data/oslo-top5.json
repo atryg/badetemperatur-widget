@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T16:10:03.483Z",
+  "generatedAt": "2026-07-13T18:49:18.869Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-13T17:15:00+02:00",
+  "updatedAt": "2026-07-13T20:03:00+02:00",
   "items": [
     {
       "navn": "Hyggen",
@@ -41,11 +41,21 @@
       "navn": "Østernvann",
       "omrade": "Bærum",
       "temperatur": 24,
-      "maltKlokken": "16:55",
+      "maltKlokken": "20:00",
       "locationId": "1-72640",
       "latitude": 59.96872,
       "longitude": 10.58186,
-      "time": "2026-07-13T16:55:52+02:00"
+      "time": "2026-07-13T20:00:00+02:00"
+    },
+    {
+      "navn": "Kinnartangen",
+      "omrade": "Asker",
+      "temperatur": 23.5,
+      "maltKlokken": "20:03",
+      "locationId": "1-58840",
+      "latitude": 59.71159,
+      "longitude": 10.33643,
+      "time": "2026-07-13T20:03:00+02:00"
     },
     {
       "navn": "Ramton",
@@ -56,16 +66,6 @@
       "latitude": 59.74086,
       "longitude": 10.51127,
       "time": "2026-07-13T15:53:07+02:00"
-    },
-    {
-      "navn": "Kalvøya",
-      "omrade": "Bærum",
-      "temperatur": 23.1,
-      "maltKlokken": "13:00",
-      "locationId": "1-73036",
-      "latitude": 59.88498,
-      "longitude": 10.53804,
-      "time": "2026-07-13T13:00:49+02:00"
     }
   ]
 }
