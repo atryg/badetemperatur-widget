@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T10:53:07.741Z",
+  "generatedAt": "2026-07-14T13:54:25.130Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-14T12:01:43+02:00",
+  "updatedAt": "2026-07-14T15:13:00+02:00",
   "items": [
     {
       "navn": "Østernvann",

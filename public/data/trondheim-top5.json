@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T10:53:07.741Z",
+  "generatedAt": "2026-07-14T13:54:25.130Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-13T17:10:00+02:00",
+  "updatedAt": "2026-07-14T13:20:00+02:00",
   "items": [
     {
       "navn": "Devlebukta",
@@ -18,6 +18,16 @@
       "latitude": 63.44477,
       "longitude": 10.46883,
       "time": "2026-07-12T15:30:00+02:00"
+    },
+    {
+      "navn": "Væresstranda",
+      "omrade": "Trondheim",
+      "temperatur": 17.4,
+      "maltKlokken": "13:20",
+      "locationId": "10-1026862",
+      "latitude": 63.43269,
+      "longitude": 10.56864,
+      "time": "2026-07-14T13:20:00+02:00"
     },
     {
       "navn": "Sjøbadet",
@@ -48,16 +58,6 @@
       "latitude": 63.43624,
       "longitude": 10.51306,
       "time": "2026-07-13T17:10:00+02:00"
-    },
-    {
-      "navn": "Ilsvika",
-      "omrade": "Trondheim",
-      "temperatur": 15.1,
-      "maltKlokken": "10:57",
-      "locationId": "1-211101",
-      "latitude": 63.43373,
-      "longitude": 10.35388,
-      "time": "2026-07-12T10:57:00+02:00"
     }
   ]
 }
