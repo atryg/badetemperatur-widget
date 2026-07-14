@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T19:45:50.270Z",
+  "generatedAt": "2026-07-14T22:35:37.340Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-14T21:00:00+02:00",
+  "updatedAt": "2026-07-15T00:00:00+02:00",
   "items": [
+    {
+      "navn": "Gjerdalstranda",
+      "omrade": "Asker",
+      "temperatur": 26,
+      "maltKlokken": "17:00",
+      "locationId": "0-10008",
+      "latitude": 59.69067,
+      "longitude": 10.40074,
+      "time": "2026-07-14T17:00:00+02:00"
+    },
     {
       "navn": "Hyggen",
       "omrade": "Asker",
@@ -56,16 +66,6 @@
       "latitude": 59.83372,
       "longitude": 10.49792,
       "time": "2026-07-14T14:20:00+02:00"
-    },
-    {
-      "navn": "Kinnartangen",
-      "omrade": "Asker",
-      "temperatur": 23.5,
-      "maltKlokken": "20:03",
-      "locationId": "1-58840",
-      "latitude": 59.71159,
-      "longitude": 10.33643,
-      "time": "2026-07-13T20:03:00+02:00"
     }
   ]
 }
