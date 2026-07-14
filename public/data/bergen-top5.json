@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T16:42:06.176Z",
+  "generatedAt": "2026-07-14T19:45:50.270Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-14T17:31:00+02:00",
+  "updatedAt": "2026-07-14T21:01:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 32.18000030517578,
-      "maltKlokken": "17:31",
+      "temperatur": 30.51999855041504,
+      "maltKlokken": "21:01",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-14T17:31:00+02:00"
+      "time": "2026-07-14T21:01:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 32.02000045776367,
-      "maltKlokken": "17:31",
+      "temperatur": 30.369998931884766,
+      "maltKlokken": "21:01",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-14T17:31:00+02:00"
+      "time": "2026-07-14T21:01:00+02:00"
     },
     {
       "navn": "Store Lungegårdsvannet",
@@ -40,6 +40,16 @@
       "time": "2026-07-14T16:00:00+02:00"
     },
     {
+      "navn": "Garnes",
+      "omrade": "Bergen",
+      "temperatur": 20.5,
+      "maltKlokken": "18:53",
+      "locationId": "1-93216",
+      "latitude": 60.44458,
+      "longitude": 5.47188,
+      "time": "2026-07-14T18:53:00+02:00"
+    },
+    {
       "navn": "Tellevik",
       "omrade": "Bergen",
       "temperatur": 19.6,
@@ -48,16 +58,6 @@
       "latitude": 60.5164,
       "longitude": 5.28359,
       "time": "2026-07-13T22:45:00+02:00"
-    },
-    {
-      "navn": "Nordnes Park og Sjøbad",
-      "omrade": "Bergen",
-      "temperatur": 19.2549991607666,
-      "maltKlokken": "17:31",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-07-14T17:31:00+02:00"
     }
   ]
 }

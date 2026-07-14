@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T16:42:06.176Z",
+  "generatedAt": "2026-07-14T19:45:50.270Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,8 +11,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-14T18:20:47+02:00",
+  "updatedAt": "2026-07-14T21:30:52+02:00",
   "items": [
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 25.3,
+      "maltKlokken": "19:45",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-07-14T19:45:00+02:00"
+    },
     {
       "navn": "Landfalltjern",
       "omrade": "Drammen",
@@ -52,16 +62,6 @@
       "latitude": 59.71159,
       "longitude": 10.33643,
       "time": "2026-07-13T20:03:00+02:00"
-    },
-    {
-      "navn": "Ramton",
-      "omrade": "Asker",
-      "temperatur": 23.5,
-      "maltKlokken": "16:01",
-      "locationId": "1-59623",
-      "latitude": 59.74086,
-      "longitude": 10.51127,
-      "time": "2026-07-14T16:01:09+02:00"
     }
   ]
 }
