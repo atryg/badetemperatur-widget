@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T16:46:10.065Z",
+  "generatedAt": "2026-07-15T19:42:51.815Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-15T18:11:41+02:00",
+  "updatedAt": "2026-07-15T21:21:46+02:00",
   "items": [
     {
       "navn": "Ramton",

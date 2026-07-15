@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T16:46:10.065Z",
+  "generatedAt": "2026-07-15T19:42:51.815Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-15T18:00:00+02:00",
+  "updatedAt": "2026-07-15T21:00:00+02:00",
   "items": [
+    {
+      "navn": "Østernvann",
+      "omrade": "Bærum",
+      "temperatur": 25,
+      "maltKlokken": "20:55",
+      "locationId": "1-72640",
+      "latitude": 59.96872,
+      "longitude": 10.58186,
+      "time": "2026-07-15T20:55:00+02:00"
+    },
     {
       "navn": "Det Norske Veritas",
       "omrade": "Bærum",
@@ -36,16 +46,6 @@
       "latitude": 59.74086,
       "longitude": 10.51127,
       "time": "2026-07-15T15:21:38+02:00"
-    },
-    {
-      "navn": "Østernvann",
-      "omrade": "Bærum",
-      "temperatur": 24.5,
-      "maltKlokken": "21:00",
-      "locationId": "1-72640",
-      "latitude": 59.96872,
-      "longitude": 10.58186,
-      "time": "2026-07-14T21:00:00+02:00"
     },
     {
       "navn": "Torskeberget",
