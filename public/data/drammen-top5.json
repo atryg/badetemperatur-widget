@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T13:54:12.403Z",
+  "generatedAt": "2026-07-15T16:46:10.065Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-15T15:36:42+02:00",
+  "updatedAt": "2026-07-15T18:11:41+02:00",
   "items": [
     {
       "navn": "Ramton",
@@ -34,6 +34,16 @@
       "time": "2026-07-15T12:21:24+02:00"
     },
     {
+      "navn": "Engersand havn",
+      "omrade": "Lier",
+      "temperatur": 24.3,
+      "maltKlokken": "16:23",
+      "locationId": "1-2828983",
+      "latitude": 59.7309,
+      "longitude": 10.30326,
+      "time": "2026-07-15T16:23:13+02:00"
+    },
+    {
       "navn": "Gjerdalstranda",
       "omrade": "Asker",
       "temperatur": 24,
@@ -52,16 +62,6 @@
       "latitude": 59.74271,
       "longitude": 10.50996,
       "time": "2026-07-15T13:34:22+02:00"
-    },
-    {
-      "navn": "Kinnartangen",
-      "omrade": "Asker",
-      "temperatur": 24,
-      "maltKlokken": "15:17",
-      "locationId": "1-58840",
-      "latitude": 59.71159,
-      "longitude": 10.33643,
-      "time": "2026-07-15T15:17:00+02:00"
     }
   ]
 }

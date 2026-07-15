@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T13:54:12.403Z",
+  "generatedAt": "2026-07-15T16:46:10.065Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -50,14 +50,14 @@
       "time": "2026-07-12T16:17:00+02:00"
     },
     {
-      "navn": "Baklidammen",
+      "navn": "Grilstad Marina",
       "omrade": "Trondheim",
-      "temperatur": 16,
-      "maltKlokken": "16:46",
-      "locationId": "1-211185",
-      "latitude": 63.41922,
-      "longitude": 10.32098,
-      "time": "2026-07-10T16:46:53+02:00"
+      "temperatur": 15.8,
+      "maltKlokken": "17:10",
+      "locationId": "0-10104",
+      "latitude": 63.43624,
+      "longitude": 10.51306,
+      "time": "2026-07-13T17:10:00+02:00"
     }
   ]
 }

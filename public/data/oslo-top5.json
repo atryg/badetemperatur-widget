@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T13:54:12.403Z",
+  "generatedAt": "2026-07-15T16:46:10.065Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-15T15:21:38+02:00",
+  "updatedAt": "2026-07-15T18:00:00+02:00",
   "items": [
+    {
+      "navn": "Det Norske Veritas",
+      "omrade": "Bærum",
+      "temperatur": 25,
+      "maltKlokken": "16:44",
+      "locationId": "1-72998",
+      "latitude": 59.88782,
+      "longitude": 10.56364,
+      "time": "2026-07-15T16:44:25+02:00"
+    },
     {
       "navn": "Ramton",
       "omrade": "Asker",
@@ -48,24 +58,14 @@
       "time": "2026-07-15T12:21:24+02:00"
     },
     {
-      "navn": "Gjerdalstranda",
-      "omrade": "Asker",
-      "temperatur": 24,
-      "maltKlokken": "10:10",
-      "locationId": "0-10008",
-      "latitude": 59.69067,
-      "longitude": 10.40074,
-      "time": "2026-07-15T10:10:07+02:00"
-    },
-    {
-      "navn": "Ramton Camping",
-      "omrade": "Asker",
-      "temperatur": 24,
-      "maltKlokken": "13:34",
-      "locationId": "0-915",
-      "latitude": 59.74271,
-      "longitude": 10.50996,
-      "time": "2026-07-15T13:34:22+02:00"
+      "navn": "Engersand havn",
+      "omrade": "Lier",
+      "temperatur": 24.3,
+      "maltKlokken": "16:23",
+      "locationId": "1-2828983",
+      "latitude": 59.7309,
+      "longitude": 10.30326,
+      "time": "2026-07-15T16:23:13+02:00"
     }
   ]
 }
