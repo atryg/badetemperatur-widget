@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T11:47:47.281Z",
+  "generatedAt": "2026-07-15T13:54:12.403Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-14T17:42:05+02:00",
+  "updatedAt": "2026-07-15T13:55:06+02:00",
   "items": [
     {
       "navn": "Devlebukta",
@@ -30,6 +30,16 @@
       "time": "2026-07-14T13:20:00+02:00"
     },
     {
+      "navn": "Storsteinan",
+      "omrade": "Trondheim",
+      "temperatur": 17,
+      "maltKlokken": "13:55",
+      "locationId": "1-2319686",
+      "latitude": 63.45322,
+      "longitude": 10.25601,
+      "time": "2026-07-15T13:55:06+02:00"
+    },
+    {
       "navn": "Sjøbadet",
       "omrade": "Trondheim",
       "temperatur": 16,
@@ -48,16 +58,6 @@
       "latitude": 63.41922,
       "longitude": 10.32098,
       "time": "2026-07-10T16:46:53+02:00"
-    },
-    {
-      "navn": "Storsteinan",
-      "omrade": "Trondheim",
-      "temperatur": 16,
-      "maltKlokken": "17:42",
-      "locationId": "1-2319686",
-      "latitude": 63.45322,
-      "longitude": 10.25601,
-      "time": "2026-07-14T17:42:05+02:00"
     }
   ]
 }
