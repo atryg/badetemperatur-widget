@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T09:01:07.022Z",
+  "generatedAt": "2026-07-15T11:47:47.281Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-15T10:36:37+02:00",
+  "updatedAt": "2026-07-15T13:34:22+02:00",
   "items": [
     {
       "navn": "Østernvann",
@@ -28,6 +28,16 @@
       "time": "2026-07-14T21:00:00+02:00"
     },
     {
+      "navn": "Torskeberget",
+      "omrade": "Asker",
+      "temperatur": 24.3,
+      "maltKlokken": "12:21",
+      "locationId": "11-14863",
+      "latitude": 59.75354,
+      "longitude": 10.51233,
+      "time": "2026-07-15T12:21:24+02:00"
+    },
+    {
       "navn": "Gjerdalstranda",
       "omrade": "Asker",
       "temperatur": 24,
@@ -38,6 +48,16 @@
       "time": "2026-07-15T10:10:07+02:00"
     },
     {
+      "navn": "Ramton Camping",
+      "omrade": "Asker",
+      "temperatur": 24,
+      "maltKlokken": "13:34",
+      "locationId": "0-915",
+      "latitude": 59.74271,
+      "longitude": 10.50996,
+      "time": "2026-07-15T13:34:22+02:00"
+    },
+    {
       "navn": "Gjetsjøvannet",
       "omrade": "Nordre Follo",
       "temperatur": 24,
@@ -46,26 +66,6 @@
       "latitude": 59.73756,
       "longitude": 10.96234,
       "time": "2026-07-12T16:45:00+02:00"
-    },
-    {
-      "navn": "Spirebukta",
-      "omrade": "Asker",
-      "temperatur": 24,
-      "maltKlokken": "14:20",
-      "locationId": "1-73195",
-      "latitude": 59.83372,
-      "longitude": 10.49792,
-      "time": "2026-07-14T14:20:00+02:00"
-    },
-    {
-      "navn": "Nærsnesbukta",
-      "omrade": "Asker",
-      "temperatur": 24,
-      "maltKlokken": "21:37",
-      "locationId": "1-73434",
-      "latitude": 59.76658,
-      "longitude": 10.50693,
-      "time": "2026-07-14T21:37:00+02:00"
     }
   ]
 }
