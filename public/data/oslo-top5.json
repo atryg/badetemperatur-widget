@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T09:02:30.250Z",
+  "generatedAt": "2026-07-16T11:51:03.888Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-16T10:00:00+02:00",
+  "updatedAt": "2026-07-16T13:00:00+02:00",
   "items": [
     {
       "navn": "Østernvann",
@@ -26,16 +26,6 @@
       "latitude": 59.96872,
       "longitude": 10.58186,
       "time": "2026-07-15T20:55:00+02:00"
-    },
-    {
-      "navn": "Det Norske Veritas",
-      "omrade": "Bærum",
-      "temperatur": 25,
-      "maltKlokken": "16:44",
-      "locationId": "1-72998",
-      "latitude": 59.88782,
-      "longitude": 10.56364,
-      "time": "2026-07-15T16:44:25+02:00"
     },
     {
       "navn": "Sarbuvollen",
@@ -66,6 +56,16 @@
       "latitude": 59.7309,
       "longitude": 10.30326,
       "time": "2026-07-15T16:23:13+02:00"
+    },
+    {
+      "navn": "Ramton",
+      "omrade": "Asker",
+      "temperatur": 24.1,
+      "maltKlokken": "12:26",
+      "locationId": "1-59623",
+      "latitude": 59.74086,
+      "longitude": 10.51127,
+      "time": "2026-07-16T12:26:25+02:00"
     }
   ]
 }

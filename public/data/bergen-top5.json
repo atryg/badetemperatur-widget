@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T09:02:30.250Z",
+  "generatedAt": "2026-07-16T11:51:03.888Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-16T10:01:00+02:00",
+  "updatedAt": "2026-07-16T13:08:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 29.469999313354492,
-      "maltKlokken": "10:01",
+      "temperatur": 31.44999885559082,
+      "maltKlokken": "13:01",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-16T10:01:00+02:00"
+      "time": "2026-07-16T13:01:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 29.059999465942383,
-      "maltKlokken": "10:01",
+      "temperatur": 31.31999969482422,
+      "maltKlokken": "13:01",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-16T10:01:00+02:00"
+      "time": "2026-07-16T13:01:00+02:00"
+    },
+    {
+      "navn": "Breistein",
+      "omrade": "Bergen",
+      "temperatur": 21,
+      "maltKlokken": "13:08",
+      "locationId": "1-92099",
+      "latitude": 60.48624,
+      "longitude": 5.4038,
+      "time": "2026-07-16T13:08:00+02:00"
     },
     {
       "navn": "Store Lungegårdsvannet",
@@ -48,16 +58,6 @@
       "latitude": 60.44458,
       "longitude": 5.47188,
       "time": "2026-07-14T18:53:00+02:00"
-    },
-    {
-      "navn": "Nordåsvatnet",
-      "omrade": "Bergen",
-      "temperatur": 19,
-      "maltKlokken": "19:21",
-      "locationId": "1-92769",
-      "latitude": 60.31977,
-      "longitude": 5.31004,
-      "time": "2026-07-12T19:21:00+02:00"
     }
   ]
 }

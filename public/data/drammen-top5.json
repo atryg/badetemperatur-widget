@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T09:02:30.250Z",
+  "generatedAt": "2026-07-16T11:51:03.888Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-16T10:52:01+02:00",
+  "updatedAt": "2026-07-16T13:22:05+02:00",
   "items": [
     {
       "navn": "Torskeberget",
@@ -34,6 +34,16 @@
       "time": "2026-07-15T16:23:13+02:00"
     },
     {
+      "navn": "Ramton",
+      "omrade": "Asker",
+      "temperatur": 24.1,
+      "maltKlokken": "12:26",
+      "locationId": "1-59623",
+      "latitude": 59.74086,
+      "longitude": 10.51127,
+      "time": "2026-07-16T12:26:25+02:00"
+    },
+    {
       "navn": "Gjerdalstranda",
       "omrade": "Asker",
       "temperatur": 24,
@@ -52,16 +62,6 @@
       "latitude": 59.74271,
       "longitude": 10.50996,
       "time": "2026-07-15T13:34:22+02:00"
-    },
-    {
-      "navn": "Hoensvannsløken",
-      "omrade": "Øvre Eiker",
-      "temperatur": 24,
-      "maltKlokken": "09:57",
-      "locationId": "1-2323843",
-      "latitude": 59.79662,
-      "longitude": 9.76459,
-      "time": "2026-07-16T09:57:00+02:00"
     }
   ]
 }
