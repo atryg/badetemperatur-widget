@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T15:47:31.464Z",
+  "generatedAt": "2026-07-16T18:40:13.903Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-16T16:31:00+02:00",
+  "updatedAt": "2026-07-16T19:31:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.599998474121094,
-      "maltKlokken": "16:31",
+      "temperatur": 30.849998474121094,
+      "maltKlokken": "19:31",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-16T16:31:00+02:00"
+      "time": "2026-07-16T19:31:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 31.44999885559082,
-      "maltKlokken": "16:31",
+      "temperatur": 30.689998626708984,
+      "maltKlokken": "19:31",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-16T16:31:00+02:00"
+      "time": "2026-07-16T19:31:00+02:00"
     },
     {
       "navn": "Breistein",

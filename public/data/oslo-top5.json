@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T15:47:31.464Z",
+  "generatedAt": "2026-07-16T18:40:13.903Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,28 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-16T17:00:00+02:00",
+  "updatedAt": "2026-07-16T20:00:00+02:00",
   "items": [
+    {
+      "navn": "Storøyodden",
+      "omrade": "Bærum",
+      "temperatur": 25.6,
+      "maltKlokken": "16:00",
+      "locationId": "0-10014",
+      "latitude": 59.88819,
+      "longitude": 10.59302,
+      "time": "2026-07-16T16:00:50+02:00"
+    },
+    {
+      "navn": "Kalvøya",
+      "omrade": "Bærum",
+      "temperatur": 25.2,
+      "maltKlokken": "16:01",
+      "locationId": "1-73036",
+      "latitude": 59.88498,
+      "longitude": 10.53804,
+      "time": "2026-07-16T16:01:13+02:00"
+    },
     {
       "navn": "Hyggen",
       "omrade": "Asker",
@@ -46,26 +66,6 @@
       "latitude": 59.9679,
       "longitude": 11.02628,
       "time": "2026-07-16T08:00:00+02:00"
-    },
-    {
-      "navn": "Østernvann",
-      "omrade": "Bærum",
-      "temperatur": 25,
-      "maltKlokken": "20:55",
-      "locationId": "1-72640",
-      "latitude": 59.96872,
-      "longitude": 10.58186,
-      "time": "2026-07-15T20:55:00+02:00"
-    },
-    {
-      "navn": "Sarbuvollen",
-      "omrade": "Bærum",
-      "temperatur": 25,
-      "maltKlokken": "20:00",
-      "locationId": "1-72999",
-      "latitude": 59.89406,
-      "longitude": 10.58446,
-      "time": "2026-07-15T20:00:00+02:00"
     }
   ]
 }

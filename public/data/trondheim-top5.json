@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T15:47:31.464Z",
+  "generatedAt": "2026-07-16T18:40:13.903Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,8 +7,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-16T14:53:00+02:00",
+  "updatedAt": "2026-07-16T16:26:00+02:00",
   "items": [
+    {
+      "navn": "Theisendammen",
+      "omrade": "Trondheim",
+      "temperatur": 20,
+      "maltKlokken": "16:26",
+      "locationId": "1-211187",
+      "latitude": 63.42178,
+      "longitude": 10.34518,
+      "time": "2026-07-16T16:26:00+02:00"
+    },
     {
       "navn": "Lianvatnet",
       "omrade": "Trondheim",
@@ -48,16 +58,6 @@
       "latitude": 63.43373,
       "longitude": 10.35388,
       "time": "2026-07-16T14:35:00+02:00"
-    },
-    {
-      "navn": "Storsteinan",
-      "omrade": "Trondheim",
-      "temperatur": 17,
-      "maltKlokken": "13:55",
-      "locationId": "1-2319686",
-      "latitude": 63.45322,
-      "longitude": 10.25601,
-      "time": "2026-07-15T13:55:06+02:00"
     }
   ]
 }
