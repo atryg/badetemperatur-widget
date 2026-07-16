@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T11:51:03.888Z",
+  "generatedAt": "2026-07-16T15:47:31.464Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,38 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-16T13:00:00+02:00",
+  "updatedAt": "2026-07-16T17:00:00+02:00",
   "items": [
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 25.2,
+      "maltKlokken": "16:05",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-07-16T16:05:00+02:00"
+    },
+    {
+      "navn": "Det Norske Veritas",
+      "omrade": "Bærum",
+      "temperatur": 25.1,
+      "maltKlokken": "16:05",
+      "locationId": "1-72998",
+      "latitude": 59.88782,
+      "longitude": 10.56364,
+      "time": "2026-07-16T16:05:58+02:00"
+    },
+    {
+      "navn": "Nebbursvollen friluftsbad",
+      "omrade": "Lillestrøm",
+      "temperatur": 25,
+      "maltKlokken": "08:00",
+      "locationId": "1-2251575",
+      "latitude": 59.9679,
+      "longitude": 11.02628,
+      "time": "2026-07-16T08:00:00+02:00"
+    },
     {
       "navn": "Østernvann",
       "omrade": "Bærum",
@@ -36,36 +66,6 @@
       "latitude": 59.89406,
       "longitude": 10.58446,
       "time": "2026-07-15T20:00:00+02:00"
-    },
-    {
-      "navn": "Torskeberget",
-      "omrade": "Asker",
-      "temperatur": 24.3,
-      "maltKlokken": "12:21",
-      "locationId": "11-14863",
-      "latitude": 59.75354,
-      "longitude": 10.51233,
-      "time": "2026-07-15T12:21:24+02:00"
-    },
-    {
-      "navn": "Engersand havn",
-      "omrade": "Lier",
-      "temperatur": 24.3,
-      "maltKlokken": "16:23",
-      "locationId": "1-2828983",
-      "latitude": 59.7309,
-      "longitude": 10.30326,
-      "time": "2026-07-15T16:23:13+02:00"
-    },
-    {
-      "navn": "Ramton",
-      "omrade": "Asker",
-      "temperatur": 24.1,
-      "maltKlokken": "12:26",
-      "locationId": "1-59623",
-      "latitude": 59.74086,
-      "longitude": 10.51127,
-      "time": "2026-07-16T12:26:25+02:00"
     }
   ]
 }

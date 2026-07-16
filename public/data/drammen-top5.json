@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T11:51:03.888Z",
+  "generatedAt": "2026-07-16T15:47:31.464Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,8 +11,28 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-16T13:22:05+02:00",
+  "updatedAt": "2026-07-16T17:14:13+02:00",
   "items": [
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 25.2,
+      "maltKlokken": "16:05",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-07-16T16:05:00+02:00"
+    },
+    {
+      "navn": "Spirebukta",
+      "omrade": "Asker",
+      "temperatur": 25,
+      "maltKlokken": "15:22",
+      "locationId": "1-73195",
+      "latitude": 59.83372,
+      "longitude": 10.49792,
+      "time": "2026-07-16T15:22:00+02:00"
+    },
     {
       "navn": "Torskeberget",
       "omrade": "Asker",
@@ -34,34 +54,14 @@
       "time": "2026-07-15T16:23:13+02:00"
     },
     {
-      "navn": "Ramton",
+      "navn": "Hvalstrand",
       "omrade": "Asker",
-      "temperatur": 24.1,
-      "maltKlokken": "12:26",
-      "locationId": "1-59623",
-      "latitude": 59.74086,
-      "longitude": 10.51127,
-      "time": "2026-07-16T12:26:25+02:00"
-    },
-    {
-      "navn": "Gjerdalstranda",
-      "omrade": "Asker",
-      "temperatur": 24,
-      "maltKlokken": "10:10",
-      "locationId": "0-10008",
-      "latitude": 59.69067,
-      "longitude": 10.40074,
-      "time": "2026-07-15T10:10:07+02:00"
-    },
-    {
-      "navn": "Ramton Camping",
-      "omrade": "Asker",
-      "temperatur": 24,
-      "maltKlokken": "13:34",
-      "locationId": "0-915",
-      "latitude": 59.74271,
-      "longitude": 10.50996,
-      "time": "2026-07-15T13:34:22+02:00"
+      "temperatur": 24.3,
+      "maltKlokken": "13:00",
+      "locationId": "2-3151302",
+      "latitude": 59.84215,
+      "longitude": 10.48857,
+      "time": "2026-07-16T13:00:49+02:00"
     }
   ]
 }

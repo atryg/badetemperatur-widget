@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T11:51:03.888Z",
+  "generatedAt": "2026-07-16T15:47:31.464Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-16T13:08:00+02:00",
+  "updatedAt": "2026-07-16T16:31:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.44999885559082,
-      "maltKlokken": "13:01",
+      "temperatur": 31.599998474121094,
+      "maltKlokken": "16:31",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-16T13:01:00+02:00"
+      "time": "2026-07-16T16:31:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 31.31999969482422,
-      "maltKlokken": "13:01",
+      "temperatur": 31.44999885559082,
+      "maltKlokken": "16:31",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-16T13:01:00+02:00"
+      "time": "2026-07-16T16:31:00+02:00"
     },
     {
       "navn": "Breistein",
@@ -40,16 +40,6 @@
       "time": "2026-07-16T13:08:00+02:00"
     },
     {
-      "navn": "Store Lungegårdsvannet",
-      "omrade": "Bergen",
-      "temperatur": 21,
-      "maltKlokken": "20:00",
-      "locationId": "1-92541",
-      "latitude": 60.38207,
-      "longitude": 5.34355,
-      "time": "2026-07-15T20:00:00+02:00"
-    },
-    {
       "navn": "Garnes",
       "omrade": "Bergen",
       "temperatur": 20.5,
@@ -58,6 +48,16 @@
       "latitude": 60.44458,
       "longitude": 5.47188,
       "time": "2026-07-14T18:53:00+02:00"
+    },
+    {
+      "navn": "Store Lungegårdsvannet",
+      "omrade": "Bergen",
+      "temperatur": 20,
+      "maltKlokken": "16:30",
+      "locationId": "1-92541",
+      "latitude": 60.38207,
+      "longitude": 5.34355,
+      "time": "2026-07-16T16:30:00+02:00"
     }
   ]
 }

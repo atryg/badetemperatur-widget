@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T11:51:03.888Z",
+  "generatedAt": "2026-07-16T15:47:31.464Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,18 +10,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-16T12:42:47+02:00",
+  "updatedAt": "2026-07-16T16:30:00+02:00",
   "items": [
-    {
-      "navn": "Skjølvikneset",
-      "omrade": "Sandnes",
-      "temperatur": 30,
-      "maltKlokken": "12:42",
-      "locationId": "1-2236102",
-      "latitude": 58.94121,
-      "longitude": 5.85171,
-      "time": "2026-07-16T12:42:47+02:00"
-    },
     {
       "navn": "Vatland",
       "omrade": "Stavanger",
@@ -36,11 +26,11 @@
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
       "temperatur": 23.625,
-      "maltKlokken": "12:12",
+      "maltKlokken": "16:12",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-07-16T12:12:46+02:00"
+      "time": "2026-07-16T16:12:38+02:00"
     },
     {
       "navn": "Midtholmen",
@@ -51,6 +41,16 @@
       "latitude": 58.98713,
       "longitude": 5.76895,
       "time": "2026-07-13T15:38:00+02:00"
+    },
+    {
+      "navn": "Kallali",
+      "omrade": "Sandnes",
+      "temperatur": 21,
+      "maltKlokken": "16:30",
+      "locationId": "1-26405",
+      "latitude": 59.00832,
+      "longitude": 6.39434,
+      "time": "2026-07-16T16:30:00+02:00"
     },
     {
       "navn": "Gauselbukta",
