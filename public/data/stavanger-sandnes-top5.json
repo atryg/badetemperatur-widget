@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T10:53:42.670Z",
+  "generatedAt": "2026-07-17T13:53:44.035Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-17T12:27:00+02:00",
+  "updatedAt": "2026-07-17T13:31:00+02:00",
   "items": [
     {
       "navn": "Vatland",

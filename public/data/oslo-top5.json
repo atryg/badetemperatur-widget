@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T10:53:42.670Z",
+  "generatedAt": "2026-07-17T13:53:44.035Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-17T12:00:00+02:00",
+  "updatedAt": "2026-07-17T15:27:52+02:00",
   "items": [
     {
       "navn": "Kinnartangen",
@@ -26,6 +26,26 @@
       "latitude": 59.71159,
       "longitude": 10.33643,
       "time": "2026-07-16T14:00:00+02:00"
+    },
+    {
+      "navn": "Engersandbukta",
+      "omrade": "Lier",
+      "temperatur": 25.4,
+      "maltKlokken": "13:30",
+      "locationId": "1-2313604",
+      "latitude": 59.73703,
+      "longitude": 10.29811,
+      "time": "2026-07-16T13:30:00+02:00"
+    },
+    {
+      "navn": "Det Norske Veritas",
+      "omrade": "Bærum",
+      "temperatur": 25.1,
+      "maltKlokken": "15:27",
+      "locationId": "1-72998",
+      "latitude": 59.88782,
+      "longitude": 10.56364,
+      "time": "2026-07-17T15:27:52+02:00"
     },
     {
       "navn": "Nebbursvollen friluftsbad",
@@ -46,26 +66,6 @@
       "latitude": 59.96872,
       "longitude": 10.58186,
       "time": "2026-07-15T20:55:00+02:00"
-    },
-    {
-      "navn": "Sarbuvollen",
-      "omrade": "Bærum",
-      "temperatur": 25,
-      "maltKlokken": "20:00",
-      "locationId": "1-72999",
-      "latitude": 59.89406,
-      "longitude": 10.58446,
-      "time": "2026-07-15T20:00:00+02:00"
-    },
-    {
-      "navn": "Spirebukta",
-      "omrade": "Asker",
-      "temperatur": 25,
-      "maltKlokken": "15:22",
-      "locationId": "1-73195",
-      "latitude": 59.83372,
-      "longitude": 10.49792,
-      "time": "2026-07-16T15:22:00+02:00"
     }
   ]
 }
