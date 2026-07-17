@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T05:21:05.712Z",
+  "generatedAt": "2026-07-17T07:56:21.470Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-17T07:05:18+02:00",
+  "updatedAt": "2026-07-17T09:25:29+02:00",
   "items": [
     {
       "navn": "Hyggen",
@@ -34,16 +34,6 @@
       "time": "2026-07-16T15:22:00+02:00"
     },
     {
-      "navn": "Hvalstrand",
-      "omrade": "Asker",
-      "temperatur": 24.6,
-      "maltKlokken": "16:00",
-      "locationId": "2-3151302",
-      "latitude": 59.84215,
-      "longitude": 10.48857,
-      "time": "2026-07-16T16:00:45+02:00"
-    },
-    {
       "navn": "Torskeberget",
       "omrade": "Asker",
       "temperatur": 24.3,
@@ -62,6 +52,16 @@
       "latitude": 59.7309,
       "longitude": 10.30326,
       "time": "2026-07-15T16:23:13+02:00"
+    },
+    {
+      "navn": "Gjerdalstranda",
+      "omrade": "Asker",
+      "temperatur": 24,
+      "maltKlokken": "10:10",
+      "locationId": "0-10008",
+      "latitude": 59.69067,
+      "longitude": 10.40074,
+      "time": "2026-07-15T10:10:07+02:00"
     }
   ]
 }
