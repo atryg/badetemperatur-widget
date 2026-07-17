@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T13:53:44.035Z",
+  "generatedAt": "2026-07-17T16:40:00.274Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-17T15:35:41+02:00",
+  "updatedAt": "2026-07-17T18:01:51+02:00",
   "items": [
     {
       "navn": "Kinnartangen",
@@ -44,6 +44,16 @@
       "time": "2026-07-16T15:22:00+02:00"
     },
     {
+      "navn": "Ødegårdsodden",
+      "omrade": "Holmestrand",
+      "temperatur": 24.5,
+      "maltKlokken": "17:42",
+      "locationId": "2-11998595",
+      "latitude": 59.55261,
+      "longitude": 10.28024,
+      "time": "2026-07-17T17:42:17+02:00"
+    },
+    {
       "navn": "Torskeberget",
       "omrade": "Asker",
       "temperatur": 24.3,
@@ -52,16 +62,6 @@
       "latitude": 59.75354,
       "longitude": 10.51233,
       "time": "2026-07-15T12:21:24+02:00"
-    },
-    {
-      "navn": "Kverntangen",
-      "omrade": "Holmestrand",
-      "temperatur": 24.3,
-      "maltKlokken": "14:28",
-      "locationId": "1-2289432",
-      "latitude": 59.56152,
-      "longitude": 10.25692,
-      "time": "2026-07-17T14:28:00+02:00"
     }
   ]
 }

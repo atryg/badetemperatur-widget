@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T13:53:44.035Z",
+  "generatedAt": "2026-07-17T16:40:00.274Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-17T15:27:52+02:00",
+  "updatedAt": "2026-07-17T18:01:51+02:00",
   "items": [
+    {
+      "navn": "Østernvann",
+      "omrade": "Bærum",
+      "temperatur": 27,
+      "maltKlokken": "19:30",
+      "locationId": "1-72640",
+      "latitude": 59.96872,
+      "longitude": 10.58186,
+      "time": "2026-07-16T19:30:00+02:00"
+    },
     {
       "navn": "Kinnartangen",
       "omrade": "Asker",
@@ -26,6 +36,16 @@
       "latitude": 59.71159,
       "longitude": 10.33643,
       "time": "2026-07-16T14:00:00+02:00"
+    },
+    {
+      "navn": "Storøyodden",
+      "omrade": "Bærum",
+      "temperatur": 25.7,
+      "maltKlokken": "16:00",
+      "locationId": "0-10014",
+      "latitude": 59.88819,
+      "longitude": 10.59302,
+      "time": "2026-07-17T16:00:49+02:00"
     },
     {
       "navn": "Engersandbukta",
@@ -46,26 +66,6 @@
       "latitude": 59.88782,
       "longitude": 10.56364,
       "time": "2026-07-17T15:27:52+02:00"
-    },
-    {
-      "navn": "Nebbursvollen friluftsbad",
-      "omrade": "Lillestrøm",
-      "temperatur": 25,
-      "maltKlokken": "08:00",
-      "locationId": "1-2251575",
-      "latitude": 59.9679,
-      "longitude": 11.02628,
-      "time": "2026-07-16T08:00:00+02:00"
-    },
-    {
-      "navn": "Østernvann",
-      "omrade": "Bærum",
-      "temperatur": 25,
-      "maltKlokken": "20:55",
-      "locationId": "1-72640",
-      "latitude": 59.96872,
-      "longitude": 10.58186,
-      "time": "2026-07-15T20:55:00+02:00"
     }
   ]
 }
