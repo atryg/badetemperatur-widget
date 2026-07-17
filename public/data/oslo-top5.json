@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T19:39:43.394Z",
+  "generatedAt": "2026-07-17T22:32:06.074Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-17T21:16:12+02:00",
+  "updatedAt": "2026-07-18T00:00:00+02:00",
   "items": [
     {
       "navn": "Kinnartangen",
