@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T07:56:21.470Z",
+  "generatedAt": "2026-07-17T10:53:42.670Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,17 +15,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-17T09:01:53+02:00",
+  "updatedAt": "2026-07-17T12:00:00+02:00",
   "items": [
     {
-      "navn": "Hyggen",
+      "navn": "Kinnartangen",
       "omrade": "Asker",
-      "temperatur": 25.2,
-      "maltKlokken": "16:05",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-07-16T16:05:00+02:00"
+      "temperatur": 26,
+      "maltKlokken": "14:00",
+      "locationId": "1-58840",
+      "latitude": 59.71159,
+      "longitude": 10.33643,
+      "time": "2026-07-16T14:00:00+02:00"
     },
     {
       "navn": "Nebbursvollen friluftsbad",

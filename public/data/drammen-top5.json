@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T07:56:21.470Z",
+  "generatedAt": "2026-07-17T10:53:42.670Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,17 +11,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-17T09:25:29+02:00",
+  "updatedAt": "2026-07-17T12:15:31+02:00",
   "items": [
     {
-      "navn": "Hyggen",
+      "navn": "Kinnartangen",
       "omrade": "Asker",
-      "temperatur": 25.2,
-      "maltKlokken": "16:05",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-07-16T16:05:00+02:00"
+      "temperatur": 26,
+      "maltKlokken": "14:00",
+      "locationId": "1-58840",
+      "latitude": 59.71159,
+      "longitude": 10.33643,
+      "time": "2026-07-16T14:00:00+02:00"
     },
     {
       "navn": "Spirebukta",
@@ -54,14 +54,14 @@
       "time": "2026-07-15T16:23:13+02:00"
     },
     {
-      "navn": "Gjerdalstranda",
-      "omrade": "Asker",
-      "temperatur": 24,
-      "maltKlokken": "10:10",
-      "locationId": "0-10008",
-      "latitude": 59.69067,
-      "longitude": 10.40074,
-      "time": "2026-07-15T10:10:07+02:00"
+      "navn": "Landfalltjern",
+      "omrade": "Drammen",
+      "temperatur": 24.3,
+      "maltKlokken": "11:00",
+      "locationId": "1-72417",
+      "latitude": 59.7697,
+      "longitude": 10.16385,
+      "time": "2026-07-17T11:00:00+02:00"
     }
   ]
 }
