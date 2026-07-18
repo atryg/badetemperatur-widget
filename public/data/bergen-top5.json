@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T13:47:40.619Z",
+  "generatedAt": "2026-07-18T16:34:14.476Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-18T15:01:00+02:00",
+  "updatedAt": "2026-07-18T17:31:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.149999618530273,
-      "maltKlokken": "15:01",
+      "temperatur": 29.939998626708984,
+      "maltKlokken": "17:31",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-18T15:01:00+02:00"
+      "time": "2026-07-18T17:31:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 31.010000228881836,
-      "maltKlokken": "15:01",
+      "temperatur": 29.729999542236328,
+      "maltKlokken": "17:31",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-18T15:01:00+02:00"
+      "time": "2026-07-18T17:31:00+02:00"
     },
     {
       "navn": "Arnavågen",
@@ -40,6 +40,16 @@
       "time": "2026-07-16T20:32:00+02:00"
     },
     {
+      "navn": "Fanafjorden",
+      "omrade": "Bergen",
+      "temperatur": 22,
+      "maltKlokken": "13:00",
+      "locationId": "1-77334",
+      "latitude": 60.23402,
+      "longitude": 5.26529,
+      "time": "2026-07-18T13:00:00+02:00"
+    },
+    {
       "navn": "Breistein",
       "omrade": "Bergen",
       "temperatur": 21,
@@ -48,16 +58,6 @@
       "latitude": 60.48624,
       "longitude": 5.4038,
       "time": "2026-07-16T13:08:00+02:00"
-    },
-    {
-      "navn": "Nordåsvatnet",
-      "omrade": "Bergen",
-      "temperatur": 20.8,
-      "maltKlokken": "14:30",
-      "locationId": "1-92769",
-      "latitude": 60.31977,
-      "longitude": 5.31004,
-      "time": "2026-07-17T14:30:00+02:00"
     }
   ]
 }
