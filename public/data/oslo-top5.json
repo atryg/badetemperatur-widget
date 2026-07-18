@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T16:34:14.476Z",
+  "generatedAt": "2026-07-18T18:34:20.495Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-18T18:01:53+02:00",
+  "updatedAt": "2026-07-18T20:00:00+02:00",
   "items": [
     {
       "navn": "Kinnartangen",
@@ -26,16 +26,6 @@
       "latitude": 59.71159,
       "longitude": 10.33643,
       "time": "2026-07-16T14:00:00+02:00"
-    },
-    {
-      "navn": "Østernvann",
-      "omrade": "Bærum",
-      "temperatur": 25.5,
-      "maltKlokken": "21:16",
-      "locationId": "1-72640",
-      "latitude": 59.96872,
-      "longitude": 10.58186,
-      "time": "2026-07-17T21:16:12+02:00"
     },
     {
       "navn": "Engersandbukta",
@@ -66,6 +56,16 @@
       "latitude": 59.9679,
       "longitude": 11.02628,
       "time": "2026-07-16T08:00:00+02:00"
+    },
+    {
+      "navn": "Sarbuvollen",
+      "omrade": "Bærum",
+      "temperatur": 25,
+      "maltKlokken": "20:00",
+      "locationId": "1-72999",
+      "latitude": 59.89406,
+      "longitude": 10.58446,
+      "time": "2026-07-15T20:00:00+02:00"
     }
   ]
 }
