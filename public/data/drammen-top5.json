@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T18:34:20.495Z",
+  "generatedAt": "2026-07-18T21:33:02.852Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-18T20:06:27+02:00",
+  "updatedAt": "2026-07-18T23:06:29+02:00",
   "items": [
     {
       "navn": "Kinnartangen",
