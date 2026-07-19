@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T09:54:20.274Z",
+  "generatedAt": "2026-07-19T12:34:17.546Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -40,16 +40,6 @@
       "time": "2026-07-16T14:53:00+02:00"
     },
     {
-      "navn": "Væresstranda",
-      "omrade": "Trondheim",
-      "temperatur": 17.4,
-      "maltKlokken": "13:20",
-      "locationId": "10-1026862",
-      "latitude": 63.43269,
-      "longitude": 10.56864,
-      "time": "2026-07-14T13:20:00+02:00"
-    },
-    {
       "navn": "Ilsvika",
       "omrade": "Trondheim",
       "temperatur": 17,
@@ -58,6 +48,16 @@
       "latitude": 63.43373,
       "longitude": 10.35388,
       "time": "2026-07-16T14:35:00+02:00"
+    },
+    {
+      "navn": "Storsteinan",
+      "omrade": "Trondheim",
+      "temperatur": 17,
+      "maltKlokken": "13:55",
+      "locationId": "1-2319686",
+      "latitude": 63.45322,
+      "longitude": 10.25601,
+      "time": "2026-07-15T13:55:06+02:00"
     }
   ]
 }
