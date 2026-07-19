@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T12:34:17.546Z",
+  "generatedAt": "2026-07-19T14:38:53.793Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,18 +15,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-19T14:00:00+02:00",
+  "updatedAt": "2026-07-19T16:00:00+02:00",
   "items": [
-    {
-      "navn": "Kinnartangen",
-      "omrade": "Asker",
-      "temperatur": 26,
-      "maltKlokken": "14:00",
-      "locationId": "1-58840",
-      "latitude": 59.71159,
-      "longitude": 10.33643,
-      "time": "2026-07-16T14:00:00+02:00"
-    },
     {
       "navn": "Engersandbukta",
       "omrade": "Lier",
@@ -66,6 +56,16 @@
       "latitude": 59.89406,
       "longitude": 10.58446,
       "time": "2026-07-15T20:00:00+02:00"
+    },
+    {
+      "navn": "Spirebukta",
+      "omrade": "Asker",
+      "temperatur": 25,
+      "maltKlokken": "15:22",
+      "locationId": "1-73195",
+      "latitude": 59.83372,
+      "longitude": 10.49792,
+      "time": "2026-07-16T15:22:00+02:00"
     }
   ]
 }
