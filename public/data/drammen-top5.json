@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T14:38:53.793Z",
+  "generatedAt": "2026-07-19T17:36:38.228Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-19T16:06:52+02:00",
+  "updatedAt": "2026-07-19T19:00:00+02:00",
   "items": [
     {
       "navn": "Engersandbukta",
