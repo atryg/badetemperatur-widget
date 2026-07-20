@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T22:33:26.382Z",
+  "generatedAt": "2026-07-20T05:27:21.291Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-20T00:00:00+02:00",
+  "updatedAt": "2026-07-20T07:00:00+02:00",
   "items": [
     {
       "navn": "Engersandbukta",
