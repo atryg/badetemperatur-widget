@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T19:56:09.097Z",
+  "generatedAt": "2026-08-04T06:39:16.989Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-20T10:12:57+02:00",
+  "updatedAt": "2026-07-21T09:13:05+02:00",
   "items": [
     {
       "navn": "Vatland",
@@ -35,22 +35,12 @@
     {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
-      "temperatur": 21.4375,
-      "maltKlokken": "10:12",
+      "temperatur": 21.0625,
+      "maltKlokken": "09:13",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-07-20T10:12:57+02:00"
-    },
-    {
-      "navn": "Gauselbukta",
-      "omrade": "Stavanger",
-      "temperatur": 21,
-      "maltKlokken": "16:43",
-      "locationId": "1-2777467",
-      "latitude": 58.90746,
-      "longitude": 5.74482,
-      "time": "2026-07-15T16:43:00+02:00"
+      "time": "2026-07-21T09:13:05+02:00"
     },
     {
       "navn": "Lervig",
@@ -61,6 +51,16 @@
       "latitude": 58.9675,
       "longitude": 5.75666,
       "time": "2026-07-16T19:30:00+02:00"
+    },
+    {
+      "navn": "Kallali",
+      "omrade": "Sandnes",
+      "temperatur": 20,
+      "maltKlokken": "12:27",
+      "locationId": "1-26405",
+      "latitude": 59.00832,
+      "longitude": 6.39434,
+      "time": "2026-07-17T12:27:00+02:00"
     }
   ]
 }
