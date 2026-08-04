@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T06:39:16.989Z",
+  "generatedAt": "2026-08-04T09:49:38.168Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-21T10:00:00+02:00",
+  "updatedAt": "2026-07-20T12:01:39+02:00",
   "items": [
     {
       "navn": "Engersandbukta",
@@ -38,6 +38,26 @@
       "time": "2026-07-17T15:27:52+02:00"
     },
     {
+      "navn": "Nebbursvollen friluftsbad",
+      "omrade": "Lillestrøm",
+      "temperatur": 25,
+      "maltKlokken": "08:00",
+      "locationId": "1-2251575",
+      "latitude": 59.9679,
+      "longitude": 11.02628,
+      "time": "2026-07-16T08:00:00+02:00"
+    },
+    {
+      "navn": "Sarbuvollen",
+      "omrade": "Bærum",
+      "temperatur": 25,
+      "maltKlokken": "20:00",
+      "locationId": "1-72999",
+      "latitude": 59.89406,
+      "longitude": 10.58446,
+      "time": "2026-07-15T20:00:00+02:00"
+    },
+    {
       "navn": "Spirebukta",
       "omrade": "Asker",
       "temperatur": 25,
@@ -46,26 +66,6 @@
       "latitude": 59.83372,
       "longitude": 10.49792,
       "time": "2026-07-16T15:22:00+02:00"
-    },
-    {
-      "navn": "Gjersenga",
-      "omrade": "Nordre Follo",
-      "temperatur": 24,
-      "maltKlokken": "13:41",
-      "locationId": "1-2233343",
-      "latitude": 59.73971,
-      "longitude": 10.97823,
-      "time": "2026-07-17T13:41:53+02:00"
-    },
-    {
-      "navn": "Burudvann",
-      "omrade": "Bærum",
-      "temperatur": 24,
-      "maltKlokken": "17:54",
-      "locationId": "1-72630",
-      "latitude": 59.97469,
-      "longitude": 10.51401,
-      "time": "2026-07-17T17:54:41+02:00"
     }
   ]
 }
