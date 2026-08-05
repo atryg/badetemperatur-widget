@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T16:51:51.510Z",
+  "generatedAt": "2026-08-05T20:38:28.057Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-05T18:00:00+02:00",
+  "updatedAt": "2026-08-05T22:00:00+02:00",
   "items": [
+    {
+      "navn": "Hvervenbukta",
+      "omrade": "Oslo",
+      "temperatur": 26,
+      "maltKlokken": "20:13",
+      "locationId": "1-74202",
+      "latitude": 59.83307,
+      "longitude": 10.77133,
+      "time": "2026-08-05T20:13:03+02:00"
+    },
     {
       "navn": "Midtsjø",
       "omrade": "Nordre Follo",
@@ -56,16 +66,6 @@
       "latitude": 59.97218,
       "longitude": 10.88157,
       "time": "2026-08-04T17:41:05+02:00"
-    },
-    {
-      "navn": "Filtvet molo",
-      "omrade": "Asker",
-      "temperatur": 19.5,
-      "maltKlokken": "10:29",
-      "locationId": "1-2881715",
-      "latitude": 59.56796,
-      "longitude": 10.61139,
-      "time": "2026-08-01T10:29:07+02:00"
     }
   ]
 }
