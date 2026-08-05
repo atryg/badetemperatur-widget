@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T12:14:50.549Z",
+  "generatedAt": "2026-08-05T14:34:14.376Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-05T14:00:00+02:00",
+  "updatedAt": "2026-08-05T16:17:14+02:00",
   "items": [
     {
       "navn": "Kaldmovannet",
@@ -54,14 +54,14 @@
       "time": "2026-08-02T20:41:00+02:00"
     },
     {
-      "navn": "Nordvannet",
+      "navn": "Gjerdalstranda",
       "omrade": "Asker",
-      "temperatur": 19.2,
-      "maltKlokken": "15:04",
-      "locationId": "1-73266",
-      "latitude": 59.81458,
-      "longitude": 10.36873,
-      "time": "2026-07-31T15:04:00+02:00"
+      "temperatur": 19,
+      "maltKlokken": "08:11",
+      "locationId": "0-10008",
+      "latitude": 59.69067,
+      "longitude": 10.40074,
+      "time": "2026-08-02T08:11:26+02:00"
     }
   ]
 }
