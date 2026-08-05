@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T06:40:22.759Z",
+  "generatedAt": "2026-08-05T09:47:40.493Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,57 +10,57 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-20T10:12:57+02:00",
+  "updatedAt": "2026-08-05T11:14:53+02:00",
   "items": [
-    {
-      "navn": "Vatland",
-      "omrade": "Stavanger",
-      "temperatur": 23,
-      "maltKlokken": "15:06",
-      "locationId": "1-38094",
-      "latitude": 59.26973,
-      "longitude": 6.0103,
-      "time": "2026-07-19T15:06:00+02:00"
-    },
-    {
-      "navn": "Lutsivatnet",
-      "omrade": "Sandnes",
-      "temperatur": 21.9,
-      "maltKlokken": "15:57",
-      "locationId": "1-15438",
-      "latitude": 58.87365,
-      "longitude": 5.83687,
-      "time": "2026-07-18T15:57:32+02:00"
-    },
     {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
-      "temperatur": 21.4375,
-      "maltKlokken": "10:12",
+      "temperatur": 18.75,
+      "maltKlokken": "11:14",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-07-20T10:12:57+02:00"
+      "time": "2026-08-05T11:14:53+02:00"
     },
     {
-      "navn": "Gauselbukta",
-      "omrade": "Stavanger",
-      "temperatur": 21,
-      "maltKlokken": "16:43",
-      "locationId": "1-2777467",
-      "latitude": 58.90746,
-      "longitude": 5.74482,
-      "time": "2026-07-15T16:43:00+02:00"
+      "navn": "Vigdelsvika",
+      "omrade": "Sola",
+      "temperatur": 16.5,
+      "maltKlokken": "11:38",
+      "locationId": "1-15426",
+      "latitude": 58.86232,
+      "longitude": 5.55554,
+      "time": "2026-08-03T11:38:00+02:00"
     },
     {
-      "navn": "Lervig",
+      "navn": "Regestranden",
+      "omrade": "Sola",
+      "temperatur": 16,
+      "maltKlokken": "16:14",
+      "locationId": "1-2259517",
+      "latitude": 58.87608,
+      "longitude": 5.59111,
+      "time": "2026-08-03T16:14:00+02:00"
+    },
+    {
+      "navn": "Mariero stasjon",
       "omrade": "Stavanger",
-      "temperatur": 20.5,
-      "maltKlokken": "19:30",
-      "locationId": "10-988766",
-      "latitude": 58.9675,
-      "longitude": 5.75666,
-      "time": "2026-07-16T19:30:00+02:00"
+      "temperatur": 15.7,
+      "maltKlokken": "10:31",
+      "locationId": "11-206",
+      "latitude": 58.93349,
+      "longitude": 5.75384,
+      "time": "2026-08-04T10:31:00+02:00"
+    },
+    {
+      "navn": "Furre Beach",
+      "omrade": "Stavanger",
+      "temperatur": 15.1,
+      "maltKlokken": "12:05",
+      "locationId": "2-12514347",
+      "latitude": 59.2605,
+      "longitude": 5.84717,
+      "time": "2026-08-02T12:05:00+02:00"
     }
   ]
 }

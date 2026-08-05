@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T06:40:22.759Z",
+  "generatedAt": "2026-08-05T09:47:40.493Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,57 +7,47 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-19T17:50:00+02:00",
+  "updatedAt": "2026-08-04T21:53:00+02:00",
   "items": [
     {
       "navn": "Lianvatnet",
       "omrade": "Trondheim",
-      "temperatur": 20,
-      "maltKlokken": "13:43",
+      "temperatur": 17,
+      "maltKlokken": "17:27",
       "locationId": "1-211264",
       "latitude": 63.40071,
       "longitude": 10.31682,
-      "time": "2026-07-16T13:43:00+02:00"
+      "time": "2026-08-04T17:27:00+02:00"
+    },
+    {
+      "navn": "Kyvannet",
+      "omrade": "Trondheim",
+      "temperatur": 17,
+      "maltKlokken": "12:00",
+      "locationId": "1-211265",
+      "latitude": 63.40385,
+      "longitude": 10.33832,
+      "time": "2026-08-02T12:00:00+02:00"
     },
     {
       "navn": "Theisendammen",
       "omrade": "Trondheim",
-      "temperatur": 18,
-      "maltKlokken": "19:11",
+      "temperatur": 16,
+      "maltKlokken": "12:40",
       "locationId": "1-211187",
       "latitude": 63.42178,
       "longitude": 10.34518,
-      "time": "2026-07-17T19:11:00+02:00"
-    },
-    {
-      "navn": "Devlebukta",
-      "omrade": "Trondheim",
-      "temperatur": 18,
-      "maltKlokken": "14:53",
-      "locationId": "1-2819500",
-      "latitude": 63.44477,
-      "longitude": 10.46883,
-      "time": "2026-07-16T14:53:00+02:00"
+      "time": "2026-08-03T12:40:00+02:00"
     },
     {
       "navn": "Grilstad Marina",
       "omrade": "Trondheim",
-      "temperatur": 17,
-      "maltKlokken": "17:50",
+      "temperatur": 3,
+      "maltKlokken": "21:53",
       "locationId": "0-10104",
       "latitude": 63.43624,
       "longitude": 10.51306,
-      "time": "2026-07-19T17:50:00+02:00"
-    },
-    {
-      "navn": "Ilsvika",
-      "omrade": "Trondheim",
-      "temperatur": 17,
-      "maltKlokken": "14:35",
-      "locationId": "1-211101",
-      "latitude": 63.43373,
-      "longitude": 10.35388,
-      "time": "2026-07-16T14:35:00+02:00"
+      "time": "2026-08-04T21:53:00+02:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T06:40:22.759Z",
+  "generatedAt": "2026-08-05T09:47:40.493Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,57 +7,57 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-07-20T11:31:00+02:00",
+  "updatedAt": "2026-08-05T10:22:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 30.92999839782715,
-      "maltKlokken": "11:31",
+      "temperatur": 30.869998931884766,
+      "maltKlokken": "10:22",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-07-20T11:31:00+02:00"
+      "time": "2026-08-05T10:22:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 30.809999465942383,
-      "maltKlokken": "11:31",
+      "temperatur": 30.729999542236328,
+      "maltKlokken": "10:22",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-07-20T11:31:00+02:00"
+      "time": "2026-08-05T10:22:00+02:00"
     },
     {
-      "navn": "Arnavågen",
+      "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 22.5,
-      "maltKlokken": "20:32",
-      "locationId": "1-92365",
-      "latitude": 60.42922,
-      "longitude": 5.4613,
-      "time": "2026-07-16T20:32:00+02:00"
+      "temperatur": 15.144999504089355,
+      "maltKlokken": "10:22",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-08-05T10:22:00+02:00"
     },
     {
-      "navn": "Fanafjorden",
+      "navn": "Tellevik",
       "omrade": "Bergen",
-      "temperatur": 22,
-      "maltKlokken": "13:00",
-      "locationId": "1-77334",
-      "latitude": 60.23402,
-      "longitude": 5.26529,
-      "time": "2026-07-18T13:00:00+02:00"
+      "temperatur": 14.5,
+      "maltKlokken": "20:45",
+      "locationId": "1-2606741",
+      "latitude": 60.5164,
+      "longitude": 5.28359,
+      "time": "2026-08-03T20:45:00+02:00"
     },
     {
-      "navn": "Breistein",
+      "navn": "Skuteviksbryggen",
       "omrade": "Bergen",
-      "temperatur": 21,
-      "maltKlokken": "13:08",
-      "locationId": "1-92099",
-      "latitude": 60.48624,
-      "longitude": 5.4038,
-      "time": "2026-07-16T13:08:00+02:00"
+      "temperatur": 13.5,
+      "maltKlokken": "11:03",
+      "locationId": "10-991163",
+      "latitude": 60.40259,
+      "longitude": 5.32039,
+      "time": "2026-08-04T11:03:43+02:00"
     }
   ]
 }
