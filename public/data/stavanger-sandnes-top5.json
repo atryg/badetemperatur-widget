@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T06:44:07.588Z",
+  "generatedAt": "2026-08-06T09:50:06.747Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-06T08:14:19+02:00",
+  "updatedAt": "2026-08-06T11:32:00+02:00",
   "items": [
     {
       "navn": "Frøylandsvatnet",
@@ -21,16 +21,6 @@
       "latitude": 58.9147,
       "longitude": 5.86065,
       "time": "2026-08-06T08:14:19+02:00"
-    },
-    {
-      "navn": "Furre Beach",
-      "omrade": "Stavanger",
-      "temperatur": 16.6,
-      "maltKlokken": "17:26",
-      "locationId": "2-12514347",
-      "latitude": 59.2605,
-      "longitude": 5.84717,
-      "time": "2026-08-05T17:26:00+02:00"
     },
     {
       "navn": "Vigdelsvika",
@@ -51,6 +41,16 @@
       "latitude": 58.87608,
       "longitude": 5.59111,
       "time": "2026-08-03T16:14:00+02:00"
+    },
+    {
+      "navn": "Furre Beach",
+      "omrade": "Stavanger",
+      "temperatur": 15.9,
+      "maltKlokken": "11:32",
+      "locationId": "2-12514347",
+      "latitude": 59.2605,
+      "longitude": 5.84717,
+      "time": "2026-08-06T11:32:00+02:00"
     },
     {
       "navn": "Mariero stasjon",

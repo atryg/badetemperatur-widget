@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T06:44:07.588Z",
+  "generatedAt": "2026-08-06T09:50:06.747Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-06T08:37:34+02:00",
+  "updatedAt": "2026-08-06T11:29:00+02:00",
   "items": [
-    {
-      "navn": "Kaldmovannet",
-      "omrade": "Holmestrand",
-      "temperatur": 21,
-      "maltKlokken": "10:59",
-      "locationId": "1-59213",
-      "latitude": 59.60826,
-      "longitude": 10.124,
-      "time": "2026-08-01T10:59:00+02:00"
-    },
     {
       "navn": "Hyggen",
       "omrade": "Asker",
@@ -32,16 +22,6 @@
       "latitude": 59.71667,
       "longitude": 10.35528,
       "time": "2026-08-04T16:30:00+02:00"
-    },
-    {
-      "navn": "Filtvet molo",
-      "omrade": "Asker",
-      "temperatur": 19.5,
-      "maltKlokken": "10:29",
-      "locationId": "1-2881715",
-      "latitude": 59.56796,
-      "longitude": 10.61139,
-      "time": "2026-08-01T10:29:07+02:00"
     },
     {
       "navn": "Hagatjern",
@@ -62,6 +42,26 @@
       "latitude": 59.69067,
       "longitude": 10.40074,
       "time": "2026-08-02T08:11:26+02:00"
+    },
+    {
+      "navn": "Kobbeskjær",
+      "omrade": "Asker",
+      "temperatur": 19,
+      "maltKlokken": "08:36",
+      "locationId": "1-2774726",
+      "latitude": 59.57832,
+      "longitude": 10.61865,
+      "time": "2026-08-05T08:36:51+02:00"
+    },
+    {
+      "navn": "Kinnartangen",
+      "omrade": "Asker",
+      "temperatur": 19,
+      "maltKlokken": "16:06",
+      "locationId": "1-58840",
+      "latitude": 59.71159,
+      "longitude": 10.33643,
+      "time": "2026-08-02T16:06:00+02:00"
     }
   ]
 }
