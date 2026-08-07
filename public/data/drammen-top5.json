@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T09:14:14.114Z",
+  "generatedAt": "2026-08-07T11:55:38.126Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-07T10:58:23+02:00",
+  "updatedAt": "2026-08-07T13:38:29+02:00",
   "items": [
     {
       "navn": "Hagatjern",
@@ -44,16 +44,6 @@
       "time": "2026-08-02T16:06:00+02:00"
     },
     {
-      "navn": "Holmsbu",
-      "omrade": "Asker",
-      "temperatur": 19,
-      "maltKlokken": "11:21",
-      "locationId": "1-60134",
-      "latitude": 59.56019,
-      "longitude": 10.42784,
-      "time": "2026-08-06T11:21:00+02:00"
-    },
-    {
       "navn": "Hogstadvannet",
       "omrade": "Asker",
       "temperatur": 19,
@@ -62,6 +52,16 @@
       "latitude": 59.83352,
       "longitude": 10.40126,
       "time": "2026-08-02T20:33:00+02:00"
+    },
+    {
+      "navn": "Havnevik",
+      "omrade": "Drammen",
+      "temperatur": 19,
+      "maltKlokken": "08:30",
+      "locationId": "2-11845443",
+      "latitude": 59.66902,
+      "longitude": 10.36647,
+      "time": "2026-08-07T08:30:00+02:00"
     }
   ]
 }
