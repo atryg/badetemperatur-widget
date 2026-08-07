@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T15:08:26.729Z",
+  "generatedAt": "2026-08-07T18:00:39.529Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-07T16:31:00+02:00",
+  "updatedAt": "2026-08-07T19:00:00+02:00",
   "items": [
     {
       "navn": "Ulsrudvannet",
@@ -58,14 +58,14 @@
       "time": "2026-08-06T07:15:00+02:00"
     },
     {
-      "navn": "Brekkedammen ved Frysja",
-      "omrade": "Oslo",
-      "temperatur": 19,
-      "maltKlokken": "21:30",
-      "locationId": "0-10022",
-      "latitude": 59.96669,
-      "longitude": 10.77815,
-      "time": "2026-08-03T21:30:00+02:00"
+      "navn": "Storøyodden",
+      "omrade": "Bærum",
+      "temperatur": 19.1,
+      "maltKlokken": "16:00",
+      "locationId": "0-10014",
+      "latitude": 59.88819,
+      "longitude": 10.59302,
+      "time": "2026-08-07T16:00:54+02:00"
     }
   ]
 }

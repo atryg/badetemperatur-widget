@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T15:08:26.729Z",
+  "generatedAt": "2026-08-07T18:00:39.529Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-07T16:48:31+02:00",
+  "updatedAt": "2026-08-07T19:48:36+02:00",
   "items": [
     {
       "navn": "Hagatjern",
