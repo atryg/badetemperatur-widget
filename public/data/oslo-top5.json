@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T15:26:43.788Z",
+  "generatedAt": "2026-08-07T05:49:26.266Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,18 +15,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-06T17:00:00+02:00",
+  "updatedAt": "2026-08-07T07:00:00+02:00",
   "items": [
-    {
-      "navn": "Hvervenbukta",
-      "omrade": "Oslo",
-      "temperatur": 26,
-      "maltKlokken": "20:13",
-      "locationId": "1-74202",
-      "latitude": 59.83307,
-      "longitude": 10.77133,
-      "time": "2026-08-05T20:13:03+02:00"
-    },
     {
       "navn": "Lutvannet",
       "omrade": "Oslo",
@@ -36,16 +26,6 @@
       "latitude": 59.91347,
       "longitude": 10.87779,
       "time": "2026-08-04T17:33:15+02:00"
-    },
-    {
-      "navn": "Hyggen",
-      "omrade": "Asker",
-      "temperatur": 20,
-      "maltKlokken": "16:30",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-08-04T16:30:00+02:00"
     },
     {
       "navn": "Badedammen",
@@ -66,6 +46,26 @@
       "latitude": 59.88498,
       "longitude": 10.53804,
       "time": "2026-08-06T13:00:49+02:00"
+    },
+    {
+      "navn": "Sognsvann",
+      "omrade": "Oslo",
+      "temperatur": 19.2,
+      "maltKlokken": "07:15",
+      "locationId": "1-73595",
+      "latitude": 59.97499,
+      "longitude": 10.72891,
+      "time": "2026-08-06T07:15:00+02:00"
+    },
+    {
+      "navn": "Gjerdalstranda",
+      "omrade": "Asker",
+      "temperatur": 19,
+      "maltKlokken": "08:11",
+      "locationId": "0-10008",
+      "latitude": 59.69067,
+      "longitude": 10.40074,
+      "time": "2026-08-02T08:11:26+02:00"
     }
   ]
 }
