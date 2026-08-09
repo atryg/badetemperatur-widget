@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T08:01:42.391Z",
+  "generatedAt": "2026-08-09T10:51:36.590Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-09T10:00:00+02:00",
+  "updatedAt": "2026-08-09T12:34:07+02:00",
   "items": [
     {
       "navn": "Kobbeskjær",
