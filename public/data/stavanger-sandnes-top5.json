@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T17:46:16.937Z",
+  "generatedAt": "2026-08-09T19:47:12.054Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,17 +10,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-09T19:15:54+02:00",
+  "updatedAt": "2026-08-09T21:14:31+02:00",
   "items": [
     {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
-      "temperatur": 17.1875,
-      "maltKlokken": "19:15",
+      "temperatur": 17.125,
+      "maltKlokken": "21:14",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-08-09T19:15:54+02:00"
+      "time": "2026-08-09T21:14:31+02:00"
     },
     {
       "navn": "Regestranden",
