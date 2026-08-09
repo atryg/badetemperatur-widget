@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T19:47:12.054Z",
+  "generatedAt": "2026-08-09T22:48:40.095Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -28,16 +28,6 @@
       "latitude": 63.43475,
       "longitude": 10.50454,
       "time": "2026-08-08T10:52:53+02:00"
-    },
-    {
-      "navn": "Grilstad Marina",
-      "omrade": "Trondheim",
-      "temperatur": 3,
-      "maltKlokken": "21:53",
-      "locationId": "0-10104",
-      "latitude": 63.43624,
-      "longitude": 10.51306,
-      "time": "2026-08-04T21:53:00+02:00"
     }
   ]
 }
