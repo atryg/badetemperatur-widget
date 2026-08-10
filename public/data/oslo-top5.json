@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T19:15:05.270Z",
+  "generatedAt": "2026-08-10T21:56:40.478Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-10T21:00:00+02:00",
+  "updatedAt": "2026-08-10T22:00:00+02:00",
   "items": [
     {
       "navn": "Ulsrudvannet",
