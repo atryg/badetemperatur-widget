@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T05:42:41.810Z",
+  "generatedAt": "2026-08-10T08:02:51.642Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-10T07:38:00+02:00",
+  "updatedAt": "2026-08-10T09:01:43+02:00",
   "items": [
     {
       "navn": "Ulsrudvannet",
@@ -26,16 +26,6 @@
       "latitude": 59.88817,
       "longitude": 10.86506,
       "time": "2026-08-07T14:25:48+02:00"
-    },
-    {
-      "navn": "Kobbeskjær",
-      "omrade": "Asker",
-      "temperatur": 19,
-      "maltKlokken": "08:36",
-      "locationId": "1-2774726",
-      "latitude": 59.57832,
-      "longitude": 10.61865,
-      "time": "2026-08-05T08:36:51+02:00"
     },
     {
       "navn": "Gammelvikene",
@@ -60,12 +50,22 @@
     {
       "navn": "Kalvøya",
       "omrade": "Bærum",
-      "temperatur": 18.2,
-      "maltKlokken": "10:00",
+      "temperatur": 18.4,
+      "maltKlokken": "07:00",
       "locationId": "1-73036",
       "latitude": 59.88498,
       "longitude": 10.53804,
-      "time": "2026-08-09T10:00:52+02:00"
+      "time": "2026-08-10T07:00:50+02:00"
+    },
+    {
+      "navn": "Årvolldammen",
+      "omrade": "Oslo",
+      "temperatur": 18,
+      "maltKlokken": "06:46",
+      "locationId": "0-10027",
+      "latitude": 59.94768,
+      "longitude": 10.82012,
+      "time": "2026-08-07T06:46:00+02:00"
     }
   ]
 }

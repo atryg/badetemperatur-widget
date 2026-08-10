@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T05:42:41.810Z",
+  "generatedAt": "2026-08-10T08:02:51.642Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-10T07:34:53+02:00",
+  "updatedAt": "2026-08-10T09:44:55+02:00",
   "items": [
-    {
-      "navn": "Kobbeskjær",
-      "omrade": "Asker",
-      "temperatur": 19,
-      "maltKlokken": "08:36",
-      "locationId": "1-2774726",
-      "latitude": 59.57832,
-      "longitude": 10.61865,
-      "time": "2026-08-05T08:36:51+02:00"
-    },
     {
       "navn": "Gammelvikene",
       "omrade": "Asker",
@@ -62,6 +52,16 @@
       "latitude": 59.72849,
       "longitude": 10.04857,
       "time": "2026-08-08T18:35:00+02:00"
+    },
+    {
+      "navn": "Bakkestranda",
+      "omrade": "Asker",
+      "temperatur": 18,
+      "maltKlokken": "12:14",
+      "locationId": "1-2872449",
+      "latitude": 59.53593,
+      "longitude": 10.54034,
+      "time": "2026-08-09T12:14:00+02:00"
     }
   ]
 }
