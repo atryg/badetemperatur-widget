@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:11:40.274Z",
+  "generatedAt": "2026-08-11T19:18:14.632Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-11T18:01:50+02:00",
+  "updatedAt": "2026-08-11T21:14:00+02:00",
   "items": [
     {
       "navn": "Gammelvikene",
@@ -46,12 +46,12 @@
     {
       "navn": "Hagatjern",
       "omrade": "Drammen",
-      "temperatur": 18.3,
-      "maltKlokken": "20:24",
+      "temperatur": 18.4,
+      "maltKlokken": "21:14",
       "locationId": "1-58774",
       "latitude": 59.72849,
       "longitude": 10.04857,
-      "time": "2026-08-10T20:24:00+02:00"
+      "time": "2026-08-11T21:14:00+02:00"
     },
     {
       "navn": "Vehagen",
