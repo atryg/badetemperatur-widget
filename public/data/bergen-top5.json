@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T05:44:26.208Z",
+  "generatedAt": "2026-08-12T07:50:25.261Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,37 +7,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-12T07:22:00+02:00",
+  "updatedAt": "2026-08-12T09:22:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 30.059999465942383,
-      "maltKlokken": "07:22",
+      "temperatur": 30.989999771118164,
+      "maltKlokken": "09:22",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-08-12T07:22:00+02:00"
+      "time": "2026-08-12T09:22:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 29.90999984741211,
-      "maltKlokken": "07:22",
+      "temperatur": 30.829999923706055,
+      "maltKlokken": "09:22",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-08-12T07:22:00+02:00"
+      "time": "2026-08-12T09:22:00+02:00"
     },
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 13.739999771118164,
-      "maltKlokken": "07:22",
+      "temperatur": 13.369999885559082,
+      "maltKlokken": "09:22",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-08-12T07:22:00+02:00"
+      "time": "2026-08-12T09:22:00+02:00"
     },
     {
       "navn": "Tellevik",
