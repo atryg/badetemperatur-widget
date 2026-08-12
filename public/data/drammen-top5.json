@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T13:44:45.448Z",
+  "generatedAt": "2026-08-12T16:08:38.511Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-12T15:00:00+02:00",
+  "updatedAt": "2026-08-12T17:00:00+02:00",
   "items": [
-    {
-      "navn": "Gammelvikene",
-      "omrade": "Asker",
-      "temperatur": 19,
-      "maltKlokken": "16:31",
-      "locationId": "1-2872622",
-      "latitude": 59.56045,
-      "longitude": 10.60146,
-      "time": "2026-08-07T16:31:00+02:00"
-    },
     {
       "navn": "Smørstein",
       "omrade": "Holmestrand",
@@ -32,16 +22,6 @@
       "latitude": 59.52881,
       "longitude": 10.28133,
       "time": "2026-08-08T09:06:00+02:00"
-    },
-    {
-      "navn": "Hyggen",
-      "omrade": "Asker",
-      "temperatur": 18.5,
-      "maltKlokken": "16:15",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-08-11T16:15:00+02:00"
     },
     {
       "navn": "Hagatjern",
@@ -62,6 +42,26 @@
       "latitude": 59.76306,
       "longitude": 10.5093,
       "time": "2026-08-12T10:05:00+02:00"
+    },
+    {
+      "navn": "Vehagen",
+      "omrade": "Holmestrand",
+      "temperatur": 18,
+      "maltKlokken": "18:00",
+      "locationId": "1-2845767",
+      "latitude": 59.56047,
+      "longitude": 10.23522,
+      "time": "2026-08-10T18:00:00+02:00"
+    },
+    {
+      "navn": "Bakkestranda",
+      "omrade": "Asker",
+      "temperatur": 18,
+      "maltKlokken": "12:14",
+      "locationId": "1-2872449",
+      "latitude": 59.53593,
+      "longitude": 10.54034,
+      "time": "2026-08-09T12:14:00+02:00"
     }
   ]
 }
