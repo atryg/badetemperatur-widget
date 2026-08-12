@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T22:02:48.904Z",
+  "generatedAt": "2026-08-12T05:44:26.208Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-11T22:00:00+02:00",
+  "updatedAt": "2026-08-12T07:19:00+02:00",
   "items": [
     {
       "navn": "Sollerudstranda",
@@ -38,6 +38,16 @@
       "time": "2026-08-07T14:25:48+02:00"
     },
     {
+      "navn": "Midtsjø",
+      "omrade": "Nordre Follo",
+      "temperatur": 19,
+      "maltKlokken": "12:00",
+      "locationId": "11-4839",
+      "latitude": 59.72648,
+      "longitude": 10.88465,
+      "time": "2026-08-11T12:00:00+02:00"
+    },
+    {
       "navn": "Gammelvikene",
       "omrade": "Asker",
       "temperatur": 19,
@@ -46,16 +56,6 @@
       "latitude": 59.56045,
       "longitude": 10.60146,
       "time": "2026-08-07T16:31:00+02:00"
-    },
-    {
-      "navn": "Storøyodden",
-      "omrade": "Bærum",
-      "temperatur": 18.7,
-      "maltKlokken": "16:00",
-      "locationId": "0-10014",
-      "latitude": 59.88819,
-      "longitude": 10.59302,
-      "time": "2026-08-11T16:00:52+02:00"
     },
     {
       "navn": "Hyggen",
