@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T11:09:55.596Z",
+  "generatedAt": "2026-08-13T13:45:19.333Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-13T13:00:00+02:00",
+  "updatedAt": "2026-08-13T15:01:49+02:00",
   "items": [
     {
       "navn": "Sollerudstranda",
@@ -40,12 +40,12 @@
     {
       "navn": "Storøyodden",
       "omrade": "Bærum",
-      "temperatur": 18.1,
-      "maltKlokken": "10:00",
+      "temperatur": 18.5,
+      "maltKlokken": "13:00",
       "locationId": "0-10014",
       "latitude": 59.88819,
       "longitude": 10.59302,
-      "time": "2026-08-13T10:00:53+02:00"
+      "time": "2026-08-13T13:00:50+02:00"
     },
     {
       "navn": "Kalvøya",
