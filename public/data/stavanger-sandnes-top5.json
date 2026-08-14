@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T16:04:31.682Z",
+  "generatedAt": "2026-08-14T18:04:51.655Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-14T16:02:00+02:00",
+  "updatedAt": "2026-08-14T18:24:00+02:00",
   "items": [
     {
       "navn": "Frøylandsvatnet",
@@ -35,12 +35,22 @@
     {
       "navn": "Myklebust Sjøbad",
       "omrade": "Sola",
-      "temperatur": 15.7,
-      "maltKlokken": "08:58",
+      "temperatur": 17,
+      "maltKlokken": "13:12",
       "locationId": "0-10021",
       "latitude": 58.94723,
       "longitude": 5.57019,
-      "time": "2026-08-14T08:58:00+02:00"
+      "time": "2026-08-14T13:12:00+02:00"
+    },
+    {
+      "navn": "Roaldsøy",
+      "omrade": "Stavanger",
+      "temperatur": 15.8,
+      "maltKlokken": "18:24",
+      "locationId": "1-15157",
+      "latitude": 58.99288,
+      "longitude": 5.76353,
+      "time": "2026-08-14T18:24:00+02:00"
     },
     {
       "navn": "Pynteneset",
@@ -51,16 +61,6 @@
       "latitude": 58.98062,
       "longitude": 5.73479,
       "time": "2026-08-14T13:29:00+02:00"
-    },
-    {
-      "navn": "Mariero stasjon",
-      "omrade": "Stavanger",
-      "temperatur": 15.5,
-      "maltKlokken": "20:15",
-      "locationId": "11-206",
-      "latitude": 58.93349,
-      "longitude": 5.75384,
-      "time": "2026-08-11T20:15:00+02:00"
     }
   ]
 }
