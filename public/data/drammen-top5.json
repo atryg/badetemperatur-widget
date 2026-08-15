@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T17:33:46.093Z",
+  "generatedAt": "2026-08-15T20:37:06.229Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-15T19:30:00+02:00",
+  "updatedAt": "2026-08-15T22:00:00+02:00",
   "items": [
     {
       "navn": "Beston",
@@ -22,6 +22,26 @@
       "latitude": 59.68925,
       "longitude": 10.51896,
       "time": "2026-08-15T14:35:00+02:00"
+    },
+    {
+      "navn": "Hagatjern",
+      "omrade": "Drammen",
+      "temperatur": 19.8,
+      "maltKlokken": "19:52",
+      "locationId": "1-58774",
+      "latitude": 59.72849,
+      "longitude": 10.04857,
+      "time": "2026-08-15T19:52:00+02:00"
+    },
+    {
+      "navn": "Vehagen",
+      "omrade": "Holmestrand",
+      "temperatur": 19,
+      "maltKlokken": "19:35",
+      "locationId": "1-2845767",
+      "latitude": 59.56047,
+      "longitude": 10.23522,
+      "time": "2026-08-15T19:35:00+02:00"
     },
     {
       "navn": "Smørstein",
@@ -42,26 +62,6 @@
       "latitude": 59.84215,
       "longitude": 10.48857,
       "time": "2026-08-15T16:00:53+02:00"
-    },
-    {
-      "navn": "Hagatjern",
-      "omrade": "Drammen",
-      "temperatur": 18.8,
-      "maltKlokken": "20:15",
-      "locationId": "1-58774",
-      "latitude": 59.72849,
-      "longitude": 10.04857,
-      "time": "2026-08-14T20:15:00+02:00"
-    },
-    {
-      "navn": "Hyggen",
-      "omrade": "Asker",
-      "temperatur": 18.5,
-      "maltKlokken": "08:55",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-08-15T08:55:00+02:00"
     }
   ]
 }
