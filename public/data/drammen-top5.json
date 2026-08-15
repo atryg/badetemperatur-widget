@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T09:38:59.776Z",
+  "generatedAt": "2026-08-15T12:57:39.943Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,8 +11,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-15T11:29:30+02:00",
+  "updatedAt": "2026-08-15T14:39:35+02:00",
   "items": [
+    {
+      "navn": "Beston",
+      "omrade": "Asker",
+      "temperatur": 20,
+      "maltKlokken": "14:35",
+      "locationId": "1-59733",
+      "latitude": 59.68925,
+      "longitude": 10.51896,
+      "time": "2026-08-15T14:35:00+02:00"
+    },
     {
       "navn": "Smørstein",
       "omrade": "Holmestrand",
@@ -44,24 +54,14 @@
       "time": "2026-08-15T08:55:00+02:00"
     },
     {
-      "navn": "Ødegårdsodden",
-      "omrade": "Holmestrand",
-      "temperatur": 18.3,
-      "maltKlokken": "10:09",
-      "locationId": "2-11998595",
-      "latitude": 59.55261,
-      "longitude": 10.28024,
-      "time": "2026-08-15T10:09:52+02:00"
-    },
-    {
-      "navn": "Konglungøya",
+      "navn": "Hvalstrand",
       "omrade": "Asker",
-      "temperatur": 18.125,
-      "maltKlokken": "11:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-08-15T11:00:00+02:00"
+      "temperatur": 18.4,
+      "maltKlokken": "10:00",
+      "locationId": "2-3151302",
+      "latitude": 59.84215,
+      "longitude": 10.48857,
+      "time": "2026-08-15T10:00:59+02:00"
     }
   ]
 }
