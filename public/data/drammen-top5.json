@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T20:37:06.229Z",
+  "generatedAt": "2026-08-16T04:49:05.343Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,8 +11,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-15T22:00:00+02:00",
+  "updatedAt": "2026-08-16T06:00:00+02:00",
   "items": [
+    {
+      "navn": "Spirebukta",
+      "omrade": "Asker",
+      "temperatur": 21,
+      "maltKlokken": "15:00",
+      "locationId": "1-73195",
+      "latitude": 59.83372,
+      "longitude": 10.49792,
+      "time": "2026-08-15T15:00:00+02:00"
+    },
     {
       "navn": "Beston",
       "omrade": "Asker",
@@ -52,16 +62,6 @@
       "latitude": 59.52881,
       "longitude": 10.28133,
       "time": "2026-08-15T09:53:00+02:00"
-    },
-    {
-      "navn": "Hvalstrand",
-      "omrade": "Asker",
-      "temperatur": 18.9,
-      "maltKlokken": "16:00",
-      "locationId": "2-3151302",
-      "latitude": 59.84215,
-      "longitude": 10.48857,
-      "time": "2026-08-15T16:00:53+02:00"
     }
   ]
 }
