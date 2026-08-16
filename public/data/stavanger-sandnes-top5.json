@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T18:45:40.809Z",
+  "generatedAt": "2026-08-16T21:33:05.846Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,17 +10,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-16T20:14:56+02:00",
+  "updatedAt": "2026-08-16T22:15:10+02:00",
   "items": [
     {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
-      "temperatur": 17.3125,
-      "maltKlokken": "20:14",
+      "temperatur": 17.25,
+      "maltKlokken": "22:15",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-08-16T20:14:56+02:00"
+      "time": "2026-08-16T22:15:10+02:00"
     },
     {
       "navn": "Myklebust Sjøbad",
