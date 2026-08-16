@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T15:34:13.291Z",
+  "generatedAt": "2026-08-16T18:45:40.809Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-16T17:00:28+02:00",
+  "updatedAt": "2026-08-16T20:00:00+02:00",
   "items": [
     {
       "navn": "Spirebukta",
@@ -22,6 +22,16 @@
       "latitude": 59.83372,
       "longitude": 10.49792,
       "time": "2026-08-15T15:00:00+02:00"
+    },
+    {
+      "navn": "Langøya",
+      "omrade": "Holmestrand",
+      "temperatur": 20,
+      "maltKlokken": "19:18",
+      "locationId": "1-46436",
+      "latitude": 59.49333,
+      "longitude": 10.38137,
+      "time": "2026-08-16T19:18:00+02:00"
     },
     {
       "navn": "Beston",
@@ -52,16 +62,6 @@
       "latitude": 59.72849,
       "longitude": 10.04857,
       "time": "2026-08-15T19:52:00+02:00"
-    },
-    {
-      "navn": "Smørstein",
-      "omrade": "Holmestrand",
-      "temperatur": 19.5,
-      "maltKlokken": "09:15",
-      "locationId": "1-2289882",
-      "latitude": 59.52881,
-      "longitude": 10.28133,
-      "time": "2026-08-16T09:15:00+02:00"
     }
   ]
 }
