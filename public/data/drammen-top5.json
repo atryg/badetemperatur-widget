@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T09:40:20.845Z",
+  "generatedAt": "2026-08-16T12:59:21.580Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-16T11:00:00+02:00",
+  "updatedAt": "2026-08-16T14:07:33+02:00",
   "items": [
     {
       "navn": "Spirebukta",
@@ -34,6 +34,16 @@
       "time": "2026-08-15T14:35:00+02:00"
     },
     {
+      "navn": "Havnevik",
+      "omrade": "Drammen",
+      "temperatur": 20,
+      "maltKlokken": "13:00",
+      "locationId": "2-11845443",
+      "latitude": 59.66902,
+      "longitude": 10.36647,
+      "time": "2026-08-16T13:00:00+02:00"
+    },
+    {
       "navn": "Hagatjern",
       "omrade": "Drammen",
       "temperatur": 19.8,
@@ -44,24 +54,14 @@
       "time": "2026-08-15T19:52:00+02:00"
     },
     {
-      "navn": "Vehagen",
-      "omrade": "Holmestrand",
-      "temperatur": 19,
-      "maltKlokken": "19:35",
-      "locationId": "1-2845767",
-      "latitude": 59.56047,
-      "longitude": 10.23522,
-      "time": "2026-08-15T19:35:00+02:00"
-    },
-    {
       "navn": "Smørstein",
       "omrade": "Holmestrand",
-      "temperatur": 18.9,
-      "maltKlokken": "09:53",
+      "temperatur": 19.5,
+      "maltKlokken": "09:15",
       "locationId": "1-2289882",
       "latitude": 59.52881,
       "longitude": 10.28133,
-      "time": "2026-08-15T09:53:00+02:00"
+      "time": "2026-08-16T09:15:00+02:00"
     }
   ]
 }
