@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T07:14:49.047Z",
+  "generatedAt": "2026-08-17T09:55:53.202Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-17T09:00:00+02:00",
+  "updatedAt": "2026-08-17T11:21:00+02:00",
   "items": [
     {
       "navn": "Spirebukta",
@@ -58,14 +58,14 @@
       "time": "2026-08-14T17:14:47+02:00"
     },
     {
-      "navn": "Storøyodden",
-      "omrade": "Bærum",
+      "navn": "Hogstadvannet",
+      "omrade": "Asker",
       "temperatur": 19.8,
-      "maltKlokken": "16:00",
-      "locationId": "0-10014",
-      "latitude": 59.88819,
-      "longitude": 10.59302,
-      "time": "2026-08-16T16:00:50+02:00"
+      "maltKlokken": "21:20",
+      "locationId": "1-73212",
+      "latitude": 59.83352,
+      "longitude": 10.40126,
+      "time": "2026-08-16T21:20:00+02:00"
     }
   ]
 }
