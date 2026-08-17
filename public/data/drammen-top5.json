@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:03:57.204Z",
+  "generatedAt": "2026-08-17T15:37:45.378Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-17T14:44:00+02:00",
+  "updatedAt": "2026-08-17T17:00:00+02:00",
   "items": [
     {
       "navn": "Spirebukta",
