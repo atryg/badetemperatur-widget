@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T09:55:53.202Z",
+  "generatedAt": "2026-08-17T13:03:57.204Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-15T14:30:00+02:00",
+  "updatedAt": "2026-08-17T13:33:00+02:00",
   "items": [
     {
       "navn": "Ilsvika",
@@ -18,6 +18,16 @@
       "latitude": 63.43373,
       "longitude": 10.35388,
       "time": "2026-08-15T14:30:00+02:00"
+    },
+    {
+      "navn": "Theisendammen",
+      "omrade": "Trondheim",
+      "temperatur": 12.5,
+      "maltKlokken": "13:33",
+      "locationId": "1-211187",
+      "latitude": 63.42178,
+      "longitude": 10.34518,
+      "time": "2026-08-17T13:33:00+02:00"
     }
   ]
 }
