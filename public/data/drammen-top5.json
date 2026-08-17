@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T17:42:30.464Z",
+  "generatedAt": "2026-08-17T20:42:15.643Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-17T19:00:00+02:00",
+  "updatedAt": "2026-08-17T22:31:26+02:00",
   "items": [
     {
       "navn": "Spirebukta",
@@ -54,14 +54,14 @@
       "time": "2026-08-16T13:00:00+02:00"
     },
     {
-      "navn": "Hagatjern",
-      "omrade": "Drammen",
+      "navn": "Hogstadvannet",
+      "omrade": "Asker",
       "temperatur": 19.8,
-      "maltKlokken": "19:52",
-      "locationId": "1-58774",
-      "latitude": 59.72849,
-      "longitude": 10.04857,
-      "time": "2026-08-15T19:52:00+02:00"
+      "maltKlokken": "21:20",
+      "locationId": "1-73212",
+      "latitude": 59.83352,
+      "longitude": 10.40126,
+      "time": "2026-08-16T21:20:00+02:00"
     }
   ]
 }
