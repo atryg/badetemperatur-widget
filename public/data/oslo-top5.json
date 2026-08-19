@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T15:44:48.794Z",
+  "generatedAt": "2026-08-19T18:51:55.931Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-19T17:00:00+02:00",
+  "updatedAt": "2026-08-19T20:01:21+02:00",
   "items": [
     {
       "navn": "Spirebukta",
@@ -38,6 +38,16 @@
       "time": "2026-08-15T14:35:00+02:00"
     },
     {
+      "navn": "Storøyodden",
+      "omrade": "Bærum",
+      "temperatur": 19.9,
+      "maltKlokken": "16:01",
+      "locationId": "0-10014",
+      "latitude": 59.88819,
+      "longitude": 10.59302,
+      "time": "2026-08-19T16:01:47+02:00"
+    },
+    {
       "navn": "Hogstadvannet",
       "omrade": "Asker",
       "temperatur": 19.8,
@@ -48,24 +58,14 @@
       "time": "2026-08-16T21:20:00+02:00"
     },
     {
-      "navn": "Finnsrudvannet",
-      "omrade": "Asker",
+      "navn": "Kalvøya",
+      "omrade": "Bærum",
       "temperatur": 19.4,
-      "maltKlokken": "20:49",
-      "locationId": "1-73208",
-      "latitude": 59.8309,
-      "longitude": 10.38541,
-      "time": "2026-08-17T20:49:00+02:00"
-    },
-    {
-      "navn": "Hvervenbukta",
-      "omrade": "Oslo",
-      "temperatur": 19.4,
-      "maltKlokken": "14:13",
-      "locationId": "1-74202",
-      "latitude": 59.83307,
-      "longitude": 10.77133,
-      "time": "2026-08-16T14:13:09+02:00"
+      "maltKlokken": "16:00",
+      "locationId": "1-73036",
+      "latitude": 59.88498,
+      "longitude": 10.53804,
+      "time": "2026-08-19T16:00:54+02:00"
     }
   ]
 }
