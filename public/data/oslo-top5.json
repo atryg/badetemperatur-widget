@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T07:03:49.025Z",
+  "generatedAt": "2026-08-19T09:48:04.993Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-19T08:30:00+02:00",
+  "updatedAt": "2026-08-19T11:00:00+02:00",
   "items": [
     {
       "navn": "Spirebukta",
