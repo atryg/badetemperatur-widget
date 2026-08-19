@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T21:36:19.739Z",
+  "generatedAt": "2026-08-19T04:50:12.496Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,37 +7,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-18T22:52:00+02:00",
+  "updatedAt": "2026-08-19T06:22:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.529998779296875,
-      "maltKlokken": "22:52",
+      "temperatur": 31.44999885559082,
+      "maltKlokken": "06:22",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-08-18T22:52:00+02:00"
+      "time": "2026-08-19T06:22:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 31.389999389648438,
-      "maltKlokken": "22:52",
+      "temperatur": 31.31999969482422,
+      "maltKlokken": "06:22",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-08-18T22:52:00+02:00"
+      "time": "2026-08-19T06:22:00+02:00"
     },
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 15.839999198913574,
-      "maltKlokken": "22:52",
+      "temperatur": 15.114999771118164,
+      "maltKlokken": "06:22",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-08-18T22:52:00+02:00"
+      "time": "2026-08-19T06:22:00+02:00"
     },
     {
       "navn": "Kristiansholm",
