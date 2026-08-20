@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T15:47:40.881Z",
+  "generatedAt": "2026-08-20T18:57:39.414Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-20T17:22:00+02:00",
+  "updatedAt": "2026-08-20T20:22:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.3799991607666,
-      "maltKlokken": "17:22",
+      "temperatur": 31.739999771118164,
+      "maltKlokken": "20:22",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-08-20T17:22:00+02:00"
+      "time": "2026-08-20T20:22:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 31.229999542236328,
-      "maltKlokken": "17:22",
+      "temperatur": 31.59000015258789,
+      "maltKlokken": "20:22",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-08-20T17:22:00+02:00"
+      "time": "2026-08-20T20:22:00+02:00"
     },
     {
       "navn": "Skjoldabukta",
@@ -40,6 +40,16 @@
       "time": "2026-08-20T08:00:16+02:00"
     },
     {
+      "navn": "Nordnes Park og Sjøbad",
+      "omrade": "Bergen",
+      "temperatur": 16.5,
+      "maltKlokken": "20:22",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-08-20T20:22:00+02:00"
+    },
+    {
       "navn": "Helleneset",
       "omrade": "Bergen",
       "temperatur": 16.4,
@@ -48,16 +58,6 @@
       "latitude": 60.43513,
       "longitude": 5.27953,
       "time": "2026-08-19T17:00:00+02:00"
-    },
-    {
-      "navn": "Nordnes Park og Sjøbad",
-      "omrade": "Bergen",
-      "temperatur": 15.0649995803833,
-      "maltKlokken": "17:22",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-08-20T17:22:00+02:00"
     }
   ]
 }
