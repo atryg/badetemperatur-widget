@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:51:12.611Z",
+  "generatedAt": "2026-08-20T07:05:03.414Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-20T06:22:00+02:00",
+  "updatedAt": "2026-08-20T08:22:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.92999839782715,
-      "maltKlokken": "06:22",
+      "temperatur": 31.25,
+      "maltKlokken": "08:22",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-08-20T06:22:00+02:00"
+      "time": "2026-08-20T08:22:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 31.809999465942383,
-      "maltKlokken": "06:22",
+      "temperatur": 31.1299991607666,
+      "maltKlokken": "08:22",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-08-20T06:22:00+02:00"
+      "time": "2026-08-20T08:22:00+02:00"
+    },
+    {
+      "navn": "Skjoldabukta",
+      "omrade": "Bergen",
+      "temperatur": 18,
+      "maltKlokken": "08:00",
+      "locationId": "1-336605",
+      "latitude": 60.31146,
+      "longitude": 5.32614,
+      "time": "2026-08-20T08:00:16+02:00"
     },
     {
       "navn": "Helleneset",
@@ -42,22 +52,12 @@
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 15.739999771118164,
-      "maltKlokken": "06:22",
+      "temperatur": 15.179999351501465,
+      "maltKlokken": "08:22",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-08-20T06:22:00+02:00"
-    },
-    {
-      "navn": "Kristiansholm",
-      "omrade": "Bergen",
-      "temperatur": 15,
-      "maltKlokken": "20:09",
-      "locationId": "1-92418",
-      "latitude": 60.40878,
-      "longitude": 5.31874,
-      "time": "2026-08-18T20:09:57+02:00"
+      "time": "2026-08-20T08:22:00+02:00"
     }
   ]
 }

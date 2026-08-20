@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:51:12.611Z",
+  "generatedAt": "2026-08-20T07:05:03.414Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,18 +7,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-19T17:55:17+02:00",
+  "updatedAt": "2026-08-17T17:15:00+02:00",
   "items": [
-    {
-      "navn": "Flakk camping",
-      "omrade": "Trondheim",
-      "temperatur": 30,
-      "maltKlokken": "17:55",
-      "locationId": "1-2813711",
-      "latitude": 63.45,
-      "longitude": 10.20191,
-      "time": "2026-08-19T17:55:17+02:00"
-    },
     {
       "navn": "Ilsvika",
       "omrade": "Trondheim",
