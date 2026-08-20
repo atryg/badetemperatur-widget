@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T09:49:02.579Z",
+  "generatedAt": "2026-08-20T13:09:47.508Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,38 +15,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-20T11:00:00+02:00",
+  "updatedAt": "2026-08-20T15:00:00+02:00",
   "items": [
-    {
-      "navn": "Spirebukta",
-      "omrade": "Asker",
-      "temperatur": 21,
-      "maltKlokken": "15:00",
-      "locationId": "1-73195",
-      "latitude": 59.83372,
-      "longitude": 10.49792,
-      "time": "2026-08-15T15:00:00+02:00"
-    },
-    {
-      "navn": "Beston",
-      "omrade": "Asker",
-      "temperatur": 20,
-      "maltKlokken": "14:35",
-      "locationId": "1-59733",
-      "latitude": 59.68925,
-      "longitude": 10.51896,
-      "time": "2026-08-15T14:35:00+02:00"
-    },
-    {
-      "navn": "Storøyodden",
-      "omrade": "Bærum",
-      "temperatur": 19.9,
-      "maltKlokken": "16:01",
-      "locationId": "0-10014",
-      "latitude": 59.88819,
-      "longitude": 10.59302,
-      "time": "2026-08-19T16:01:47+02:00"
-    },
     {
       "navn": "Hogstadvannet",
       "omrade": "Asker",
@@ -58,14 +28,44 @@
       "time": "2026-08-16T21:20:00+02:00"
     },
     {
-      "navn": "Kalvøya",
-      "omrade": "Bærum",
+      "navn": "Finnsrudvannet",
+      "omrade": "Asker",
       "temperatur": 19.4,
-      "maltKlokken": "16:00",
-      "locationId": "1-73036",
-      "latitude": 59.88498,
-      "longitude": 10.53804,
-      "time": "2026-08-19T16:00:54+02:00"
+      "maltKlokken": "20:49",
+      "locationId": "1-73208",
+      "latitude": 59.8309,
+      "longitude": 10.38541,
+      "time": "2026-08-17T20:49:00+02:00"
+    },
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 19.1,
+      "maltKlokken": "15:30",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-08-18T15:30:00+02:00"
+    },
+    {
+      "navn": "Torskeberget",
+      "omrade": "Asker",
+      "temperatur": 19,
+      "maltKlokken": "11:53",
+      "locationId": "11-14863",
+      "latitude": 59.75354,
+      "longitude": 10.51233,
+      "time": "2026-08-16T11:53:25+02:00"
+    },
+    {
+      "navn": "Rødtangen",
+      "omrade": "Asker",
+      "temperatur": 19,
+      "maltKlokken": "14:37",
+      "locationId": "1-2871491",
+      "latitude": 59.53117,
+      "longitude": 10.41351,
+      "time": "2026-08-20T14:37:00+02:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T09:49:02.579Z",
+  "generatedAt": "2026-08-20T13:09:47.508Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-20T11:23:05+02:00",
+  "updatedAt": "2026-08-20T15:00:00+02:00",
   "items": [
-    {
-      "navn": "Spirebukta",
-      "omrade": "Asker",
-      "temperatur": 21,
-      "maltKlokken": "15:00",
-      "locationId": "1-73195",
-      "latitude": 59.83372,
-      "longitude": 10.49792,
-      "time": "2026-08-15T15:00:00+02:00"
-    },
     {
       "navn": "Langøya",
       "omrade": "Holmestrand",
@@ -34,16 +24,6 @@
       "time": "2026-08-16T19:18:00+02:00"
     },
     {
-      "navn": "Beston",
-      "omrade": "Asker",
-      "temperatur": 20,
-      "maltKlokken": "14:35",
-      "locationId": "1-59733",
-      "latitude": 59.68925,
-      "longitude": 10.51896,
-      "time": "2026-08-15T14:35:00+02:00"
-    },
-    {
       "navn": "Havnevik",
       "omrade": "Drammen",
       "temperatur": 20,
@@ -51,7 +31,7 @@
       "locationId": "2-11845443",
       "latitude": 59.66902,
       "longitude": 10.36647,
-      "time": "2026-08-16T13:00:00+02:00"
+      "time": "2026-08-20T13:00:00+02:00"
     },
     {
       "navn": "Hogstadvannet",
@@ -62,6 +42,26 @@
       "latitude": 59.83352,
       "longitude": 10.40126,
       "time": "2026-08-16T21:20:00+02:00"
+    },
+    {
+      "navn": "Smørstein",
+      "omrade": "Holmestrand",
+      "temperatur": 19.5,
+      "maltKlokken": "09:15",
+      "locationId": "1-2289882",
+      "latitude": 59.52881,
+      "longitude": 10.28133,
+      "time": "2026-08-16T09:15:00+02:00"
+    },
+    {
+      "navn": "Finnsrudvannet",
+      "omrade": "Asker",
+      "temperatur": 19.4,
+      "maltKlokken": "20:49",
+      "locationId": "1-73208",
+      "latitude": 59.8309,
+      "longitude": 10.38541,
+      "time": "2026-08-17T20:49:00+02:00"
     }
   ]
 }
