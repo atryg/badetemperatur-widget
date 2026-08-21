@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T18:54:35.376Z",
+  "generatedAt": "2026-08-21T21:36:23.678Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-21T20:22:00+02:00",
+  "updatedAt": "2026-08-21T22:52:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.579999923706055,
-      "maltKlokken": "20:22",
+      "temperatur": 30.920000076293945,
+      "maltKlokken": "22:52",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-08-21T20:22:00+02:00"
+      "time": "2026-08-21T22:52:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 31.420000076293945,
-      "maltKlokken": "20:22",
+      "temperatur": 30.78999900817871,
+      "maltKlokken": "22:52",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-08-21T20:22:00+02:00"
+      "time": "2026-08-21T22:52:00+02:00"
     },
     {
       "navn": "Skjoldabukta",
@@ -52,12 +52,12 @@
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 15.989999771118164,
-      "maltKlokken": "20:22",
+      "temperatur": 15.799999237060547,
+      "maltKlokken": "22:52",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-08-21T20:22:00+02:00"
+      "time": "2026-08-21T22:52:00+02:00"
     }
   ]
 }
