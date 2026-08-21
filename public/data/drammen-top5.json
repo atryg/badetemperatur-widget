@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T04:53:17.790Z",
+  "generatedAt": "2026-08-21T07:06:22.399Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-21T06:00:36+02:00",
+  "updatedAt": "2026-08-21T08:51:00+02:00",
   "items": [
     {
       "navn": "Langøya",

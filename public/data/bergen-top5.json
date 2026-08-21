@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T04:53:17.790Z",
+  "generatedAt": "2026-08-21T07:06:22.399Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-21T06:22:00+02:00",
+  "updatedAt": "2026-08-21T08:22:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 30.51999855041504,
-      "maltKlokken": "06:22",
+      "temperatur": 30.260000228881836,
+      "maltKlokken": "08:22",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-08-21T06:22:00+02:00"
+      "time": "2026-08-21T08:22:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 30.3799991607666,
-      "maltKlokken": "06:22",
+      "temperatur": 30.119998931884766,
+      "maltKlokken": "08:22",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-08-21T06:22:00+02:00"
+      "time": "2026-08-21T08:22:00+02:00"
     },
     {
       "navn": "Skjoldabukta",
@@ -40,16 +40,6 @@
       "time": "2026-08-20T08:00:16+02:00"
     },
     {
-      "navn": "Nordnes Park og Sjøbad",
-      "omrade": "Bergen",
-      "temperatur": 16.434999465942383,
-      "maltKlokken": "06:22",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-08-21T06:22:00+02:00"
-    },
-    {
       "navn": "Helleneset",
       "omrade": "Bergen",
       "temperatur": 16.4,
@@ -58,6 +48,16 @@
       "latitude": 60.43513,
       "longitude": 5.27953,
       "time": "2026-08-19T17:00:00+02:00"
+    },
+    {
+      "navn": "Nordnes Park og Sjøbad",
+      "omrade": "Bergen",
+      "temperatur": 16.139999389648438,
+      "maltKlokken": "08:22",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-08-21T08:22:00+02:00"
     }
   ]
 }
