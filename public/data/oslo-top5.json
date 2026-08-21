@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T21:41:50.329Z",
+  "generatedAt": "2026-08-21T04:53:17.790Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-20T22:00:00+02:00",
+  "updatedAt": "2026-08-21T06:28:00+02:00",
   "items": [
     {
       "navn": "Hogstadvannet",
@@ -28,26 +28,6 @@
       "time": "2026-08-16T21:20:00+02:00"
     },
     {
-      "navn": "Storøyodden",
-      "omrade": "Bærum",
-      "temperatur": 19.5,
-      "maltKlokken": "16:00",
-      "locationId": "0-10014",
-      "latitude": 59.88819,
-      "longitude": 10.59302,
-      "time": "2026-08-20T16:00:49+02:00"
-    },
-    {
-      "navn": "Kalvøya",
-      "omrade": "Bærum",
-      "temperatur": 19.4,
-      "maltKlokken": "16:00",
-      "locationId": "1-73036",
-      "latitude": 59.88498,
-      "longitude": 10.53804,
-      "time": "2026-08-20T16:00:49+02:00"
-    },
-    {
       "navn": "Finnsrudvannet",
       "omrade": "Asker",
       "temperatur": 19.4,
@@ -58,6 +38,16 @@
       "time": "2026-08-17T20:49:00+02:00"
     },
     {
+      "navn": "Kalvøya",
+      "omrade": "Bærum",
+      "temperatur": 19.2,
+      "maltKlokken": "04:00",
+      "locationId": "1-73036",
+      "latitude": 59.88498,
+      "longitude": 10.53804,
+      "time": "2026-08-21T04:00:48+02:00"
+    },
+    {
       "navn": "Hyggen",
       "omrade": "Asker",
       "temperatur": 19.1,
@@ -66,6 +56,16 @@
       "latitude": 59.71667,
       "longitude": 10.35528,
       "time": "2026-08-18T15:30:00+02:00"
+    },
+    {
+      "navn": "Torskeberget",
+      "omrade": "Asker",
+      "temperatur": 19,
+      "maltKlokken": "11:53",
+      "locationId": "11-14863",
+      "latitude": 59.75354,
+      "longitude": 10.51233,
+      "time": "2026-08-16T11:53:25+02:00"
     }
   ]
 }
