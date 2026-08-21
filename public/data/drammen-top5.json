@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T09:51:10.186Z",
+  "generatedAt": "2026-08-21T13:09:21.276Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-21T11:00:00+02:00",
+  "updatedAt": "2026-08-21T15:00:00+02:00",
   "items": [
     {
       "navn": "Langøya",
@@ -22,16 +22,6 @@
       "latitude": 59.49333,
       "longitude": 10.38137,
       "time": "2026-08-16T19:18:00+02:00"
-    },
-    {
-      "navn": "Havnevik",
-      "omrade": "Drammen",
-      "temperatur": 20,
-      "maltKlokken": "13:00",
-      "locationId": "2-11845443",
-      "latitude": 59.66902,
-      "longitude": 10.36647,
-      "time": "2026-08-20T13:00:00+02:00"
     },
     {
       "navn": "Hogstadvannet",
@@ -62,6 +52,16 @@
       "latitude": 59.71667,
       "longitude": 10.35528,
       "time": "2026-08-18T15:30:00+02:00"
+    },
+    {
+      "navn": "Rødtangen",
+      "omrade": "Asker",
+      "temperatur": 19,
+      "maltKlokken": "14:37",
+      "locationId": "1-2871491",
+      "latitude": 59.53117,
+      "longitude": 10.41351,
+      "time": "2026-08-20T14:37:00+02:00"
     }
   ]
 }
