@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T09:40:26.499Z",
+  "generatedAt": "2026-08-22T12:59:14.787Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -18,16 +18,6 @@
       "latitude": 63.44477,
       "longitude": 10.46883,
       "time": "2026-08-17T17:15:00+02:00"
-    },
-    {
-      "navn": "Theisendammen",
-      "omrade": "Trondheim",
-      "temperatur": 12.5,
-      "maltKlokken": "13:33",
-      "locationId": "1-211187",
-      "latitude": 63.42178,
-      "longitude": 10.34518,
-      "time": "2026-08-17T13:33:00+02:00"
     },
     {
       "navn": "Fagerheimbukta",
