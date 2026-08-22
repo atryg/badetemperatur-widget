@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T06:57:55.694Z",
+  "generatedAt": "2026-08-22T09:40:26.499Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-22T07:15:22+02:00",
+  "updatedAt": "2026-08-22T11:15:21+02:00",
   "items": [
     {
       "navn": "Furre Beach",
@@ -25,12 +25,12 @@
     {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
-      "temperatur": 16.625,
-      "maltKlokken": "07:15",
+      "temperatur": 16.6875,
+      "maltKlokken": "11:15",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-08-22T07:15:22+02:00"
+      "time": "2026-08-22T11:15:21+02:00"
     },
     {
       "navn": "Vigdelsvika",
