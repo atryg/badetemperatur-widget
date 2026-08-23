@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T09:41:39.156Z",
+  "generatedAt": "2026-08-23T13:00:32.381Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-23T11:00:00+02:00",
+  "updatedAt": "2026-08-23T14:00:00+02:00",
   "items": [
     {
       "navn": "Fornebu",
@@ -58,14 +58,14 @@
       "time": "2026-08-18T18:06:00+02:00"
     },
     {
-      "navn": "Holmsbu",
-      "omrade": "Asker",
-      "temperatur": 19,
-      "maltKlokken": "15:12",
-      "locationId": "1-60134",
-      "latitude": 59.56019,
-      "longitude": 10.42784,
-      "time": "2026-08-20T15:12:00+02:00"
+      "navn": "Båntjern",
+      "omrade": "Oslo",
+      "temperatur": 18.8,
+      "maltKlokken": "14:55",
+      "locationId": "1-72654",
+      "latitude": 59.96484,
+      "longitude": 10.7062,
+      "time": "2026-08-18T14:55:00+02:00"
     }
   ]
 }
