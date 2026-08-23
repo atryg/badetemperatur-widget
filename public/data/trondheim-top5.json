@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T06:59:39.504Z",
+  "generatedAt": "2026-08-23T09:41:39.156Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,8 +7,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-21T08:58:36+02:00",
+  "updatedAt": "2026-08-23T09:48:58+02:00",
   "items": [
+    {
+      "navn": "Grillstadfjæra",
+      "omrade": "Trondheim",
+      "temperatur": 14.3,
+      "maltKlokken": "09:48",
+      "locationId": "1-2308742",
+      "latitude": 63.43475,
+      "longitude": 10.50454,
+      "time": "2026-08-23T09:48:58+02:00"
+    },
     {
       "navn": "Fagerheimbukta",
       "omrade": "Trondheim",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T06:59:39.504Z",
+  "generatedAt": "2026-08-23T09:41:39.156Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-23T08:00:00+02:00",
+  "updatedAt": "2026-08-23T11:00:00+02:00",
   "items": [
     {
       "navn": "Hyggen",
@@ -22,16 +22,6 @@
       "latitude": 59.71667,
       "longitude": 10.35528,
       "time": "2026-08-18T15:30:00+02:00"
-    },
-    {
-      "navn": "Smørstein",
-      "omrade": "Holmestrand",
-      "temperatur": 19,
-      "maltKlokken": "10:25",
-      "locationId": "1-2289882",
-      "latitude": 59.52881,
-      "longitude": 10.28133,
-      "time": "2026-08-22T10:25:00+02:00"
     },
     {
       "navn": "Rødtangen",
@@ -62,6 +52,16 @@
       "latitude": 59.56019,
       "longitude": 10.42784,
       "time": "2026-08-20T15:12:00+02:00"
+    },
+    {
+      "navn": "Smørstein",
+      "omrade": "Holmestrand",
+      "temperatur": 18.5,
+      "maltKlokken": "09:25",
+      "locationId": "1-2289882",
+      "latitude": 59.52881,
+      "longitude": 10.28133,
+      "time": "2026-08-23T09:25:00+02:00"
     }
   ]
 }
