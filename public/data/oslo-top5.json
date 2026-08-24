@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T13:11:31.998Z",
+  "generatedAt": "2026-08-24T15:54:36.289Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-24T15:00:00+02:00",
+  "updatedAt": "2026-08-24T17:30:00+02:00",
   "items": [
     {
       "navn": "Ulsrudvannet",
@@ -58,14 +58,14 @@
       "time": "2026-08-24T08:18:00+02:00"
     },
     {
-      "navn": "Østernvann",
+      "navn": "Kalvøya",
       "omrade": "Bærum",
-      "temperatur": 18.5,
-      "maltKlokken": "12:36",
-      "locationId": "1-72640",
-      "latitude": 59.96872,
-      "longitude": 10.58186,
-      "time": "2026-08-23T12:36:29+02:00"
+      "temperatur": 18.4,
+      "maltKlokken": "10:00",
+      "locationId": "1-73036",
+      "latitude": 59.88498,
+      "longitude": 10.53804,
+      "time": "2026-08-24T10:00:53+02:00"
     }
   ]
 }
