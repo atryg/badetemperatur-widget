@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T10:02:11.272Z",
+  "generatedAt": "2026-08-24T13:11:31.998Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -33,16 +33,6 @@
       "time": "2026-08-24T04:15:23+02:00"
     },
     {
-      "navn": "Vigdelsvika",
-      "omrade": "Sola",
-      "temperatur": 16.5,
-      "maltKlokken": "15:00",
-      "locationId": "1-15426",
-      "latitude": 58.86232,
-      "longitude": 5.55554,
-      "time": "2026-08-19T15:00:00+02:00"
-    },
-    {
       "navn": "Grønnavigå",
       "omrade": "Stavanger",
       "temperatur": 16,
@@ -61,6 +51,16 @@
       "latitude": 58.93349,
       "longitude": 5.75384,
       "time": "2026-08-23T17:17:00+02:00"
+    },
+    {
+      "navn": "Nedre Tastasjøen",
+      "omrade": "Stavanger",
+      "temperatur": 15.5,
+      "maltKlokken": "13:02",
+      "locationId": "1-2887295",
+      "latitude": 58.98905,
+      "longitude": 5.70076,
+      "time": "2026-08-22T13:02:00+02:00"
     }
   ]
 }
