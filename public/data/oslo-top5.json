@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:18:43.034Z",
+  "generatedAt": "2026-08-24T10:02:11.272Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-24T09:00:00+02:00",
+  "updatedAt": "2026-08-24T11:00:00+02:00",
   "items": [
     {
       "navn": "Ulsrudvannet",
@@ -58,14 +58,14 @@
       "time": "2026-08-23T16:00:55+02:00"
     },
     {
-      "navn": "Rødtangen",
-      "omrade": "Asker",
+      "navn": "Sørenga",
+      "omrade": "Oslo",
       "temperatur": 19,
-      "maltKlokken": "14:37",
-      "locationId": "1-2871491",
-      "latitude": 59.53117,
-      "longitude": 10.41351,
-      "time": "2026-08-20T14:37:00+02:00"
+      "maltKlokken": "16:32",
+      "locationId": "2-11817651",
+      "latitude": 59.90454,
+      "longitude": 10.75845,
+      "time": "2026-08-23T16:32:00+02:00"
     }
   ]
 }
