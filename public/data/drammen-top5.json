@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T21:42:44.168Z",
+  "generatedAt": "2026-08-25T04:52:27.009Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-24T23:30:18+02:00",
+  "updatedAt": "2026-08-25T06:50:38+02:00",
   "items": [
     {
       "navn": "Smørstein",
@@ -34,26 +34,6 @@
       "time": "2026-08-24T20:42:00+02:00"
     },
     {
-      "navn": "Hvalstrand",
-      "omrade": "Asker",
-      "temperatur": 18.4,
-      "maltKlokken": "10:00",
-      "locationId": "2-3151302",
-      "latitude": 59.84215,
-      "longitude": 10.48857,
-      "time": "2026-08-24T10:00:46+02:00"
-    },
-    {
-      "navn": "Konglungøya",
-      "omrade": "Asker",
-      "temperatur": 18.3125,
-      "maltKlokken": "22:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-08-24T22:00:00+02:00"
-    },
-    {
       "navn": "Ødegårdsodden",
       "omrade": "Holmestrand",
       "temperatur": 18.3,
@@ -62,6 +42,26 @@
       "latitude": 59.55261,
       "longitude": 10.28024,
       "time": "2026-08-24T10:15:00+02:00"
+    },
+    {
+      "navn": "Hvalstrand",
+      "omrade": "Asker",
+      "temperatur": 18.1,
+      "maltKlokken": "04:00",
+      "locationId": "2-3151302",
+      "latitude": 59.84215,
+      "longitude": 10.48857,
+      "time": "2026-08-25T04:00:35+02:00"
+    },
+    {
+      "navn": "Ælvebadstua",
+      "omrade": "Drammen",
+      "temperatur": 18,
+      "maltKlokken": "08:51",
+      "locationId": "0-10118",
+      "latitude": 59.7448,
+      "longitude": 10.1912,
+      "time": "2026-08-21T08:51:00+02:00"
     }
   ]
 }
