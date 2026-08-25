@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T04:52:27.009Z",
+  "generatedAt": "2026-08-25T07:06:41.575Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-24T13:47:00+02:00",
+  "updatedAt": "2026-08-25T06:55:00+02:00",
   "items": [
     {
       "navn": "Grillstadfjæra",
@@ -18,6 +18,16 @@
       "latitude": 63.43475,
       "longitude": 10.50454,
       "time": "2026-08-23T09:48:58+02:00"
+    },
+    {
+      "navn": "Grilstad Marina",
+      "omrade": "Trondheim",
+      "temperatur": 13.3,
+      "maltKlokken": "06:55",
+      "locationId": "0-10104",
+      "latitude": 63.43624,
+      "longitude": 10.51306,
+      "time": "2026-08-25T06:55:00+02:00"
     },
     {
       "navn": "Theisendammen",
