@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T15:58:24.750Z",
+  "generatedAt": "2026-08-25T18:55:26.977Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,28 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-25T17:00:00+02:00",
+  "updatedAt": "2026-08-25T20:00:00+02:00",
   "items": [
+    {
+      "navn": "Storøyodden",
+      "omrade": "Bærum",
+      "temperatur": 20.2,
+      "maltKlokken": "17:01",
+      "locationId": "0-10014",
+      "latitude": 59.88819,
+      "longitude": 10.59302,
+      "time": "2026-08-25T17:01:26+02:00"
+    },
+    {
+      "navn": "Sjøstrand",
+      "omrade": "Asker",
+      "temperatur": 20,
+      "maltKlokken": "18:01",
+      "locationId": "1-73316",
+      "latitude": 59.79751,
+      "longitude": 10.49165,
+      "time": "2026-08-25T18:01:35+02:00"
+    },
     {
       "navn": "Ulsrudvannet",
       "omrade": "Oslo",
@@ -28,44 +48,24 @@
       "time": "2026-08-23T17:30:00+02:00"
     },
     {
-      "navn": "Nordstrand bad",
-      "omrade": "Oslo",
-      "temperatur": 19.1,
-      "maltKlokken": "12:13",
-      "locationId": "1-2254021",
-      "latitude": 59.86876,
-      "longitude": 10.78204,
-      "time": "2026-08-25T12:13:53+02:00"
-    },
-    {
-      "navn": "Sollerudstranda",
-      "omrade": "Oslo",
-      "temperatur": 19,
+      "navn": "Kalvøya",
+      "omrade": "Bærum",
+      "temperatur": 19.9,
       "maltKlokken": "16:00",
-      "locationId": "0-10025",
-      "latitude": 59.91267,
-      "longitude": 10.64748,
-      "time": "2026-08-25T16:00:00+02:00"
+      "locationId": "1-73036",
+      "latitude": 59.88498,
+      "longitude": 10.53804,
+      "time": "2026-08-25T16:00:53+02:00"
     },
     {
-      "navn": "Huk naturiststrand",
-      "omrade": "Oslo",
-      "temperatur": 19,
-      "maltKlokken": "17:30",
-      "locationId": "0-10055",
-      "latitude": 59.89647,
-      "longitude": 10.67231,
-      "time": "2026-08-24T17:30:00+02:00"
-    },
-    {
-      "navn": "Rødtangen",
+      "navn": "Hvalstrand",
       "omrade": "Asker",
-      "temperatur": 19,
-      "maltKlokken": "11:28",
-      "locationId": "1-2871491",
-      "latitude": 59.53117,
-      "longitude": 10.41351,
-      "time": "2026-08-25T11:28:00+02:00"
+      "temperatur": 19.7,
+      "maltKlokken": "16:00",
+      "locationId": "2-3151302",
+      "latitude": 59.84215,
+      "longitude": 10.48857,
+      "time": "2026-08-25T16:00:45+02:00"
     }
   ]
 }
