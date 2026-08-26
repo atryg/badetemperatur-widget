@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:15:07.189Z",
+  "generatedAt": "2026-08-26T15:51:32.062Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,37 +7,47 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-26T14:51:00+02:00",
+  "updatedAt": "2026-08-26T17:21:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.479999542236328,
-      "maltKlokken": "14:51",
+      "temperatur": 31.049999237060547,
+      "maltKlokken": "17:21",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-08-26T14:51:00+02:00"
+      "time": "2026-08-26T17:21:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 31.35999870300293,
-      "maltKlokken": "14:51",
+      "temperatur": 30.92999839782715,
+      "maltKlokken": "17:21",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-08-26T14:51:00+02:00"
+      "time": "2026-08-26T17:21:00+02:00"
+    },
+    {
+      "navn": "Nordnes Park og Sjøbad",
+      "omrade": "Bergen",
+      "temperatur": 17.545000076293945,
+      "maltKlokken": "17:21",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-08-26T17:21:00+02:00"
     },
     {
       "navn": "Helleneset",
       "omrade": "Bergen",
-      "temperatur": 17,
-      "maltKlokken": "18:37",
+      "temperatur": 17.1,
+      "maltKlokken": "15:20",
       "locationId": "1-92312",
       "latitude": 60.43513,
       "longitude": 5.27953,
-      "time": "2026-08-23T18:37:00+02:00"
+      "time": "2026-08-26T15:20:00+02:00"
     },
     {
       "navn": "Store Lungegårdsvannet",
@@ -48,16 +58,6 @@
       "latitude": 60.38207,
       "longitude": 5.34355,
       "time": "2026-08-25T21:15:00+02:00"
-    },
-    {
-      "navn": "Nordnes Park og Sjøbad",
-      "omrade": "Bergen",
-      "temperatur": 16.600000381469727,
-      "maltKlokken": "14:51",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-08-26T14:51:00+02:00"
     }
   ]
 }
