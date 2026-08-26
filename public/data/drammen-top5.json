@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T09:56:11.464Z",
+  "generatedAt": "2026-08-26T13:15:07.189Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,28 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-26T11:40:59+02:00",
+  "updatedAt": "2026-08-26T15:11:04+02:00",
   "items": [
-    {
-      "navn": "Sjøstrand",
-      "omrade": "Asker",
-      "temperatur": 20,
-      "maltKlokken": "18:01",
-      "locationId": "1-73316",
-      "latitude": 59.79751,
-      "longitude": 10.49165,
-      "time": "2026-08-25T18:01:35+02:00"
-    },
-    {
-      "navn": "Hvalstrand",
-      "omrade": "Asker",
-      "temperatur": 19.7,
-      "maltKlokken": "16:00",
-      "locationId": "2-3151302",
-      "latitude": 59.84215,
-      "longitude": 10.48857,
-      "time": "2026-08-25T16:00:45+02:00"
-    },
     {
       "navn": "Krok",
       "omrade": "Drammen",
@@ -62,6 +42,26 @@
       "latitude": 59.56047,
       "longitude": 10.23522,
       "time": "2026-08-25T18:44:00+02:00"
+    },
+    {
+      "navn": "Rødtangen",
+      "omrade": "Asker",
+      "temperatur": 19,
+      "maltKlokken": "11:28",
+      "locationId": "1-2871491",
+      "latitude": 59.53117,
+      "longitude": 10.41351,
+      "time": "2026-08-25T11:28:00+02:00"
+    },
+    {
+      "navn": "Nærsnes",
+      "omrade": "Asker",
+      "temperatur": 19,
+      "maltKlokken": "13:00",
+      "locationId": "1-73433",
+      "latitude": 59.75943,
+      "longitude": 10.50834,
+      "time": "2026-08-26T13:00:00+02:00"
     }
   ]
 }
