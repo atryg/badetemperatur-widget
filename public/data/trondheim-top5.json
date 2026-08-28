@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T15:14:02.690Z",
+  "generatedAt": "2026-08-28T16:36:58.127Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-26T20:31:00+02:00",
+  "updatedAt": "2026-08-27T17:59:58+02:00",
   "items": [
     {
       "navn": "Ilsvika",
@@ -20,16 +20,6 @@
       "time": "2026-08-26T12:27:55+02:00"
     },
     {
-      "navn": "Brattøra",
-      "omrade": "Trondheim",
-      "temperatur": 15.1,
-      "maltKlokken": "15:30",
-      "locationId": "1-211103",
-      "latitude": 63.43959,
-      "longitude": 10.40499,
-      "time": "2026-08-26T15:30:00+02:00"
-    },
-    {
       "navn": "Devlebukta",
       "omrade": "Trondheim",
       "temperatur": 15,
@@ -40,14 +30,14 @@
       "time": "2026-08-26T20:31:00+02:00"
     },
     {
-      "navn": "Grillstadfjæra",
+      "navn": "Brattøra",
       "omrade": "Trondheim",
-      "temperatur": 14.3,
-      "maltKlokken": "09:48",
-      "locationId": "1-2308742",
-      "latitude": 63.43475,
-      "longitude": 10.50454,
-      "time": "2026-08-23T09:48:58+02:00"
+      "temperatur": 14.8,
+      "maltKlokken": "15:40",
+      "locationId": "1-211103",
+      "latitude": 63.43959,
+      "longitude": 10.40499,
+      "time": "2026-08-27T15:40:00+02:00"
     },
     {
       "navn": "Grilstad Marina",
@@ -58,6 +48,16 @@
       "latitude": 63.43624,
       "longitude": 10.51306,
       "time": "2026-08-25T06:55:00+02:00"
+    },
+    {
+      "navn": "Theisendammen",
+      "omrade": "Trondheim",
+      "temperatur": 13,
+      "maltKlokken": "13:47",
+      "locationId": "1-211187",
+      "latitude": 63.42178,
+      "longitude": 10.34518,
+      "time": "2026-08-24T13:47:00+02:00"
     }
   ]
 }

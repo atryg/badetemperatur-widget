@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T15:14:02.690Z",
+  "generatedAt": "2026-08-28T16:36:58.127Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-27T17:00:00+02:00",
+  "updatedAt": "2026-08-28T18:01:46+02:00",
   "items": [
     {
       "navn": "Skinnerbukta",
@@ -28,44 +28,44 @@
       "time": "2026-08-26T14:38:00+02:00"
     },
     {
-      "navn": "Lutvannet",
+      "navn": "Hvervenbukta",
       "omrade": "Oslo",
-      "temperatur": 20,
-      "maltKlokken": "18:04",
-      "locationId": "1-73879",
-      "latitude": 59.91347,
-      "longitude": 10.87779,
-      "time": "2026-08-26T18:04:00+02:00"
+      "temperatur": 19.8,
+      "maltKlokken": "18:42",
+      "locationId": "1-74202",
+      "latitude": 59.83307,
+      "longitude": 10.77133,
+      "time": "2026-08-27T18:42:39+02:00"
     },
     {
-      "navn": "Ulsrudvannet",
+      "navn": "Nordstrand bad",
       "omrade": "Oslo",
-      "temperatur": 20,
+      "temperatur": 19.1,
+      "maltKlokken": "12:13",
+      "locationId": "1-2254021",
+      "latitude": 59.86876,
+      "longitude": 10.78204,
+      "time": "2026-08-25T12:13:53+02:00"
+    },
+    {
+      "navn": "Brekkedammen ved Frysja",
+      "omrade": "Oslo",
+      "temperatur": 19,
+      "maltKlokken": "08:30",
+      "locationId": "0-10022",
+      "latitude": 59.96669,
+      "longitude": 10.77815,
+      "time": "2026-08-27T08:30:00+02:00"
+    },
+    {
+      "navn": "Huk naturiststrand",
+      "omrade": "Oslo",
+      "temperatur": 19,
       "maltKlokken": "17:30",
-      "locationId": "1-73996",
-      "latitude": 59.88817,
-      "longitude": 10.86506,
-      "time": "2026-08-23T17:30:00+02:00"
-    },
-    {
-      "navn": "Storøyodden",
-      "omrade": "Bærum",
-      "temperatur": 19.4,
-      "maltKlokken": "10:00",
-      "locationId": "0-10014",
-      "latitude": 59.88819,
-      "longitude": 10.59302,
-      "time": "2026-08-27T10:00:54+02:00"
-    },
-    {
-      "navn": "Kalvøya",
-      "omrade": "Bærum",
-      "temperatur": 19.4,
-      "maltKlokken": "10:00",
-      "locationId": "1-73036",
-      "latitude": 59.88498,
-      "longitude": 10.53804,
-      "time": "2026-08-27T10:00:54+02:00"
+      "locationId": "0-10055",
+      "latitude": 59.89647,
+      "longitude": 10.67231,
+      "time": "2026-08-24T17:30:00+02:00"
     }
   ]
 }

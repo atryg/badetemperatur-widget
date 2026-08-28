@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T15:14:02.690Z",
+  "generatedAt": "2026-08-28T16:36:58.127Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-27T17:01:40+02:00",
+  "updatedAt": "2026-08-28T18:22:12+02:00",
   "items": [
-    {
-      "navn": "Havnevik",
-      "omrade": "Drammen",
-      "temperatur": 20,
-      "maltKlokken": "14:00",
-      "locationId": "2-11845443",
-      "latitude": 59.66902,
-      "longitude": 10.36647,
-      "time": "2026-08-27T14:00:00+02:00"
-    },
     {
       "navn": "Nerdammen",
       "omrade": "Drammen",
@@ -32,16 +22,6 @@
       "latitude": 59.68062,
       "longitude": 10.31085,
       "time": "2026-08-26T15:26:00+02:00"
-    },
-    {
-      "navn": "Nordre Jarlsberg Brygge",
-      "omrade": "Holmestrand",
-      "temperatur": 19.5,
-      "maltKlokken": "09:15",
-      "locationId": "11-17685",
-      "latitude": 59.56648,
-      "longitude": 10.26757,
-      "time": "2026-08-27T09:15:00+02:00"
     },
     {
       "navn": "Krok",
@@ -62,6 +42,26 @@
       "latitude": 59.74781,
       "longitude": 10.17623,
       "time": "2026-08-26T19:00:00+02:00"
+    },
+    {
+      "navn": "Nordre Jarlsberg Brygge",
+      "omrade": "Holmestrand",
+      "temperatur": 19,
+      "maltKlokken": "09:15",
+      "locationId": "11-17685",
+      "latitude": 59.56648,
+      "longitude": 10.26757,
+      "time": "2026-08-28T09:15:00+02:00"
+    },
+    {
+      "navn": "Vehagen",
+      "omrade": "Holmestrand",
+      "temperatur": 19,
+      "maltKlokken": "09:19",
+      "locationId": "1-2845767",
+      "latitude": 59.56047,
+      "longitude": 10.23522,
+      "time": "2026-08-27T09:19:00+02:00"
     }
   ]
 }
