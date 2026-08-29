@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T16:36:58.127Z",
+  "generatedAt": "2026-08-29T11:04:08.969Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-28T18:22:12+02:00",
+  "updatedAt": "2026-08-29T12:52:36+02:00",
   "items": [
     {
       "navn": "Nerdammen",
@@ -34,14 +34,14 @@
       "time": "2026-08-26T17:27:00+02:00"
     },
     {
-      "navn": "Hotvet strand",
-      "omrade": "Drammen",
-      "temperatur": 19,
-      "maltKlokken": "19:00",
-      "locationId": "10-1085596",
-      "latitude": 59.74781,
-      "longitude": 10.17623,
-      "time": "2026-08-26T19:00:00+02:00"
+      "navn": "Bekkestranda",
+      "omrade": "Holmestrand",
+      "temperatur": 19.2,
+      "maltKlokken": "14:30",
+      "locationId": "2-3257978",
+      "latitude": 59.55034,
+      "longitude": 10.28758,
+      "time": "2026-08-27T14:30:00+02:00"
     },
     {
       "navn": "Nordre Jarlsberg Brygge",
