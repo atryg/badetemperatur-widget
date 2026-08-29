@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T15:37:35.341Z",
+  "generatedAt": "2026-08-29T19:24:07.956Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-29T17:00:00+02:00",
+  "updatedAt": "2026-08-29T21:00:00+02:00",
   "items": [
     {
       "navn": "Skinnerbukta",
@@ -48,16 +48,6 @@
       "time": "2026-08-25T12:13:53+02:00"
     },
     {
-      "navn": "Huk naturiststrand",
-      "omrade": "Oslo",
-      "temperatur": 19,
-      "maltKlokken": "17:30",
-      "locationId": "0-10055",
-      "latitude": 59.89647,
-      "longitude": 10.67231,
-      "time": "2026-08-24T17:30:00+02:00"
-    },
-    {
       "navn": "Rødtangen",
       "omrade": "Asker",
       "temperatur": 19,
@@ -66,6 +56,16 @@
       "latitude": 59.53117,
       "longitude": 10.41351,
       "time": "2026-08-27T11:15:00+02:00"
+    },
+    {
+      "navn": "Østernvann",
+      "omrade": "Bærum",
+      "temperatur": 19,
+      "maltKlokken": "17:40",
+      "locationId": "1-72640",
+      "latitude": 59.96872,
+      "longitude": 10.58186,
+      "time": "2026-08-27T17:40:00+02:00"
     }
   ]
 }
