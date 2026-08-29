@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T19:24:07.956Z",
+  "generatedAt": "2026-08-29T22:39:23.848Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-29T21:00:00+02:00",
+  "updatedAt": "2026-08-30T00:00:00+02:00",
   "items": [
     {
       "navn": "Skinnerbukta",
