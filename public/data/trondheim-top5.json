@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T11:04:08.969Z",
+  "generatedAt": "2026-08-29T15:37:35.341Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -50,14 +50,14 @@
       "time": "2026-08-25T06:55:00+02:00"
     },
     {
-      "navn": "Theisendammen",
+      "navn": "Kyvannet",
       "omrade": "Trondheim",
       "temperatur": 13,
-      "maltKlokken": "13:47",
-      "locationId": "1-211187",
-      "latitude": 63.42178,
-      "longitude": 10.34518,
-      "time": "2026-08-24T13:47:00+02:00"
+      "maltKlokken": "17:59",
+      "locationId": "1-211265",
+      "latitude": 63.40385,
+      "longitude": 10.33832,
+      "time": "2026-08-27T17:59:58+02:00"
     }
   ]
 }
