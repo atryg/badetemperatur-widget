@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T14:51:36.501Z",
+  "generatedAt": "2026-08-30T18:37:44.014Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-30T16:00:00+02:00",
+  "updatedAt": "2026-08-30T20:00:00+02:00",
   "items": [
     {
       "navn": "Skinnerbukta",
@@ -38,6 +38,16 @@
       "time": "2026-08-27T18:42:39+02:00"
     },
     {
+      "navn": "Kalvøya",
+      "omrade": "Bærum",
+      "temperatur": 19.1,
+      "maltKlokken": "16:00",
+      "locationId": "1-73036",
+      "latitude": 59.88498,
+      "longitude": 10.53804,
+      "time": "2026-08-30T16:00:51+02:00"
+    },
+    {
       "navn": "Rødtangen",
       "omrade": "Asker",
       "temperatur": 19,
@@ -48,24 +58,14 @@
       "time": "2026-08-27T11:15:00+02:00"
     },
     {
-      "navn": "Østernvann",
-      "omrade": "Bærum",
+      "navn": "Nærsnes",
+      "omrade": "Asker",
       "temperatur": 19,
-      "maltKlokken": "15:15",
-      "locationId": "1-72640",
-      "latitude": 59.96872,
-      "longitude": 10.58186,
-      "time": "2026-08-30T15:15:00+02:00"
-    },
-    {
-      "navn": "Høvikodden",
-      "omrade": "Bærum",
-      "temperatur": 19,
-      "maltKlokken": "17:55",
-      "locationId": "1-72996",
-      "latitude": 59.88751,
-      "longitude": 10.55265,
-      "time": "2026-08-25T17:55:45+02:00"
+      "maltKlokken": "13:00",
+      "locationId": "1-73433",
+      "latitude": 59.75943,
+      "longitude": 10.50834,
+      "time": "2026-08-26T13:00:00+02:00"
     }
   ]
 }
