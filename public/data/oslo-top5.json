@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T10:49:59.218Z",
+  "generatedAt": "2026-08-31T17:59:52.390Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,18 +15,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-31T12:00:00+02:00",
+  "updatedAt": "2026-08-31T19:00:00+02:00",
   "items": [
-    {
-      "navn": "Skinnerbukta",
-      "omrade": "Oslo",
-      "temperatur": 20.1,
-      "maltKlokken": "14:38",
-      "locationId": "1-74053",
-      "latitude": 59.86795,
-      "longitude": 10.75229,
-      "time": "2026-08-26T14:38:00+02:00"
-    },
     {
       "navn": "Hvervenbukta",
       "omrade": "Oslo",
@@ -58,14 +48,24 @@
       "time": "2026-08-27T11:15:00+02:00"
     },
     {
-      "navn": "Nærsnes",
+      "navn": "Hvalstrand",
       "omrade": "Asker",
-      "temperatur": 19,
-      "maltKlokken": "13:00",
-      "locationId": "1-73433",
-      "latitude": 59.75943,
-      "longitude": 10.50834,
-      "time": "2026-08-26T13:00:00+02:00"
+      "temperatur": 18.6,
+      "maltKlokken": "10:00",
+      "locationId": "2-3151302",
+      "latitude": 59.84215,
+      "longitude": 10.48857,
+      "time": "2026-08-31T10:00:50+02:00"
+    },
+    {
+      "navn": "Holmsbu",
+      "omrade": "Asker",
+      "temperatur": 18.5,
+      "maltKlokken": "10:33",
+      "locationId": "1-60134",
+      "latitude": 59.56019,
+      "longitude": 10.42784,
+      "time": "2026-08-29T10:33:00+02:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T10:49:59.218Z",
+  "generatedAt": "2026-08-31T17:59:52.390Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-27T17:59:58+02:00",
+  "updatedAt": "2026-08-31T17:54:00+02:00",
   "items": [
     {
       "navn": "Devlebukta",
@@ -28,6 +28,16 @@
       "latitude": 63.43959,
       "longitude": 10.40499,
       "time": "2026-08-27T15:40:00+02:00"
+    },
+    {
+      "navn": "Theisendammen",
+      "omrade": "Trondheim",
+      "temperatur": 14,
+      "maltKlokken": "17:54",
+      "locationId": "1-211187",
+      "latitude": 63.42178,
+      "longitude": 10.34518,
+      "time": "2026-08-31T17:54:00+02:00"
     },
     {
       "navn": "Kyvannet",
