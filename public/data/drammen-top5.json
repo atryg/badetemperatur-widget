@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T17:59:52.390Z",
+  "generatedAt": "2026-08-31T22:49:08.670Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-31T19:53:45+02:00",
+  "updatedAt": "2026-09-01T00:33:52+02:00",
   "items": [
     {
       "navn": "Bekkestranda",

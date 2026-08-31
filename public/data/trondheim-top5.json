@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T17:59:52.390Z",
+  "generatedAt": "2026-08-31T22:49:08.670Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,18 +7,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-08-31T17:54:00+02:00",
+  "updatedAt": "2026-08-31T20:30:00+02:00",
   "items": [
-    {
-      "navn": "Devlebukta",
-      "omrade": "Trondheim",
-      "temperatur": 15,
-      "maltKlokken": "20:31",
-      "locationId": "1-2819500",
-      "latitude": 63.44477,
-      "longitude": 10.46883,
-      "time": "2026-08-26T20:31:00+02:00"
-    },
     {
       "navn": "Brattøra",
       "omrade": "Trondheim",
@@ -38,6 +28,16 @@
       "latitude": 63.42178,
       "longitude": 10.34518,
       "time": "2026-08-31T17:54:00+02:00"
+    },
+    {
+      "navn": "Djupvika",
+      "omrade": "Trondheim",
+      "temperatur": 13.5,
+      "maltKlokken": "20:30",
+      "locationId": "1-2210851",
+      "latitude": 63.45692,
+      "longitude": 10.45278,
+      "time": "2026-08-31T20:30:00+02:00"
     },
     {
       "navn": "Kyvannet",
