@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T09:23:23.536Z",
+  "generatedAt": "2026-09-01T14:52:01.453Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -9,16 +9,6 @@
   "source": "Badetemperaturer levert av Yr",
   "updatedAt": "2026-09-01T07:58:00+02:00",
   "items": [
-    {
-      "navn": "Brattøra",
-      "omrade": "Trondheim",
-      "temperatur": 14.8,
-      "maltKlokken": "15:40",
-      "locationId": "1-211103",
-      "latitude": 63.43959,
-      "longitude": 10.40499,
-      "time": "2026-08-27T15:40:00+02:00"
-    },
     {
       "navn": "Theisendammen",
       "omrade": "Trondheim",
