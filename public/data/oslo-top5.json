@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T17:50:06.285Z",
+  "generatedAt": "2026-09-03T21:00:48.254Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-03T19:00:00+02:00",
+  "updatedAt": "2026-09-03T22:00:00+02:00",
   "items": [
     {
       "navn": "Vikene",
