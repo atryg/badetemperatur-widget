@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T13:34:16.085Z",
+  "generatedAt": "2026-09-03T17:50:06.285Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-03T14:16:12+02:00",
+  "updatedAt": "2026-09-03T16:45:00+02:00",
   "items": [
     {
       "navn": "Regestranden",
@@ -53,14 +53,14 @@
       "time": "2026-09-02T19:32:00+02:00"
     },
     {
-      "navn": "Nedre Tastasjøen",
+      "navn": "Grønnavigå",
       "omrade": "Stavanger",
       "temperatur": 15.5,
-      "maltKlokken": "15:58",
-      "locationId": "1-2887295",
-      "latitude": 58.98905,
-      "longitude": 5.70076,
-      "time": "2026-08-30T15:58:00+02:00"
+      "maltKlokken": "16:45",
+      "locationId": "0-10001",
+      "latitude": 58.98805,
+      "longitude": 5.73906,
+      "time": "2026-09-03T16:45:00+02:00"
     }
   ]
 }
