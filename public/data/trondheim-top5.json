@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T21:01:38.968Z",
+  "generatedAt": "2026-09-03T08:55:06.787Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-01T07:58:00+02:00",
+  "updatedAt": "2026-09-03T06:55:00+02:00",
   "items": [
     {
       "navn": "Theisendammen",
@@ -20,6 +20,16 @@
       "time": "2026-08-31T17:54:00+02:00"
     },
     {
+      "navn": "Grillstadfjæra",
+      "omrade": "Trondheim",
+      "temperatur": 13.6,
+      "maltKlokken": "06:55",
+      "locationId": "1-2308742",
+      "latitude": 63.43475,
+      "longitude": 10.50454,
+      "time": "2026-09-03T06:55:00+02:00"
+    },
+    {
       "navn": "Djupvika",
       "omrade": "Trondheim",
       "temperatur": 13.5,
@@ -28,16 +38,6 @@
       "latitude": 63.45692,
       "longitude": 10.45278,
       "time": "2026-08-31T20:30:00+02:00"
-    },
-    {
-      "navn": "Grillstadfjæra",
-      "omrade": "Trondheim",
-      "temperatur": 13,
-      "maltKlokken": "07:58",
-      "locationId": "1-2308742",
-      "latitude": 63.43475,
-      "longitude": 10.50454,
-      "time": "2026-09-01T07:58:00+02:00"
     }
   ]
 }
