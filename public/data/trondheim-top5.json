@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T17:35:18.866Z",
+  "generatedAt": "2026-09-04T20:44:08.996Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-04T17:38:13+02:00",
+  "updatedAt": "2026-09-04T20:53:00+02:00",
   "items": [
     {
       "navn": "Ilsvika",
@@ -28,6 +28,16 @@
       "latitude": 63.42178,
       "longitude": 10.34518,
       "time": "2026-08-31T17:54:00+02:00"
+    },
+    {
+      "navn": "Devlebukta",
+      "omrade": "Trondheim",
+      "temperatur": 14,
+      "maltKlokken": "20:53",
+      "locationId": "1-2819500",
+      "latitude": 63.44477,
+      "longitude": 10.46883,
+      "time": "2026-09-04T20:53:00+02:00"
     },
     {
       "navn": "Grillstadfjæra",
