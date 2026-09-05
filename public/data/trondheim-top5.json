@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T18:16:36.016Z",
+  "generatedAt": "2026-09-05T20:25:21.061Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -48,16 +48,6 @@
       "latitude": 63.43475,
       "longitude": 10.50454,
       "time": "2026-09-03T06:55:00+02:00"
-    },
-    {
-      "navn": "Djupvika",
-      "omrade": "Trondheim",
-      "temperatur": 13.5,
-      "maltKlokken": "20:30",
-      "locationId": "1-2210851",
-      "latitude": 63.45692,
-      "longitude": 10.45278,
-      "time": "2026-08-31T20:30:00+02:00"
     }
   ]
 }
