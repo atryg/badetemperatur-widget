@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T12:41:31.129Z",
+  "generatedAt": "2026-09-05T16:03:08.896Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,37 +7,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-05T13:51:00+02:00",
+  "updatedAt": "2026-09-05T17:21:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.559999465942383,
-      "maltKlokken": "13:51",
+      "temperatur": 30.809999465942383,
+      "maltKlokken": "17:21",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-09-05T13:51:00+02:00"
+      "time": "2026-09-05T17:21:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 31.439998626708984,
-      "maltKlokken": "13:51",
+      "temperatur": 30.670000076293945,
+      "maltKlokken": "17:21",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-09-05T13:51:00+02:00"
+      "time": "2026-09-05T17:21:00+02:00"
     },
     {
-      "navn": "Helleneset",
+      "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 15.2,
-      "maltKlokken": "16:30",
-      "locationId": "1-92312",
-      "latitude": 60.43513,
-      "longitude": 5.27953,
-      "time": "2026-08-31T16:30:00+02:00"
+      "temperatur": 15.09999942779541,
+      "maltKlokken": "17:21",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-09-05T17:21:00+02:00"
     },
     {
       "navn": "Skuteviksbryggen",
@@ -48,16 +48,6 @@
       "latitude": 60.40259,
       "longitude": 5.32039,
       "time": "2026-08-31T19:07:33+02:00"
-    },
-    {
-      "navn": "Nordnes Park og Sjøbad",
-      "omrade": "Bergen",
-      "temperatur": 14.505000114440918,
-      "maltKlokken": "13:51",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-09-05T13:51:00+02:00"
     }
   ]
 }
