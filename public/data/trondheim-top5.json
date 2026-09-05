@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T16:03:08.896Z",
+  "generatedAt": "2026-09-05T18:16:36.016Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,8 +7,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-04T20:53:00+02:00",
+  "updatedAt": "2026-09-05T18:45:41+02:00",
   "items": [
+    {
+      "navn": "Ranheim kirke",
+      "omrade": "Trondheim",
+      "temperatur": 15.5,
+      "maltKlokken": "18:45",
+      "locationId": "1-2410940",
+      "latitude": 63.42983,
+      "longitude": 10.53564,
+      "time": "2026-09-05T18:45:41+02:00"
+    },
     {
       "navn": "Ilsvika",
       "omrade": "Trondheim",
