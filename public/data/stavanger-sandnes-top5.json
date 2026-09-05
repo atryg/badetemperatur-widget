@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T20:25:21.061Z",
+  "generatedAt": "2026-09-05T22:53:36.543Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-05T21:16:20+02:00",
+  "updatedAt": "2026-09-06T00:16:37+02:00",
   "items": [
     {
       "navn": "Regestranden",
@@ -23,16 +23,6 @@
       "time": "2026-09-05T07:30:00+02:00"
     },
     {
-      "navn": "Frøylandsvatnet",
-      "omrade": "Sandnes",
-      "temperatur": 16.0625,
-      "maltKlokken": "21:16",
-      "locationId": "1-15979",
-      "latitude": 58.9147,
-      "longitude": 5.86065,
-      "time": "2026-09-05T21:16:20+02:00"
-    },
-    {
       "navn": "Mariero stasjon",
       "omrade": "Stavanger",
       "temperatur": 16,
@@ -41,6 +31,16 @@
       "latitude": 58.93349,
       "longitude": 5.75384,
       "time": "2026-09-04T16:38:00+02:00"
+    },
+    {
+      "navn": "Frøylandsvatnet",
+      "omrade": "Sandnes",
+      "temperatur": 15.9375,
+      "maltKlokken": "00:16",
+      "locationId": "1-15979",
+      "latitude": 58.9147,
+      "longitude": 5.86065,
+      "time": "2026-09-06T00:16:37+02:00"
     },
     {
       "navn": "Liapynten",
