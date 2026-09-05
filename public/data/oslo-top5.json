@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:44:08.996Z",
+  "generatedAt": "2026-09-05T08:20:17.363Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-04T22:00:00+02:00",
+  "updatedAt": "2026-09-05T10:00:00+02:00",
   "items": [
     {
       "navn": "Vikene",
@@ -38,26 +38,6 @@
       "time": "2026-09-02T12:00:00+02:00"
     },
     {
-      "navn": "Sollerudstranda",
-      "omrade": "Oslo",
-      "temperatur": 18.2,
-      "maltKlokken": "07:45",
-      "locationId": "0-10025",
-      "latitude": 59.91267,
-      "longitude": 10.64748,
-      "time": "2026-09-04T07:45:46+02:00"
-    },
-    {
-      "navn": "Kalvøya",
-      "omrade": "Bærum",
-      "temperatur": 18.2,
-      "maltKlokken": "16:01",
-      "locationId": "1-73036",
-      "latitude": 59.88498,
-      "longitude": 10.53804,
-      "time": "2026-09-04T16:01:54+02:00"
-    },
-    {
       "navn": "Fornebu",
       "omrade": "Bærum",
       "temperatur": 18,
@@ -66,6 +46,26 @@
       "latitude": 59.89732,
       "longitude": 10.63082,
       "time": "2026-09-03T12:00:00+02:00"
+    },
+    {
+      "navn": "Rødtangen",
+      "omrade": "Asker",
+      "temperatur": 18,
+      "maltKlokken": "13:10",
+      "locationId": "1-2871491",
+      "latitude": 59.53117,
+      "longitude": 10.41351,
+      "time": "2026-09-02T13:10:00+02:00"
+    },
+    {
+      "navn": "Holmsbu",
+      "omrade": "Asker",
+      "temperatur": 18,
+      "maltKlokken": "13:35",
+      "locationId": "1-60134",
+      "latitude": 59.56019,
+      "longitude": 10.42784,
+      "time": "2026-09-02T13:35:00+02:00"
     }
   ]
 }
