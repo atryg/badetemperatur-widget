@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T22:53:36.543Z",
+  "generatedAt": "2026-09-06T08:39:16.485Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-06T00:38:02+02:00",
+  "updatedAt": "2026-09-06T10:29:27+02:00",
   "items": [
     {
       "navn": "Vikene",
