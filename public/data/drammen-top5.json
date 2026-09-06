@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T12:52:49.721Z",
+  "generatedAt": "2026-09-06T16:15:06.994Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,17 +11,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-06T14:30:02+02:00",
+  "updatedAt": "2026-09-06T18:00:32+02:00",
   "items": [
     {
-      "navn": "Vikene",
-      "omrade": "Asker",
-      "temperatur": 19,
-      "maltKlokken": "15:00",
-      "locationId": "2-3258742",
-      "latitude": 59.56111,
-      "longitude": 10.59722,
-      "time": "2026-09-01T15:00:00+02:00"
+      "navn": "Ødegårdsodden",
+      "omrade": "Holmestrand",
+      "temperatur": 19.6,
+      "maltKlokken": "15:59",
+      "locationId": "2-11998595",
+      "latitude": 59.55261,
+      "longitude": 10.28024,
+      "time": "2026-09-06T15:59:54+02:00"
     },
     {
       "navn": "Oppsjø",
