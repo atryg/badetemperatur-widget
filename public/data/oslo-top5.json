@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T09:19:00.034Z",
+  "generatedAt": "2026-09-07T15:49:50.647Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,28 +15,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-07T11:00:00+02:00",
+  "updatedAt": "2026-09-07T17:00:00+02:00",
   "items": [
-    {
-      "navn": "Oppsjø",
-      "omrade": "Asker",
-      "temperatur": 18.7,
-      "maltKlokken": "12:00",
-      "locationId": "1-73267",
-      "latitude": 59.81547,
-      "longitude": 10.38581,
-      "time": "2026-09-02T12:00:00+02:00"
-    },
-    {
-      "navn": "Kalvøya",
-      "omrade": "Bærum",
-      "temperatur": 18.4,
-      "maltKlokken": "04:00",
-      "locationId": "1-73036",
-      "latitude": 59.88498,
-      "longitude": 10.53804,
-      "time": "2026-09-07T04:00:48+02:00"
-    },
     {
       "navn": "Rambergøya",
       "omrade": "Oslo",
@@ -58,14 +38,34 @@
       "time": "2026-09-03T12:00:00+02:00"
     },
     {
-      "navn": "Rødtangen",
-      "omrade": "Asker",
+      "navn": "Det Norske Veritas",
+      "omrade": "Bærum",
       "temperatur": 18,
-      "maltKlokken": "13:10",
-      "locationId": "1-2871491",
-      "latitude": 59.53117,
-      "longitude": 10.41351,
-      "time": "2026-09-02T13:10:00+02:00"
+      "maltKlokken": "08:00",
+      "locationId": "1-72998",
+      "latitude": 59.88782,
+      "longitude": 10.56364,
+      "time": "2026-09-07T08:00:00+02:00"
+    },
+    {
+      "navn": "Sukkerbiten",
+      "omrade": "Oslo",
+      "temperatur": 17.9,
+      "maltKlokken": "16:20",
+      "locationId": "10-989718",
+      "latitude": 59.90495,
+      "longitude": 10.75233,
+      "time": "2026-09-06T16:20:00+02:00"
+    },
+    {
+      "navn": "Kalvøya",
+      "omrade": "Bærum",
+      "temperatur": 17.9,
+      "maltKlokken": "10:01",
+      "locationId": "1-73036",
+      "latitude": 59.88498,
+      "longitude": 10.53804,
+      "time": "2026-09-07T10:01:46+02:00"
     }
   ]
 }
