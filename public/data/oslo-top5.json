@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T22:49:31.097Z",
+  "generatedAt": "2026-09-08T08:51:01.700Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-08T00:00:00+02:00",
+  "updatedAt": "2026-09-08T10:00:00+02:00",
   "items": [
     {
       "navn": "Rambergøya",
@@ -58,14 +58,14 @@
       "time": "2026-09-06T16:20:00+02:00"
     },
     {
-      "navn": "Kalvøya",
-      "omrade": "Bærum",
-      "temperatur": 17.9,
-      "maltKlokken": "16:00",
-      "locationId": "1-73036",
-      "latitude": 59.88498,
-      "longitude": 10.53804,
-      "time": "2026-09-07T16:00:52+02:00"
+      "navn": "Hvervenbukta",
+      "omrade": "Oslo",
+      "temperatur": 17.8,
+      "maltKlokken": "10:45",
+      "locationId": "1-74202",
+      "latitude": 59.83307,
+      "longitude": 10.77133,
+      "time": "2026-09-06T10:45:00+02:00"
     }
   ]
 }
