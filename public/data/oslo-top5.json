@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T08:51:01.700Z",
+  "generatedAt": "2026-09-08T13:36:36.954Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-08T10:00:00+02:00",
+  "updatedAt": "2026-09-08T15:09:51+02:00",
   "items": [
     {
       "navn": "Rambergøya",
@@ -26,16 +26,6 @@
       "latitude": 59.88025,
       "longitude": 10.72007,
       "time": "2026-09-06T13:55:44+02:00"
-    },
-    {
-      "navn": "Fornebu",
-      "omrade": "Bærum",
-      "temperatur": 18,
-      "maltKlokken": "12:00",
-      "locationId": "1-2261640",
-      "latitude": 59.89732,
-      "longitude": 10.63082,
-      "time": "2026-09-03T12:00:00+02:00"
     },
     {
       "navn": "Det Norske Veritas",
@@ -66,6 +56,16 @@
       "latitude": 59.83307,
       "longitude": 10.77133,
       "time": "2026-09-06T10:45:00+02:00"
+    },
+    {
+      "navn": "Sollerudstranda",
+      "omrade": "Oslo",
+      "temperatur": 17.7,
+      "maltKlokken": "08:00",
+      "locationId": "0-10025",
+      "latitude": 59.91267,
+      "longitude": 10.64748,
+      "time": "2026-09-06T08:00:12+02:00"
     }
   ]
 }
