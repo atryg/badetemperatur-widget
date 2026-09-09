@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T17:49:07.641Z",
+  "generatedAt": "2026-09-09T20:54:39.226Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-09T19:31:08+02:00",
+  "updatedAt": "2026-09-09T22:41:35+02:00",
   "items": [
     {
       "navn": "Ødegårdsodden",
