@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T13:41:57.866Z",
+  "generatedAt": "2026-09-09T17:49:07.641Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-09T15:30:35+02:00",
+  "updatedAt": "2026-09-09T19:31:08+02:00",
   "items": [
     {
       "navn": "Ødegårdsodden",
@@ -34,14 +34,14 @@
       "time": "2026-09-06T14:00:00+02:00"
     },
     {
-      "navn": "Hvalstrand",
+      "navn": "Sjøstrand",
       "omrade": "Asker",
-      "temperatur": 17.4,
-      "maltKlokken": "16:00",
-      "locationId": "2-3151302",
-      "latitude": 59.84215,
-      "longitude": 10.48857,
-      "time": "2026-09-08T16:00:49+02:00"
+      "temperatur": 17.5,
+      "maltKlokken": "15:01",
+      "locationId": "1-73316",
+      "latitude": 59.79751,
+      "longitude": 10.49165,
+      "time": "2026-09-09T15:01:44+02:00"
     },
     {
       "navn": "Krok",

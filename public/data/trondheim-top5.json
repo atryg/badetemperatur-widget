@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T13:41:57.866Z",
+  "generatedAt": "2026-09-09T17:49:07.641Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -28,16 +28,6 @@
       "latitude": 63.44477,
       "longitude": 10.46883,
       "time": "2026-09-07T16:47:00+02:00"
-    },
-    {
-      "navn": "Ilsvika",
-      "omrade": "Trondheim",
-      "temperatur": 14.6,
-      "maltKlokken": "17:38",
-      "locationId": "1-211101",
-      "latitude": 63.43373,
-      "longitude": 10.35388,
-      "time": "2026-09-04T17:38:13+02:00"
     },
     {
       "navn": "Grillstadfjæra",
