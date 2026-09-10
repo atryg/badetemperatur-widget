@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T13:34:53.804Z",
+  "generatedAt": "2026-09-10T17:41:19.165Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,18 +7,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-10T06:45:00+02:00",
+  "updatedAt": "2026-09-10T17:56:00+02:00",
   "items": [
-    {
-      "navn": "Ranheim kirke",
-      "omrade": "Trondheim",
-      "temperatur": 15.5,
-      "maltKlokken": "18:45",
-      "locationId": "1-2410940",
-      "latitude": 63.42983,
-      "longitude": 10.53564,
-      "time": "2026-09-05T18:45:41+02:00"
-    },
     {
       "navn": "Devlebukta",
       "omrade": "Trondheim",
@@ -38,6 +28,16 @@
       "latitude": 63.43475,
       "longitude": 10.50454,
       "time": "2026-09-10T06:45:00+02:00"
+    },
+    {
+      "navn": "Theisendammen",
+      "omrade": "Trondheim",
+      "temperatur": 11,
+      "maltKlokken": "17:56",
+      "locationId": "1-211187",
+      "latitude": 63.42178,
+      "longitude": 10.34518,
+      "time": "2026-09-10T17:56:00+02:00"
     }
   ]
 }
