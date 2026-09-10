@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T20:54:39.226Z",
+  "generatedAt": "2026-09-10T08:56:11.975Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-08T06:45:00+02:00",
+  "updatedAt": "2026-09-10T06:45:00+02:00",
   "items": [
     {
       "navn": "Ranheim kirke",
@@ -32,12 +32,12 @@
     {
       "navn": "Grillstadfjæra",
       "omrade": "Trondheim",
-      "temperatur": 13.8,
+      "temperatur": 13,
       "maltKlokken": "06:45",
       "locationId": "1-2308742",
       "latitude": 63.43475,
       "longitude": 10.50454,
-      "time": "2026-09-08T06:45:00+02:00"
+      "time": "2026-09-10T06:45:00+02:00"
     }
   ]
 }
