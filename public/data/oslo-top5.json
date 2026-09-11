@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T17:43:58.802Z",
+  "generatedAt": "2026-09-11T20:56:30.187Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-11T19:00:00+02:00",
+  "updatedAt": "2026-09-11T22:00:00+02:00",
   "items": [
     {
       "navn": "Det Norske Veritas",
@@ -48,16 +48,6 @@
       "time": "2026-09-10T14:20:00+02:00"
     },
     {
-      "navn": "Tjuvholmen",
-      "omrade": "Oslo",
-      "temperatur": 16.8,
-      "maltKlokken": "19:23",
-      "locationId": "1-2254113",
-      "latitude": 59.90713,
-      "longitude": 10.72218,
-      "time": "2026-09-09T19:23:00+02:00"
-    },
-    {
       "navn": "Kalvøya",
       "omrade": "Bærum",
       "temperatur": 16.8,
@@ -66,6 +56,16 @@
       "latitude": 59.88498,
       "longitude": 10.53804,
       "time": "2026-09-11T16:00:50+02:00"
+    },
+    {
+      "navn": "Bakkestranda",
+      "omrade": "Asker",
+      "temperatur": 16.7,
+      "maltKlokken": "15:36",
+      "locationId": "1-2872449",
+      "latitude": 59.53593,
+      "longitude": 10.54034,
+      "time": "2026-09-10T15:36:00+02:00"
     }
   ]
 }
