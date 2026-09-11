@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T20:50:21.938Z",
+  "generatedAt": "2026-09-11T08:54:16.267Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-10T22:00:00+02:00",
+  "updatedAt": "2026-09-11T10:00:00+02:00",
   "items": [
     {
       "navn": "Rambergøya",
@@ -38,34 +38,34 @@
       "time": "2026-09-06T16:20:00+02:00"
     },
     {
-      "navn": "Hvervenbukta",
-      "omrade": "Oslo",
-      "temperatur": 17.8,
-      "maltKlokken": "10:45",
-      "locationId": "1-74202",
-      "latitude": 59.83307,
-      "longitude": 10.77133,
-      "time": "2026-09-06T10:45:00+02:00"
-    },
-    {
-      "navn": "Sollerudstranda",
-      "omrade": "Oslo",
-      "temperatur": 17.3,
-      "maltKlokken": "07:34",
-      "locationId": "0-10025",
-      "latitude": 59.91267,
-      "longitude": 10.64748,
-      "time": "2026-09-09T07:34:37+02:00"
-    },
-    {
-      "navn": "Kalvøya",
+      "navn": "Det Norske Veritas",
       "omrade": "Bærum",
       "temperatur": 17.1,
-      "maltKlokken": "07:00",
-      "locationId": "1-73036",
-      "latitude": 59.88498,
-      "longitude": 10.53804,
-      "time": "2026-09-10T07:00:51+02:00"
+      "maltKlokken": "08:00",
+      "locationId": "1-72998",
+      "latitude": 59.88782,
+      "longitude": 10.56364,
+      "time": "2026-09-11T08:00:00+02:00"
+    },
+    {
+      "navn": "Høvikvollen",
+      "omrade": "Asker",
+      "temperatur": 17,
+      "maltKlokken": "11:40",
+      "locationId": "1-2271875",
+      "latitude": 59.73355,
+      "longitude": 10.51175,
+      "time": "2026-09-10T11:40:00+02:00"
+    },
+    {
+      "navn": "Lutvannet",
+      "omrade": "Oslo",
+      "temperatur": 17,
+      "maltKlokken": "15:09",
+      "locationId": "1-73879",
+      "latitude": 59.91347,
+      "longitude": 10.87779,
+      "time": "2026-09-08T15:09:51+02:00"
     }
   ]
 }
