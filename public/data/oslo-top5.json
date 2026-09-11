@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T08:54:16.267Z",
+  "generatedAt": "2026-09-11T13:33:14.641Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,18 +15,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-11T10:00:00+02:00",
+  "updatedAt": "2026-09-11T15:00:00+02:00",
   "items": [
-    {
-      "navn": "Rambergøya",
-      "omrade": "Oslo",
-      "temperatur": 18.2,
-      "maltKlokken": "13:55",
-      "locationId": "1-73052",
-      "latitude": 59.88025,
-      "longitude": 10.72007,
-      "time": "2026-09-06T13:55:44+02:00"
-    },
     {
       "navn": "Sukkerbiten",
       "omrade": "Oslo",
@@ -48,16 +38,6 @@
       "time": "2026-09-11T08:00:00+02:00"
     },
     {
-      "navn": "Høvikvollen",
-      "omrade": "Asker",
-      "temperatur": 17,
-      "maltKlokken": "11:40",
-      "locationId": "1-2271875",
-      "latitude": 59.73355,
-      "longitude": 10.51175,
-      "time": "2026-09-10T11:40:00+02:00"
-    },
-    {
       "navn": "Lutvannet",
       "omrade": "Oslo",
       "temperatur": 17,
@@ -66,6 +46,26 @@
       "latitude": 59.91347,
       "longitude": 10.87779,
       "time": "2026-09-08T15:09:51+02:00"
+    },
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 17,
+      "maltKlokken": "14:20",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-09-10T14:20:00+02:00"
+    },
+    {
+      "navn": "Tjuvholmen",
+      "omrade": "Oslo",
+      "temperatur": 16.8,
+      "maltKlokken": "19:23",
+      "locationId": "1-2254113",
+      "latitude": 59.90713,
+      "longitude": 10.72218,
+      "time": "2026-09-09T19:23:00+02:00"
     }
   ]
 }

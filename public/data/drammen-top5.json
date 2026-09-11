@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T08:54:16.267Z",
+  "generatedAt": "2026-09-11T13:33:14.641Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-11T10:46:47+02:00",
+  "updatedAt": "2026-09-11T15:17:29+02:00",
   "items": [
     {
       "navn": "Ødegårdsodden",
@@ -24,36 +24,6 @@
       "time": "2026-09-10T14:56:02+02:00"
     },
     {
-      "navn": "Havnevik",
-      "omrade": "Drammen",
-      "temperatur": 18,
-      "maltKlokken": "14:00",
-      "locationId": "2-11845443",
-      "latitude": 59.66902,
-      "longitude": 10.36647,
-      "time": "2026-09-06T14:00:00+02:00"
-    },
-    {
-      "navn": "Krok",
-      "omrade": "Drammen",
-      "temperatur": 17.3,
-      "maltKlokken": "13:30",
-      "locationId": "1-2290267",
-      "latitude": 59.56337,
-      "longitude": 10.40166,
-      "time": "2026-09-06T13:30:00+02:00"
-    },
-    {
-      "navn": "Høvikvollen",
-      "omrade": "Asker",
-      "temperatur": 17,
-      "maltKlokken": "11:40",
-      "locationId": "1-2271875",
-      "latitude": 59.73355,
-      "longitude": 10.51175,
-      "time": "2026-09-10T11:40:00+02:00"
-    },
-    {
       "navn": "Hyggen",
       "omrade": "Asker",
       "temperatur": 17,
@@ -62,6 +32,36 @@
       "latitude": 59.71667,
       "longitude": 10.35528,
       "time": "2026-09-10T14:20:00+02:00"
+    },
+    {
+      "navn": "Bakkestranda",
+      "omrade": "Asker",
+      "temperatur": 16.7,
+      "maltKlokken": "15:36",
+      "locationId": "1-2872449",
+      "latitude": 59.53593,
+      "longitude": 10.54034,
+      "time": "2026-09-10T15:36:00+02:00"
+    },
+    {
+      "navn": "Hvalstrand",
+      "omrade": "Asker",
+      "temperatur": 16.5,
+      "maltKlokken": "10:00",
+      "locationId": "2-3151302",
+      "latitude": 59.84215,
+      "longitude": 10.48857,
+      "time": "2026-09-11T10:00:44+02:00"
+    },
+    {
+      "navn": "Konglungøya",
+      "omrade": "Asker",
+      "temperatur": 16.125,
+      "maltKlokken": "15:00",
+      "locationId": "1-2313172",
+      "latitude": 59.83932,
+      "longitude": 10.51272,
+      "time": "2026-09-11T15:00:00+02:00"
     }
   ]
 }

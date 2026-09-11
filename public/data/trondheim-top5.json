@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T08:54:16.267Z",
+  "generatedAt": "2026-09-11T13:33:14.641Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-10T17:56:00+02:00",
+  "updatedAt": "2026-09-11T12:38:45+02:00",
   "items": [
     {
       "navn": "Devlebukta",
@@ -20,6 +20,36 @@
       "time": "2026-09-07T16:47:00+02:00"
     },
     {
+      "navn": "Ilsvika",
+      "omrade": "Trondheim",
+      "temperatur": 13.5,
+      "maltKlokken": "12:38",
+      "locationId": "1-211101",
+      "latitude": 63.43373,
+      "longitude": 10.35388,
+      "time": "2026-09-11T12:38:45+02:00"
+    },
+    {
+      "navn": "Haukvatnet",
+      "omrade": "Trondheim",
+      "temperatur": 13.5,
+      "maltKlokken": "11:08",
+      "locationId": "1-211305",
+      "latitude": 63.3928,
+      "longitude": 10.3181,
+      "time": "2026-09-11T11:08:00+02:00"
+    },
+    {
+      "navn": "Lianvatnet",
+      "omrade": "Trondheim",
+      "temperatur": 13,
+      "maltKlokken": "10:00",
+      "locationId": "1-211264",
+      "latitude": 63.40071,
+      "longitude": 10.31682,
+      "time": "2026-09-11T10:00:00+02:00"
+    },
+    {
       "navn": "Grillstadfjæra",
       "omrade": "Trondheim",
       "temperatur": 13,
@@ -28,16 +58,6 @@
       "latitude": 63.43475,
       "longitude": 10.50454,
       "time": "2026-09-10T06:45:00+02:00"
-    },
-    {
-      "navn": "Theisendammen",
-      "omrade": "Trondheim",
-      "temperatur": 11,
-      "maltKlokken": "17:56",
-      "locationId": "1-211187",
-      "latitude": 63.42178,
-      "longitude": 10.34518,
-      "time": "2026-09-10T17:56:00+02:00"
     }
   ]
 }
