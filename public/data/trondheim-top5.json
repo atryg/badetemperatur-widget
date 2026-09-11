@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T13:33:14.641Z",
+  "generatedAt": "2026-09-11T17:43:58.802Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-11T12:38:45+02:00",
+  "updatedAt": "2026-09-11T17:00:00+02:00",
   "items": [
     {
       "navn": "Devlebukta",

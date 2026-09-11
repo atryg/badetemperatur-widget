@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T13:33:14.641Z",
+  "generatedAt": "2026-09-11T17:43:58.802Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,18 +15,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-11T15:00:00+02:00",
+  "updatedAt": "2026-09-11T19:00:00+02:00",
   "items": [
-    {
-      "navn": "Sukkerbiten",
-      "omrade": "Oslo",
-      "temperatur": 17.9,
-      "maltKlokken": "16:20",
-      "locationId": "10-989718",
-      "latitude": 59.90495,
-      "longitude": 10.75233,
-      "time": "2026-09-06T16:20:00+02:00"
-    },
     {
       "navn": "Det Norske Veritas",
       "omrade": "Bærum",
@@ -66,6 +56,16 @@
       "latitude": 59.90713,
       "longitude": 10.72218,
       "time": "2026-09-09T19:23:00+02:00"
+    },
+    {
+      "navn": "Kalvøya",
+      "omrade": "Bærum",
+      "temperatur": 16.8,
+      "maltKlokken": "16:00",
+      "locationId": "1-73036",
+      "latitude": 59.88498,
+      "longitude": 10.53804,
+      "time": "2026-09-11T16:00:50+02:00"
     }
   ]
 }
