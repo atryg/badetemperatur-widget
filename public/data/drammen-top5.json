@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T12:50:19.340Z",
+  "generatedAt": "2026-09-12T16:18:02.924Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-12T14:40:51+02:00",
+  "updatedAt": "2026-09-12T18:01:20+02:00",
   "items": [
     {
       "navn": "Ødegårdsodden",
@@ -44,6 +44,16 @@
       "time": "2026-09-10T15:36:00+02:00"
     },
     {
+      "navn": "Dulpen",
+      "omrade": "Holmestrand",
+      "temperatur": 16.3,
+      "maltKlokken": "18:01",
+      "locationId": "0-10238",
+      "latitude": 59.49233,
+      "longitude": 10.31529,
+      "time": "2026-09-12T18:01:20+02:00"
+    },
+    {
       "navn": "Nordre Jarlsberg Brygge",
       "omrade": "Holmestrand",
       "temperatur": 16,
@@ -52,16 +62,6 @@
       "latitude": 59.56648,
       "longitude": 10.26757,
       "time": "2026-09-12T09:18:00+02:00"
-    },
-    {
-      "navn": "Høvikvollen",
-      "omrade": "Asker",
-      "temperatur": 16,
-      "maltKlokken": "11:23",
-      "locationId": "1-2271875",
-      "latitude": 59.73355,
-      "longitude": 10.51175,
-      "time": "2026-09-12T11:23:00+02:00"
     }
   ]
 }

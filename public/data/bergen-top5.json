@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T12:50:19.340Z",
+  "generatedAt": "2026-09-12T16:18:02.924Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,37 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-12T14:21:00+02:00",
+  "updatedAt": "2026-09-12T17:51:00+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 19.829999923706055,
-      "maltKlokken": "14:21",
+      "temperatur": 19.81999969482422,
+      "maltKlokken": "17:51",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-09-12T14:21:00+02:00"
+      "time": "2026-09-12T17:51:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 16.719999313354492,
-      "maltKlokken": "14:21",
+      "temperatur": 16.479999542236328,
+      "maltKlokken": "17:51",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-09-12T14:21:00+02:00"
-    },
-    {
-      "navn": "Nordnes Park og Sjøbad",
-      "omrade": "Bergen",
-      "temperatur": 13.875,
-      "maltKlokken": "14:21",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-09-12T14:21:00+02:00"
+      "time": "2026-09-12T17:51:00+02:00"
     },
     {
       "navn": "Salhus",
@@ -50,14 +40,24 @@
       "time": "2026-09-11T08:30:00+02:00"
     },
     {
+      "navn": "Nordnes Park og Sjøbad",
+      "omrade": "Bergen",
+      "temperatur": 13.524999618530273,
+      "maltKlokken": "17:51",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-09-12T17:51:00+02:00"
+    },
+    {
       "navn": "Laugaren Badstu",
       "omrade": "Bergen",
-      "temperatur": 13.5,
-      "maltKlokken": "13:40",
+      "temperatur": 13,
+      "maltKlokken": "17:40",
       "locationId": "0-10261",
       "latitude": 60.39509,
       "longitude": 5.30971,
-      "time": "2026-09-12T13:40:08+02:00"
+      "time": "2026-09-12T17:40:08+02:00"
     }
   ]
 }
