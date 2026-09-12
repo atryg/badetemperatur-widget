@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T08:37:20.547Z",
+  "generatedAt": "2026-09-12T12:50:19.340Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-12T10:20:16+02:00",
+  "updatedAt": "2026-09-12T14:40:51+02:00",
   "items": [
     {
       "navn": "Ødegårdsodden",
@@ -57,11 +57,11 @@
       "navn": "Høvikvollen",
       "omrade": "Asker",
       "temperatur": 16,
-      "maltKlokken": "14:22",
+      "maltKlokken": "11:23",
       "locationId": "1-2271875",
       "latitude": 59.73355,
       "longitude": 10.51175,
-      "time": "2026-09-11T14:22:00+02:00"
+      "time": "2026-09-12T11:23:00+02:00"
     }
   ]
 }
