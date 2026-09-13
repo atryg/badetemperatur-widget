@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T09:32:28.228Z",
+  "generatedAt": "2026-09-13T14:21:43.846Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-13T11:17:31+02:00",
+  "updatedAt": "2026-09-13T14:17:05+02:00",
   "items": [
     {
       "navn": "Vigdelsvika",
