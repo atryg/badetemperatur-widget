@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T22:15:35.431Z",
+  "generatedAt": "2026-09-13T09:32:28.228Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-13T00:02:12+02:00",
+  "updatedAt": "2026-09-13T11:23:49+02:00",
   "items": [
     {
       "navn": "Ødegårdsodden",
@@ -34,16 +34,6 @@
       "time": "2026-09-10T14:20:00+02:00"
     },
     {
-      "navn": "Dulpen",
-      "omrade": "Holmestrand",
-      "temperatur": 16.9,
-      "maltKlokken": "00:02",
-      "locationId": "0-10238",
-      "latitude": 59.49233,
-      "longitude": 10.31529,
-      "time": "2026-09-13T00:02:12+02:00"
-    },
-    {
       "navn": "Bakkestranda",
       "omrade": "Asker",
       "temperatur": 16.7,
@@ -54,14 +44,24 @@
       "time": "2026-09-10T15:36:00+02:00"
     },
     {
-      "navn": "Nordre Jarlsberg Brygge",
-      "omrade": "Holmestrand",
+      "navn": "Høvikvollen",
+      "omrade": "Asker",
       "temperatur": 16,
-      "maltKlokken": "09:18",
-      "locationId": "11-17685",
-      "latitude": 59.56648,
-      "longitude": 10.26757,
-      "time": "2026-09-12T09:18:00+02:00"
+      "maltKlokken": "11:23",
+      "locationId": "1-2271875",
+      "latitude": 59.73355,
+      "longitude": 10.51175,
+      "time": "2026-09-12T11:23:00+02:00"
+    },
+    {
+      "navn": "Sætre",
+      "omrade": "Asker",
+      "temperatur": 16,
+      "maltKlokken": "08:00",
+      "locationId": "1-59792",
+      "latitude": 59.6819,
+      "longitude": 10.52961,
+      "time": "2026-09-13T08:00:00+02:00"
     }
   ]
 }
