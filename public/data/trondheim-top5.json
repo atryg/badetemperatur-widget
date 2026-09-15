@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T20:56:07.404Z",
+  "generatedAt": "2026-09-15T09:23:53.853Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -40,16 +40,6 @@
       "time": "2026-09-11T10:00:00+02:00"
     },
     {
-      "navn": "Grillstadfjæra",
-      "omrade": "Trondheim",
-      "temperatur": 13,
-      "maltKlokken": "06:45",
-      "locationId": "1-2308742",
-      "latitude": 63.43475,
-      "longitude": 10.50454,
-      "time": "2026-09-10T06:45:00+02:00"
-    },
-    {
       "navn": "Baklidammen",
       "omrade": "Trondheim",
       "temperatur": 12,
@@ -58,6 +48,16 @@
       "latitude": 63.41922,
       "longitude": 10.32098,
       "time": "2026-09-11T15:59:00+02:00"
+    },
+    {
+      "navn": "Theisendammen",
+      "omrade": "Trondheim",
+      "temperatur": 12,
+      "maltKlokken": "17:00",
+      "locationId": "1-211187",
+      "latitude": 63.42178,
+      "longitude": 10.34518,
+      "time": "2026-09-11T17:00:00+02:00"
     }
   ]
 }

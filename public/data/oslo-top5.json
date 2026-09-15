@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T20:56:07.404Z",
+  "generatedAt": "2026-09-15T09:23:53.853Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-14T22:00:00+02:00",
+  "updatedAt": "2026-09-15T11:00:00+02:00",
   "items": [
     {
       "navn": "Rambergøya",
