@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T22:12:39.608Z",
+  "generatedAt": "2026-09-16T09:17:00.081Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -20,26 +20,6 @@
       "time": "2026-09-11T12:38:45+02:00"
     },
     {
-      "navn": "Haukvatnet",
-      "omrade": "Trondheim",
-      "temperatur": 13.5,
-      "maltKlokken": "11:08",
-      "locationId": "1-211305",
-      "latitude": 63.3928,
-      "longitude": 10.3181,
-      "time": "2026-09-11T11:08:00+02:00"
-    },
-    {
-      "navn": "Lianvatnet",
-      "omrade": "Trondheim",
-      "temperatur": 13,
-      "maltKlokken": "10:00",
-      "locationId": "1-211264",
-      "latitude": 63.40071,
-      "longitude": 10.31682,
-      "time": "2026-09-11T10:00:00+02:00"
-    },
-    {
       "navn": "Grillstadfjæra",
       "omrade": "Trondheim",
       "temperatur": 12.3,
@@ -58,6 +38,16 @@
       "latitude": 63.41922,
       "longitude": 10.32098,
       "time": "2026-09-11T15:59:00+02:00"
+    },
+    {
+      "navn": "Theisendammen",
+      "omrade": "Trondheim",
+      "temperatur": 12,
+      "maltKlokken": "17:00",
+      "locationId": "1-211187",
+      "latitude": 63.42178,
+      "longitude": 10.34518,
+      "time": "2026-09-11T17:00:00+02:00"
     }
   ]
 }
