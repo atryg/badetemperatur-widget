@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T18:11:27.082Z",
+  "generatedAt": "2026-09-16T21:16:27.565Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-16T20:00:00+02:00",
+  "updatedAt": "2026-09-16T23:07:07+02:00",
   "items": [
     {
       "navn": "Ødegårdsodden",
@@ -34,14 +34,14 @@
       "time": "2026-09-16T18:01:50+02:00"
     },
     {
-      "navn": "Dulpen",
-      "omrade": "Holmestrand",
-      "temperatur": 16.1,
-      "maltKlokken": "19:56",
-      "locationId": "0-10238",
-      "latitude": 59.49233,
-      "longitude": 10.31529,
-      "time": "2026-09-16T19:56:37+02:00"
+      "navn": "Konglungøya",
+      "omrade": "Asker",
+      "temperatur": 16.125,
+      "maltKlokken": "22:00",
+      "locationId": "1-2313172",
+      "latitude": 59.83932,
+      "longitude": 10.51272,
+      "time": "2026-09-16T22:00:00+02:00"
     },
     {
       "navn": "Hyggen",
@@ -54,14 +54,14 @@
       "time": "2026-09-16T16:55:00+02:00"
     },
     {
-      "navn": "Konglungøya",
-      "omrade": "Asker",
-      "temperatur": 16.0625,
-      "maltKlokken": "20:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-09-16T20:00:00+02:00"
+      "navn": "Hotvet strand",
+      "omrade": "Drammen",
+      "temperatur": 16,
+      "maltKlokken": "14:00",
+      "locationId": "10-1085596",
+      "latitude": 59.74781,
+      "longitude": 10.17623,
+      "time": "2026-09-14T14:00:00+02:00"
     }
   ]
 }
