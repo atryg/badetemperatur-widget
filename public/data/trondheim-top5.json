@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T14:13:59.289Z",
+  "generatedAt": "2026-09-16T18:11:27.082Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -18,26 +18,6 @@
       "latitude": 63.43475,
       "longitude": 10.50454,
       "time": "2026-09-15T06:45:00+02:00"
-    },
-    {
-      "navn": "Baklidammen",
-      "omrade": "Trondheim",
-      "temperatur": 12,
-      "maltKlokken": "15:59",
-      "locationId": "1-211185",
-      "latitude": 63.41922,
-      "longitude": 10.32098,
-      "time": "2026-09-11T15:59:00+02:00"
-    },
-    {
-      "navn": "Theisendammen",
-      "omrade": "Trondheim",
-      "temperatur": 12,
-      "maltKlokken": "17:00",
-      "locationId": "1-211187",
-      "latitude": 63.42178,
-      "longitude": 10.34518,
-      "time": "2026-09-11T17:00:00+02:00"
     }
   ]
 }
