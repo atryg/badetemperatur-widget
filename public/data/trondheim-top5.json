@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T14:58:53.348Z",
+  "generatedAt": "2026-09-17T19:00:15.843Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,17 +7,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-15T06:45:00+02:00",
+  "updatedAt": "2026-09-17T20:52:31+02:00",
   "items": [
     {
       "navn": "Grillstadfjæra",
       "omrade": "Trondheim",
-      "temperatur": 12.3,
-      "maltKlokken": "06:45",
+      "temperatur": 12.7,
+      "maltKlokken": "20:52",
       "locationId": "1-2308742",
       "latitude": 63.43475,
       "longitude": 10.50454,
-      "time": "2026-09-15T06:45:00+02:00"
+      "time": "2026-09-17T20:52:31+02:00"
     }
   ]
 }
