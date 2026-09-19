@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:53:36.206Z",
+  "generatedAt": "2026-09-19T08:47:09.168Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-18T21:40:08+02:00",
+  "updatedAt": "2026-09-19T09:40:06+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
@@ -43,21 +43,11 @@
       "navn": "Laugaren Badstu",
       "omrade": "Bergen",
       "temperatur": 12.6,
-      "maltKlokken": "21:40",
+      "maltKlokken": "09:40",
       "locationId": "0-10261",
       "latitude": 60.39509,
       "longitude": 5.30971,
-      "time": "2026-09-18T21:40:08+02:00"
-    },
-    {
-      "navn": "Helleneset",
-      "omrade": "Bergen",
-      "temperatur": 12.5,
-      "maltKlokken": "10:26",
-      "locationId": "1-92312",
-      "latitude": 60.43513,
-      "longitude": 5.27953,
-      "time": "2026-09-14T10:26:00+02:00"
+      "time": "2026-09-19T09:40:06+02:00"
     }
   ]
 }
