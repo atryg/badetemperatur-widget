@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T09:54:32.681Z",
+  "generatedAt": "2026-09-21T16:27:57.918Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-21T11:32:26+02:00",
+  "updatedAt": "2026-09-21T18:13:21+02:00",
   "items": [
     {
       "navn": "Nordre Jarlsberg Brygge",
@@ -54,14 +54,14 @@
       "time": "2026-09-21T11:11:00+02:00"
     },
     {
-      "navn": "Sjøstrand",
+      "navn": "Konglungøya",
       "omrade": "Asker",
-      "temperatur": 15.5,
-      "maltKlokken": "09:01",
-      "locationId": "1-73316",
-      "latitude": 59.79751,
-      "longitude": 10.49165,
-      "time": "2026-09-21T09:01:43+02:00"
+      "temperatur": 15.75,
+      "maltKlokken": "18:00",
+      "locationId": "1-2313172",
+      "latitude": 59.83932,
+      "longitude": 10.51272,
+      "time": "2026-09-21T18:00:00+02:00"
     }
   ]
 }
