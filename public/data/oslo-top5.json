@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T21:16:49.235Z",
+  "generatedAt": "2026-09-23T09:17:38.242Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-22T22:00:00+02:00",
+  "updatedAt": "2026-09-23T11:00:00+02:00",
   "items": [
     {
       "navn": "Fornebu",
@@ -58,14 +58,14 @@
       "time": "2026-09-20T10:30:00+02:00"
     },
     {
-      "navn": "Sollerudstranda",
+      "navn": "Sørenga sjøbad",
       "omrade": "Oslo",
-      "temperatur": 15.7,
-      "maltKlokken": "07:24",
-      "locationId": "0-10025",
-      "latitude": 59.91267,
-      "longitude": 10.64748,
-      "time": "2026-09-18T07:24:03+02:00"
+      "temperatur": 15.5,
+      "maltKlokken": "15:32",
+      "locationId": "10-1088746",
+      "latitude": 59.90118,
+      "longitude": 10.75123,
+      "time": "2026-09-21T15:32:00+02:00"
     }
   ]
 }

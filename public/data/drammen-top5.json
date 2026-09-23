@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T21:16:49.235Z",
+  "generatedAt": "2026-09-23T09:17:38.242Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-22T23:07:38+02:00",
+  "updatedAt": "2026-09-23T11:00:00+02:00",
   "items": [
     {
       "navn": "Holmsbu",
@@ -34,16 +34,6 @@
       "time": "2026-09-21T11:11:00+02:00"
     },
     {
-      "navn": "Dulpen",
-      "omrade": "Holmestrand",
-      "temperatur": 15.8,
-      "maltKlokken": "23:07",
-      "locationId": "0-10238",
-      "latitude": 59.49233,
-      "longitude": 10.31529,
-      "time": "2026-09-22T23:07:38+02:00"
-    },
-    {
       "navn": "Sætre",
       "omrade": "Asker",
       "temperatur": 15.5,
@@ -54,14 +44,24 @@
       "time": "2026-09-22T13:45:00+02:00"
     },
     {
-      "navn": "Sjøstrand",
+      "navn": "Nordre Jarlsberg Brygge",
+      "omrade": "Holmestrand",
+      "temperatur": 15,
+      "maltKlokken": "09:15",
+      "locationId": "11-17685",
+      "latitude": 59.56648,
+      "longitude": 10.26757,
+      "time": "2026-09-22T09:15:00+02:00"
+    },
+    {
+      "navn": "Hvalstrand bad",
       "omrade": "Asker",
-      "temperatur": 15.5,
-      "maltKlokken": "12:01",
-      "locationId": "1-73316",
-      "latitude": 59.79751,
-      "longitude": 10.49165,
-      "time": "2026-09-22T12:01:47+02:00"
+      "temperatur": 15,
+      "maltKlokken": "11:55",
+      "locationId": "1-2235330",
+      "latitude": 59.84261,
+      "longitude": 10.49096,
+      "time": "2026-09-22T11:55:05+02:00"
     }
   ]
 }
