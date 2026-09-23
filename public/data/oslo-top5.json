@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T09:17:38.242Z",
+  "generatedAt": "2026-09-23T15:00:01.455Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-23T11:00:00+02:00",
+  "updatedAt": "2026-09-23T16:00:00+02:00",
   "items": [
     {
       "navn": "Fornebu",
@@ -26,26 +26,6 @@
       "latitude": 59.89732,
       "longitude": 10.63082,
       "time": "2026-09-22T11:29:00+02:00"
-    },
-    {
-      "navn": "Holmsbu",
-      "omrade": "Asker",
-      "temperatur": 16,
-      "maltKlokken": "14:31",
-      "locationId": "1-60134",
-      "latitude": 59.56019,
-      "longitude": 10.42784,
-      "time": "2026-09-18T14:31:00+02:00"
-    },
-    {
-      "navn": "Tjuvholmen",
-      "omrade": "Oslo",
-      "temperatur": 15.9,
-      "maltKlokken": "20:15",
-      "locationId": "1-2254113",
-      "latitude": 59.90713,
-      "longitude": 10.72218,
-      "time": "2026-09-21T20:15:00+02:00"
     },
     {
       "navn": "Hvervenbukta",
@@ -66,6 +46,26 @@
       "latitude": 59.90118,
       "longitude": 10.75123,
       "time": "2026-09-21T15:32:00+02:00"
+    },
+    {
+      "navn": "Tjuvholmen",
+      "omrade": "Oslo",
+      "temperatur": 15.5,
+      "maltKlokken": "14:01",
+      "locationId": "1-2254113",
+      "latitude": 59.90713,
+      "longitude": 10.72218,
+      "time": "2026-09-23T14:01:00+02:00"
+    },
+    {
+      "navn": "Fornebukta",
+      "omrade": "Bærum",
+      "temperatur": 15.5,
+      "maltKlokken": "13:25",
+      "locationId": "1-2312916",
+      "latitude": 59.90193,
+      "longitude": 10.63566,
+      "time": "2026-09-21T13:25:00+02:00"
     }
   ]
 }
