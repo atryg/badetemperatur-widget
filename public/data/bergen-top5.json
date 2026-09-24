@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T22:16:12.901Z",
+  "generatedAt": "2026-09-24T09:17:05.675Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-23T23:40:08+02:00",
+  "updatedAt": "2026-09-24T10:40:07+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 16.03999900817871,
-      "maltKlokken": "23:26",
+      "temperatur": 15.429999351501465,
+      "maltKlokken": "10:26",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-09-23T23:26:00+02:00"
+      "time": "2026-09-24T10:26:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 14.549999237060547,
-      "maltKlokken": "23:26",
+      "temperatur": 14.059999465942383,
+      "maltKlokken": "10:26",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-09-23T23:26:00+02:00"
+      "time": "2026-09-24T10:26:00+02:00"
     },
     {
       "navn": "Sandholna",
@@ -40,16 +40,6 @@
       "time": "2026-09-21T13:07:25+02:00"
     },
     {
-      "navn": "Nordnes Park og Sjøbad",
-      "omrade": "Bergen",
-      "temperatur": 12.309999465942383,
-      "maltKlokken": "23:26",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-09-23T23:26:00+02:00"
-    },
-    {
       "navn": "Skuteviksbryggen",
       "omrade": "Bergen",
       "temperatur": 12,
@@ -58,6 +48,16 @@
       "latitude": 60.40259,
       "longitude": 5.32039,
       "time": "2026-09-21T18:51:33+02:00"
+    },
+    {
+      "navn": "Nordnes Park og Sjøbad",
+      "omrade": "Bergen",
+      "temperatur": 11.944999694824219,
+      "maltKlokken": "10:26",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-09-24T10:26:00+02:00"
     }
   ]
 }
