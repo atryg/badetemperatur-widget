@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T14:14:12.581Z",
+  "generatedAt": "2026-09-24T18:25:32.168Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-24T16:00:00+02:00",
+  "updatedAt": "2026-09-24T20:00:00+02:00",
   "items": [
     {
       "navn": "Fornebu",
@@ -61,11 +61,11 @@
       "navn": "Tjuvholmen",
       "omrade": "Oslo",
       "temperatur": 15.5,
-      "maltKlokken": "14:01",
+      "maltKlokken": "19:37",
       "locationId": "1-2254113",
       "latitude": 59.90713,
       "longitude": 10.72218,
-      "time": "2026-09-23T14:01:00+02:00"
+      "time": "2026-09-24T19:37:00+02:00"
     }
   ]
 }
