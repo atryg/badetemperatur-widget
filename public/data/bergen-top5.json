@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T09:17:05.675Z",
+  "generatedAt": "2026-09-24T14:14:12.581Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,27 +7,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-24T10:40:07+02:00",
+  "updatedAt": "2026-09-24T15:40:08+02:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 15.429999351501465,
-      "maltKlokken": "10:26",
+      "temperatur": 16.69999885559082,
+      "maltKlokken": "15:26",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-09-24T10:26:00+02:00"
+      "time": "2026-09-24T15:26:00+02:00"
     },
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 14.059999465942383,
-      "maltKlokken": "10:26",
+      "temperatur": 15.75,
+      "maltKlokken": "15:26",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-09-24T10:26:00+02:00"
+      "time": "2026-09-24T15:26:00+02:00"
+    },
+    {
+      "navn": "Måseskjæret",
+      "omrade": "Bergen",
+      "temperatur": 13,
+      "maltKlokken": "15:04",
+      "locationId": "10-1042751",
+      "latitude": 60.4129,
+      "longitude": 5.32012,
+      "time": "2026-09-24T15:04:00+02:00"
     },
     {
       "navn": "Sandholna",
@@ -40,24 +50,14 @@
       "time": "2026-09-21T13:07:25+02:00"
     },
     {
-      "navn": "Skuteviksbryggen",
-      "omrade": "Bergen",
-      "temperatur": 12,
-      "maltKlokken": "18:51",
-      "locationId": "10-991163",
-      "latitude": 60.40259,
-      "longitude": 5.32039,
-      "time": "2026-09-21T18:51:33+02:00"
-    },
-    {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 11.944999694824219,
-      "maltKlokken": "10:26",
+      "temperatur": 12.59000015258789,
+      "maltKlokken": "15:26",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-09-24T10:26:00+02:00"
+      "time": "2026-09-24T15:26:00+02:00"
     }
   ]
 }
