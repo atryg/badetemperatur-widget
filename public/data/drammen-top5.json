@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T14:28:22.233Z",
+  "generatedAt": "2026-09-26T18:36:05.519Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,8 +11,28 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-26T16:23:15+02:00",
+  "updatedAt": "2026-09-26T20:23:49+02:00",
   "items": [
+    {
+      "navn": "Ødegårdsodden",
+      "omrade": "Holmestrand",
+      "temperatur": 17,
+      "maltKlokken": "17:21",
+      "locationId": "2-11998595",
+      "latitude": 59.55261,
+      "longitude": 10.28024,
+      "time": "2026-09-26T17:21:09+02:00"
+    },
+    {
+      "navn": "Dulpen",
+      "omrade": "Holmestrand",
+      "temperatur": 15.8,
+      "maltKlokken": "20:23",
+      "locationId": "0-10238",
+      "latitude": 59.49233,
+      "longitude": 10.31529,
+      "time": "2026-09-26T20:23:49+02:00"
+    },
     {
       "navn": "Sætre",
       "omrade": "Asker",
@@ -24,44 +44,24 @@
       "time": "2026-09-22T13:45:00+02:00"
     },
     {
-      "navn": "Dulpen",
-      "omrade": "Holmestrand",
-      "temperatur": 15.1,
-      "maltKlokken": "16:23",
-      "locationId": "0-10238",
-      "latitude": 59.49233,
-      "longitude": 10.31529,
-      "time": "2026-09-26T16:23:15+02:00"
-    },
-    {
       "navn": "Konglungøya",
       "omrade": "Asker",
-      "temperatur": 15.0625,
-      "maltKlokken": "16:00",
+      "temperatur": 15.25,
+      "maltKlokken": "20:00",
       "locationId": "1-2313172",
       "latitude": 59.83932,
       "longitude": 10.51272,
-      "time": "2026-09-26T16:00:00+02:00"
+      "time": "2026-09-26T20:00:00+02:00"
     },
     {
-      "navn": "Hvalstrand bad",
+      "navn": "Hyggen",
       "omrade": "Asker",
-      "temperatur": 15,
-      "maltKlokken": "11:55",
-      "locationId": "1-2235330",
-      "latitude": 59.84261,
-      "longitude": 10.49096,
-      "time": "2026-09-22T11:55:05+02:00"
-    },
-    {
-      "navn": "Høvikvollen",
-      "omrade": "Asker",
-      "temperatur": 15,
-      "maltKlokken": "09:15",
-      "locationId": "1-2271875",
-      "latitude": 59.73355,
-      "longitude": 10.51175,
-      "time": "2026-09-24T09:15:00+02:00"
+      "temperatur": 15.1,
+      "maltKlokken": "16:10",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-09-26T16:10:00+02:00"
     }
   ]
 }
