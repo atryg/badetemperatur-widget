@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T09:59:26.443Z",
+  "generatedAt": "2026-09-27T15:08:53.572Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-27T11:40:00+02:00",
+  "updatedAt": "2026-09-27T16:00:00+02:00",
   "items": [
     {
       "navn": "Sollerudstranda",
@@ -48,16 +48,6 @@
       "time": "2026-09-26T07:52:00+02:00"
     },
     {
-      "navn": "Sætre",
-      "omrade": "Asker",
-      "temperatur": 15.5,
-      "maltKlokken": "13:45",
-      "locationId": "1-59792",
-      "latitude": 59.6819,
-      "longitude": 10.52961,
-      "time": "2026-09-22T13:45:00+02:00"
-    },
-    {
       "navn": "Sukkerbiten",
       "omrade": "Oslo",
       "temperatur": 15.3,
@@ -66,6 +56,16 @@
       "latitude": 59.90495,
       "longitude": 10.75233,
       "time": "2026-09-25T16:20:00+02:00"
+    },
+    {
+      "navn": "Hvervenbukta",
+      "omrade": "Oslo",
+      "temperatur": 15.2,
+      "maltKlokken": "10:10",
+      "locationId": "1-74202",
+      "latitude": 59.83307,
+      "longitude": 10.77133,
+      "time": "2026-09-27T10:10:00+02:00"
     }
   ]
 }
