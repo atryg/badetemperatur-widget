@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T18:35:20.493Z",
+  "generatedAt": "2026-09-29T10:39:36.556Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-09-28T20:00:00+02:00",
+  "updatedAt": "2026-09-29T12:01:35+02:00",
   "items": [
     {
       "navn": "Sollerudstranda",
