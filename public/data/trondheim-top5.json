@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T21:24:53.299Z",
+  "generatedAt": "2026-10-01T10:55:52.026Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -28,16 +28,6 @@
       "latitude": 63.44477,
       "longitude": 10.46883,
       "time": "2026-09-28T17:05:00+02:00"
-    },
-    {
-      "navn": "Grilstad Marina",
-      "omrade": "Trondheim",
-      "temperatur": 11.8,
-      "maltKlokken": "12:45",
-      "locationId": "0-10104",
-      "latitude": 63.43624,
-      "longitude": 10.51306,
-      "time": "2026-09-26T12:45:00+02:00"
     },
     {
       "navn": "Theisendammen",
