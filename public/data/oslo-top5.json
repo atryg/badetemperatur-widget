@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T17:21:25.385Z",
+  "generatedAt": "2026-10-01T22:39:28.495Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-01T19:00:00+02:00",
+  "updatedAt": "2026-10-02T00:00:00+02:00",
   "items": [
     {
       "navn": "Hvervenbukta",
@@ -38,16 +38,6 @@
       "time": "2026-10-01T18:01:56+02:00"
     },
     {
-      "navn": "Konglungøya",
-      "omrade": "Asker",
-      "temperatur": 14.9375,
-      "maltKlokken": "19:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-10-01T19:00:00+02:00"
-    },
-    {
       "navn": "Tjuvholmen",
       "omrade": "Oslo",
       "temperatur": 14.9,
@@ -56,6 +46,16 @@
       "latitude": 59.90713,
       "longitude": 10.72218,
       "time": "2026-10-01T07:08:00+02:00"
+    },
+    {
+      "navn": "Konglungøya",
+      "omrade": "Asker",
+      "temperatur": 14.8125,
+      "maltKlokken": "00:00",
+      "locationId": "1-2313172",
+      "latitude": 59.83932,
+      "longitude": 10.51272,
+      "time": "2026-10-02T00:00:00+02:00"
     },
     {
       "navn": "Rolfsbukta",
