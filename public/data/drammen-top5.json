@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T22:39:28.495Z",
+  "generatedAt": "2026-10-02T10:29:04.704Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,27 +11,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-02T00:24:11+02:00",
+  "updatedAt": "2026-10-02T12:15:45+02:00",
   "items": [
     {
-      "navn": "Sjøstrand",
-      "omrade": "Asker",
-      "temperatur": 15,
-      "maltKlokken": "18:01",
-      "locationId": "1-73316",
-      "latitude": 59.79751,
-      "longitude": 10.49165,
-      "time": "2026-10-01T18:01:56+02:00"
+      "navn": "Hagemannsparken",
+      "omrade": "Holmestrand",
+      "temperatur": 14.9,
+      "maltKlokken": "11:29",
+      "locationId": "2-11998874",
+      "latitude": 59.4796,
+      "longitude": 10.32954,
+      "time": "2026-10-02T11:29:00+02:00"
     },
     {
       "navn": "Konglungøya",
       "omrade": "Asker",
       "temperatur": 14.8125,
-      "maltKlokken": "00:00",
+      "maltKlokken": "12:00",
       "locationId": "1-2313172",
       "latitude": 59.83932,
       "longitude": 10.51272,
-      "time": "2026-10-02T00:00:00+02:00"
+      "time": "2026-10-02T12:00:00+02:00"
     },
     {
       "navn": "Hvalstrand",
@@ -44,24 +44,24 @@
       "time": "2026-09-29T12:00:54+02:00"
     },
     {
+      "navn": "Sjøstrand",
+      "omrade": "Asker",
+      "temperatur": 14.5,
+      "maltKlokken": "07:30",
+      "locationId": "1-73316",
+      "latitude": 59.79751,
+      "longitude": 10.49165,
+      "time": "2026-10-02T07:30:00+02:00"
+    },
+    {
       "navn": "Dulpen",
       "omrade": "Holmestrand",
-      "temperatur": 14.3,
-      "maltKlokken": "00:24",
+      "temperatur": 14.2,
+      "maltKlokken": "12:15",
       "locationId": "0-10238",
       "latitude": 59.49233,
       "longitude": 10.31529,
-      "time": "2026-10-02T00:24:11+02:00"
-    },
-    {
-      "navn": "Hagemannsparken",
-      "omrade": "Holmestrand",
-      "temperatur": 14,
-      "maltKlokken": "12:29",
-      "locationId": "2-11998874",
-      "latitude": 59.4796,
-      "longitude": 10.32954,
-      "time": "2026-10-01T12:29:00+02:00"
+      "time": "2026-10-02T12:15:45+02:00"
     }
   ]
 }
