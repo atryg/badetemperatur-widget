@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T21:18:54.385Z",
+  "generatedAt": "2026-10-03T09:50:47.682Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-02T23:07:10+02:00",
+  "updatedAt": "2026-10-03T11:38:52+02:00",
   "items": [
     {
       "navn": "Hagemannsparken",
@@ -24,14 +24,14 @@
       "time": "2026-10-02T11:29:00+02:00"
     },
     {
-      "navn": "Konglungøya",
+      "navn": "Sætre",
       "omrade": "Asker",
-      "temperatur": 14.8125,
-      "maltKlokken": "22:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-10-02T22:00:00+02:00"
+      "temperatur": 14.5,
+      "maltKlokken": "08:00",
+      "locationId": "1-59792",
+      "latitude": 59.6819,
+      "longitude": 10.52961,
+      "time": "2026-10-03T08:00:00+02:00"
     },
     {
       "navn": "Hvalstrand",
@@ -47,21 +47,21 @@
       "navn": "Sjøstrand",
       "omrade": "Asker",
       "temperatur": 14.5,
-      "maltKlokken": "12:01",
+      "maltKlokken": "09:01",
       "locationId": "1-73316",
       "latitude": 59.79751,
       "longitude": 10.49165,
-      "time": "2026-10-02T12:01:44+02:00"
+      "time": "2026-10-03T09:01:41+02:00"
     },
     {
       "navn": "Dulpen",
       "omrade": "Holmestrand",
       "temperatur": 14.3,
-      "maltKlokken": "23:07",
+      "maltKlokken": "11:38",
       "locationId": "0-10238",
       "latitude": 59.49233,
       "longitude": 10.31529,
-      "time": "2026-10-02T23:07:10+02:00"
+      "time": "2026-10-03T11:38:52+02:00"
     }
   ]
 }
