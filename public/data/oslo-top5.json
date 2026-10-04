@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T22:07:07.157Z",
+  "generatedAt": "2026-10-04T10:33:44.138Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,17 +15,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-04T00:00:00+02:00",
+  "updatedAt": "2026-10-04T12:01:41+02:00",
   "items": [
     {
-      "navn": "Konglungøya",
-      "omrade": "Asker",
-      "temperatur": 14.625,
-      "maltKlokken": "00:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-10-04T00:00:00+02:00"
+      "navn": "Hvervenbukta",
+      "omrade": "Oslo",
+      "temperatur": 14.6,
+      "maltKlokken": "10:15",
+      "locationId": "1-74202",
+      "latitude": 59.83307,
+      "longitude": 10.77133,
+      "time": "2026-10-04T10:15:00+02:00"
     },
     {
       "navn": "Tjuvholmen",
@@ -38,16 +38,6 @@
       "time": "2026-10-03T12:38:00+02:00"
     },
     {
-      "navn": "Rolfsbukta",
-      "omrade": "Bærum",
-      "temperatur": 14.5,
-      "maltKlokken": "08:59",
-      "locationId": "1-2767124",
-      "latitude": 59.89294,
-      "longitude": 10.63355,
-      "time": "2026-10-03T08:59:00+02:00"
-    },
-    {
       "navn": "Sætre",
       "omrade": "Asker",
       "temperatur": 14.5,
@@ -58,14 +48,24 @@
       "time": "2026-10-03T08:00:00+02:00"
     },
     {
-      "navn": "Hvalstrand",
+      "navn": "Sjøstrand",
       "omrade": "Asker",
       "temperatur": 14.5,
+      "maltKlokken": "12:01",
+      "locationId": "1-73316",
+      "latitude": 59.79751,
+      "longitude": 10.49165,
+      "time": "2026-10-04T12:01:41+02:00"
+    },
+    {
+      "navn": "Konglungøya",
+      "omrade": "Asker",
+      "temperatur": 14,
       "maltKlokken": "12:00",
-      "locationId": "1-73167",
-      "latitude": 59.84262,
-      "longitude": 10.49061,
-      "time": "2026-09-29T12:00:54+02:00"
+      "locationId": "1-2313172",
+      "latitude": 59.83932,
+      "longitude": 10.51272,
+      "time": "2026-10-04T12:00:00+02:00"
     }
   ]
 }
