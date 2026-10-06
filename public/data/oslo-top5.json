@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T11:26:11.539Z",
+  "generatedAt": "2026-10-06T11:15:03.100Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,17 +15,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-05T13:00:00+02:00",
+  "updatedAt": "2026-10-06T12:00:00+02:00",
   "items": [
     {
-      "navn": "Konglungøya",
-      "omrade": "Asker",
-      "temperatur": 14.6875,
-      "maltKlokken": "13:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-10-05T13:00:00+02:00"
+      "navn": "Lysaker brygge",
+      "omrade": "Bærum",
+      "temperatur": 14.6,
+      "maltKlokken": "09:00",
+      "locationId": "10-1067841",
+      "latitude": 59.90964,
+      "longitude": 10.64152,
+      "time": "2026-10-06T09:00:00+02:00"
     },
     {
       "navn": "Hvervenbukta",
@@ -61,11 +61,11 @@
       "navn": "Sjøstrand",
       "omrade": "Asker",
       "temperatur": 14.5,
-      "maltKlokken": "12:01",
+      "maltKlokken": "06:00",
       "locationId": "1-73316",
       "latitude": 59.79751,
       "longitude": 10.49165,
-      "time": "2026-10-05T12:01:46+02:00"
+      "time": "2026-10-06T06:00:20+02:00"
     }
   ]
 }

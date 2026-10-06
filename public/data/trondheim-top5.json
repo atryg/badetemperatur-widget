@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T11:26:11.539Z",
+  "generatedAt": "2026-10-06T11:15:03.100Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,28 +7,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-04T10:03:00+02:00",
+  "updatedAt": "2026-10-05T18:30:00+02:00",
   "items": [
-    {
-      "navn": "Ilsvika",
-      "omrade": "Trondheim",
-      "temperatur": 12.6,
-      "maltKlokken": "15:05",
-      "locationId": "1-211101",
-      "latitude": 63.43373,
-      "longitude": 10.35388,
-      "time": "2026-09-30T15:05:00+02:00"
-    },
-    {
-      "navn": "Grilstad Marina",
-      "omrade": "Trondheim",
-      "temperatur": 12.3,
-      "maltKlokken": "10:03",
-      "locationId": "0-10104",
-      "latitude": 63.43624,
-      "longitude": 10.51306,
-      "time": "2026-10-04T10:03:00+02:00"
-    },
     {
       "navn": "Brattøra",
       "omrade": "Trondheim",
@@ -38,6 +18,16 @@
       "latitude": 63.43959,
       "longitude": 10.40499,
       "time": "2026-10-01T15:02:00+02:00"
+    },
+    {
+      "navn": "Grilstad Marina",
+      "omrade": "Trondheim",
+      "temperatur": 11.4,
+      "maltKlokken": "18:30",
+      "locationId": "0-10104",
+      "latitude": 63.43624,
+      "longitude": 10.51306,
+      "time": "2026-10-05T18:30:00+02:00"
     }
   ]
 }
