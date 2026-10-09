@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:18:15.832Z",
+  "generatedAt": "2026-10-09T18:20:22.550Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,7 +11,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-09T13:15:40+02:00",
+  "updatedAt": "2026-10-09T20:06:37+02:00",
   "items": [
     {
       "navn": "Nordre Jarlsberg Brygge",
@@ -34,34 +34,34 @@
       "time": "2026-10-07T11:52:43+02:00"
     },
     {
-      "navn": "Konglungøya",
-      "omrade": "Asker",
-      "temperatur": 13.5,
-      "maltKlokken": "13:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-10-09T13:00:00+02:00"
+      "navn": "Dulpen",
+      "omrade": "Holmestrand",
+      "temperatur": 14.4,
+      "maltKlokken": "20:06",
+      "locationId": "0-10238",
+      "latitude": 59.49233,
+      "longitude": 10.31529,
+      "time": "2026-10-09T20:06:37+02:00"
     },
     {
       "navn": "Sjøstrand",
       "omrade": "Asker",
       "temperatur": 13.5,
-      "maltKlokken": "09:01",
+      "maltKlokken": "15:01",
       "locationId": "1-73316",
       "latitude": 59.79751,
       "longitude": 10.49165,
-      "time": "2026-10-09T09:01:49+02:00"
+      "time": "2026-10-09T15:01:44+02:00"
     },
     {
-      "navn": "Hyggen",
+      "navn": "Konglungøya",
       "omrade": "Asker",
-      "temperatur": 13.4,
-      "maltKlokken": "18:30",
-      "locationId": "2-3151278",
-      "latitude": 59.71667,
-      "longitude": 10.35528,
-      "time": "2026-10-05T18:30:00+02:00"
+      "temperatur": 13.4375,
+      "maltKlokken": "20:00",
+      "locationId": "1-2313172",
+      "latitude": 59.83932,
+      "longitude": 10.51272,
+      "time": "2026-10-09T20:00:00+02:00"
     }
   ]
 }

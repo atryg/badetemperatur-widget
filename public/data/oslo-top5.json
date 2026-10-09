@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:18:15.832Z",
+  "generatedAt": "2026-10-09T18:20:22.550Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-09T13:00:00+02:00",
+  "updatedAt": "2026-10-09T20:00:00+02:00",
   "items": [
     {
       "navn": "Hvalstrand",
