@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T18:20:22.550Z",
+  "generatedAt": "2026-10-10T10:35:12.009Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-09T20:00:00+02:00",
+  "updatedAt": "2026-10-10T12:03:00+02:00",
   "items": [
     {
       "navn": "Hvalstrand",
@@ -50,22 +50,22 @@
     {
       "navn": "Lysaker brygge",
       "omrade": "Bærum",
-      "temperatur": 13.9,
-      "maltKlokken": "09:15",
+      "temperatur": 13.5,
+      "maltKlokken": "09:32",
       "locationId": "10-1067841",
       "latitude": 59.90964,
       "longitude": 10.64152,
-      "time": "2026-10-09T09:15:00+02:00"
+      "time": "2026-10-10T09:32:00+02:00"
     },
     {
-      "navn": "Tjuvholmen",
-      "omrade": "Oslo",
-      "temperatur": 13.9,
-      "maltKlokken": "18:41",
-      "locationId": "1-2254113",
-      "latitude": 59.90713,
-      "longitude": 10.72218,
-      "time": "2026-10-08T18:41:00+02:00"
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 13.4,
+      "maltKlokken": "18:30",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-10-05T18:30:00+02:00"
     }
   ]
 }
