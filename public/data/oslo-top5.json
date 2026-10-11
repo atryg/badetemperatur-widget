@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:03:22.950Z",
+  "generatedAt": "2026-10-11T10:48:00.808Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-10T21:00:00+02:00",
+  "updatedAt": "2026-10-11T12:00:00+02:00",
   "items": [
     {
       "navn": "Hvalstrand",
@@ -61,11 +61,11 @@
       "navn": "Tjuvholmen",
       "omrade": "Oslo",
       "temperatur": 13.3,
-      "maltKlokken": "12:03",
+      "maltKlokken": "08:23",
       "locationId": "1-2254113",
       "latitude": 59.90713,
       "longitude": 10.72218,
-      "time": "2026-10-10T12:03:00+02:00"
+      "time": "2026-10-11T08:23:00+02:00"
     }
   ]
 }

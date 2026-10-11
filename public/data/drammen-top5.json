@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T20:03:22.950Z",
+  "generatedAt": "2026-10-11T10:48:00.808Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-10T21:50:15+02:00",
+  "updatedAt": "2026-10-11T12:42:11+02:00",
   "items": [
-    {
-      "navn": "Nordre Jarlsberg Brygge",
-      "omrade": "Holmestrand",
-      "temperatur": 15.4,
-      "maltKlokken": "09:16",
-      "locationId": "11-17685",
-      "latitude": 59.56648,
-      "longitude": 10.26757,
-      "time": "2026-10-09T09:16:09+02:00"
-    },
     {
       "navn": "Hvalstrand",
       "omrade": "Asker",
@@ -34,24 +24,24 @@
       "time": "2026-10-07T11:52:43+02:00"
     },
     {
-      "navn": "Sjøstrand",
-      "omrade": "Asker",
-      "temperatur": 13,
-      "maltKlokken": "18:01",
-      "locationId": "1-73316",
-      "latitude": 59.79751,
-      "longitude": 10.49165,
-      "time": "2026-10-10T18:01:33+02:00"
+      "navn": "Nordre Jarlsberg Brygge",
+      "omrade": "Holmestrand",
+      "temperatur": 14,
+      "maltKlokken": "09:11",
+      "locationId": "11-17685",
+      "latitude": 59.56648,
+      "longitude": 10.26757,
+      "time": "2026-10-11T09:11:00+02:00"
     },
     {
       "navn": "Konglungøya",
       "omrade": "Asker",
-      "temperatur": 12.875,
-      "maltKlokken": "21:00",
+      "temperatur": 12.625,
+      "maltKlokken": "12:00",
       "locationId": "1-2313172",
       "latitude": 59.83932,
       "longitude": 10.51272,
-      "time": "2026-10-10T21:00:00+02:00"
+      "time": "2026-10-11T12:00:00+02:00"
     },
     {
       "navn": "Hagatjern",
@@ -62,6 +52,16 @@
       "latitude": 59.72849,
       "longitude": 10.04857,
       "time": "2026-10-06T16:51:00+02:00"
+    },
+    {
+      "navn": "Sjøstrand",
+      "omrade": "Asker",
+      "temperatur": 12.5,
+      "maltKlokken": "09:01",
+      "locationId": "1-73316",
+      "latitude": 59.79751,
+      "longitude": 10.49165,
+      "time": "2026-10-11T09:01:47+02:00"
     }
   ]
 }
