@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T21:15:30.150Z",
+  "generatedAt": "2026-10-13T11:45:11.017Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,57 +7,57 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-12T22:40:07+02:00",
+  "updatedAt": "2026-10-13T12:56:00+02:00",
   "items": [
-    {
-      "navn": "Nordnes Sjøbad hovedbasseng",
-      "omrade": "Bergen",
-      "temperatur": 34.709999084472656,
-      "maltKlokken": "22:26",
-      "locationId": "0-10120",
-      "latitude": 60.39896,
-      "longitude": 5.30244,
-      "time": "2026-10-12T22:26:00+02:00"
-    },
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.65999984741211,
-      "maltKlokken": "22:26",
+      "temperatur": 30.309999465942383,
+      "maltKlokken": "12:56",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-10-12T22:26:00+02:00"
+      "time": "2026-10-13T12:56:00+02:00"
+    },
+    {
+      "navn": "Nordnes Sjøbad hovedbasseng",
+      "omrade": "Bergen",
+      "temperatur": 28.8799991607666,
+      "maltKlokken": "12:56",
+      "locationId": "0-10120",
+      "latitude": 60.39896,
+      "longitude": 5.30244,
+      "time": "2026-10-13T12:56:00+02:00"
     },
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 13.104999542236328,
-      "maltKlokken": "22:26",
+      "temperatur": 12.854999542236328,
+      "maltKlokken": "12:56",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-10-12T22:26:00+02:00"
+      "time": "2026-10-13T12:56:00+02:00"
     },
     {
       "navn": "Laugaren Badstu",
       "omrade": "Bergen",
       "temperatur": 12.6,
-      "maltKlokken": "22:40",
+      "maltKlokken": "12:40",
       "locationId": "0-10261",
       "latitude": 60.39509,
       "longitude": 5.30971,
-      "time": "2026-10-12T22:40:07+02:00"
+      "time": "2026-10-13T12:40:05+02:00"
     },
     {
-      "navn": "Skuteviksbryggen",
+      "navn": "Sandholna",
       "omrade": "Bergen",
-      "temperatur": 10,
-      "maltKlokken": "12:16",
-      "locationId": "10-991163",
-      "latitude": 60.40259,
-      "longitude": 5.32039,
-      "time": "2026-10-08T12:16:33+02:00"
+      "temperatur": 9.5,
+      "maltKlokken": "09:06",
+      "locationId": "0-10117",
+      "latitude": 60.25702,
+      "longitude": 5.28101,
+      "time": "2026-10-09T09:06:34+02:00"
     }
   ]
 }
