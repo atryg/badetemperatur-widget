@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T19:21:13.975Z",
+  "generatedAt": "2026-10-15T09:07:34.099Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,8 +11,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-14T21:00:00+02:00",
+  "updatedAt": "2026-10-15T11:00:00+02:00",
   "items": [
+    {
+      "navn": "Konglungøya",
+      "omrade": "Asker",
+      "temperatur": 12.25,
+      "maltKlokken": "11:00",
+      "locationId": "1-2313172",
+      "latitude": 59.83932,
+      "longitude": 10.51272,
+      "time": "2026-10-15T11:00:00+02:00"
+    },
     {
       "navn": "Bakkestranda",
       "omrade": "Asker",
@@ -32,16 +42,6 @@
       "latitude": 59.84262,
       "longitude": 10.49061,
       "time": "2026-10-12T11:42:03+02:00"
-    },
-    {
-      "navn": "Konglungøya",
-      "omrade": "Asker",
-      "temperatur": 11.8125,
-      "maltKlokken": "21:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-10-14T21:00:00+02:00"
     },
     {
       "navn": "Sjøstrand",
