@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T13:56:11.324Z",
+  "generatedAt": "2026-10-16T18:01:34.254Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -12,16 +12,6 @@
   "source": "Badetemperaturer levert av Yr",
   "updatedAt": "2026-10-16T15:19:38+02:00",
   "items": [
-    {
-      "navn": "Vigdel",
-      "omrade": "Sola",
-      "temperatur": 13,
-      "maltKlokken": "18:10",
-      "locationId": "1-15439",
-      "latitude": 58.85649,
-      "longitude": 5.55422,
-      "time": "2026-10-11T18:10:18+02:00"
-    },
     {
       "navn": "Nedre Tastasjøen",
       "omrade": "Stavanger",
