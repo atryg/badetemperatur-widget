@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T08:31:51.964Z",
+  "generatedAt": "2026-10-17T12:57:23.296Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,8 +15,18 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-17T10:00:00+02:00",
+  "updatedAt": "2026-10-17T14:31:00+02:00",
   "items": [
+    {
+      "navn": "Sørenga sjøbad",
+      "omrade": "Oslo",
+      "temperatur": 12.8,
+      "maltKlokken": "12:32",
+      "locationId": "10-1088746",
+      "latitude": 59.90118,
+      "longitude": 10.75123,
+      "time": "2026-10-17T12:32:00+02:00"
+    },
     {
       "navn": "Bakkestranda",
       "omrade": "Asker",
@@ -26,26 +36,6 @@
       "latitude": 59.53593,
       "longitude": 10.54034,
       "time": "2026-10-12T16:19:00+02:00"
-    },
-    {
-      "navn": "Sørenga sjøbad",
-      "omrade": "Oslo",
-      "temperatur": 12.1,
-      "maltKlokken": "18:47",
-      "locationId": "10-1088746",
-      "latitude": 59.90118,
-      "longitude": 10.75123,
-      "time": "2026-10-14T18:47:00+02:00"
-    },
-    {
-      "navn": "Hvalstrand",
-      "omrade": "Asker",
-      "temperatur": 12,
-      "maltKlokken": "11:42",
-      "locationId": "1-73167",
-      "latitude": 59.84262,
-      "longitude": 10.49061,
-      "time": "2026-10-12T11:42:03+02:00"
     },
     {
       "navn": "Lysaker brygge",
@@ -66,6 +56,16 @@
       "latitude": 59.88782,
       "longitude": 10.56364,
       "time": "2026-10-16T09:34:00+02:00"
+    },
+    {
+      "navn": "Konglungøya",
+      "omrade": "Asker",
+      "temperatur": 11.75,
+      "maltKlokken": "14:00",
+      "locationId": "1-2313172",
+      "latitude": 59.83932,
+      "longitude": 10.51272,
+      "time": "2026-10-17T14:00:00+02:00"
     }
   ]
 }
