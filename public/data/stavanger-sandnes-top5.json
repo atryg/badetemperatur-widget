@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T16:32:56.441Z",
+  "generatedAt": "2026-10-18T19:24:44.283Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-18T17:19:44+02:00",
+  "updatedAt": "2026-10-18T19:19:50+02:00",
   "items": [
     {
       "navn": "Luravika",
