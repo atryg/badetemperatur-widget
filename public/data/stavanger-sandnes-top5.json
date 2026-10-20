@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T21:30:51.475Z",
+  "generatedAt": "2026-10-20T09:23:44.482Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-19T19:19:33+02:00",
+  "updatedAt": "2026-10-20T10:19:40+02:00",
   "items": [
     {
       "navn": "Luravika",
@@ -43,16 +43,6 @@
       "time": "2026-10-19T16:25:00+02:00"
     },
     {
-      "navn": "Grønnavigå",
-      "omrade": "Stavanger",
-      "temperatur": 12,
-      "maltKlokken": "08:35",
-      "locationId": "0-10001",
-      "latitude": 58.98805,
-      "longitude": 5.73906,
-      "time": "2026-10-15T08:35:00+02:00"
-    },
-    {
       "navn": "Rossøysundet",
       "omrade": "Stavanger",
       "temperatur": 11.8,
@@ -61,6 +51,16 @@
       "latitude": 59.11114,
       "longitude": 5.89285,
       "time": "2026-10-18T16:45:00+02:00"
+    },
+    {
+      "navn": "Frøylandsvatnet",
+      "omrade": "Sandnes",
+      "temperatur": 10.0625,
+      "maltKlokken": "10:19",
+      "locationId": "1-15979",
+      "latitude": 58.9147,
+      "longitude": 5.86065,
+      "time": "2026-10-20T10:19:40+02:00"
     }
   ]
 }
