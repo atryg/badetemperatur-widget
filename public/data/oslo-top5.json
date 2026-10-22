@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T19:17:22.995Z",
+  "generatedAt": "2026-10-22T09:23:06.576Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-21T21:00:00+02:00",
+  "updatedAt": "2026-10-22T11:00:00+02:00",
   "items": [
     {
       "navn": "Sørenga sjøbad",
@@ -28,14 +28,14 @@
       "time": "2026-10-20T08:32:00+02:00"
     },
     {
-      "navn": "Sukkerbiten",
-      "omrade": "Oslo",
-      "temperatur": 11.6,
-      "maltKlokken": "08:40",
-      "locationId": "10-989718",
-      "latitude": 59.90495,
-      "longitude": 10.75233,
-      "time": "2026-10-17T08:40:00+02:00"
+      "navn": "Det Norske Veritas",
+      "omrade": "Bærum",
+      "temperatur": 11.4,
+      "maltKlokken": "08:30",
+      "locationId": "1-72998",
+      "latitude": 59.88782,
+      "longitude": 10.56364,
+      "time": "2026-10-22T08:30:00+02:00"
     },
     {
       "navn": "Tjuvholmen",
@@ -48,16 +48,6 @@
       "time": "2026-10-20T18:32:00+02:00"
     },
     {
-      "navn": "Sætre",
-      "omrade": "Asker",
-      "temperatur": 11,
-      "maltKlokken": "08:00",
-      "locationId": "1-59792",
-      "latitude": 59.6819,
-      "longitude": 10.52961,
-      "time": "2026-10-17T08:00:00+02:00"
-    },
-    {
       "navn": "Rødtangen lykt",
       "omrade": "Asker",
       "temperatur": 11,
@@ -66,6 +56,16 @@
       "latitude": 59.52949,
       "longitude": 10.41533,
       "time": "2026-10-17T14:31:00+02:00"
+    },
+    {
+      "navn": "Lutvannet",
+      "omrade": "Oslo",
+      "temperatur": 11,
+      "maltKlokken": "15:31",
+      "locationId": "1-73879",
+      "latitude": 59.91347,
+      "longitude": 10.87779,
+      "time": "2026-10-18T15:31:36+02:00"
     }
   ]
 }

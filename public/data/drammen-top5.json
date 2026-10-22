@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T19:17:22.995Z",
+  "generatedAt": "2026-10-22T09:23:06.576Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,18 +11,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-21T21:00:00+02:00",
+  "updatedAt": "2026-10-22T11:00:00+02:00",
   "items": [
-    {
-      "navn": "Sætre",
-      "omrade": "Asker",
-      "temperatur": 11,
-      "maltKlokken": "08:00",
-      "locationId": "1-59792",
-      "latitude": 59.6819,
-      "longitude": 10.52961,
-      "time": "2026-10-17T08:00:00+02:00"
-    },
     {
       "navn": "Rødtangen lykt",
       "omrade": "Asker",
@@ -36,12 +26,12 @@
     {
       "navn": "Konglungøya",
       "omrade": "Asker",
-      "temperatur": 10.875,
-      "maltKlokken": "21:00",
+      "temperatur": 10.9375,
+      "maltKlokken": "11:00",
       "locationId": "1-2313172",
       "latitude": 59.83932,
       "longitude": 10.51272,
-      "time": "2026-10-21T21:00:00+02:00"
+      "time": "2026-10-22T11:00:00+02:00"
     },
     {
       "navn": "Vollen",
@@ -62,6 +52,16 @@
       "latitude": 59.79751,
       "longitude": 10.49165,
       "time": "2026-10-19T08:06:00+02:00"
+    },
+    {
+      "navn": "Hyggen",
+      "omrade": "Asker",
+      "temperatur": 9.6,
+      "maltKlokken": "17:19",
+      "locationId": "2-3151278",
+      "latitude": 59.71667,
+      "longitude": 10.35528,
+      "time": "2026-10-18T17:19:00+02:00"
     }
   ]
 }
