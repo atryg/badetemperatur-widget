@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T09:19:27.169Z",
+  "generatedAt": "2026-10-23T15:02:26.441Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-23T11:00:00+02:00",
+  "updatedAt": "2026-10-23T17:00:00+02:00",
   "items": [
     {
       "navn": "Sørenga sjøbad",
@@ -38,16 +38,6 @@
       "time": "2026-10-23T06:55:00+02:00"
     },
     {
-      "navn": "Lutvannet",
-      "omrade": "Oslo",
-      "temperatur": 11,
-      "maltKlokken": "15:31",
-      "locationId": "1-73879",
-      "latitude": 59.91347,
-      "longitude": 10.87779,
-      "time": "2026-10-18T15:31:36+02:00"
-    },
-    {
       "navn": "Katten",
       "omrade": "Oslo",
       "temperatur": 11,
@@ -61,11 +51,21 @@
       "navn": "Konglungøya",
       "omrade": "Asker",
       "temperatur": 10.75,
-      "maltKlokken": "11:00",
+      "maltKlokken": "17:00",
       "locationId": "1-2313172",
       "latitude": 59.83932,
       "longitude": 10.51272,
-      "time": "2026-10-23T11:00:00+02:00"
+      "time": "2026-10-23T17:00:00+02:00"
+    },
+    {
+      "navn": "Sjøstrand",
+      "omrade": "Asker",
+      "temperatur": 10,
+      "maltKlokken": "08:15",
+      "locationId": "1-73316",
+      "latitude": 59.79751,
+      "longitude": 10.49165,
+      "time": "2026-10-23T08:15:00+02:00"
     }
   ]
 }
