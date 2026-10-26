@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T10:04:47.337Z",
+  "generatedAt": "2026-10-26T16:46:50.200Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,57 +7,57 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-26T10:46:00+01:00",
+  "updatedAt": "2026-10-26T17:16:00+01:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 32.880001068115234,
-      "maltKlokken": "10:46",
+      "temperatur": 34.64999771118164,
+      "maltKlokken": "17:16",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-10-26T10:46:00+01:00"
+      "time": "2026-10-26T17:16:00+01:00"
     },
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 32.82999801635742,
-      "maltKlokken": "10:46",
+      "temperatur": 32.64999771118164,
+      "maltKlokken": "17:16",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-10-26T10:46:00+01:00"
+      "time": "2026-10-26T17:16:00+01:00"
     },
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 11.579999923706055,
-      "maltKlokken": "10:46",
+      "temperatur": 10.719999313354492,
+      "maltKlokken": "17:16",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-10-26T10:46:00+01:00"
+      "time": "2026-10-26T17:16:00+01:00"
     },
     {
       "navn": "Laugaren Badstu",
       "omrade": "Bergen",
-      "temperatur": 10.3,
-      "maltKlokken": "09:45",
+      "temperatur": 10.5,
+      "maltKlokken": "16:45",
       "locationId": "0-10261",
       "latitude": 60.39509,
       "longitude": 5.30971,
-      "time": "2026-10-26T09:45:12+01:00"
+      "time": "2026-10-26T16:45:11+01:00"
     },
     {
-      "navn": "Måseskjæret",
+      "navn": "Sandholna",
       "omrade": "Bergen",
-      "temperatur": 10,
-      "maltKlokken": "13:58",
-      "locationId": "10-1042751",
-      "latitude": 60.4129,
-      "longitude": 5.32012,
-      "time": "2026-10-21T13:58:00+02:00"
+      "temperatur": 9.7,
+      "maltKlokken": "18:41",
+      "locationId": "0-10117",
+      "latitude": 60.25702,
+      "longitude": 5.28101,
+      "time": "2026-10-24T18:41:50+02:00"
     }
   ]
 }
