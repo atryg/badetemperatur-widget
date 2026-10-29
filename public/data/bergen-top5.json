@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T10:52:27.021Z",
+  "generatedAt": "2026-10-29T17:24:39.763Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,37 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-29T11:16:00+01:00",
+  "updatedAt": "2026-10-29T17:46:00+01:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 32.75,
-      "maltKlokken": "11:16",
+      "temperatur": 32.0099983215332,
+      "maltKlokken": "17:46",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-10-29T11:16:00+01:00"
+      "time": "2026-10-29T17:46:00+01:00"
     },
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 30.729999542236328,
-      "maltKlokken": "11:16",
+      "temperatur": 30.510000228881836,
+      "maltKlokken": "17:46",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-10-29T11:16:00+01:00"
-    },
-    {
-      "navn": "Nordnes Park og Sjøbad",
-      "omrade": "Bergen",
-      "temperatur": 12.059999465942383,
-      "maltKlokken": "11:16",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-10-29T11:16:00+01:00"
+      "time": "2026-10-29T17:46:00+01:00"
     },
     {
       "navn": "Laugaren Badstu",
@@ -50,14 +40,14 @@
       "time": "2026-10-29T08:45:12+01:00"
     },
     {
-      "navn": "Sandholna",
+      "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 9.7,
-      "maltKlokken": "18:41",
-      "locationId": "0-10117",
-      "latitude": 60.25702,
-      "longitude": 5.28101,
-      "time": "2026-10-24T18:41:50+02:00"
+      "temperatur": 11.28499984741211,
+      "maltKlokken": "17:46",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-10-29T17:46:00+01:00"
     }
   ]
 }
