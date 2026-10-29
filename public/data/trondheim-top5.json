@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T21:38:08.125Z",
+  "generatedAt": "2026-10-29T10:52:27.021Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,5 +7,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "items": []
+  "updatedAt": "2026-10-28T15:35:00+01:00",
+  "items": [
+    {
+      "navn": "Badetrappen på Promenaden",
+      "omrade": "Trondheim",
+      "temperatur": 9,
+      "maltKlokken": "15:35",
+      "locationId": "0-10102",
+      "latitude": 63.43419,
+      "longitude": 10.38639,
+      "time": "2026-10-28T15:35:00+01:00"
+    },
+    {
+      "navn": "Trondheim",
+      "omrade": "Trondheim",
+      "temperatur": 9,
+      "maltKlokken": "15:35",
+      "locationId": "1-211102",
+      "latitude": 63.43048,
+      "longitude": 10.39506,
+      "time": "2026-10-28T15:35:00+01:00"
+    }
+  ]
 }
