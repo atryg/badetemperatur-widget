@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T21:28:52.622Z",
+  "generatedAt": "2026-10-31T10:21:50.328Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-10-28T15:35:00+01:00",
+  "updatedAt": "2026-10-31T09:45:28+01:00",
   "items": [
     {
       "navn": "Badetrappen på Promenaden",
@@ -28,6 +28,16 @@
       "latitude": 63.43048,
       "longitude": 10.39506,
       "time": "2026-10-28T15:35:00+01:00"
+    },
+    {
+      "navn": "Grillstadfjæra",
+      "omrade": "Trondheim",
+      "temperatur": 8.9,
+      "maltKlokken": "09:45",
+      "locationId": "1-2308742",
+      "latitude": 63.43475,
+      "longitude": 10.50454,
+      "time": "2026-10-31T09:45:28+01:00"
     }
   ]
 }
