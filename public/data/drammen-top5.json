@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T21:10:35.126Z",
+  "generatedAt": "2026-11-02T12:20:29.629Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,17 +11,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-01T22:00:00+01:00",
+  "updatedAt": "2026-11-02T13:00:00+01:00",
   "items": [
     {
       "navn": "Konglungøya",
       "omrade": "Asker",
       "temperatur": 10.6875,
-      "maltKlokken": "22:00",
+      "maltKlokken": "13:00",
       "locationId": "1-2313172",
       "latitude": 59.83932,
       "longitude": 10.51272,
-      "time": "2026-11-01T22:00:00+01:00"
+      "time": "2026-11-02T13:00:00+01:00"
     },
     {
       "navn": "Ødegårdsodden",
@@ -34,34 +34,34 @@
       "time": "2026-10-30T15:20:15+01:00"
     },
     {
+      "navn": "Nordre Jarlsberg Brygge",
+      "omrade": "Holmestrand",
+      "temperatur": 9.7,
+      "maltKlokken": "09:12",
+      "locationId": "11-17685",
+      "latitude": 59.56648,
+      "longitude": 10.26757,
+      "time": "2026-11-02T09:12:00+01:00"
+    },
+    {
       "navn": "Sjøstrand",
       "omrade": "Asker",
       "temperatur": 9,
-      "maltKlokken": "09:00",
+      "maltKlokken": "08:00",
       "locationId": "1-73316",
       "latitude": 59.79751,
       "longitude": 10.49165,
-      "time": "2026-11-01T09:00:00+01:00"
+      "time": "2026-11-02T08:00:00+01:00"
     },
     {
       "navn": "Hagemannsparken",
       "omrade": "Holmestrand",
       "temperatur": 9,
-      "maltKlokken": "11:01",
+      "maltKlokken": "10:58",
       "locationId": "2-11998874",
       "latitude": 59.4796,
       "longitude": 10.32954,
-      "time": "2026-11-01T11:01:00+01:00"
-    },
-    {
-      "navn": "Sætre",
-      "omrade": "Asker",
-      "temperatur": 8,
-      "maltKlokken": "08:00",
-      "locationId": "1-59792",
-      "latitude": 59.6819,
-      "longitude": 10.52961,
-      "time": "2026-11-01T08:00:00+01:00"
+      "time": "2026-11-02T10:58:00+01:00"
     }
   ]
 }
