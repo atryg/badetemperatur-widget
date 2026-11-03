@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T11:54:25.795Z",
+  "generatedAt": "2026-11-03T19:28:31.285Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,28 +15,8 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-03T12:00:00+01:00",
+  "updatedAt": "2026-11-03T20:00:00+01:00",
   "items": [
-    {
-      "navn": "Konglungøya",
-      "omrade": "Asker",
-      "temperatur": 10.6875,
-      "maltKlokken": "12:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-11-03T12:00:00+01:00"
-    },
-    {
-      "navn": "Sørenga sjøbad",
-      "omrade": "Oslo",
-      "temperatur": 10,
-      "maltKlokken": "08:02",
-      "locationId": "10-1088746",
-      "latitude": 59.90118,
-      "longitude": 10.75123,
-      "time": "2026-11-03T08:02:00+01:00"
-    },
     {
       "navn": "Sollerudstranda",
       "omrade": "Oslo",
@@ -58,6 +38,16 @@
       "time": "2026-10-31T08:37:00+01:00"
     },
     {
+      "navn": "Sørenga sjøbad",
+      "omrade": "Oslo",
+      "temperatur": 9,
+      "maltKlokken": "16:02",
+      "locationId": "10-1088746",
+      "latitude": 59.90118,
+      "longitude": 10.75123,
+      "time": "2026-11-03T16:02:00+01:00"
+    },
+    {
       "navn": "Det Norske Veritas",
       "omrade": "Bærum",
       "temperatur": 8.9,
@@ -66,6 +56,16 @@
       "latitude": 59.88782,
       "longitude": 10.56364,
       "time": "2026-11-02T15:55:00+01:00"
+    },
+    {
+      "navn": "Rolfsbukta",
+      "omrade": "Bærum",
+      "temperatur": 8.5,
+      "maltKlokken": "08:57",
+      "locationId": "1-2767124",
+      "latitude": 59.89294,
+      "longitude": 10.63355,
+      "time": "2026-11-02T08:57:00+01:00"
     }
   ]
 }
