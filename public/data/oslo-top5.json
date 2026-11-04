@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T19:28:31.285Z",
+  "generatedAt": "2026-11-04T12:05:19.950Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,17 +15,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-03T20:00:00+01:00",
+  "updatedAt": "2026-11-04T12:00:00+01:00",
   "items": [
     {
-      "navn": "Sollerudstranda",
-      "omrade": "Oslo",
-      "temperatur": 9.7,
-      "maltKlokken": "09:40",
-      "locationId": "0-10025",
-      "latitude": 59.91267,
-      "longitude": 10.64748,
-      "time": "2026-10-30T09:40:42+01:00"
+      "navn": "Konglungøya",
+      "omrade": "Asker",
+      "temperatur": 10.5,
+      "maltKlokken": "12:00",
+      "locationId": "1-2313172",
+      "latitude": 59.83932,
+      "longitude": 10.51272,
+      "time": "2026-11-04T12:00:00+01:00"
     },
     {
       "navn": "Tjuvholmen",
@@ -48,14 +48,14 @@
       "time": "2026-11-03T16:02:00+01:00"
     },
     {
-      "navn": "Det Norske Veritas",
-      "omrade": "Bærum",
-      "temperatur": 8.9,
-      "maltKlokken": "15:55",
-      "locationId": "1-72998",
-      "latitude": 59.88782,
-      "longitude": 10.56364,
-      "time": "2026-11-02T15:55:00+01:00"
+      "navn": "Sollerudstranda",
+      "omrade": "Oslo",
+      "temperatur": 8.5,
+      "maltKlokken": "07:53",
+      "locationId": "0-10025",
+      "latitude": 59.91267,
+      "longitude": 10.64748,
+      "time": "2026-11-04T07:53:22+01:00"
     },
     {
       "navn": "Rolfsbukta",
