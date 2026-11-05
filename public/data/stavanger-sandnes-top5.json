@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T12:17:11.943Z",
+  "generatedAt": "2026-11-05T20:38:29.265Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,7 +10,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-05T13:08:00+01:00",
+  "updatedAt": "2026-11-05T21:27:54+01:00",
   "items": [
     {
       "navn": "Regestranden",
@@ -35,22 +35,22 @@
     {
       "navn": "Høleneset",
       "omrade": "Sandnes",
-      "temperatur": 10.5,
-      "maltKlokken": "13:08",
+      "temperatur": 11.2,
+      "maltKlokken": "21:27",
       "locationId": "1-2294055",
       "latitude": 58.90044,
       "longitude": 6.01072,
-      "time": "2026-11-05T13:08:00+01:00"
+      "time": "2026-11-05T21:27:54+01:00"
     },
     {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
-      "temperatur": 8.6875,
-      "maltKlokken": "12:20",
+      "temperatur": 8.375,
+      "maltKlokken": "21:21",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-11-05T12:20:55+01:00"
+      "time": "2026-11-05T21:21:13+01:00"
     },
     {
       "navn": "Hundvåg",
