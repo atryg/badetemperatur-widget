@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T19:43:11.508Z",
+  "generatedAt": "2026-11-05T12:17:11.943Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,47 +7,47 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-04T20:16:00+01:00",
+  "updatedAt": "2026-11-05T12:45:00+01:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 32.95000076293945,
-      "maltKlokken": "20:16",
+      "temperatur": 33.0099983215332,
+      "maltKlokken": "12:45",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-11-04T20:16:00+01:00"
+      "time": "2026-11-05T12:45:00+01:00"
     },
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.420000076293945,
-      "maltKlokken": "20:16",
+      "temperatur": 30.349998474121094,
+      "maltKlokken": "12:45",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-11-04T20:16:00+01:00"
+      "time": "2026-11-05T12:45:00+01:00"
     },
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 8.774999618530273,
-      "maltKlokken": "20:16",
+      "temperatur": 8.574999809265137,
+      "maltKlokken": "12:15",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-11-04T20:16:00+01:00"
+      "time": "2026-11-05T12:15:00+01:00"
     },
     {
       "navn": "Laugaren Badstu",
       "omrade": "Bergen",
-      "temperatur": 8.2,
-      "maltKlokken": "19:37",
+      "temperatur": 8.1,
+      "maltKlokken": "12:42",
       "locationId": "0-10261",
       "latitude": 60.39509,
       "longitude": 5.30971,
-      "time": "2026-11-04T19:37:42+01:00"
+      "time": "2026-11-05T12:42:25+01:00"
     }
   ]
 }
