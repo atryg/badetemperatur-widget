@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T20:38:29.265Z",
+  "generatedAt": "2026-11-06T12:03:42.985Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,47 +7,47 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-05T21:15:00+01:00",
+  "updatedAt": "2026-11-06T12:45:00+01:00",
   "items": [
-    {
-      "navn": "Nordnes Sjøbad hovedbasseng",
-      "omrade": "Bergen",
-      "temperatur": 31.17999839782715,
-      "maltKlokken": "21:15",
-      "locationId": "0-10120",
-      "latitude": 60.39896,
-      "longitude": 5.30244,
-      "time": "2026-11-05T21:15:00+01:00"
-    },
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.149999618530273,
-      "maltKlokken": "21:15",
+      "temperatur": 35.31999969482422,
+      "maltKlokken": "12:45",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-11-05T21:15:00+01:00"
+      "time": "2026-11-06T12:45:00+01:00"
+    },
+    {
+      "navn": "Nordnes Sjøbad hovedbasseng",
+      "omrade": "Bergen",
+      "temperatur": 30.01999855041504,
+      "maltKlokken": "12:45",
+      "locationId": "0-10120",
+      "latitude": 60.39896,
+      "longitude": 5.30244,
+      "time": "2026-11-06T12:45:00+01:00"
     },
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 8.6899995803833,
-      "maltKlokken": "21:15",
+      "temperatur": 9.014999389648438,
+      "maltKlokken": "12:45",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-11-05T21:15:00+01:00"
+      "time": "2026-11-06T12:45:00+01:00"
     },
     {
       "navn": "Laugaren Badstu",
       "omrade": "Bergen",
-      "temperatur": 8.3,
-      "maltKlokken": "20:42",
+      "temperatur": 8.2,
+      "maltKlokken": "12:42",
       "locationId": "0-10261",
       "latitude": 60.39509,
       "longitude": 5.30971,
-      "time": "2026-11-05T20:42:27+01:00"
+      "time": "2026-11-06T12:42:27+01:00"
     }
   ]
 }
