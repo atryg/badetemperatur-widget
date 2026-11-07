@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T16:49:33.332Z",
+  "generatedAt": "2026-11-07T20:51:35.374Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,17 +10,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-07T17:27:27+01:00",
+  "updatedAt": "2026-11-07T21:47:24+01:00",
   "items": [
     {
       "navn": "Høleneset",
       "omrade": "Sandnes",
-      "temperatur": 10.1,
-      "maltKlokken": "17:27",
+      "temperatur": 11.1,
+      "maltKlokken": "21:47",
       "locationId": "1-2294055",
       "latitude": 58.90044,
       "longitude": 6.01072,
-      "time": "2026-11-07T17:27:27+01:00"
+      "time": "2026-11-07T21:47:24+01:00"
     },
     {
       "navn": "Nedre Tastasjøen",
@@ -45,12 +45,12 @@
     {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
-      "temperatur": 8.25,
-      "maltKlokken": "16:21",
+      "temperatur": 8.0625,
+      "maltKlokken": "21:21",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-11-07T16:21:29+01:00"
+      "time": "2026-11-07T21:21:24+01:00"
     },
     {
       "navn": "Hundvåg",
