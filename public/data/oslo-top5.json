@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T20:51:35.374Z",
+  "generatedAt": "2026-11-08T11:15:00.206Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-07T21:00:00+01:00",
+  "updatedAt": "2026-11-08T12:00:00+01:00",
   "items": [
     {
       "navn": "Sørenga sjøbad",
@@ -61,11 +61,11 @@
       "navn": "Lysaker brygge",
       "omrade": "Bærum",
       "temperatur": 7.9,
-      "maltKlokken": "09:30",
+      "maltKlokken": "09:00",
       "locationId": "10-1067841",
       "latitude": 59.90964,
       "longitude": 10.64152,
-      "time": "2026-11-07T09:30:00+01:00"
+      "time": "2026-11-08T09:00:00+01:00"
     }
   ]
 }
