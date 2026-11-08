@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:04:29.448Z",
+  "generatedAt": "2026-11-08T21:08:40.751Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,47 +7,37 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-08T17:45:00+01:00",
+  "updatedAt": "2026-11-08T21:45:00+01:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 32.41999816894531,
-      "maltKlokken": "17:45",
+      "temperatur": 34.96999740600586,
+      "maltKlokken": "21:45",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-11-08T17:45:00+01:00"
+      "time": "2026-11-08T21:45:00+01:00"
     },
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 30.219999313354492,
-      "maltKlokken": "17:45",
+      "temperatur": 32.709999084472656,
+      "maltKlokken": "21:45",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-11-08T17:45:00+01:00"
-    },
-    {
-      "navn": "Laugaren Badstu",
-      "omrade": "Bergen",
-      "temperatur": 9.1,
-      "maltKlokken": "17:30",
-      "locationId": "0-10261",
-      "latitude": 60.39509,
-      "longitude": 5.30971,
-      "time": "2026-11-08T17:30:32+01:00"
+      "time": "2026-11-08T21:45:00+01:00"
     },
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 8.854999542236328,
-      "maltKlokken": "17:45",
+      "temperatur": 9.829999923706055,
+      "maltKlokken": "21:45",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-11-08T17:45:00+01:00"
+      "time": "2026-11-08T21:45:00+01:00"
     },
     {
       "navn": "Sandholna",
@@ -58,6 +48,16 @@
       "latitude": 60.25702,
       "longitude": 5.28101,
       "time": "2026-11-07T19:00:31+01:00"
+    },
+    {
+      "navn": "Laugaren Badstu",
+      "omrade": "Bergen",
+      "temperatur": 8,
+      "maltKlokken": "21:30",
+      "locationId": "0-10261",
+      "latitude": 60.39509,
+      "longitude": 5.30971,
+      "time": "2026-11-08T21:30:32+01:00"
     }
   ]
 }
