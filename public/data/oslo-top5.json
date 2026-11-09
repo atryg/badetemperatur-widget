@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T21:08:40.751Z",
+  "generatedAt": "2026-11-09T12:49:09.059Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,17 +15,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-08T22:00:00+01:00",
+  "updatedAt": "2026-11-09T13:00:00+01:00",
   "items": [
     {
       "navn": "Sørenga sjøbad",
       "omrade": "Oslo",
-      "temperatur": 10,
-      "maltKlokken": "14:02",
+      "temperatur": 9.8,
+      "maltKlokken": "08:02",
       "locationId": "10-1088746",
       "latitude": 59.90118,
       "longitude": 10.75123,
-      "time": "2026-11-07T14:02:00+01:00"
+      "time": "2026-11-09T08:02:00+01:00"
     },
     {
       "navn": "Tjuvholmen",
@@ -36,6 +36,16 @@
       "latitude": 59.90713,
       "longitude": 10.72218,
       "time": "2026-11-07T08:54:00+01:00"
+    },
+    {
+      "navn": "Det Norske Veritas",
+      "omrade": "Bærum",
+      "temperatur": 8.1,
+      "maltKlokken": "08:34",
+      "locationId": "1-72998",
+      "latitude": 59.88782,
+      "longitude": 10.56364,
+      "time": "2026-11-09T08:34:00+01:00"
     },
     {
       "navn": "Sukkerbiten",
@@ -56,16 +66,6 @@
       "latitude": 59.53593,
       "longitude": 10.54034,
       "time": "2026-11-07T13:09:00+01:00"
-    },
-    {
-      "navn": "Lysaker brygge",
-      "omrade": "Bærum",
-      "temperatur": 7.9,
-      "maltKlokken": "09:00",
-      "locationId": "10-1067841",
-      "latitude": 59.90964,
-      "longitude": 10.64152,
-      "time": "2026-11-08T09:00:00+01:00"
     }
   ]
 }
