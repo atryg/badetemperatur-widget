@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T20:47:59.830Z",
+  "generatedAt": "2026-11-11T11:51:12.879Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,47 +7,47 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-10T21:15:00+01:00",
+  "updatedAt": "2026-11-11T12:15:00+01:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 34.34000015258789,
-      "maltKlokken": "21:15",
+      "temperatur": 35.41999816894531,
+      "maltKlokken": "12:15",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-11-10T21:15:00+01:00"
+      "time": "2026-11-11T12:15:00+01:00"
     },
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.799999237060547,
-      "maltKlokken": "21:15",
+      "temperatur": 33.099998474121094,
+      "maltKlokken": "12:15",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-11-10T21:15:00+01:00"
-    },
-    {
-      "navn": "Laugaren Badstu",
-      "omrade": "Bergen",
-      "temperatur": 9.5,
-      "maltKlokken": "20:45",
-      "locationId": "0-10261",
-      "latitude": 60.39509,
-      "longitude": 5.30971,
-      "time": "2026-11-10T20:45:32+01:00"
+      "time": "2026-11-11T12:15:00+01:00"
     },
     {
       "navn": "Nordnes Park og Sjøbad",
       "omrade": "Bergen",
-      "temperatur": 9.425000190734863,
-      "maltKlokken": "21:15",
+      "temperatur": 10.819999694824219,
+      "maltKlokken": "12:15",
       "locationId": "1-2829038",
       "latitude": 60.39904,
       "longitude": 5.30262,
-      "time": "2026-11-10T21:15:00+01:00"
+      "time": "2026-11-11T12:15:00+01:00"
+    },
+    {
+      "navn": "Laugaren Badstu",
+      "omrade": "Bergen",
+      "temperatur": 9.6,
+      "maltKlokken": "11:45",
+      "locationId": "0-10261",
+      "latitude": 60.39509,
+      "longitude": 5.30971,
+      "time": "2026-11-11T11:45:32+01:00"
     },
     {
       "navn": "Sandholna",
