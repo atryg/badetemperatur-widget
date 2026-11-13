@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T20:47:18.466Z",
+  "generatedAt": "2026-11-13T12:09:52.250Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-12T21:00:00+01:00",
+  "updatedAt": "2026-11-13T13:00:00+01:00",
   "items": [
     {
       "navn": "Tjuvholmen",
@@ -26,6 +26,16 @@
       "latitude": 59.90713,
       "longitude": 10.72218,
       "time": "2026-11-12T17:49:00+01:00"
+    },
+    {
+      "navn": "Sukkerbiten",
+      "omrade": "Oslo",
+      "temperatur": 8.5,
+      "maltKlokken": "07:45",
+      "locationId": "10-989718",
+      "latitude": 59.90495,
+      "longitude": 10.75233,
+      "time": "2026-11-13T07:45:00+01:00"
     },
     {
       "navn": "Det Norske Veritas",
@@ -48,24 +58,14 @@
       "time": "2026-11-10T08:02:00+01:00"
     },
     {
-      "navn": "Lysaker brygge",
+      "navn": "Rolfsbukta",
       "omrade": "Bærum",
-      "temperatur": 7.9,
+      "temperatur": 8,
       "maltKlokken": "09:00",
-      "locationId": "10-1067841",
-      "latitude": 59.90964,
-      "longitude": 10.64152,
-      "time": "2026-11-08T09:00:00+01:00"
-    },
-    {
-      "navn": "Konglungøya",
-      "omrade": "Asker",
-      "temperatur": 7.75,
-      "maltKlokken": "21:00",
-      "locationId": "1-2313172",
-      "latitude": 59.83932,
-      "longitude": 10.51272,
-      "time": "2026-11-12T21:00:00+01:00"
+      "locationId": "1-2767124",
+      "latitude": 59.89294,
+      "longitude": 10.63355,
+      "time": "2026-11-13T09:00:00+01:00"
     }
   ]
 }
