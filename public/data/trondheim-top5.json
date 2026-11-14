@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T19:38:59.059Z",
+  "generatedAt": "2026-11-14T11:26:23.644Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-12T08:58:04+01:00",
+  "updatedAt": "2026-11-14T09:30:37+01:00",
   "items": [
     {
       "navn": "Trondheim",
@@ -30,14 +30,24 @@
       "time": "2026-11-12T08:58:04+01:00"
     },
     {
+      "navn": "Fagerheimbukta",
+      "omrade": "Trondheim",
+      "temperatur": 6.5,
+      "maltKlokken": "09:30",
+      "locationId": "0-10091",
+      "latitude": 63.44832,
+      "longitude": 10.46654,
+      "time": "2026-11-14T09:30:37+01:00"
+    },
+    {
       "navn": "Kyvannet",
       "omrade": "Trondheim",
-      "temperatur": 0,
-      "maltKlokken": "07:28",
+      "temperatur": 6,
+      "maltKlokken": "17:25",
       "locationId": "1-211265",
       "latitude": 63.40385,
       "longitude": 10.33832,
-      "time": "2026-11-12T07:28:00+01:00"
+      "time": "2026-11-13T17:25:00+01:00"
     }
   ]
 }

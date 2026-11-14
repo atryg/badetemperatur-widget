@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T19:38:59.059Z",
+  "generatedAt": "2026-11-14T11:26:23.644Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,47 +7,47 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-13T20:15:00+01:00",
+  "updatedAt": "2026-11-14T11:45:32+01:00",
   "items": [
-    {
-      "navn": "Nordnes Sjøbad hovedbasseng",
-      "omrade": "Bergen",
-      "temperatur": 31.56999969482422,
-      "maltKlokken": "20:15",
-      "locationId": "0-10120",
-      "latitude": 60.39896,
-      "longitude": 5.30244,
-      "time": "2026-11-13T20:15:00+01:00"
-    },
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 29.479999542236328,
-      "maltKlokken": "20:15",
+      "temperatur": 29.739999771118164,
+      "maltKlokken": "11:45",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-11-13T20:15:00+01:00"
+      "time": "2026-11-14T11:45:00+01:00"
     },
     {
-      "navn": "Nordnes Park og Sjøbad",
+      "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 6.625,
-      "maltKlokken": "20:15",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-11-13T20:15:00+01:00"
+      "temperatur": 29.619998931884766,
+      "maltKlokken": "11:45",
+      "locationId": "0-10120",
+      "latitude": 60.39896,
+      "longitude": 5.30244,
+      "time": "2026-11-14T11:45:00+01:00"
     },
     {
       "navn": "Laugaren Badstu",
       "omrade": "Bergen",
-      "temperatur": 6.5,
-      "maltKlokken": "19:45",
+      "temperatur": 10.4,
+      "maltKlokken": "11:45",
       "locationId": "0-10261",
       "latitude": 60.39509,
       "longitude": 5.30971,
-      "time": "2026-11-13T19:45:32+01:00"
+      "time": "2026-11-14T11:45:32+01:00"
+    },
+    {
+      "navn": "Nordnes Park og Sjøbad",
+      "omrade": "Bergen",
+      "temperatur": 10.344999313354492,
+      "maltKlokken": "11:45",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-11-14T11:45:00+01:00"
     },
     {
       "navn": "Skuteviksbryggen",

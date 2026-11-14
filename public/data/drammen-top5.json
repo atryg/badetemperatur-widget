@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T19:38:59.059Z",
+  "generatedAt": "2026-11-14T11:26:23.644Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,47 +11,47 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-13T20:23:33+01:00",
+  "updatedAt": "2026-11-14T12:20:14+01:00",
   "items": [
     {
       "navn": "Konglungøya",
       "omrade": "Asker",
-      "temperatur": 8.8125,
-      "maltKlokken": "20:00",
+      "temperatur": 9.125,
+      "maltKlokken": "12:00",
       "locationId": "1-2313172",
       "latitude": 59.83932,
       "longitude": 10.51272,
-      "time": "2026-11-13T20:00:00+01:00"
+      "time": "2026-11-14T12:00:00+01:00"
     },
     {
-      "navn": "Nordre Jarlsberg Brygge",
-      "omrade": "Holmestrand",
-      "temperatur": 8.5,
-      "maltKlokken": "09:13",
-      "locationId": "11-17685",
-      "latitude": 59.56648,
-      "longitude": 10.26757,
-      "time": "2026-11-13T09:13:00+01:00"
-    },
-    {
-      "navn": "Dulpen",
-      "omrade": "Holmestrand",
-      "temperatur": 6.3,
-      "maltKlokken": "20:23",
-      "locationId": "0-10238",
-      "latitude": 59.49233,
-      "longitude": 10.31529,
-      "time": "2026-11-13T20:23:33+01:00"
+      "navn": "Sjøstrand",
+      "omrade": "Asker",
+      "temperatur": 7,
+      "maltKlokken": "09:00",
+      "locationId": "1-73316",
+      "latitude": 59.79751,
+      "longitude": 10.49165,
+      "time": "2026-11-14T09:00:00+01:00"
     },
     {
       "navn": "Hagemannsparken",
       "omrade": "Holmestrand",
-      "temperatur": 5.3,
-      "maltKlokken": "11:33",
+      "temperatur": 5.9,
+      "maltKlokken": "10:24",
       "locationId": "2-11998874",
       "latitude": 59.4796,
       "longitude": 10.32954,
-      "time": "2026-11-13T11:33:00+01:00"
+      "time": "2026-11-14T10:24:00+01:00"
+    },
+    {
+      "navn": "Dulpen",
+      "omrade": "Holmestrand",
+      "temperatur": 5.7,
+      "maltKlokken": "12:20",
+      "locationId": "0-10238",
+      "latitude": 59.49233,
+      "longitude": 10.31529,
+      "time": "2026-11-14T12:20:14+01:00"
     },
     {
       "navn": "Sundhaugen (Eikern)",
