@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T14:21:04.869Z",
+  "generatedAt": "2026-11-17T22:51:35.657Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -7,7 +7,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-16T16:10:00+01:00",
+  "updatedAt": "2026-11-17T16:00:00+01:00",
   "items": [
     {
       "navn": "Devlebukta",
@@ -28,6 +28,16 @@
       "latitude": 63.44832,
       "longitude": 10.46654,
       "time": "2026-11-14T09:30:37+01:00"
+    },
+    {
+      "navn": "Pirbadet",
+      "omrade": "Trondheim",
+      "temperatur": 6.5,
+      "maltKlokken": "16:00",
+      "locationId": "11-41586",
+      "latitude": 63.44079,
+      "longitude": 10.40268,
+      "time": "2026-11-17T16:00:00+01:00"
     },
     {
       "navn": "Kyvannet",
