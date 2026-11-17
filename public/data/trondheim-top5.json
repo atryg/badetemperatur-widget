@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:52:22.381Z",
+  "generatedAt": "2026-11-17T05:03:31.816Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -9,16 +9,6 @@
   "source": "Badetemperaturer levert av Yr",
   "updatedAt": "2026-11-16T16:10:00+01:00",
   "items": [
-    {
-      "navn": "Trondheim",
-      "omrade": "Trondheim",
-      "temperatur": 8,
-      "maltKlokken": "00:40",
-      "locationId": "1-211102",
-      "latitude": 63.43048,
-      "longitude": 10.39506,
-      "time": "2026-11-12T00:40:52+01:00"
-    },
     {
       "navn": "Grilstad Marina",
       "omrade": "Trondheim",

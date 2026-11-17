@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T22:52:22.381Z",
+  "generatedAt": "2026-11-17T05:03:31.816Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-16T22:00:00+01:00",
+  "updatedAt": "2026-11-17T06:00:00+01:00",
   "items": [
     {
       "navn": "Lysaker brygge",
