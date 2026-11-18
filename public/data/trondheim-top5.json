@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T13:07:43.461Z",
+  "generatedAt": "2026-11-18T21:25:01.580Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -38,16 +38,6 @@
       "latitude": 63.44079,
       "longitude": 10.40268,
       "time": "2026-11-17T16:00:00+01:00"
-    },
-    {
-      "navn": "Kyvannet",
-      "omrade": "Trondheim",
-      "temperatur": 6,
-      "maltKlokken": "17:25",
-      "locationId": "1-211265",
-      "latitude": 63.40385,
-      "longitude": 10.33832,
-      "time": "2026-11-13T17:25:00+01:00"
     }
   ]
 }
