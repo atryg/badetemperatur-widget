@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T21:25:01.580Z",
+  "generatedAt": "2026-11-19T13:00:04.482Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -18,16 +18,6 @@
       "latitude": 63.44477,
       "longitude": 10.46883,
       "time": "2026-11-16T16:10:00+01:00"
-    },
-    {
-      "navn": "Fagerheimbukta",
-      "omrade": "Trondheim",
-      "temperatur": 6.5,
-      "maltKlokken": "09:30",
-      "locationId": "0-10091",
-      "latitude": 63.44832,
-      "longitude": 10.46654,
-      "time": "2026-11-14T09:30:37+01:00"
     },
     {
       "navn": "Pirbadet",
