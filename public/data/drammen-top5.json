@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T12:51:03.967Z",
+  "generatedAt": "2026-11-20T21:03:07.849Z",
   "cityKey": "drammen",
   "cityName": "Drammen",
   "municipalities": [
@@ -11,17 +11,27 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-20T13:47:31+01:00",
+  "updatedAt": "2026-11-20T21:48:40+01:00",
   "items": [
+    {
+      "navn": "Sjøstrand",
+      "omrade": "Asker",
+      "temperatur": 7.3,
+      "maltKlokken": "16:37",
+      "locationId": "1-73316",
+      "latitude": 59.79751,
+      "longitude": 10.49165,
+      "time": "2026-11-20T16:37:00+01:00"
+    },
     {
       "navn": "Konglungøya",
       "omrade": "Asker",
-      "temperatur": 6.875,
-      "maltKlokken": "13:00",
+      "temperatur": 6.8125,
+      "maltKlokken": "21:00",
       "locationId": "1-2313172",
       "latitude": 59.83932,
       "longitude": 10.51272,
-      "time": "2026-11-20T13:00:00+01:00"
+      "time": "2026-11-20T21:00:00+01:00"
     },
     {
       "navn": "Nordre Jarlsberg Brygge",
@@ -44,24 +54,14 @@
       "time": "2026-11-17T10:49:00+01:00"
     },
     {
-      "navn": "Sjøstrand",
-      "omrade": "Asker",
-      "temperatur": 5.5,
-      "maltKlokken": "08:25",
-      "locationId": "1-73316",
-      "latitude": 59.79751,
-      "longitude": 10.49165,
-      "time": "2026-11-20T08:25:00+01:00"
-    },
-    {
       "navn": "Dulpen",
       "omrade": "Holmestrand",
-      "temperatur": 3,
-      "maltKlokken": "13:47",
+      "temperatur": 4.1,
+      "maltKlokken": "21:48",
       "locationId": "0-10238",
       "latitude": 59.49233,
       "longitude": 10.31529,
-      "time": "2026-11-20T13:47:31+01:00"
+      "time": "2026-11-20T21:48:40+01:00"
     }
   ]
 }
