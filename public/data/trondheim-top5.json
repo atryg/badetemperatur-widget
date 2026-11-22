@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T12:32:38.609Z",
+  "generatedAt": "2026-11-22T20:19:14.437Z",
   "cityKey": "trondheim",
   "cityName": "Trondheim",
   "municipalities": [
@@ -9,16 +9,6 @@
   "source": "Badetemperaturer levert av Yr",
   "updatedAt": "2026-11-21T14:35:24+01:00",
   "items": [
-    {
-      "navn": "Pirbadet",
-      "omrade": "Trondheim",
-      "temperatur": 6.5,
-      "maltKlokken": "16:00",
-      "locationId": "11-41586",
-      "latitude": 63.44079,
-      "longitude": 10.40268,
-      "time": "2026-11-17T16:00:00+01:00"
-    },
     {
       "navn": "Grillstadfjæra",
       "omrade": "Trondheim",
