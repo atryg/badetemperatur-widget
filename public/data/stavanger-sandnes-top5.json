@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T20:04:42.916Z",
+  "generatedAt": "2026-11-22T12:32:38.609Z",
   "cityKey": "stavanger-sandnes",
   "cityName": "Stavanger/Sandnes",
   "municipalities": [
@@ -10,17 +10,17 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-21T20:43:57+01:00",
+  "updatedAt": "2026-11-22T13:23:48+01:00",
   "items": [
     {
       "navn": "Høleneset",
       "omrade": "Sandnes",
-      "temperatur": 10.5,
-      "maltKlokken": "20:43",
+      "temperatur": 9.8,
+      "maltKlokken": "13:23",
       "locationId": "1-2294055",
       "latitude": 58.90044,
       "longitude": 6.01072,
-      "time": "2026-11-21T20:43:57+01:00"
+      "time": "2026-11-22T13:23:48+01:00"
     },
     {
       "navn": "Regestranden",
@@ -43,24 +43,24 @@
       "time": "2026-11-21T13:23:00+01:00"
     },
     {
+      "navn": "Roaldsøy",
+      "omrade": "Stavanger",
+      "temperatur": 6.1,
+      "maltKlokken": "10:56",
+      "locationId": "1-15157",
+      "latitude": 58.99288,
+      "longitude": 5.76353,
+      "time": "2026-11-22T10:56:00+01:00"
+    },
+    {
       "navn": "Frøylandsvatnet",
       "omrade": "Sandnes",
-      "temperatur": 4.9375,
-      "maltKlokken": "19:22",
+      "temperatur": 4.6875,
+      "maltKlokken": "13:22",
       "locationId": "1-15979",
       "latitude": 58.9147,
       "longitude": 5.86065,
-      "time": "2026-11-21T19:22:38+01:00"
-    },
-    {
-      "navn": "Møllebukta",
-      "omrade": "Stavanger",
-      "temperatur": 4,
-      "maltKlokken": "10:00",
-      "locationId": "1-2259900",
-      "latitude": 58.94087,
-      "longitude": 5.66966,
-      "time": "2026-11-21T10:00:00+01:00"
+      "time": "2026-11-22T13:22:34+01:00"
     }
   ]
 }
