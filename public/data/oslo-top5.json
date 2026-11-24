@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T14:50:12.025Z",
+  "generatedAt": "2026-11-24T23:52:30.932Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-24T15:00:00+01:00",
+  "updatedAt": "2026-11-25T00:00:00+01:00",
   "items": [
     {
       "navn": "Sørenga sjøbad",
@@ -26,16 +26,6 @@
       "latitude": 59.90118,
       "longitude": 10.75123,
       "time": "2026-11-23T13:02:00+01:00"
-    },
-    {
-      "navn": "Tjuvholmen",
-      "omrade": "Oslo",
-      "temperatur": 8.5,
-      "maltKlokken": "17:58",
-      "locationId": "1-2254113",
-      "latitude": 59.90713,
-      "longitude": 10.72218,
-      "time": "2026-11-23T17:58:00+01:00"
     },
     {
       "navn": "Sollerudstranda",
@@ -56,6 +46,16 @@
       "latitude": 59.85521,
       "longitude": 10.78321,
       "time": "2026-11-23T15:19:59+01:00"
+    },
+    {
+      "navn": "Tjuvholmen",
+      "omrade": "Oslo",
+      "temperatur": 7.1,
+      "maltKlokken": "17:50",
+      "locationId": "1-2254113",
+      "latitude": 59.90713,
+      "longitude": 10.72218,
+      "time": "2026-11-24T17:50:00+01:00"
     },
     {
       "navn": "Sætre",
