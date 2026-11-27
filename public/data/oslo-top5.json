@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T22:58:26.823Z",
+  "generatedAt": "2026-11-27T05:01:03.377Z",
   "cityKey": "oslo",
   "cityName": "Oslo",
   "municipalities": [
@@ -15,7 +15,7 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-26T22:00:00+01:00",
+  "updatedAt": "2026-11-27T05:00:00+01:00",
   "items": [
     {
       "navn": "Sørenga sjøbad",

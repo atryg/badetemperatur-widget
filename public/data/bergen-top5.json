@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T22:58:26.823Z",
+  "generatedAt": "2026-11-27T05:01:03.377Z",
   "cityKey": "bergen",
   "cityName": "Bergen",
   "municipalities": [
@@ -7,47 +7,47 @@
   ],
   "limit": 5,
   "source": "Badetemperaturer levert av Yr",
-  "updatedAt": "2026-11-26T22:57:00+01:00",
+  "updatedAt": "2026-11-27T05:27:00+01:00",
   "items": [
     {
       "navn": "Nordnes Sjøbad hovedbasseng",
       "omrade": "Bergen",
-      "temperatur": 33.48999786376953,
-      "maltKlokken": "22:57",
+      "temperatur": 35.32999801635742,
+      "maltKlokken": "05:27",
       "locationId": "0-10120",
       "latitude": 60.39896,
       "longitude": 5.30244,
-      "time": "2026-11-26T22:57:00+01:00"
+      "time": "2026-11-27T05:27:00+01:00"
     },
     {
       "navn": "Nordnes Sjøbad barnebasseng",
       "omrade": "Bergen",
-      "temperatur": 31.03999900817871,
-      "maltKlokken": "22:57",
+      "temperatur": 32,
+      "maltKlokken": "05:27",
       "locationId": "0-10121",
       "latitude": 60.39868,
       "longitude": 5.30321,
-      "time": "2026-11-26T22:57:00+01:00"
-    },
-    {
-      "navn": "Nordnes Park og Sjøbad",
-      "omrade": "Bergen",
-      "temperatur": 5.864999771118164,
-      "maltKlokken": "22:57",
-      "locationId": "1-2829038",
-      "latitude": 60.39904,
-      "longitude": 5.30262,
-      "time": "2026-11-26T22:57:00+01:00"
+      "time": "2026-11-27T05:27:00+01:00"
     },
     {
       "navn": "Laugaren Badstu",
       "omrade": "Bergen",
-      "temperatur": 3.5,
-      "maltKlokken": "22:36",
+      "temperatur": 4.1,
+      "maltKlokken": "04:36",
       "locationId": "0-10261",
       "latitude": 60.39509,
       "longitude": 5.30971,
-      "time": "2026-11-26T22:36:20+01:00"
+      "time": "2026-11-27T04:36:20+01:00"
+    },
+    {
+      "navn": "Nordnes Park og Sjøbad",
+      "omrade": "Bergen",
+      "temperatur": 3.369999885559082,
+      "maltKlokken": "05:27",
+      "locationId": "1-2829038",
+      "latitude": 60.39904,
+      "longitude": 5.30262,
+      "time": "2026-11-27T05:27:00+01:00"
     }
   ]
 }
